@@ -11,8 +11,29 @@ Slim::Engine.set_options shortcut: {
 activate :autoprefixer do |prefix|
     prefix.browsers = "last 2 versions"
 end
-
 activate :livereload
+activate :automatic_image_sizes
+activate :syntax, :line_numbers => true
+# pretty urls
+activate :directory_indexes
+activate :sitemap_ping do |config|
+    config.host = 'https://wkwkrnht-blog-by-middleman.netlify.com' # (required) Host of your website
+end
+activate :robots,
+    :rules => [
+        {
+            :user_agent => 'Googlebot',
+            :allow => %w(/),
+            :disallow => %w(404.html)
+        },
+        {
+            :user_agent => 'Googlebot-Image',
+            :allow => %w(/),
+            :disallow => %w(404.html)
+        }
+    ],
+    :sitemap => 'https://wkwkrnht-blog-by-middleman.netlify.com/sitemap.xml'
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
@@ -49,9 +70,6 @@ end
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
-
-# pretty urls
-activate :directory_indexes
 
 helpers do
   #helper to set background images with asset hashes in a style attribute

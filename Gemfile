@@ -4,6 +4,10 @@ gem 'middleman'
 gem "middleman-blog"
 gem 'middleman-autoprefixer'
 gem "middleman-livereload"
+gem 'middleman-minify-html'
+gem 'middleman-syntax'
+gem 'middleman-robots'
+gem 'middleman-sitemap-ping'
 
 gem "slim"
 
