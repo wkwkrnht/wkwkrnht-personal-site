@@ -1,5 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+require "uglifier"
 
 # Use '#id' and '.classname' as div shortcuts in slim
 # http://slim-lang.com/
@@ -11,11 +12,9 @@ Slim::Engine.set_options shortcut: {
 activate :autoprefixer do |prefix|
     prefix.browsers = "last 2 versions"
 end
-activate :livereload
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
-# pretty urls
-activate :directory_indexes
+activate :directory_indexes # pretty urls
 activate :sitemap_ping do |config|
     config.host = 'https://wkwkrnht-blog-by-middleman.netlify.com' # (required) Host of your website
 end
