@@ -1,3 +1,6 @@
+- site_title = data.settings.site.title || 'NO NAME'
+- first_post_year = data.settings.site.first_post_year || '1970'
+
 header.site-header
     h1.site-title
         == site_title
@@ -5,3 +8,14 @@ header.site-header
         == first_post_year
         | &copy;
         == site_title
+/    header.site-header
+        h1.site-title
+            - case page_type
+                - when 'day'
+                    = Date.new(year, month, day).strftime('%b %e %Y')
+                - when 'month'
+                    = Date.new(year, month, 1).strftime('%b %Y')
+                - when 'year'
+                    = year
+            | のアーカイブ -
+            == data.site.title

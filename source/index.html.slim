@@ -1,9 +1,6 @@
--main.card-list
+main.card-list
     - page_articles.each_with_index do |article, i|
         = link_to URI.encode(article.url), :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
             = image_tag article.data.eyecatch || '/img/no-img/512X512.png', :alt=>'eyecatch', :class=>'card-img'
-            div.card-meta
-                h2
-                    = article.title
-                time
-                    = article.date.strftime('%Y-%m-%d')
+            h2.card-title
+                = article.title

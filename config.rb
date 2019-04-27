@@ -45,8 +45,8 @@ page "/admin/*", layout: false
 
 activate :blog do |blog|
     blog.permalink = "news/{year}/{title}.html"
-    blog.sources = "posts/{title}.html"
-    blog.layout = "article"
+    blog.sources = "blog/articles/{title}.html"
+    blog.layout = 'article'
     blog.tag_template = 'layouts/tag'
     blog.calendar_template = 'layouts/calender'
 end
