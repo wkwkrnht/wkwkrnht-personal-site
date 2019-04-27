@@ -37,6 +37,7 @@ activate :robots,
 # https://middlemanapp.com/basics/layouts/
 
 # Per-page layout changes
+# page '/path/to/file.html', layout: 'other_layout'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
@@ -51,12 +52,8 @@ activate :blog do |blog|
     blog.calendar_template = 'layouts/calender'
 end
 
-# With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
-
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
-
 # proxy product.yml files to product.html
 #data.products.each do |product|
     # product is an array: [filename, {data}]
@@ -69,7 +66,6 @@ end
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
-
 helpers do
   #helper to set background images with asset hashes in a style attribute
     def background_image(image)
@@ -83,7 +79,6 @@ end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
 configure :build do
     # Minify HTML, css, Javascript on build
     activate :minify_html
