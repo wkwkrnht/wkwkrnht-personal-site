@@ -93,3 +93,5 @@ CMS.registerPreviewTemplate('blog', BlogPreview)
 CMS.registerPreviewTemplate('product', ProductPreview)
 CMS.registerPreviewTemplate('home', HomePreview)
 CMS.registerPreviewTemplate('navigation', NavigationPreview)
+
+CMS.registerPreviewStyle('/stylesheets/all.css')
