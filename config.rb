@@ -46,12 +46,12 @@ activate :robots,
     ],
     :sitemap => 'https://wkwkrnht-blog-test.netlify.com/sitemap.xml'
 activate :blog do |blog|
-    blog.default_extension = '.md'
+    #blog.default_extension = '.md'
     blog.permalink = 'blog/:year/:title.html'
     blog.sources = 'blog/articles/:title.html'
     blog.layout = 'article'
-    blog.tag_template = 'layouts/tag'
-    blog.calendar_template = 'layouts/calender'
+    #blog.tag_template = 'layouts/tag'
+    #blog.calendar_template = 'layouts/calender'
 end
 
 # Helpers
