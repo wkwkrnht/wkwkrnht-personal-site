@@ -1,4 +1,5 @@
 require "uglifier"
+require 'lib/embed.rb'
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -26,7 +27,7 @@ page "/admin/*", layout: false
 activate :autoprefixer do |prefix|
     prefix.browsers = "last 2 versions"
 end
-#activate :embed
+activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
 activate :directory_indexes # pretty urls
