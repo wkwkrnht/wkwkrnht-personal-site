@@ -1,9 +1,7 @@
 require "uglifier"
 require 'lib/embed.rb'
 
-# Layouts
-# https://middlemanapp.com/basics/layouts/
-# Per-page layout changes
+# Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 # page '/path/to/file.html', layout: 'other_layout'
 page '/*.xml', layout: false
 page '/*.yml', layout: false
@@ -11,9 +9,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/partials/*", layout: false
 page "/admin/*", layout: false
-# Proxy pages
-# https://middlemanapp.com/advanced/dynamic-pages/
-# proxy product.yml files to product.html
+# Proxy pages(proxy product.yml files to product.html): https://middlemanapp.com/advanced/dynamic-pages/\
 #data.products.each do |product|
     # product is an array: [filename, {data}]
 #    proxy "/product/#{product[1][:title].parameterize}/index.html", "product.html",
@@ -22,8 +18,7 @@ page "/admin/*", layout: false
 #    ignore: true
 #end
 
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
+# Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :autoprefixer do |prefix|
     prefix.browsers = "last 2 versions"
 end
@@ -57,9 +52,7 @@ activate :blog do |blog|
     #blog.calendar_template = 'layouts/calender'
 end
 
-# Helpers
-# Methods defined in the helpers block are available in templates
-# https://middlemanapp.com/basics/helper-methods/
+# Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
 helpers do
     def background_image(image)
         "background-image: url('" << image_path(image) << "')"
@@ -70,8 +63,7 @@ helpers do
     end
 end
 
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+# Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
     activate :minify_html
     activate :gzip
