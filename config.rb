@@ -45,7 +45,8 @@ page "/partials/*", layout: false
 page "/admin/*", layout: false
 
 activate :blog do |blog|
-    blog.permalink = "news/{year}/{title}.html"
+    blog.default_extension = '.md'
+    blog.permalink = "blog/{year}/{title}.html"
     blog.sources = "blog/articles/{title}.html"
     blog.layout = 'article'
     blog.tag_template = 'layouts/tag'
