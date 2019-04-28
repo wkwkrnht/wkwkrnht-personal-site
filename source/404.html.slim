@@ -1,0 +1,42 @@
+main
+    section class='big-card keyword-search'
+        h2
+            | キーワードで検索
+        form action='https://duckduckgo.com/' role='search'
+            input name='sites' type='hidden' value=base_url
+            input name='q' type='search' required='' label='キーワード'
+            input type='submit' value='Search' label='検索'
+    section class='big-card tag-search'
+        h2
+            | タグで検索
+        ul.tag-cloud
+            - blog.tags.each_key do |tag|
+                li
+                    == link_to tag, tag_path(tag), :title=>tag, :tabindex=>'0'
+    section class='big-card date-search'
+        h2
+            | 日時で検索
+        ul
+            - blog.articles.group_by {|a| a.date.year }.each do |year, articles_year|
+                li
+                    h3
+                        = link_to blog_year_path(year) do
+                            == year
+                            | 年
+                    ul
+                        li
+                            - articles_year.group_by {|a| a.date.month }.each do |month, articles_month|
+                                h4
+                                    = link_to blog_year_path(month) do
+                                        == month
+                                        | 月
+                                ul.card-list
+                                    - articles_month.each do |article|
+                                        li
+                                            = link_to URI.encode(article.url), :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
+                                                = image_tag article.metadata[:locals]['eyecatch'] || '/img/no-img/512X512.png', :alt=>'eyecatch', :class=>'card-img'
+                                                .card-meta
+                                                    h5
+                                                        == article.title
+                                                    time
+                                                        = article.date.strftime('%Y-%m-%d')
