@@ -14,7 +14,7 @@
                     - current_page.tags.each do |tag|
                         li
                             == link_to tag, tag_path(tag)
-        main.article-main role='main'
+        main.article-main
             = yield
         /footer.article-footer
             ul.share-button
