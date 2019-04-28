@@ -14,7 +14,6 @@ module Middleman
         end
     end
 end
-
 ::Middleman::Extensions.register(:embed,::Middleman::Embed)
 
 class String
