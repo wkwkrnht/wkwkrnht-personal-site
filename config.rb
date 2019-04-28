@@ -72,7 +72,5 @@ end
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
     activate :minify_html
-    activate :minify_css
-    activate :minify_javascript, :ignore => "**/admin/**", compressor: ::Uglifier.new(mangle: true, compress: { drop_console: true }, output: {comments: :none})
     activate :gzip
 end
