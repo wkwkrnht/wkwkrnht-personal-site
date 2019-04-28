@@ -5,6 +5,7 @@ require "uglifier"
 # Per-page layout changes
 # page '/path/to/file.html', layout: 'other_layout'
 page '/*.xml', layout: false
+page '/*.yml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/partials/*", layout: false
@@ -73,7 +74,5 @@ configure :build do
     activate :minify_html
     activate :minify_css
     activate :minify_javascript, :ignore => "**/admin/**", compressor: ::Uglifier.new(mangle: true, compress: { drop_console: true }, output: {comments: :none})
-
-    # Use Gzip
     activate :gzip
 end
