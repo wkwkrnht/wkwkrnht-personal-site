@@ -6,17 +6,17 @@
                 == current_page.title
             .article-meta
                 time.article-date
-                    == date
+                    /== date
                 span.article-author
-                    == author
+                    /== author
             - if current_page.tags.present?
                 ul.tag-cloud
                     - current_page.tags.each do |tag|
                         li
                             == link_to tag, tag_path(tag)
         main.article-main role='main'
-            == yield
-        footer.article-footer
+            = yield
+        /footer.article-footer
             ul.share-button
                 li
                     a#nativeShare
@@ -79,7 +79,7 @@
                 == first_post_year
                 | &copy;
                 == site_title
-    section class='big-card related-articles'
+    /section class='big-card related-articles'
         - if similar_articles.present?
             h2
                 | 関連記事
@@ -106,7 +106,7 @@
                                     == article.title
                                 time
                                     = article.date.strftime('%Y-%m-%d')
-    javascript:
+    /javascript:
         document.getElementById('nativeShare').onclick = function(){
             let title = document.title;
             let text = document.getElementsByName('description').item(0).content;
