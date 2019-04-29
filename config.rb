@@ -3,6 +3,7 @@ require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 # page '/path/to/file.html', layout: 'other_layout'
+page '/*.keep', layout: false
 page '/*.xml', layout: false
 page '/*.yml', layout: false
 page '/*.json', layout: false
@@ -41,7 +42,7 @@ activate :robots,
     ],
     :sitemap => 'https://wkwkrnht-blog-test.netlify.com/sitemap.xml'
 activate :blog do |blog|
-    #blog.default_extension = '.md'
+    blog.default_extension = '.md'
     blog.permalink = 'blog/articles/:title.html'
     blog.sources = 'blog/articles/:title.html'
     blog.layout = 'article'
