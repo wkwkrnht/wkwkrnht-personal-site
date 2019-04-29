@@ -3,7 +3,7 @@ html
     head
         = partial 'partials/meta'
         = stylesheet_link_tag 'all'
-        /= javascript_include_tag 'main', async: true
+        = javascript_include_tag 'main', async: true
         script src='https://identity.netlify.com/v1/netlify-identity-widget.js'
     body
         = partial 'partials/header'
