@@ -2,9 +2,13 @@ backend:
     name: git-gateway
     branch: master
 
-media_folder: source/images/
-public_folder: /images/
-#publish_mode: editorial_workflow #optional, enables publishing workflow
+media_folder: source/images
+public_folder: images
+
+publish_mode: editorial_workflow
+
+site_url: https://wkwkrnht-blog-test-by-middleman.netlify.com
+display_url: https://wkwkrnht-blog-test-by-middleman.netlify.com
 
 collections:
     - name: blog
@@ -18,6 +22,6 @@ collections:
             - {label: Title, name: title, widget: string, required: true}
             - {label: Publish Date, name: date, widget: datetime}
             - {label: Description, name: description, widget: string}
-            - {label: Authoor, name: author, widget: string}
+            - {label: Author, name: author, widget: string}
             - {label: Eyecatch, name: eyecatch, widget: image}
             - {label: Body, name: body, widget: markdown}
