@@ -1,8 +1,10 @@
-- title = current_page.data.title || data.settings.site.title
-- description = current_page.data.description || data.settings.site.description
-- url = data.settings.site.baseurl
-- image = current_page.data.image || data.settings.site.mainimage
-- theme_color = data.settings.site.theme_color || '#ffcc00'
+- title = current_page.data.title || data.front.title
+- sitre_title = data.front.title || 'NO NAME'
+- description = current_page.data.description || data.front.description
+- url = data.front.baseurl
+- image = current_page.data.image || 'default.png'
+- logo = data.front.logo || 'logo.png'
+- theme_color = data.front.theme_color || '#ffcc00'
 
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
