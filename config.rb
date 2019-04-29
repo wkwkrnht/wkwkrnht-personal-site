@@ -19,9 +19,6 @@ page "/admin/*", layout: false
 #end
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
-activate :autoprefixer do |prefix|
-    prefix.browsers = "last 2 versions"
-end
 #activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
