@@ -42,12 +42,9 @@ activate :robots,
     ],
     :sitemap => 'https://wkwkrnht-blog-test.netlify.com/sitemap.xml'
 activate :blog do |blog|
-    blog.default_extension = '.md'
     blog.permalink = 'blog/articles/:title.html'
     blog.sources = 'blog/articles/:title.html'
     blog.layout = 'article'
-    #blog.tag_template = 'layouts/tag'
-    #blog.calendar_template = 'layouts/calender'
 end
 
 # Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
