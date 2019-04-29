@@ -1,14 +1,8 @@
 backend:
     name: git-gateway
-    branch: master
 
 media_folder: source/images
-public_folder: images
-
-publish_mode: editorial_workflow
-
-site_url: https://wkwkrnht-blog-test-by-middleman.netlify.com
-display_url: https://wkwkrnht-blog-test-by-middleman.netlify.com
+public_folder: /images
 
 collections:
     - name: blog
