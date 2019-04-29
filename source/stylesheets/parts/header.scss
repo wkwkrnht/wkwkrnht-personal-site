@@ -1,13 +1,10 @@
 .site-header{
-    background-color:#03a9f4;
+    background-color:#ffcc00;
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
     height:10%;
     padding:2vh 0 4vh;
     text-align:center;
     width:100%;
-    &,& a,& a:visited{
-        color:#fff;
-    }
     .site-description,& .copyright{
         font-size:1.4em;
     }

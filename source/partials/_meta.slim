@@ -1,14 +1,14 @@
-- title = current_page.data.title || data.front.title
-- sitre_title = data.front.title || 'NO NAME'
+- site_title = data.front.title || 'NO NAME'
+- title = current_page.data.title || site_title
 - description = current_page.data.description || data.front.description
-- url = data.front.baseurl
+- base_url = data.front.baseurl || 'https://example.com'
 - image = current_page.data.image || 'default.png'
+- image_url = base_url + image_path(image)
 - logo = data.front.logo || 'logo.png'
 - theme_color = data.front.theme_color || '#ffcc00'
 
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
-meta name='renderer' content='webkit'
 meta name='viewport' content="width=device-width, initial-scale=1, shrink-to-fit=no"
 title =title
 meta name='description' content=description
@@ -16,12 +16,11 @@ meta name='theme-color' content=theme_color
 meta name='msapplication-TileColor' content=theme_color
 meta property='og:title' content=title
 meta property='og:description' content=description
-meta property='og:image' content=(url + image_path(image))
-meta property='og:url' content=(url + current_page.url)
+meta property='og:image' content=image_url
+meta property='og:url' content=image_url
 meta property='og:type' content='website'
 meta name='twitter:card' content='summary_large_image'
+meta name='twitter:domain' content=base_url
 meta name='twitter:title' content=title
 meta name='twitter:description' content=description
-meta name='twitter:image' content=(url + image_path(image))
-link rel='fluid-icon' href=image_path(image) title=title
-link rel='image_src' href=image_path(image) url=image_path(image) height='256' width='256'
+meta name='twitter:image' content=image_url
