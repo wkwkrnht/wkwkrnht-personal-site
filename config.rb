@@ -22,7 +22,7 @@ page "/admin/*", layout: false
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :blog do |blog|
     blog.permalink = "{year}/{month}/{day}/{title}.html"
-    blog.sources = "article/{title}.html"
+    blog.sources = "articles/{title}.html"
     blog.layout = 'article'
 end
 #activate :embed
