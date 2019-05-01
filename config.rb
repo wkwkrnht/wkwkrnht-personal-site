@@ -2,7 +2,7 @@ require 'uglifier'
 require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
-# page '/path/to/file.html', layout: 'other_layout'
+#page '/path/to/file.html', layout: 'other_layout'
 page '/*.keep', layout: false
 page '/*.xml', layout: false
 page '/*.yml', layout: false
@@ -20,6 +20,11 @@ page "/admin/*", layout: false
 #end
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
+activate :blog do |blog|
+    blog.permalink = "{year}/{month}/{day}/{title}.html"
+    blog.sources = "{year}/{month}/{day}/{title}.html"
+    blog.layout = 'article'
+end
 #activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
@@ -41,11 +46,6 @@ activate :robots,
         }
     ],
     :sitemap => 'https://wkwkrnht-blog-test.netlify.com/sitemap.xml'
-activate :blog do |blog|
-    blog.permalink = 'blog/articles/:title.html'
-    blog.sources = 'blog/articles/:title.html'
-    blog.layout = 'article'
-end
 
 # Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
 helpers do
