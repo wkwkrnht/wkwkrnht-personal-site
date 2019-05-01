@@ -3,12 +3,12 @@ require 'uglifier'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
+page "/*.html", layout: "layouts/layout"
 page "/*.keep", layout: false
 page "/*.xml", layout: false
 page "/*.yml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
-page "/*.html", layout: "layouts/layout"
 page "/partials/*", layout: false
 page "/admin/*", layout: false
 # Proxy pages(proxy product.yml files to product.html): https://middlemanapp.com/advanced/dynamic-pages/\
@@ -28,6 +28,7 @@ activate :syntax, :line_numbers => true
 #    blog.sources = "blog/articles/{title}.html"
 #    blog.default_extension = '.md'
 #    blog.layout = 'layouts/article'
+#    blog.permalink = "{year}/{month}/{day}.html"
 #end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
