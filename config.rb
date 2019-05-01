@@ -14,11 +14,12 @@ end
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
-page '/*.keep', layout: false
-page '/*.xml', layout: false
-page '/*.yml', layout: false
-page '/*.json', layout: false
-page '/*.txt', layout: false
+page "/*.keep", layout: false
+page "/*.xml", layout: false
+page "/*.yml", layout: false
+page "/*.json", layout: false
+page "/*.txt", layout: false
+page "/*.html", layout: "layouts/layout"
 page "/partials/*", layout: false
 page "/admin/*", layout: false
 # Proxy pages(proxy product.yml files to product.html): https://middlemanapp.com/advanced/dynamic-pages/\
