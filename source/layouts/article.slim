@@ -1,14 +1,12 @@
 = wrap_layout :layout
     article
-        header.article-header
+        /header.article-header
             = image_tag current_page.data.eyecatch || '/img/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch'
             h1.article-title
                 == current_page.title
             .article-meta
                 time.article-date
                     /== date
-                span.article-author
-                    /== author
             - if current_page.tags.present?
                 ul.tag-cloud
                     - current_page.tags.each do |tag|
