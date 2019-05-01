@@ -1,6 +1,17 @@
 require 'uglifier'
 require 'lib/embed.rb'
 
+# Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
+helpers do
+    def background_image(image)
+        "background-image: url('" << image_path(image) << "')"
+    end
+
+    def markdown(content)
+        Tilt['markdown'].new { content }.render
+    end
+end
+
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
 page '/*.keep', layout: false
@@ -20,15 +31,13 @@ page "/admin/*", layout: false
 #end
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
-activate :blog do |blog|
-    blog.permalink = "{year}/{month}/{day}/{title}.html"
-    blog.sources = "blog/articles/{title}.html"
-    blog.layout = 'article'
-end
 #activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
-activate :directory_indexes # pretty urls
+activate :blog do |blog|
+    blog.sources = "blog/articles/{title}.html"
+    blog.layout = 'article'
+end
 activate :sitemap_ping do |config|
     config.host = 'https://wkwkrnht-blog-test.netlify.com/' # (required) Host of your website
 end
@@ -46,17 +55,6 @@ activate :robots,
         }
     ],
     :sitemap => 'https://wkwkrnht-blog-test.netlify.com/sitemap.xml'
-
-# Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
-helpers do
-    def background_image(image)
-        "background-image: url('" << image_path(image) << "')"
-    end
-
-    def markdown(content)
-        Tilt['markdown'].new { content }.render
-    end
-end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
