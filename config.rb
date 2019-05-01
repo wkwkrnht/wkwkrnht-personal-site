@@ -1,9 +1,5 @@
 require 'uglifier'
-require 'lib/embed.rb'
-
-set :slim, { :layout_engine => :slim, :pretty => true, :sort_attrs => false, :format => :html5 }
-
-# Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
+#require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
