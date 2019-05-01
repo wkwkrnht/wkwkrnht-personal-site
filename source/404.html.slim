@@ -1,3 +1,6 @@
+---
+layout: layouts/layout
+---
 main
     section class='big-card keyword-search'
         h2
@@ -25,13 +28,13 @@ main
                             | 年
                     ul
                         li
-                            - articles_year.group_by {|a| a.date.month }.each do |month, articles_month|
+                            - articles_year.group_by {|a| a.date.month }.each do |month, articles|
                                 h4
                                     = link_to blog_year_path(month) do
                                         == month
                                         | 月
                                 ul.card-list
-                                    - articles_month.each do |article|
+                                    - articles.each do |article|
                                         li
                                             = link_to URI.encode(article.url), :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
                                                 = image_tag article.metadata[:locals]['eyecatch'] || '/img/no-img/512X512.png', :alt=>'eyecatch', :class=>'card-img'
