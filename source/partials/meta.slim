@@ -2,7 +2,7 @@
 - title = current_page.data.title || site_title
 - description = current_page.data.description || data.front.description
 - base_url = data.front.base_url
-- image = current_page.data.image
+- image = current_page.data.image || '/image/no-img.png'
 - image_url = base_url + image_path(image)
 - logo = data.front.logo
 - theme_color = '#' + data.front.theme_color

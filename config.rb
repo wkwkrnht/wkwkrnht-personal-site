@@ -2,15 +2,6 @@ require 'uglifier'
 require 'lib/embed.rb'
 
 # Helpers(Methods defined in the helpers block are available in templates): https://middlemanapp.com/basics/helper-methods/
-helpers do
-    def background_image(image)
-        "background-image: url('" << image_path(image) << "')"
-    end
-
-    def markdown(content)
-        Tilt['markdown'].new { content }.render
-    end
-end
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
@@ -24,7 +15,7 @@ page "/partials/*", layout: false
 page "/admin/*", layout: false
 # Proxy pages(proxy product.yml files to product.html): https://middlemanapp.com/advanced/dynamic-pages/\
 #data.products.each do |product|
-    # product is an array: [filename, {data}]
+#    product is an array: [filename, {data}]
 #    proxy "/product/#{product[1][:title].parameterize}/index.html", "product.html",
 #    locals: {product: product[1]},
 #    layout: 'product-detail',
