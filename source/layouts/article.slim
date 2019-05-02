@@ -2,7 +2,7 @@
     main.article-main
         = yield
     footer.article-footer
-        /- if current_page.tags.present?
+        - if current_page.tags.present?
             ul.tag-cloud
                 - current_page.tags.each do |tag|
                     li
