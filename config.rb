@@ -29,6 +29,8 @@ activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
     blog.layout = "layouts/article"
+    blog.tag_template = "layouts/tag"
+    blog.calendar_template = "layouts/calender"
 end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
@@ -50,6 +52,6 @@ configure :build do
             }
         ],
         :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
-    activate :minify_html
+    #activate :minify_html
     activate :gzip
 end
