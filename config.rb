@@ -1,4 +1,3 @@
-require 'uglifier'
 #require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
