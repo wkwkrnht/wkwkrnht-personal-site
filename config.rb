@@ -3,6 +3,7 @@ require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
+page "/*.html", layout: "layout/layout"
 page "/*.xml", layout: false
 page "/*.yml", layout: false
 page "/*.toml", layout: false
@@ -27,7 +28,7 @@ activate :syntax, :line_numbers => true
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
-    blog.layout = "article"
+    blog.layout = "partials/article"
 end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
