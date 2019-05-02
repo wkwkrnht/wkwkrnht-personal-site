@@ -1,4 +1,4 @@
-#require 'lib/embed.rb'
+require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
@@ -20,12 +20,12 @@ page "/admin/*", layout: false
 #end
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
+activate :embed
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
     blog.layout = "layouts/article"
 end
-#activate :embed
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
