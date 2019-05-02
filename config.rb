@@ -21,10 +21,9 @@ page "/admin/*", layout: false
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :blog do |blog|
-    blog.sources = "blog/articles/*.html"
+    blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
     blog.layout = "layouts/article"
-    blog.permalink = "{year}/{month}/{day}.html"
 end
 #activate :embed
 
