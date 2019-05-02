@@ -1,14 +1,14 @@
 - site_title = data.front.title
 - first_post_year = data.front.first_post_year
-/- case page_type
-    - when 'day'
-        - title = Date.new(year,month,day).strftime('%b %e %Y')
-    - when 'month'
-        - title = Date.new(year,month,1).strftime('%b %Y')
-    - when 'year'
-        - title = year
-    - else
-        - title = site_title
+- case page_type
+- when 'day'
+    - title = Date.new(year,month,day).strftime('%b %e %Y')
+- when 'month'
+    - title = Date.new(year,month,1).strftime('%b %Y')
+- when 'year'
+    - title = year
+- else
+    - title = site_title
 
 header.site-header
     h1.site-title
