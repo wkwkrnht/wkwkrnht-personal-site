@@ -1,8 +1,8 @@
 require 'uglifier'
 #require 'lib/embed.rb'
 
-ignore 'layouts/tag'
-ignore 'layouts/calender'
+ignore 'layouts/tag.slim'
+ignore 'layouts/calender.slim'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
