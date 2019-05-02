@@ -1,4 +1,4 @@
-const BlogPreview = ({ entry, widgetFor }) => {
+/*const BlogPreview = ({ entry, widgetFor }) => {
     const data = entry.get('data').toJS()
     const date = dayjs(data.date).format('DD-MM-YY')
     return (
@@ -21,6 +21,6 @@ const BlogPreview = ({ entry, widgetFor }) => {
     )
 }
 
-CMS.registerPreviewTemplate('blog', BlogPreview)
+CMS.registerPreviewTemplate('blog', BlogPreview)*/
 
 CMS.registerPreviewStyle('/stylesheets/all.css')

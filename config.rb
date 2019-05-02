@@ -1,7 +1,7 @@
 require 'uglifier'
 #require 'lib/embed.rb'
 
-ignore "/admin/*"
+
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
@@ -12,6 +12,7 @@ page "/*.yml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/partials/*", layout: false
+page "/admin/*", layout: false
 # Proxy pages(proxy product.yml files to product.html): https://middlemanapp.com/advanced/dynamic-pages/\
 #data.products.each do |product|
 #    product is an array: [filename, {data}]
