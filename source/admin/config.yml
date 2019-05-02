@@ -1,21 +1,21 @@
 backend:
     name: git-gateway
 
-media_folder: source/images
-public_folder: /images
+media_folder: 'source/images'
+public_folder: '/images'
 
 collections:
-    - name: blog
-    label: Blog
-    folder: source/blog/articles
-    extension: .html.md
+    - name: 'blog'
+    label: 'Blog'
+    folder: 'source/blog/articles'
+    extension: '.html.md'
     format: frontmatter
     create: true
     slug: '{{title}}'
     fields:
-        - {label: Title, name: title, widget: string, required: true}
-        - {label: Publish Date, name: date, widget: datetime, required: true}
-        - {label: Description, name: description, widget: string}
-        - {label: Author, name: author, widget: string}
-        - {label: Eyecatch, name: eyecatch, widget: image}
-        - {label: Body, name: body, widget: markdown, required: true}
+        - {label: 'Title', name: 'title', widget: string, required: true}
+        - {label: 'Publish Date', name: 'date', widget: datetime, required: true}
+        - {label: 'Description', name: 'description', widget: string}
+        - {label: 'Author', name: 'author', widget: string}
+        - {label: 'Eyecatch', name: 'eyecatch', widget: image}
+        - {label: 'Body', name: 'body', widget: markdown, required: true}

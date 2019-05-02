@@ -1,6 +1,6 @@
 /*const BlogPreview = ({ entry, widgetFor }) => {
-    const data = entry.get('data').toJS()
-    const date = dayjs(data.date).format('DD-MM-YY')
+    const data = entry.get('data').toJS();
+    const date = dayjs(data.date).format('DD-MM-YY');
     return (
         <div className="news-detail">
             <div className="container">
@@ -18,9 +18,9 @@
                 <div className="row content">{widgetFor('body')}</div>
             </div>
         </div>
-    )
+    );
 }
 
-CMS.registerPreviewTemplate('blog', BlogPreview)
+CMS.registerPreviewTemplate('blog', BlogPreview);
 
-CMS.registerPreviewStyle('/stylesheets/all.css')*/
+CMS.registerPreviewStyle('/stylesheets/all.css');*/
