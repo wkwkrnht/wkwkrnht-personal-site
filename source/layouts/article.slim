@@ -1,26 +1,18 @@
 = wrap_layout :layout
-    article
-        header.article-header
-            = image_tag current_page.data.eyecatch || '/img/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch'
-            h1.article-title
-                == current_page.title
-            .article-meta
-                time.article-date
-                    == article.date
-            - if current_page.tags.present?
-                ul.tag-cloud
-                    - current_page.tags.each do |tag|
-                        li
-                            == link_to tag, tag_path(tag)
-        main.article-main
-            = yield
-        footer.article-footer
-            = partial 'partials/share-button'
+    main.article-main
+        = yield
+    footer.article-footer
+        /- if current_page.tags.present?
+            ul.tag-cloud
+                - current_page.tags.each do |tag|
+                    li
+                        == link_to tag, tag_path(tag)
+        = partial 'partials/share-button'
     section class='big-card related-articles'
         h2
             | 最新記事
         ul.card-list
-            - blog.articles[0...10].each do |article|
+            /- blog.articles[0...9].each do |article|
                 = link_to article.url, :title=>article.title, :tabindex=>'0' do
                     li.mini-card
                         = image_tag '/img/no-img.png', :alt=>'eyecatch', :class=>'card-img'
