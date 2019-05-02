@@ -2,6 +2,6 @@ main.card-list
     - page_articles.each_with_index do |article, i|
         - title = article.title
         a.mini-card tabindex='0' title=title href=article.url
-            = image_tag '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img' #article.data.eyecatch || 
+            = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
             h2.card-title
                 = title
