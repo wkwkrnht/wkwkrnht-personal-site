@@ -29,6 +29,8 @@ activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
     blog.layout = "partials/article"
+    blog.tag_template = "partialstag"
+    blog.calendar_template = "partials/calendar"
 end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
