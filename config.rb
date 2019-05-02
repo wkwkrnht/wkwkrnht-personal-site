@@ -1,4 +1,5 @@
 require 'lib/embed.rb'
+#require 'lib/short-code.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
@@ -21,6 +22,9 @@ page "/admin/*", layout: false
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :embed
+#activate :shortcode
+activate :automatic_image_sizes
+activate :syntax, :line_numbers => true
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
