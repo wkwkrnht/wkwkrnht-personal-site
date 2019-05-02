@@ -28,6 +28,8 @@ activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
     blog.layout = "article"
+    blog.tag_template = "tag"
+    blog.calendar_template = "calendar"
 end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
