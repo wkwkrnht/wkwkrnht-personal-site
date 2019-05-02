@@ -2,9 +2,9 @@
     main.article-main
         = yield
     footer.article-footer
-        - if current_page.tags.present?
+        - if current_resource.metadata[:tags].present?
             ul.tag-cloud
-                - current_page.tags.each do |tag|
+                - current_resource.metadata[:tags].each do |tag|
                     li
                         == link_to tag, tag_path(tag)
         = partial 'partials/share-button'
