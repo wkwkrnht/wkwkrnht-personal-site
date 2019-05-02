@@ -1,9 +1,6 @@
 require 'uglifier'
 #require 'lib/embed.rb'
 
-ignore 'layouts/tag.slim'
-ignore 'layouts/calender.slim'
-
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
 page "/*.html", layout: "layouts/layout"
@@ -28,12 +25,12 @@ page "/admin/*", layout: false
 #activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
-#activate :blog do |blog|
-#    blog.sources = "blog/articles/{title}.html"
-#    blog.default_extension = '.md'
-#    blog.layout = 'layouts/article'
-#    blog.permalink = "{year}/{month}/{day}.html"
-#end
+activate :blog do |blog|
+    blog.sources = "blog/articles/*.html"
+    blog.default_extension = '.md'
+    blog.layout = 'layouts/article'
+    blog.permalink = "{year}/{month}/{day}.html"
+end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
