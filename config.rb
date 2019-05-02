@@ -28,7 +28,7 @@ activate :syntax, :line_numbers => true
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
-    blog.layout = "layouts/article"
+    blog.layout = "blog/article"
 end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
