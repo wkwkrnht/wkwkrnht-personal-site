@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'middleman'
-gem 'middleman-blog'
+#gem 'middleman-blog'
 gem 'middleman-minify-html'
 gem 'middleman-syntax'
 gem 'middleman-robots'
