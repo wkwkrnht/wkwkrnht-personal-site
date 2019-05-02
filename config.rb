@@ -3,7 +3,6 @@ require 'lib/embed.rb'
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
-#page "/*.html", layout: "layouts/layout"
 page "/*.xml", layout: false
 page "/*.yml", layout: false
 page "/*.toml", layout: false
