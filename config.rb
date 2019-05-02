@@ -25,12 +25,12 @@ page "/admin/*", layout: false
 #activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
-activate :blog do |blog|
-    blog.sources = "blog/articles/*.html"
-    blog.default_extension = '.md'
-    blog.layout = 'layouts/article'
-    blog.permalink = "{year}/{month}/{day}.html"
-end
+#activate :blog do |blog|
+#    blog.sources = "blog/articles/*.html"
+#    blog.default_extension = '.md'
+#    blog.layout = 'layouts/article'
+#    blog.permalink = "{year}/{month}/{day}.html"
+#end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
