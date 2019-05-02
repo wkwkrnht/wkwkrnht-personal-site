@@ -6,13 +6,13 @@ public_folder: '/images'
 
 collections:
     - name: 'blog'
-    label: 'Blog'
-    folder: 'source/blog/articles'
-    extension: '.html.md'
-    format: frontmatter
-    create: true
-    slug: '{{title}}'
-    fields:
+      label: 'Blog'
+      folder: 'source/blog/articles'
+      extension: '.html.md'
+      format: frontmatter
+      create: true
+      slug: '{{title}}'
+      fields:
         - {label: 'Title', name: 'title', widget: string, required: true}
         - {label: 'Publish Date', name: 'date', widget: datetime, required: true}
         - {label: 'Description', name: 'description', widget: string}
