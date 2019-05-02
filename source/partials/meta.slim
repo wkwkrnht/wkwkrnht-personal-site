@@ -1,9 +1,9 @@
 - site_title = data.front.title
-- title = current_page.data.title || site_title
-- description = current_page.data.description || data.front.description
+- title = site_title #current_page.data.title ||
+- description = data.front.description #current_page.data.description ||
 - base_url = data.front.base_url
-- image = current_page.data.image || '/image/no-img.png'
-- image_url = base_url + image_path(image)
+- image = '/image/no-img.png' #current_page.data.image ||
+- image_url = image #base_url + image_path(image)
 - logo = data.front.logo
 - theme_color = '#' + data.front.theme_color
 
