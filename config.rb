@@ -25,32 +25,32 @@ page "/admin/*", layout: false
 #activate :embed
 activate :automatic_image_sizes
 activate :syntax, :line_numbers => true
-#activate :blog do |blog|
-#    blog.sources = "blog/articles/*.html"
-#    blog.default_extension = '.md'
-#    blog.layout = 'layouts/article'
-#    blog.permalink = "{year}/{month}/{day}.html"
-#end
+activate :blog do |blog|
+    blog.sources = "blog/articles/*.html"
+    blog.default_extension = ".md"
+    blog.layout = "layouts/article"
+    blog.permalink = "{year}/{month}/{day}.html"
+end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
     activate :sitemap_ping do |config|
-        config.host = 'https://wkwkrnht-blog-test.netlify.com/' # (required) Host of your website
+        config.host = "https://wkwkrnht-blog-test.netlify.com/" # (required) Host of your website
     end
     activate :robots,
         :rules => [
             {
-                :user_agent => 'Googlebot',
+                :user_agent => "Googlebot",
                 :allow => %w(/),
                 :disallow => %w(404.html)
             },
             {
-                :user_agent => 'Googlebot-Image',
+                :user_agent => "Googlebot-Image",
                 :allow => %w(/),
                 :disallow => %w(404.html)
             }
         ],
-        :sitemap => 'https://wkwkrnht-blog-test.netlify.com/sitemap.xml'
+        :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
     activate :minify_html
     activate :gzip
 end
