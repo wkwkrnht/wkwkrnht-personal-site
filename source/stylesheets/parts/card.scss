@@ -23,15 +23,13 @@
     top:0;
 }
 .card-title{
-    background-color:rgba(0,0,0,.5);
     bottom:0;
     box-sizing:border-box;
-    display:inline-block;
-    height:2em;
     overflow:hidden;
     padding:1em;
     text-align:center;
     text-overflow:ellipsis;
+    vertical-align:middle;
     white-space:nowrap;
 }
 
@@ -41,7 +39,7 @@
     margin:4vh auto;
     max-width:96%;
     & > h2{
-        background-color:#ff4500;
+        background-color:#000;
         color:#fff;
         display:inline-block;
         font-size:1.8em;
