@@ -7,43 +7,44 @@
 }
 
 .mini-card{
-    box-shadow:0 0 3vmin rgba(0,0,0,.2);
     display:block;
-    height:29vmax;
+    height:calc(29vmax + 5em);
     margin:4vh auto;
     overflow:hidden;
     position:relative;
     width:29vmax;
 }
 .card-img,.card-title{
-    bottom:0;
     position:absolute;
     width:29vmax;
 }
 .card-img{
     height:29vmax;
+    top:0;
 }
 .card-title{
     background-color:rgba(0,0,0,.5);
+    bottom:0;
+    box-sizing:border-box;
     display:inline-block;
+    height:2em;
     overflow:hidden;
-    paddin:1em;
+    padding:1em;
     text-align:center;
     text-overflow:ellipsis;
     white-space:nowrap;
 }
 
 .big-card{
-    box-shadow:0 0 3vmin rgba(0,0,0,.2);
     box-sizing:border-box;
     padding:0 0 1em;
-    margin:6vh auto;
+    margin:4vh auto;
     max-width:96%;
     & > h2{
-        background-color:#03a9f4;
+        background-color:#ff4500;
         color:#fff;
         display:inline-block;
-        font-size:2rem;
+        font-size:1.8em;
         margin:0;
         padding:.5em 0;
         text-align:center;

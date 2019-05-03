@@ -16,11 +16,11 @@
     text-decoration:none;
     text-overflow:ellipsis;
     white-space:nowrap;
-}
-.tag-cloud a:hover{
-    background-color:#03a9f4;
-    border-color:#fff;
-    color:#fff;
+    &:hover{
+        background-color:#03a9f4;
+        border-color:#fff;
+        color:#fff;
+    }
 }
 ul.tag-cloud{
     list-style:none;
