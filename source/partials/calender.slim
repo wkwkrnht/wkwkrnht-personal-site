@@ -1,7 +1,7 @@
 = wrap_layout :layout
     main.card-list
-        /- page_articles.each_with_index do |article, i|
+        - page_articles.each_with_index do |article, i|
             = link_to article.url, :class=>'mini-card' do
-                = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                = image_tag article.metadata[:locals]['eyecatch'] || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
                 h2.card-title
                     = article.title
