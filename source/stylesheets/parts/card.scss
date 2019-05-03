@@ -8,7 +8,7 @@
 
 .mini-card{
     display:block;
-    height:calc(29vmax + 4em);
+    height:calc(29vmax + 3em);
     margin:4vh auto;
     overflow:hidden;
     position:relative;
@@ -17,11 +17,11 @@
 .card-img,.card-title{
     overflow:hidden;
     position:absolute;
+    width:29vmax;
 }
 .card-img{
     height:29vmax;
     top:0;
-    width:29vmax;
 }
 .card-title{
     bottom:0;
