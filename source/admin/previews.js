@@ -21,6 +21,6 @@
     );
 }
 
-CMS.registerPreviewTemplate('blog', BlogPreview);
+CMS.registerPreviewTemplate('blog', BlogPreview);*/
 
-CMS.registerPreviewStyle('/stylesheets/all.css');*/
+CMS.registerPreviewStyle('/stylesheets/all.css');

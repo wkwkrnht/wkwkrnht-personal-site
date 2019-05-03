@@ -33,7 +33,7 @@ activate :blog do |blog|
 end
 #activate :search do |search|
 #    search.resources = ['blog/', 'index.html']
-#    search.language = 'jp' # defaults to 'en'
+#    search.language = 'ja' # defaults to 'en'
 #    search.fields = {
 #        title:   {boost: 100, store: true, required: true},
 #        content: {boost: 50},
