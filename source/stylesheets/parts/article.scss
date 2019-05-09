@@ -39,18 +39,13 @@
 .article-main h3,.article-main h4,.article-main h5,.article-main h6{
     font-size:1.4em;
 }
-.article-main h1{
+.article-main h2{
     background-color:#f4f4f4;
     border-bottom:1px dashed #ccc;
     border-top:1px dashed #ccc;
     box-shadow:0 7px 10px -5px rgba(0,0,0,.1) inset;
     padding:.75em;
     width:100vw;
-}
-.article-main h2{
-    background-color:#000;
-    box-shadow:0 0 3vmin rgba(0,0,0,.2);
-    color:#fff;
 }
 .article-main h3{
     border:1vmin solid #000;
@@ -89,13 +84,13 @@
     width:100%;
 }
 
-/*.embed-responsive-4by3{
-    height:calc(80vw / 100 * 56.25);
+.embed-responsive-4by3{
+    height:calc(80vw / 100 * 75);
     margin:4vh 0;
-    max-height:calc(720px / 100 * 56.25);
+    max-height:calc(720px / 100 * 75);
     max-width:720px;
     width:80vw;
-}*/
+}
 .embed-responsive-16by9{
     height:calc(80vw / 100 * 56.25);
     margin:4vh 0;
