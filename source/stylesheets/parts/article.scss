@@ -80,8 +80,7 @@
     max-width:80%;
 }
 
-.embed-4x3,
-.embed-16x9,
+.embed-responsive,
 .article-main img,
 .article-main a[href*=".png"],
 .article-main a[href*=".jpg"],
@@ -95,9 +94,8 @@
     text-align:center;
     width:100%;
 }
-.embed-4x3,.embed-16x9{
-    max-width:720px;
-    width:80vw;
+.embed-responsive{
+    max-width:80vw;
 }
 .embed-4x3{
     height:calc(80vw / 100 * 75);
