@@ -42,9 +42,7 @@ module Middleman
         def initialize(app,options_hash={},&block)
             super
             app.after_render do |body, path, locs, template|
-                if (path.to_s.index "blog_post") != nil
-                    body.embed_items!
-                end
+                body.embed_items!
                 body
             end
         end
