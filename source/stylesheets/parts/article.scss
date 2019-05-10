@@ -84,19 +84,18 @@
     width:100%;
 }
 
-.embed-responsive-4by3{
-    height:calc(80vw / 100 * 75);
+.embed-4x3,.embed-16x9{
     margin:4vh 0;
-    max-height:calc(720px / 100 * 75);
     max-width:720px;
     width:80vw;
 }
-.embed-responsive-16by9{
+.embed-4x3{
+    height:calc(80vw / 100 * 75);
+    max-height:calc(720px / 100 * 75);
+}
+.embed-16x9{
     height:calc(80vw / 100 * 56.25);
-    margin:4vh 0;
     max-height:calc(720px / 100 * 56.25);
-    max-width:720px;
-    width:80vw;
 }
 
 .article-main table{

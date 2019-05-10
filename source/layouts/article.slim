@@ -16,8 +16,7 @@
                 = link_to article.url, :title=>article.title, :tabindex=>'0' do
                     li.mini-card
                         = image_tag '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
-                        .card-meta
-                            h3
-                                == article.title
-                            time
-                                = article.date.strftime('%Y-%m-%d')
+                        time.card-date
+                            = article.date.strftime('%Y-%m-%d')
+                        h3.card-title
+                            == article.title
