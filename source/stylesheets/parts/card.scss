@@ -19,6 +19,8 @@
 .card-img,.card-date,.card-title{
     overflow:hidden;
     position:absolute;
+}
+.card-img,.card-title{
     width:var(--card-size);
 }
 .card-img{

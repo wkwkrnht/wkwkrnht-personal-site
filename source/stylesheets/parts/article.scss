@@ -23,20 +23,29 @@
         &[href^="http"][title]:empty::before{
             content:attr(title);
         }
-        &:hover,&:focus{
+        &:hover,
+        &:focus{
             border-bottom:1px solid #03a9f4;
         }
     }
 }
 
-.article-main h1,.article-main h2,.article-main h3,.article-main h4,.article-main h5,.article-main h6{
+.article-main h1,
+.article-main h2,
+.article-main h3,
+.article-main h4,
+.article-main h5,
+.article-main h6{
     line-height:6vh;
     margin:2vh auto;
     max-width:80%;
     min-height:6vh;
     text-align:center;
 }
-.article-main h3,.article-main h4,.article-main h5,.article-main h6{
+.article-main h3,
+.article-main h4,
+.article-main h5,
+.article-main h6{
     font-size:1.4em;
 }
 .article-main h2{
@@ -63,13 +72,16 @@
     border-bottom:.75vmin dashed #000;
 }
 
-.article-main ul,.article-main,ol{
+.article-main ul,
+.article-main,ol{
     margin:2vh auto;
 }
 .article-main ul{
     max-width:80%;
 }
 
+.embed-4x3,
+.embed-16x9,
 .article-main img,
 .article-main a[href*=".png"],
 .article-main a[href*=".jpg"],
@@ -83,9 +95,7 @@
     text-align:center;
     width:100%;
 }
-
 .embed-4x3,.embed-16x9{
-    margin:4vh 0;
     max-width:720px;
     width:80vw;
 }
@@ -110,7 +120,8 @@
         text-align:center;
     }
     & tr{
-        & th,& td{
+        & th,
+        & td{
             border:1px solid #cfcfcf;
             overflow:auto;
             padding:1em;
@@ -129,7 +140,9 @@
     }
 }
 
-.article-main pre,.article-main address,.article-main code,{
+.article-main pre,
+.article-main address,
+.article-main code,{
     margin:2vh auto;
     max-width:94%;
 }
@@ -140,10 +153,12 @@
     overflow:auto;
     white-space:pre;
 }
-.article-main address,.article-main q{
+.article-main address,
+.article-main q{
     background-color:#eee;
 }
-.article-main blockquote,.article-main q{
+.article-main blockquote,
+.article-main q{
     margin:1vh auto;
     max-width:94%;
     quotes:none;
@@ -161,7 +176,9 @@
     &[title][cite]::after{
         content:attr(title)"\a" attr(cite);
     }
-    &[title]::after,&[cite]::after,&[title][cite]::after{
+    &[title]::after,
+    &[cite]::after,
+    &[title][cite]::after{
         border-top:1px solid #bbb;
         display:block;
         padding-top:1em;
