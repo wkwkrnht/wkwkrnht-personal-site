@@ -3,5 +3,7 @@ main.card-list
         - title = article.title
         = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
             = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+            time.crad-date
+                = article.date.strftime('%Y-%m-%d')
             h2.card-title
                 = title

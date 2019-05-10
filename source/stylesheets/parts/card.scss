@@ -16,7 +16,7 @@
     position:relative;
     width:var(--card-size);
 }
-.card-img,.card-title{
+.card-img,.crad-date,.card-title{
     overflow:hidden;
     position:absolute;
     width:var(--card-size);
@@ -24,6 +24,16 @@
 .card-img{
     height:calc(var(--card-size) / 4 * 3);
     top:0;
+}
+.card-date{
+    background-color:#ddd;
+    display:inline-block;
+    height:2em;
+    line-height:2em;
+    margin:0;
+    padding:0 1em;
+    right:0;
+    top:calc(var(--card-size) / 4 * 3 - 2em);
 }
 .card-title{
     bottom:0;
