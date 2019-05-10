@@ -4,9 +4,9 @@ require 'middleman-core'
 class String
     def embed_youtube!()
         #(HOW CALL:youtube {videoID},E.X.:youtube aLvJ1mqlM98) -> <figure class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/aLvJ1mqlM98" frameborder="0" allowfullscreen></iframe></figure>
-        embed43 = "<figure class='embed-responsive embed-4x3'><iframe src='//www.youtube.com/embed/\\1' frameborder='0' allowfullscreen></iframe></figure>"
+        embed43 = "<figure class='embed-responsive embed-4x3'><iframe src='//www.youtube.com/embed/\\1' width='480' height='320' frameborder='0' allowfullscreen></iframe></figure>"
         replace self.gsub(/YOUTUBE43 ([^#\&\?<]+)/,embed43)
-        embed169 = "<figure class='embed-responsive embed-16x9'><iframe src='//www.youtube.com/embed/\\1' frameborder='0' allowfullscreen></iframe></figure>"
+        embed169 = "<figure class='embed-responsive embed-16x9'><iframe src='//www.youtube.com/embed/\\1' width='720' height='380' frameborder='0' allowfullscreen></iframe></figure>"
         replace self.gsub(/YOUTUBE169 ([^#\&\?<]+)/,embed169)
     end
 
