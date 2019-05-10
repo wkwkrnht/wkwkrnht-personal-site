@@ -15,7 +15,7 @@
             - blog.articles[0...9].each do |article|
                 = link_to article.url, :title=>article.title, :tabindex=>'0' do
                     li.mini-card
-                        = image_tag '/img/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                        = image_tag '/image/no-img.png', :alt=>'eyecatch', :class=>'card-img'
                         .card-meta
                             h3
                                 == article.title

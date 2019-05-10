@@ -10,7 +10,7 @@
     --card-size:28vmax;
 
     display:block;
-    height:calc(var(--card-size) + 3em);
+    height:var(--card-size);
     margin:4vh auto;
     overflow:hidden;
     position:relative;

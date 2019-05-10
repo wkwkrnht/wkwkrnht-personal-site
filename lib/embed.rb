@@ -2,10 +2,12 @@ require 'cgi'
 require 'middleman-core'
 
 class String
-    def embed_youtube!(match,css_class)
+    def embed_youtube!()
         #(HOW CALL:youtube {videoID},E.X.:youtube aLvJ1mqlM98) -> <figure class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/aLvJ1mqlM98" frameborder="0" allowfullscreen></iframe></figure>
-        embed = "<figure class='embed-responsive #{css_class}'><iframe src='//www.youtube.com/embed/\\1' frameborder='0' allowfullscreen></iframe></figure>"
-        replace self.gsub(/<p>#{match} ([^#\&\?<]+)<\/p>/,embed)
+        embed43 = "<figure class='embed-responsive embed-4x3'><iframe src='//www.youtube.com/embed/\\1' frameborder='0' allowfullscreen></iframe></figure>"
+        replace self.gsub(/YOUTUBE43 ([^#\&\?<]+)/,embed43)
+        embed169 = "<figure class='embed-responsive embed-16x9'><iframe src='//www.youtube.com/embed/\\1' frameborder='0' allowfullscreen></iframe></figure>"
+        replace self.gsub(/YOUTUBE169 ([^#\&\?<]+)/,embed169)
     end
 
     def embed_spotify!()
@@ -27,8 +29,8 @@ class String
     end
 
     def embed_items!
-        embed_youtube!('youtube43','embed-responsive-4by3')
-        embed_youtube!('youtube','embed-responsive-16by9')
+        embed_youtube!()
+        embed_youtube!()
         embed_spotify!()
         embed_hatena!()
         embed_embedly!()
