@@ -1,6 +1,13 @@
 - site_title = data.front.title
 - first_post_year = data.front.first_post_year
-- title = current_page.data.title || site_title
+- if current_article
+    - title = current_article.title + '-' + site_title
+- elsif current_page && current_page.data.title
+    - title = current_page.data.title
+- elsif content_for?(:title)
+    - title = yield_content(:title)
+- else
+    - title = site_title
 
 header.site-header
     h1.site-title
