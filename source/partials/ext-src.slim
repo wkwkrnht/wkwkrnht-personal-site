@@ -14,7 +14,7 @@
 - elsif current_article && content_for?(:description)
     - title = current_article.title + '|' + site_title
     - description = yield_content(:description)
-- if current_article
+- elsif current_article
     - title = current_article.title + '|' + site_title
     - description = site_data.description
 - elsif current_page && current_page.data.title && current_page.data.description
