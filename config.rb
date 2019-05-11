@@ -30,17 +30,17 @@ activate :blog do |blog|
     blog.tag_template = "partials/tag"
     blog.calendar_template = "partials/calender"
 end
-activate :search do |search|
-    search.resources = ['blog/', 'index.html']
-    search.language = 'ja' # defaults to 'en'
-    search.fields = {
-        title:   {boost: 100, store: true, required: true},
-        content: {boost: 50},
+#activate :search do |search|
+#    search.resources = ['blog/', 'index.html']
+#    search.language = 'ja' # defaults to 'en'
+#    search.fields = {
+#        title:   {boost: 100, store: true, required: true},
+#        content: {boost: 50},
 #        url:     {index: false, store: true},
 #        date:    {index: false, store: true},
 #        author:  {boost: 30}
-    }
-end
+#    }
+#end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
@@ -61,6 +61,6 @@ configure :build do
             }
         ],
         :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
-    #activate :minify_html
+    activate :minify_html
     activate :gzip
 end

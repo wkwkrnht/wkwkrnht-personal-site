@@ -1,19 +1,18 @@
-- site_title = data.front.title
+- site_data = data.front
+- site_title = site_data.title
 - title = site_title #current_page.data.title ||
-- description = data.front.description #current_page.data.description ||
-- base_url = data.front.base_url
+- description = site_data.description #current_page.data.description ||
+- base_url = site_data.base_url
 - image = '/image/no-img.png' #current_page.data.image ||
-- image_url = image #base_url + image_path(image)
-- logo = data.front.logo
-- theme_color = '#' + data.front.theme_color
+- image_url = base_url + image
+- logo = site_data.logo
+- theme_color = '#' + site_data.theme_color || null
 
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
 meta name='viewport' content="width=device-width, initial-scale=1, shrink-to-fit=no"
 title =title
 meta name='description' content=description
-meta name='theme-color' content=theme_color
-meta name='msapplication-TileColor' content=theme_color
 meta property='og:site_name' content=site_title
 meta property='og:title' content=title
 meta property='og:description' content=description
@@ -25,3 +24,6 @@ meta name='twitter:domain' content=base_url
 meta name='twitter:title' content=title
 meta name='twitter:description' content=description
 meta name='twitter:image' content=image_url
+- unless theme_color == null
+    meta name='theme-color' content=theme_color
+    meta name='msapplication-TileColor' content=theme_color
