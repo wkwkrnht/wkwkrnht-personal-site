@@ -1,6 +1,7 @@
-require 'uglifier'
 require 'lib/embed.rb'
 #require 'lib/short-code.rb'
+
+set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
@@ -45,6 +46,5 @@ configure :build do
         :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
     activate :minify_html
     activate :minify_css
-    activate :minify_javascript
     activate :gzip
 end
