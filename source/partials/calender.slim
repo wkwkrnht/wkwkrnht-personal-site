@@ -1,8 +1,8 @@
 - case page_type
     - when 'day'
-        - calendar_title = Date.new(year,month,day).strftime('%b %e %Y')
+        - calendar_title = Date.new(year,month,day).strftime('%Y %b %e')
     - when 'month'
-        - calendar_title = Date.new(year,month,1).strftime('%b %Y')
+        - calendar_title = Date.new(year,month,1).strftime('%Y %b')
     - when 'year'
         - calendar_title = year
 - content_for(:title,calendar_title)
