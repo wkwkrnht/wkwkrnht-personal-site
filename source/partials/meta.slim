@@ -14,7 +14,7 @@
 - image = '/image/no-img.png' #current_page.data.image ||
 - image_url = base_url + image
 - logo = site_data.logo
-- theme_color = '#' + site_data.theme_color
+- theme_color = '#' + site_data.theme_color unless site_data.theme_color.blank?
 
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
@@ -32,6 +32,6 @@ meta name='twitter:domain' content=base_url
 meta name='twitter:title' content=title
 meta name='twitter:description' content=description
 meta name='twitter:image' content=image_url
-- unless theme_color.nil?
+- if theme_color
     meta name='theme-color' content=theme_color
     meta name='msapplication-TileColor' content=theme_color
