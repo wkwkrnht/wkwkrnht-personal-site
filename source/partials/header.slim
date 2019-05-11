@@ -1,5 +1,6 @@
-- site_title = data.front.title
-- first_post_year = data.front.first_post_year
+- site_data = data.front
+- site_title = site_data.title
+- first_post_year = site_data.first_post_year
 - if current_article
     - title = current_article.title + '-' + site_title
 - elsif current_page && current_page.data.title
