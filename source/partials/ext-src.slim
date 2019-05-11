@@ -1,4 +1,18 @@
+- site_data = data.front
+- google_analytics =  site_data.google_analytics unless site_data.google_analytics.blank?
+- linkswitch =  site_data.linkswitch unless site_data.linkswitch.blank?
 = stylesheet_link_tag 'all'
 = javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
 = javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
-= javascript_include_tag 'main', defer: 'defer'
+= javascript_include_tag 'main', async: 'async'
+- if google_analytics
+    javascript:
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+        ga.l=+new Date;
+        ga('create',"#{google_analytics}",'auto');
+        ga('send','pageview');
+    = javascript_include_tag '//www.google-analytics.com/analytics.js'
+- if linkswitch
+    javascript:
+        const vc_pid = "#{linkswitch'}";
+    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
