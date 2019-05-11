@@ -23,7 +23,6 @@ page "/admin/*", layout: false
 activate :embed
 #activate :shortcode
 activate :automatic_image_sizes
-activate :syntax, :line_numbers => true
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
@@ -31,17 +30,17 @@ activate :blog do |blog|
     blog.tag_template = "partials/tag"
     blog.calendar_template = "partials/calender"
 end
-#activate :search do |search|
-#    search.resources = ['blog/', 'index.html']
-#    search.language = 'ja' # defaults to 'en'
-#    search.fields = {
-#        title:   {boost: 100, store: true, required: true},
-#        content: {boost: 50},
+activate :search do |search|
+    search.resources = ['blog/', 'index.html']
+    search.language = 'ja' # defaults to 'en'
+    search.fields = {
+        title:   {boost: 100, store: true, required: true},
+        content: {boost: 50},
 #        url:     {index: false, store: true},
 #        date:    {index: false, store: true},
 #        author:  {boost: 30}
-#    }
-#end
+    }
+end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do

@@ -1,3 +1,5 @@
+hljs.initHighlightingOnLoad();
+
 document.getElementById('nativeShare').onclick = function(){
     let title = document.title;
     let text = document.getElementsByName('description').item(0).content;
