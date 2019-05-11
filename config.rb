@@ -10,14 +10,6 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/partials/*", layout: false
 page "/admin/*", layout: false
-# Proxy pages(proxy product.yml files to product.html): https://middlemanapp.com/advanced/dynamic-pages
-#data.products.each do |product|
-#    product is an array: [filename, {data}]
-#    proxy "/product/#{product[1][:title].parameterize}/index.html", "product.html",
-#    locals: {product: product[1]},
-#    layout: 'product-detail',
-#    ignore: true
-#end
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :embed
@@ -30,17 +22,6 @@ activate :blog do |blog|
     blog.tag_template = "partials/tag"
     blog.calendar_template = "partials/calender"
 end
-#activate :search do |search|
-#    search.resources = ['blog/', 'index.html']
-#    search.language = 'ja' # defaults to 'en'
-#    search.fields = {
-#        title:   {boost: 100, store: true, required: true},
-#        content: {boost: 50},
-#        url:     {index: false, store: true},
-#        date:    {index: false, store: true},
-#        author:  {boost: 30}
-#    }
-#end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
@@ -62,5 +43,7 @@ configure :build do
         ],
         :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
     activate :minify_html
+    activate :minify_css
+    activate :minify_javascript
     activate :gzip
 end
