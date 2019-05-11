@@ -42,7 +42,7 @@ configure :build do
             }
         ],
         :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
-#    activate :minify_html
+    activate :minify_html
 #    activate :minify_css
 #    activate :minify_javascript
     activate :gzip
