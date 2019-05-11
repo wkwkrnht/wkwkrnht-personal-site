@@ -1,6 +1,43 @@
 - site_data = data.front
 - google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
+- site_title = site_data.title
+- first_post_year = site_data.first_post_year
+- language = site_data.language
+- base_url = site_data.base_url
+- image = '/image/no-img.png' #current_page.data.image ||
+- image_url = base_url + image
+- logo = site_data.logo
+- if current_article && current_page.data.description
+    - title = current_article.title + '|' + site_title
+    - description = current_page.data.description
+- elsif current_article && content_for?(:description)
+    - title = current_article.title + '|' + site_title
+    - description = yield_content(:description)
+- if current_article
+    - title = current_article.title + '|' + site_title
+    - description = site_data.description
+- elsif current_page && current_page.data.title && current_page.data.description
+    - title = current_page.data.title + '|' + site_title
+    - description = current_page.data.description
+- elsif current_page && current_page.data.title
+    - title = current_page.data.title + '|' + site_title
+    - description = site_data.description
+- elsif current_page && current_page.data.description
+    - title = site_title
+    - description = current_page.data.description
+- elsif content_for?(:title) && content_for?(:description)
+    - title = yield_content(:title) + '|' + site_title
+    - description = yield_content(:description)
+- elsif content_for?(:title)
+    - title = yield_content(:title) + '|' + site_title
+    - description = site_data.description
+- elsif content_for?(:description)
+    - title = site_title
+    - description = yield_content(:description)
+- else
+    - title = site_title
+    - description = site_data.description
 = stylesheet_link_tag 'all'
 = javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
 = javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
@@ -16,3 +53,61 @@
     javascript:
         const vc_pid = "#{linkswitch}";
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
+script type='application/ld+json'
+    - if current_article
+    |    {
+    |        "@context": "http://schema.org",
+    |        "@type": "NewsArticle",
+    |        "mainEntityOfPage": {
+    |            "@type": "WebPage",
+    |            "@id": "https://google.com/article"
+    |        },
+    |        "headline": "#{title}",
+    |            "image": {
+    |                "@type": "ImageObject",
+    |                "url": "#{image}",
+    |                "height": 340,
+    |                "width": 640
+    |            },
+    |        "datePublished": "get_the_time('Y/n/j G:i.s')",
+    |        "dateModified": "get_mtime('Y/n/j G:i.s')",
+    |        "author": {
+    |            "@type": "Person",
+    |            "name": "get_the_author_meta('display_name',$author_id)"
+    |        },
+    |        "publisher": {
+    |            "@type": "Organization",
+    |            "name": "#{site_title}",
+    |            "logo": {
+    |                "@type": "ImageObject",
+    |                "url": "#{logo}",
+    |                "width": 600,
+    |                "height": 60
+    |            }
+    |        },
+    |        "description": "#{description}"
+    |    }
+    - else
+    |    {
+    |        "@context": "http://schema.org",
+    |        "@type": "WebSite",
+    |        "name":"#{site_title}",
+    |        "description": "#{description}",
+    |        "url": "#{base_url}",
+    |        "inLanguage": "#{language}",
+    |        "publisher":{
+    |            "@type":"Organization",
+    |            "name":"#{site_title}",
+    |            "logo":{
+    |                "@type": "ImageObject",
+    |                "url": "#{logo}",
+    |                "width":60,
+    |                "height":60
+    |            }
+    |        },
+    |        "copyrightYear": "#{first_post_year}",
+    |        "copyrightHolder": {
+    |            "@type": "Organization",
+    |            "name": "#{site_title}"
+    |        }
+    |    }
