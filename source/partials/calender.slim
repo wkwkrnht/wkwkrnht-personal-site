@@ -1,7 +1,12 @@
-/- content_for :title do
-    = calendar_title.text, title: calendar_title
-/- content_for :description do
-    = calendar_description.text, title: calendar_title
+- case page_type
+    - when 'day'
+        - calendar_title = Date.new(year,month,day).strftime('%b %e %Y')
+    - when 'month'
+        - calendar_title = Date.new(year,month,1).strftime('%b %Y')
+    - when 'year'
+        - calendar_title = year
+- content_for(:title,calendar_title)
+- content_for(:description,calendar_title)
 = wrap_layout :layout
     main.card-list
         - page_articles.each_with_index do |article, i|

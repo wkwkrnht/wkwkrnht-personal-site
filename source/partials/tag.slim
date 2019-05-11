@@ -1,7 +1,5 @@
-/- content_for :title do
-    = tag_title.text, title: tag_title
-/- content_for :description do
-    = tag_description.text, title: tag_title
+/- content_for(:title,tag_title)
+/- content_for(:description,tag_title)
 = wrap_layout :layout
     main.card-list
         - page_articles.each_with_index do |article, i|
