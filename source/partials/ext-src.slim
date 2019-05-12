@@ -1,6 +1,6 @@
 - site_data = data.front
 - google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
-- linkswitch = site_data.linkswitch unless site_data.linkswitch.blan
+- linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 = stylesheet_link_tag 'all'
 = javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
 = javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
