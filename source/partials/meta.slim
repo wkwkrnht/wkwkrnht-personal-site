@@ -13,7 +13,7 @@
     - title = yield_content(:title) + '|' + site_title
 - else
     - title = site_title
-- if current_page && current_page.data.description
+- if current_page.data.description
     - description = current_page.data.description
 - elsif content_for?(:description)
     - description = yield_content(:description)
@@ -29,7 +29,7 @@
     - url = current_page.url
 - else
     - url = base_url
-- image_url = base_url + image
+- image_url = base_url + image_dir
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
 meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'
