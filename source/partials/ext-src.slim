@@ -16,12 +16,7 @@
     - title = yield_content(:title) + '|' + site_title
 - else
     - title = site_title
-- if current_page && current_page.data.description
-    - description = current_page.data.description
-- elsif content_for?(:description)
-    - description = yield_content(:description)
-- else
-    - description = site_data.description
+- description = site_data.description
 = stylesheet_link_tag 'all'
 = javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
 = javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
