@@ -28,10 +28,10 @@
     /- image_dir = logo
 /- else
 - image_dir = '/image/no-img.png'
-/- if current_page
+- if current_page
     - url = current_page.url
-/- else
-- url = base_url
+- else
+    - url = base_url
 - image_url = base_url + image_dir
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
