@@ -6,5 +6,6 @@ gem 'middleman-robots'
 gem 'middleman-sitemap-ping'
 gem 'middleman-minify-html'
 
-gem 'slim'
 gem 'builder'
+gem 'cloudinary'
+gem 'slim'
