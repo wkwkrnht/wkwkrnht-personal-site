@@ -43,10 +43,10 @@ meta property='og:title' content=title
 meta property='og:description' content=description
 meta property='og:image' content=image_url
 meta property='og:url' content=url
-/- if current_article
+- if current_article
     meta property='og:type' content='article'
-/- else
-meta property='og:type' content='website'
+- else
+    meta property='og:type' content='website'
 meta name='twitter:card' content='summary_large_image'
 meta name='twitter:domain' content=base_url
 meta name='twitter:title' content=title
