@@ -27,7 +27,7 @@
 - elsif logo
     - image_dir = logo
 - else
-    - image_dir = '/image/no-img.png'
+    - image_dir = '/images/no-img.png'
 - if current_page
     - url = current_page.url
 - else
@@ -35,7 +35,7 @@
 - image_url = base_url + image_dir
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
-meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'
+meta name='viewport' content='width=device-width, initial-scale=1'
 meta name='generator' content=var
 title =title
 meta name='description' content=description
@@ -61,6 +61,8 @@ meta name='twitter:image' content=image_url
 link rel='pingback' href=url
 script type='application/ld+json'
     - if current_article
+        - author = current_article.data.author || 'admin'
+        - date = current_article.data.date || first_post_year
         |{
         |    "@context": "http://schema.org",
         |    "@type": "NewsArticle",
@@ -75,11 +77,10 @@ script type='application/ld+json'
         |            "height": 340,
         |            "width": 640
         |        },
-        |    "datePublished": "",
-        |    "dateModified": "",
+        |    "datePublished": "#{date}",
         |    "author": {
         |        "@type": "Person",
-        |        "name": ""
+        |        "name": "#{author}"
         |    },
         |    "publisher": {
         |        "@type": "Organization",
