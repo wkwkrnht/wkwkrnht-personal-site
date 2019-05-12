@@ -6,7 +6,7 @@
 = javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
 = javascript_include_tag 'main', async: 'async'
 - if current_article
-    = javascript_include_tag 'lightgallery.min', async: 'async', onload: 'lightGallery(document.getElementsByTagName("img"););'
+    = javascript_include_tag 'javascripts/lightgallery.min', async: 'async', onload: 'lightGallery(document.getElementsByTagName("img"););'
 - if google_analytics
     javascript:
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
