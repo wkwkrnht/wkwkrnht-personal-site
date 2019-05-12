@@ -1,9 +1,7 @@
-.share-button{
+.share-button li{
+    display:inline-block;
     font-size:1.2em;
-    list-style:none;
-    & li{
-        padding:initial 1em;
-    }
+    padding:initial 1em;
 }
 
 .fa-instapaper,
