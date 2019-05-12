@@ -3,7 +3,6 @@
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 - site_title = site_data.title
 - first_post_year = site_data.first_post_year
-- language = site_data.language
 - base_url = site_data.base_url
 - image = '/image/no-img.png'
 - image_url = base_url + image
@@ -32,7 +31,7 @@
     javascript:
         const vc_pid = "#{linkswitch}";
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
-script type='application/ld+json'
+/script type='application/ld+json'
     - if current_article
         |{
         |    "@context": "http://schema.org",
@@ -67,6 +66,7 @@ script type='application/ld+json'
         |    "description": "#{description}"
         |}
     - else
+        - language = site_data.language
         |{
         |    "@context": "http://schema.org",
         |    "@type": "WebSite",
