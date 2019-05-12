@@ -19,11 +19,11 @@
     - description = yield_content(:description)
 /- else
     - description = site_data.description
-- if  current_article && current_article.data.eyecatch
+/- if  current_article && current_article.data.eyecatch
     - image_dir = current_article.data.eyecatch
-- elsif current_page && current_page.data.image
+/- elsif current_page && current_page.data.image
     - image_dir = current_page.data.image
-- else
+- #else
     - image_dir = '/image/no-img.png'
 /- if current_page
     - url = current_page.url
