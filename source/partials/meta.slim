@@ -23,12 +23,12 @@
     - image_dir = current_article.data.eyecatch
 /- elsif current_page && current_page.data.image
     - image_dir = current_page.data.image
-- #else
-    - image_dir = '/image/no-img.png'
+/- else
+- image_dir = '/image/no-img.png'
 /- if current_page
     - url = current_page.url
-- #else
-    - url = base_url
+/- else
+- url = base_url
 - image_url = base_url + image_dir
 meta charset='utf-8'
 meta content='ie=edge' http-equiv='x-ua-compatible'
@@ -51,7 +51,7 @@ meta name='twitter:title' content=title
 meta name='twitter:description' content=description
 meta name='twitter:image' content=image_url
 - if twitter
-    meta name="twitter:site" content=
+    meta name='twitter:site' content=twitter
 - if theme_color
     meta name='theme-color' content=theme_color
     meta name='msapplication-TileColor' content=theme_color
