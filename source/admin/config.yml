@@ -3,11 +3,12 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: 'source/images'
+public_folder: '/images'
+media_library:
     name: cloudinary
     config:
         cloud_name: wkwkrnht
         api_key: 434895888337457
-public_folder: '/images'
 
 collections:
     - name: 'blog'
