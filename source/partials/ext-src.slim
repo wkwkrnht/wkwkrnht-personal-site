@@ -1,21 +1,6 @@
 - site_data = data.front
 - google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
-- linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
-/- site_title = site_data.title
-/- first_post_year = site_data.first_post_year
-/- base_url = site_data.base_url
-/- image_dir = '/image/no-img.png'
-/- image_url = base_url + image_dir
-/- logo = site_data.logo
-/- if current_article
-    - title = current_article.title + '|' + site_title
-/- elsif current_page && current_page.data.title
-    - title = current_page.data.title + '|' + site_title
-/- elsif content_for?(:title)
-    - title = yield_content(:title) + '|' + site_title
-/- else
-    - title = site_title
-/- description = site_data.description
+- linkswitch = site_data.linkswitch unless site_data.linkswitch.blan
 = stylesheet_link_tag 'all'
 = javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
 = javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
@@ -31,62 +16,3 @@
     javascript:
         const vc_pid = "#{linkswitch}";
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
-/script type='application/ld+json'
-    - if current_article
-        |{
-        |    "@context": "http://schema.org",
-        |    "@type": "NewsArticle",
-        |    "mainEntityOfPage": {
-        |        "@type": "WebPage",
-        |        "@id": "https://google.com/article"
-        |    },
-        |    "headline": "#{title}",
-        |        "image": {
-        |            "@type": "ImageObject",
-        |            "url": "#{image_url}",
-        |            "height": 340,
-        |            "width": 640
-        |        },
-        |    "datePublished": "",
-        |    "dateModified": "",
-        |    "author": {
-        |        "@type": "Person",
-        |        "name": ""
-        |    },
-        |    "publisher": {
-        |        "@type": "Organization",
-        |        "name": "#{site_title}",
-        |        "logo": {
-        |            "@type": "ImageObject",
-        |            "url": "#{logo}",
-        |            "width": 60,
-        |            "height": 60
-        |        }
-        |    },
-        |    "description": "#{description}"
-        |}
-    - else
-        - language = site_data.language
-        |{
-        |    "@context": "http://schema.org",
-        |    "@type": "WebSite",
-        |    "name":"#{site_title}",
-        |    "description": "#{description}",
-        |    "url": "#{base_url}",
-        |    "inLanguage": "#{language}",
-        |    "publisher":{
-        |        "@type":"Organization",
-        |        "name":"#{site_title}",
-        |        "logo":{
-        |            "@type": "ImageObject",
-        |            "url": "#{logo}",
-        |            "width":60,
-        |            "height":60
-        |        }
-        |    },
-        |    "copyrightYear": "#{first_post_year}",
-        |    "copyrightHolder": {
-        |        "@type": "Organization",
-        |        "name": "#{site_title}"
-        |    }
-        |}

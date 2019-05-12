@@ -58,3 +58,62 @@ meta name='twitter:image' content=image_url
     meta name='theme-color' content=theme_color
     meta name='msapplication-TileColor' content=theme_color
 link rel='pingback' href=url
+script type='application/ld+json'
+    - if current_article
+        |{
+        |    "@context": "http://schema.org",
+        |    "@type": "NewsArticle",
+        |    "mainEntityOfPage": {
+        |        "@type": "WebPage",
+        |        "@id": "https://google.com/article"
+        |    },
+        |    "headline": "#{title}",
+        |        "image": {
+        |            "@type": "ImageObject",
+        |            "url": "#{image_url}",
+        |            "height": 340,
+        |            "width": 640
+        |        },
+        |    "datePublished": "",
+        |    "dateModified": "",
+        |    "author": {
+        |        "@type": "Person",
+        |        "name": ""
+        |    },
+        |    "publisher": {
+        |        "@type": "Organization",
+        |        "name": "#{site_title}",
+        |        "logo": {
+        |            "@type": "ImageObject",
+        |            "url": "#{logo}",
+        |            "width": 60,
+        |            "height": 60
+        |        }
+        |    },
+        |    "description": "#{description}"
+        |}
+    - else
+        - language = site_data.language
+        |{
+        |    "@context": "http://schema.org",
+        |    "@type": "WebSite",
+        |    "name":"#{site_title}",
+        |    "description": "#{description}",
+        |    "url": "#{base_url}",
+        |    "inLanguage": "#{language}",
+        |    "publisher":{
+        |        "@type":"Organization",
+        |        "name":"#{site_title}",
+        |        "logo":{
+        |            "@type": "ImageObject",
+        |            "url": "#{logo}",
+        |            "width":60,
+        |            "height":60
+        |        }
+        |    },
+        |    "copyrightYear": "#{first_post_year}",
+        |    "copyrightHolder": {
+        |        "@type": "Organization",
+        |        "name": "#{site_title}"
+        |    }
+        |}
