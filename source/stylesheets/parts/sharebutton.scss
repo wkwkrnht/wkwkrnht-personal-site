@@ -1,0 +1,12 @@
+.share-button{
+    font-size:1.2em;
+    list-style:none;
+    & li{
+        padding:initial 1em;
+    }
+}
+
+.fa-instapaper,
+.fa-hatebu{
+    font-weight:bold;
+}
