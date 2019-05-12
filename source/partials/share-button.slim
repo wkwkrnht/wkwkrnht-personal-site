@@ -7,63 +7,63 @@
     - title = yield_content(:title) + '|' + site_title
 - else
     - title = site_title
-/- meta_url = data.front.base_url
+- if current_page
+    - meta_url = current_page.url
+- else
+    - meta_url = base_url
 
 ul.share-button
     li
         a#nativeShare
-            span class='icon icon-share'
+            span class='fas fa-share-alt'
     li
         a href='https://mastoshare.net/post.php'
-            | toot
-    /li
+            span class='fab fa-mastodon'
+    li
         a href='https://twitter.com/share?url=#{meta_url}&amp;text=#{title}'
-            span class='icon icon-twitter'
-    /li
+            span class='fab fa-twitter'
+    li
         a href='https://www.facebook.com/share.php?u=#{meta_url}'
-            span class='icon icon-facebook'
-    /li
+            span class='fab fa-facebook-f'
+    li
         a href='http://lineit.line.me/share/ui?url=#{meta_url}'
-            span class='icon icon-line'
-    /li
-        a href='https://plus.google.com/share?url=#{meta_url}'
-            span class='icon icon-gplus'
-    /li
+            span class='fab fa-line'
+    li
         a href='https://www.linkedin.com/shareArticle?mini=true&url=#{meta_url}&amp;title=#{title}'
-            span class='icon icon-linkedin'
-    /li
+            span class='fab fa-linkedin-in'
+    li
         a href='https://bufferapp.com/add?url#{meta_url}&amp;title=#{title}'
-            span class='icon icon-buffer'
-    /li
+            span class='fab fa-buffer'
+    li
         a href='http://hootsuite.com/hootlet/social-share?url=#{meta_url}&amp;title=#{title}&amp;partner=#{site_title}'
-            span class='icon icon-hootsuite'
-    /li
+            span class='fab fab-hootsuite'
+    li
         a href='https://www.reddit.com/submit?url=#{meta_url}'
-            span class='icon icon-reddit'
-    /li
+            span class='fab fa-reddit-alien'
+    li
         a href='http://vkontakte.ru/share.php?url=#{meta_url}'
-            span class='icon icon-vk'
-    /li
+            span class='fab fa-vk'
+    li
         a href='http://www.stumbleupon.com/submit?url=#{meta_url}&amp;title=#{title}'
-            span class='icon icon-stumbleupon'
-    /li
+            span class='fab fa-stumbleupon'
+    li
         a href='http://www.digg.com/submit?url=#{meta_url}&amp;title=#{title}'
-            span class='icon icon-digg'
-    /li
+            span class='fab fa-digg'
+    li
         a href='http://b.hatena.ne.jp/add?mode=confirm&url=#{meta_url}&amp;title=#{title}'
-            span class='icon icon-hatebu'
-    /li
+            span class='icon fab-hatebu' B!
+    li
         a href='https://getpocket.com/edit?url=#{meta_url}&amp;title=#{title}'
-            span class='icon icon-pocket'
-    /li
+            span class='fab fa-get-pocket'
+    li
         a href='http://www.instapaper.com/text?u=#{meta_url}'
-            span class='icon icon-instapaper'
-    /li
+            span class='icon fa-instapaper' I
+    li
         a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=#{meta_url}'
-            span class='icon icon-tumblr'
-    /li
+            span class='fab fa-tumblr'
+    li
         a href='mailto:?Subject=#{title}&amp;Body=#{meta_url}'
-            span class='icon icon-mail'
+            span class='fas fa-envelope-square'
     li
         a href='javascript:void(0);' onClick='window.print();return false;'
-            span class='icon icon-print'
+            span class='fas fa-print'
