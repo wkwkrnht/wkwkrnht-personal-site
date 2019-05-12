@@ -1,4 +1,6 @@
-- site_title = data.front.title
+- site_data = data.front
+- site_title = site_data .title
+- meta_url = site_data.base_url
 - if current_article
     - title = current_article.title + '|' + site_title
 - elsif current_page && current_page.data.title
@@ -8,9 +10,7 @@
 - else
     - title = site_title
 - if current_page
-    - meta_url = current_page.url
-- else
-    - meta_url = base_url
+    - meta_url = meta_url +current_page.url
 
 ul.share-button
     li
