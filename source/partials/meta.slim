@@ -17,7 +17,7 @@
     - description = current_page.data.description
 /- elsif content_for?(:description)
     - description = yield_content(:description)
-/- else
+- #else
     - description = site_data.description
 /- if  current_article && current_article.data.eyecatch
     - image_dir = current_article.data.eyecatch
