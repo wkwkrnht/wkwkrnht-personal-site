@@ -14,12 +14,12 @@
     - title = yield_content(:title) + '|' + site_title
 - else
     - title = site_title
-/- if current_page.data.description
+- if current_page.data.description
     - description = current_page.data.description
-/- elsif content_for?(:description)
+- elsif content_for?(:description)
     - description = yield_content(:description)
-/- else
-- description = site_data.description
+- else
+    - description = site_data.description
 /- if  current_article && current_article.data.eyecatch
     - image_dir = current_article.data.eyecatch
 /- elsif current_page && current_page.data.image
