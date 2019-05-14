@@ -4,23 +4,23 @@ require 'middleman-core'
 class String
     def extract_columun_embed!()
         shortcode = "<aside class='columun'><h6>\\1</h6>\\2</aside>"
-        replace self.gsub(/columun ([^#\&\?<]+) ([^#\&\?<]+) columun/,shortcode)
+        replace self.gsub(/COLUMUN ([^#\&\?<]+) ([^#\&\?<]+)/,shortcode)
     end
     def extract_notice_embed!()
         shortcode = "<aside class='notice'>\\1</aside>"
-        replace self.gsub(/notice ([^#\&\?<]+) notice/,shortcode)
+        replace self.gsub(/NOTICE ([^#\&\?<]+)/,shortcode)
     end
     def extract_question_embed!()
         shortcode = "<aside class='question'>\\1</aside>"
-        replace self.gsub(/question ([^#\&\?<]+) question/,shortcode)
+        replace self.gsub(/QUESTION ([^#\&\?<]+)/,shortcode)
     end
     def extract_search_embed!()
         shortcode = "<aside class='search-form'><div class='query'>\\1</div><div class='fa fa-search fa-fw search-btn'>検索</div></aside>"
-        replace self.gsub(/search ([^#\&\?<]+) search/,shortcode)
+        replace self.gsub(/SEARCH ([^#\&\?<]+)/,shortcode)
     end
     def extract_button_embed!()
         shortcode = "<a class='linkbutton' href='\\1' title='\\2' tabindex='0'>//2</a>"
-        replace self.gsub(/button ([^#\&\?<]+) ([^#\&\?<]+) button/,shortcode)
+        replace self.gsub(/BUTTON ([^#\&\?<]+) ([^#\&\?<]+)/,shortcode)
     end
 
     def shortcode_extract!
