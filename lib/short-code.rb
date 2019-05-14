@@ -7,15 +7,15 @@ class String
         replace self.gsub(/COLUMUN ([^#\&\?<]+) ([^#\&\?<]+)/,shortcode)
     end
     def extract_notice_embed!()
-        shortcode = "<aside class='notice'>\\1</aside>"
+        shortcode = "<aside class='notice'><span class='info-literal'>!</span>\\1</aside>"
         replace self.gsub(/NOTICE ([^#\&\?<]+)/,shortcode)
     end
     def extract_question_embed!()
-        shortcode = "<aside class='question'>\\1</aside>"
+        shortcode = "<aside class='question'><span class='info-literal'>?</span>\\1</aside>"
         replace self.gsub(/QUESTION ([^#\&\?<]+)/,shortcode)
     end
     def extract_search_embed!()
-        shortcode = "<aside class='search-form'><div class='query'>\\1</div><div class='fas fa-search search-btn'>検索</div></aside>"
+        shortcode = "<aside class='search-form'><div class='query'>\\1</div><div class='search-btn'><span class='fas fa-search'></span>検索</div></aside>"
         replace self.gsub(/SEARCH ([^#\&\?<]+)/,shortcode)
     end
     def extract_button_embed!()
