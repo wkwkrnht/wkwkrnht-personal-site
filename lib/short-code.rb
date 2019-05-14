@@ -19,7 +19,7 @@ class String
         replace self.gsub(/SEARCH ([^#\&\?<]+)/,shortcode)
     end
     def extract_button_embed!()
-        shortcode = "<a class='linkbutton' href='\\1' title='\\2' tabindex='0'>\\2</a>"
+        shortcode = "<a class='linkbutton' href='\\1' title='\\2' tabindex='0'></a>"
         replace self.gsub(/BUTTON ([^#\&\?<]+) ([^#\&\?<]+)/,shortcode)
     end
 
