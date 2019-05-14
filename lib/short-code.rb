@@ -1,28 +1,7 @@
 require 'cgi'
 require 'middleman-core'
 
-module Middleman
-    class Shortcode < Extension
-        def initialize(app,options_hash={},&block)
-            super
-            app.after_render do |body, path, locs, template|
-                body.shortcode_extract!
-                body
-            end
-        end
-    end
-end
-::Middleman::Extensions.register(:shortcode,::Middleman::Shortcode)
-
 class String
-    def shortcode_extract!
-        extract_columun_embed!()
-        extract_notice_embed!()
-        extract_question_embed!()
-        extract_search_embed!()
-        extract_button_embed!()
-    end
-
     def extract_columun_embed!()
         shortcode = "<aside class='columun'><h6>\\1</h6>\\2</aside>"
         replace self.gsub(/columun ([^#\&\?<]+) ([^#\&\?<]+) columun/,shortcode)
@@ -43,4 +22,25 @@ class String
         shortcode = "<a class='linkbutton' href='\\1' title='\\2' tabindex='0'>//2</a>"
         replace self.gsub(/button ([^#\&\?<]+) ([^#\&\?<]+) button/,shortcode)
     end
+
+    def shortcode_extract!
+        extract_columun_embed!()
+        extract_notice_embed!()
+        extract_question_embed!()
+        extract_search_embed!()
+        extract_button_embed!()
+    end
 end
+
+module Middleman
+    class Shortcode < Extension
+        def initialize(app,options_hash={},&block)
+            super
+            app.after_render do |body, path, locs, template|
+                body.shortcode_extract!
+                body
+            end
+        end
+    end
+end
+::Middleman::Extensions.register(:shortcode,::Middleman::Shortcode)
