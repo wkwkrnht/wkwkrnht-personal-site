@@ -1,5 +1,5 @@
 require 'lib/embed.rb'
-#require 'lib/short-code.rb'
+require 'lib/short-code.rb'
 
 set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
@@ -15,8 +15,7 @@ page "/admin/*", layout: false
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :embed
-#activate :shortcode
-activate :automatic_image_sizes
+activate :shortcode
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"

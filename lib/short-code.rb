@@ -16,27 +16,31 @@ end
 
 class String
     def shortcode_extract!
-        #extract_code_embed!()
+        extract_columun_embed!()
+        extract_notice_embed!()
+        extract_question_embed!()
+        extract_search_embed!()
+        extract_button_embed!()
     end
 
-    #def extract_columun_embed!(match)
-    #    shortcode = "<pre class='prettyprint linenums'><code>\\1</code></pre><script async='' src='//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy'></script>"
-    #    replace self.gsub(/columun ([^#\&\?<]+) ([^#\&\?<]+)/,shortcode)
-    #end
-    #def extract_notice_embed!(match)
-    #    shortcode = "<pre class='prettyprint linenums'><code>\\1</code></pre><script async='' src='//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy'></script>"
-    #    replace self.gsub(/notice ([^#\&\?<]+)/,shortcode)
-    #end
-    #def extract_question_embed!(match)
-    #    shortcode = "<pre class='prettyprint linenums'><code>\\1</code></pre><script async='' src='//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy'></script>"
-    #    replace self.gsub(/question ([^#\&\?<]+)/,shortcode)
-    #end
-    #def extract_search_embed!(match)
-    #    shortcode = "<pre class='prettyprint linenums'><code>\\1</code></pre><script async='' src='//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy'></script>"
-    #    replace self.gsub(/search ([^#\&\?<]+)/,shortcode)
-    #end
-    #def extract_search_embed!(match)
-    #    shortcode = "<pre class='prettyprint linenums'><code>\\1</code></pre><script async='' src='//cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=doxy'></script>"
-    #    replace self.gsub(/button ([^#\&\?<]+) ([^#\&\?<]+)/,shortcode)
-    #end
+    def extract_columun_embed!()
+        shortcode = "<aside class='columun'><h6>\\1</h6>\\2</aside>"
+        replace self.gsub(/columun ([^#\&\?<]+) ([^#\&\?<]+) columun/,shortcode)
+    end
+    def extract_notice_embed!()
+        shortcode = "<aside class='notice'>\\1</aside>"
+        replace self.gsub(/notice ([^#\&\?<]+) notice/,shortcode)
+    end
+    def extract_question_embed!()
+        shortcode = "<aside class='question'>\\1</aside>"
+        replace self.gsub(/question ([^#\&\?<]+) question/,shortcode)
+    end
+    def extract_search_embed!()
+        shortcode = "<aside class='search-form'><div class='query'>\\1</div><div class='fa fa-search fa-fw search-btn'>検索</div></aside>"
+        replace self.gsub(/search ([^#\&\?<]+) search/,shortcode)
+    end
+    def extract_button_embed!()
+        shortcode = "<a class='linkbutton' href='\\1' title='\\2' tabindex='0'>//2</a>"
+        replace self.gsub(/button ([^#\&\?<]+) ([^#\&\?<]+) button/,shortcode)
+    end
 end
