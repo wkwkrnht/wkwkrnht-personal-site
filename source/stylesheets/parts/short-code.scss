@@ -1,0 +1,76 @@
+.toc{
+        box-shadow:0 0 3vmin rgba(0,0,0,.1);
+        margin:4vh auto;
+        padding:4vh 0;
+        width:90%;
+    }
+    .toc-title{
+        max-width:80%;
+    }
+<?php en
+
+.columun{
+    border:1em solid #333;
+    padding:1em;
+}
+
+.notice,.question{
+    background-color:#f4f3eb;
+    box-sizing:border-box;
+    margin:1em auto;
+    padding:2em 2em 2em calc(7rem + 2vmin);
+    position:relative;
+    width:80%;
+}
+.info-box::before{
+    background-color:#eae3b4;
+    border-radius:50%;
+    color:#f4f3eb;
+    content:attr(data-type);
+    display:inline-block;
+    font-size:5em;
+    font-weight:700;
+    height:7rem;
+    left:1vmin;
+    line-height:7em;
+    margin-right:7em;
+    position:absolute;
+    text-align:center;
+    top:1vmin;
+    width:7em;
+}
+
+.search-form{
+    margin:4vh auto;
+
+    & > *{
+        display:inline-block;
+        padding:1em;
+    }
+}
+.query{
+    background-color:#fff;
+    border:1px solid #555;
+    line-height:2;
+    max-width:70%;
+    min-width:16em;
+}
+.search-btn{
+    background-color:#1155ee;
+    box-shadow:0 0 3vmin rgba(0,0,0,.2);
+    color:#fff;
+    max-width:30%;
+    padding-left:2em;
+    padding-right:3em;
+}
+
+.link-button{
+    border:1em solid #03a9f4;
+    box-shadow:0 0 3vmin rgba(0,0,0,.2);
+    padding:1em 2em;
+
+    &:hover{
+        background-color:#03a9f4;
+        color:#fff;
+    }
+}
