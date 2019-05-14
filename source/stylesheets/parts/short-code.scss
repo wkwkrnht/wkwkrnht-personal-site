@@ -45,13 +45,15 @@
 
     & > *{
         display:inline-block;
+        height:2em;
+        line-height:2em;
         padding:1em;
+        vertical-align:baseline;
     }
 }
 .query{
     background-color:#fff;
     border:1px solid #333;
-    line-height:2;
     max-width:70%;
     min-width:16em;
 }

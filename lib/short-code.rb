@@ -15,7 +15,7 @@ class String
         replace self.gsub(/QUESTION ([^#\&\?<]+)/,shortcode)
     end
     def extract_search_embed!()
-        shortcode = "<aside class='search-form'><div class='query'>\\1</div><div class='fa fa-search fa-fw search-btn'>検索</div></aside>"
+        shortcode = "<aside class='search-form'><div class='query'>\\1</div><div class='fas fa-search search-btn'>検索</div></aside>"
         replace self.gsub(/SEARCH ([^#\&\?<]+)/,shortcode)
     end
     def extract_button_embed!()
