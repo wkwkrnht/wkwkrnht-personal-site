@@ -1,20 +1,20 @@
 .toc{
-        box-shadow:0 0 3vmin rgba(0,0,0,.1);
-        margin:4vh auto;
-        padding:4vh 0;
-        width:90%;
-    }
-    .toc-title{
-        max-width:80%;
-    }
-<?php en
+    box-shadow:0 0 3vmin rgba(0,0,0,.1);
+    margin:4vh auto;
+    padding:4vh 0;
+    width:90%;
+}
+.toc-title{
+    max-width:80%;
+}
 
 .columun{
     border:1em solid #333;
     padding:1em;
 }
 
-.notice,.question{
+.notice,
+.question{
     background-color:#f4f3eb;
     box-sizing:border-box;
     margin:1em auto;
@@ -50,7 +50,7 @@
 }
 .query{
     background-color:#fff;
-    border:1px solid #555;
+    border:1px solid #333;
     line-height:2;
     max-width:70%;
     min-width:16em;
