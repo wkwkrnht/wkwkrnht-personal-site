@@ -17,7 +17,7 @@
 .question{
     background-color:#f4f3eb;
     box-sizing:border-box;
-    margin:1em auto;
+    margin:1vh auto;
     padding:2em 2em 2em calc(7rem + 2vmin);
     position:relative;
     width:80%;
@@ -27,16 +27,16 @@
     border-radius:50%;
     color:#f4f3eb;
     display:inline-block;
-    font-size:5em;
+    font-size:3em;
     font-weight:700;
-    height:7em;
+    height:3em;
     left:1vmin;
-    line-height:7em;
+    line-height:3em;
     //margin-right:7em;
     position:absolute;
     text-align:center;
     top:1vmin;
-    width:7em;
+    width:3em;
 }
 
 .search-form{
