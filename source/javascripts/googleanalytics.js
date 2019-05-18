@@ -1,17 +1,17 @@
 window.addEventListener('DOMContentLoaded', function() {
     'use strict';
-    var analyticsID = 'UA-XXXX-Y'; //UA-XXXX-Y の部分は正しいものに書き換えてください
-    var targetProp = 'something' + analyticsID;
+    var analyticsID = 'UA-67916094-6'; //UA-XXXX-Y の部分は正しいものに書き換えてください
+    var targetProp = 'ga-disable-' + analyticsID;
     var cookieOptin = localStorage.getItem('ga_cookie_opt_in'); //localStorage から ga_cookie_opt_in の値を取得
     if(cookieOptin == 'no') { //ga_cookie_opt_in = no なら Google Analytics を無効に
         console.log('ga_cookie_opt_in = no / ga-disable = true');
-        window['ga-disable-UA-XXXX-Y'] = true; //Disable Google Analytics
+        window[targetProp] = true; //Disable Google Analytics
     } else if(cookieOptin == 'yes') { //ga_cookie_opt_in = yes なら Google Analytics トラッキングコードを発行
         console.log('ga_cookie_opt_in = yes');
-        window['ga-disable-UA-XXXX-Y'] = false; //Enable Google Analytics
+        window[targetProp] = false; //Enable Google Analytics
     } else { //ga_cookie_opt_in に値がない場合は一旦 Google Analytics を無効にして通知を表示
         console.log('ga_cookie_opt_in = null');
-        window['ga-disable-UA-XXXX-Y'] = true; //Disable Google Analytics（UA-XXXX-Y の部分は正しいものに書き換えてください）
+        window[targetProp] = true; //Disable Google Analytics（UA-XXXX-Y の部分は正しいものに書き換えてください）
 
         // ↓Google Web Fonts から Material Icons を読み込み（すでに別で読み込んでいる場合は削除可）↓
         var iconcss = document.createElement('link');
