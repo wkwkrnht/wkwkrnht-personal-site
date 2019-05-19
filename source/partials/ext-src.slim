@@ -8,13 +8,15 @@
 = javascript_include_tag 'fontawesome.min', defer: 'defer'
 = javascript_include_tag 'main', async: 'async'
 - if google_analytics
-    = javascript_include_tag 'google-analytics.js'
+    = javascript_include_tag 'google-analytics.js', async: 'async'
     = javascript_include_tag google_analytics_url, async: 'async'
     javascript:
-        window.dataLayer = window.dataLayer || [];
-        function gtwag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', "#{google_analytics}");
+        document.addEventListener('load', function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtwag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', "#{google_analytics}");
+        });
 - if linkswitch
     javascript:
         const vc_pid = "#{linkswitch}";
