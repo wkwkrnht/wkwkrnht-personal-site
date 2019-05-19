@@ -19,11 +19,6 @@ window.addEventListener('DOMContentLoaded', function() {
         iconcss.setAttribute('rel', 'stylesheet');
         document.head.appendChild(iconcss);
         // ↑Google Web Fonts から Material Icons を読み込み（すでに別で読み込んでいる場合は削除可）↑
-        // 通知バーのスタイル（パスは必要に応じて変更してください）
-        var acceptcss = document.createElement('link');
-        acceptcss.href = 'css/ga-cookie-opt-in.min.css';
-        acceptcss.setAttribute('rel', 'stylesheet');
-        document.head.appendChild(acceptcss);
 
         //通知の表示（テキストの内容やプライバシーポリシーへのリンクは必要に応じて変更してください）
         var accept = document.createElement('div');
