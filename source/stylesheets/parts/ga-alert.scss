@@ -2,7 +2,7 @@
     --ga_alert_size:40em;
     background-color:#fff;
     height:--ga_alert_size;
-    left:ccalc(50% - --ga_alert_size);
+    left:calc(50% - --ga_alert_size);
     max-width:80vw;
     opacity:0.8;
     position:sticky;

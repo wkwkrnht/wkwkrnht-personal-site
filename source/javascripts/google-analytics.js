@@ -11,14 +11,7 @@ window.addEventListener('DOMContentLoaded', function() {
         window[targetProp] = false; //Enable Google Analytics
     } else { //ga_cookie_opt_in に値がない場合は一旦 Google Analytics を無効にして通知を表示
         console.log('ga_cookie_opt_in = null');
-        window[targetProp] = true; //Disable Google Analytics（UA-XXXX-Y の部分は正しいものに書き換えてください）
-
-        // ↓Google Web Fonts から Material Icons を読み込み（すでに別で読み込んでいる場合は削除可）↓
-        var iconcss = document.createElement('link');
-        iconcss.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
-        iconcss.setAttribute('rel', 'stylesheet');
-        document.head.appendChild(iconcss);
-        // ↑Google Web Fonts から Material Icons を読み込み（すでに別で読み込んでいる場合は削除可）↑
+        window[targetProp] = true; //Disable Google Analytics（
 
         //通知の表示（テキストの内容やプライバシーポリシーへのリンクは必要に応じて変更してください）
         var accept = document.createElement('div');
