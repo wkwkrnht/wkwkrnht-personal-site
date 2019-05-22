@@ -4,10 +4,10 @@
     height:--ga_alert_size;
     left:calc(50% - (--ga_alert_size / 2));
     max-width:80vw;
-    opacity:0.8;
+    opacity:.8;
     position:absolute;
-    top:calc(50% - (--ga_alert_size / 2));
-    width:40em;
+    //top:calc(50% - (--ga_alert_size / 2));
+    width:--ga_alert_size;
 }
 
 #ga-cookie-accept-btn{
