@@ -24,14 +24,14 @@ window.addEventListener('DOMContentLoaded', function() {
         var accept = document.createElement('div');
         accept.setAttribute('class', 'module-ga-cookie-accept-bar');
         accept.setAttribute('id', 'name-ga-cookie-accept-bar');
-        accept.innerHTML = '<p><i class="material-icons" aria-hidden="true"></i>このサイトでは Google アナリティクスの Cookie（クッキー）を使用して、ユーザーのWebサイト閲覧データを記録しています。<a href="/privacy-policy"><i class="material-icons" aria-hidden="true">chevron_right</i>プライバシーポリシーを確認</a></p><p><button id="name-ga-cookie-accept-btn" class="module-ga-cookie-accept-btn"><i class="material-icons" aria-hidden="true">check</i>同意して Cookie を受け入れる</button> <button id="name-ga-cookie-deny-btn" class="module-ga-cookie-accept-btn module-ga-cookie-deny-btn"><i class="material-icons" aria-hidden="true">close</i>同意しない</button></p>';
+        accept.innerHTML = '<p><i aria-hidden="true"></i>このサイトでは Google アナリティクスの Cookie（クッキー）を使用して、ユーザーのWebサイト閲覧データを記録しています。<a href="/privacy-policy"><i aria-hidden="true">chevron_right</i>プライバシーポリシーを確認</a></p><p><button id="ga-cookie-accept-btn" class="module-ga-cookie-accept-btn"><i aria-hidden="true">check</i>同意して Cookie を受け入れる</button><button id="ga-cookie-deny-btn" class="module-ga-cookie-accept-btn module-ga-cookie-deny-btn"><i aria-hidden="true"></i>同意しない</button></p>';
         document.body.appendChild(accept);
     }
 
     //各ボタンの取得
-    var acceptBtn = document.getElementById('name-ga-cookie-accept-btn');
-    var denyBtn   = document.getElementById('name-ga-cookie-deny-btn');
-    var resetBtn  = document.getElementById('name-ga-cookie-reset-btn');
+    var acceptBtn = document.getElementById('ga-cookie-accept-btn');
+    var denyBtn   = document.getElementById('ga-cookie-deny-btn');
+    var resetBtn  = document.getElementById('ga-cookie-reset-btn');
     if(acceptBtn) { //「同意する」ボタンのクリックでオプトイン（ga_cookie_opt_in = yes）
         acceptBtn.onclick = function() {
             localStorage.setItem('ga_cookie_opt_in','yes');
