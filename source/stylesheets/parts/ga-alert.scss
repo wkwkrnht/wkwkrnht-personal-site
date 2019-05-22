@@ -1,12 +1,12 @@
 #name-ga-cookie-accept-bar{
     --ga_alert_size:40em;
     background-color:#fff;
-    height:--ga_alert_size;
+    height:var(--ga_alert_size);
     margin:auto;
     max-width:80vw;
     opacity:.8;
     position:fixed;
-    width:--ga_alert_size;
+    width:var(--ga_alert_size);
 
     & button{
         box-sizing:border-box;
