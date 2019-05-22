@@ -1,0 +1,18 @@
+#name-ga-cookie-accept-bar{
+    --ga_alert_size:40em;
+    background-color:#fff;
+    height:--ga_alert_size;
+    left:ccalc(50% - --ga_alert_size);
+    max-width:80vw;
+    opacity:0.8;
+    position:sticky;
+    top:calc(50% - --ga_alert_size);
+    width:40em;
+}
+
+#ga-cookie-accept-btn{
+    background-color:green;
+}
+#ga-cookie-deny-btn{
+    background-color:red;
+}
