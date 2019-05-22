@@ -2,12 +2,17 @@
     --ga_alert_size:40em;
     background-color:#fff;
     height:--ga_alert_size;
-    left:calc(50% - (--ga_alert_size / 2));
+    margin:auto;
     max-width:80vw;
     opacity:.8;
-    position:absolute;
-    //top:calc(50% - (--ga_alert_size / 2));
+    position:fixed;
     width:--ga_alert_size;
+
+    & button{
+        box-sizing:border-box;
+        margin:0;
+        width:100%;
+    }
 }
 
 #ga-cookie-accept-btn{
