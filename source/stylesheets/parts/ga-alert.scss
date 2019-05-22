@@ -1,10 +1,12 @@
 #name-ga-cookie-accept-bar{
-    --ga_alert_size:40em;
+    --ga_alert_size:55em;
     background-color:#f4f3eb;
     height:var(--ga_alert_size);
     left:calc(50% - (var(--ga_alert_size) / 2));
+    max-height:20em;
     max-width:80vw;
     opacity:.8;
+    padding:1vh 1em;
     position:fixed;
     top:calc(50% - (var(--ga_alert_size) / 2));
     width:var(--ga_alert_size);
