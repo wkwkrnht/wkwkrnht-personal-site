@@ -40,7 +40,7 @@
 .article-main h5,
 .article-main h6{
     line-height:6vh;
-    margin:2vh auto;
+    margin:4vh auto;
     max-width:80%;
     min-height:6vh;
     text-align:center;
@@ -60,7 +60,7 @@
     width:100vw;
 }
 .article-main h3{
-    border:1vmin solid #000;
+    border:.5em solid #000;
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
 }
 .article-main h4{
@@ -72,7 +72,7 @@
     border-left:.5em solid #000;
 }
 .article-main h6{
-    border-bottom:.75vmin dashed #000;
+    border-bottom:.5em dashed #000;
 }
 
 .article-main ul,

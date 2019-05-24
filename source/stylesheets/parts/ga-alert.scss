@@ -1,6 +1,7 @@
 #name-ga-cookie-accept-bar{
     --ga_alert_size:54em;
-    background-color:#f4f3eb;
+    background-color:#eae3b4;
+    box-shadow:0 0 3vmin rgba(0,0,0,.1);
     height:var(--ga_alert_size);
     left:calc(50% - (var(--ga_alert_size) / 2));
     max-height:20em;
@@ -13,7 +14,7 @@
 
     & button{
         box-sizing:border-box;
-        margin:0;
+        margin:.5vh 0 0;
         width:100%;
     }
 }
