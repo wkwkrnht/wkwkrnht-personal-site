@@ -4,7 +4,7 @@ development:
     api_key: '434895888337457'
     api_secret: rBDOjVzBm0UcAv6gv1VJVDPWRxk
     enhance_image_tag: true
-    static_file_support: false
+    static_file_support: true
     fetch_format: auto
 production:
     cloud_name: wkwkrnht
@@ -18,5 +18,5 @@ test:
     api_key: '434895888337457'
     api_secret: rBDOjVzBm0UcAv6gv1VJVDPWRxk
     enhance_image_tag: true
-    static_file_support: false
+    static_file_support: true
     fetch_format: auto
