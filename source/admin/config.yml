@@ -9,10 +9,12 @@ media_library:
     config:
         cloud_name: wkwkrnht
         api_key: 434895888337457
-        enhance_image_tag: true
-        static_file_support: true
-        responsive: true
-        fetch_format: auto
+        config:
+            enhance_image_tag: true
+            static_file_support: true
+            default_transformations:
+                responsive: true
+                fetch_format: auto
 
 collections:
     - name: 'blog'
