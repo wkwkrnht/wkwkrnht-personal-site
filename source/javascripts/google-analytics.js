@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', function() {
         //通知の表示（テキストの内容やプライバシーポリシーへのリンクは必要に応じて変更してください）
         var accept = document.createElement('aside');
         accept.setAttribute('id', 'name-ga-cookie-accept-bar');
-        accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail>このサイトではGoogleアナリティクスのCookie（クッキー）を使用して、ユーザーのWebサイト閲覧データを記録しています。</detail><a href="/privacy-policy">プライバシーポリシーを確認→</a><button id="ga-cookie-accept-btn"<i class="fas fa-check" aria-hidden="true"></i>同意する(Cookieを受け入れる)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>同意しない(Cookieを受け入れない)</button>';
+        accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail>このサイトではGoogleアナリティクスのCookie（クッキー）を使用して、ユーザーのWebサイト閲覧データを記録しています。</detail><a href="/privacy-policy">プライバシーポリシーを確認→</a><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>同意する(Cookieを受け入れる)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>同意しない(Cookieを受け入れない)</button>';
         document.body.appendChild(accept);
     }
 
