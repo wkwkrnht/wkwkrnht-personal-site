@@ -5,6 +5,7 @@ development:
     api_secret: rBDOjVzBm0UcAv6gv1VJVDPWRxk
     enhance_image_tag: true
     static_file_support: true
+    responsive: true
     fetch_format: auto
 production:
     cloud_name: wkwkrnht
@@ -12,6 +13,7 @@ production:
     api_secret: rBDOjVzBm0UcAv6gv1VJVDPWRxk
     enhance_image_tag: true
     static_file_support: true
+    responsive: true
     fetch_format: auto
 test:
     cloud_name: wkwkrnht
@@ -19,4 +21,5 @@ test:
     api_secret: rBDOjVzBm0UcAv6gv1VJVDPWRxk
     enhance_image_tag: true
     static_file_support: true
+    responsive: true
     fetch_format: auto
