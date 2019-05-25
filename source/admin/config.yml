@@ -14,7 +14,7 @@ media_library:
             #static_file_support: true
             default_transformations:
                 responsive: true
-                #fetch_format: auto
+                fetch_format: auto
 
 collections:
     - name: 'blog'
