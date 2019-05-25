@@ -33,7 +33,7 @@ main
                                         - title = article.title
                                         li
                                             = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
-                                                = image_tag article.metadata[:locals]['eyecatch'] || '/img/no-img/512X512.png', :alt=>'eyecatch', :class=>'card-img'
+                                                = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
                                                 .card-meta
                                                     h5
                                                         == title
