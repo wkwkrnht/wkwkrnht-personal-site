@@ -14,7 +14,7 @@ main
     section class='big-card date-search'
         h2 日時で検索
         ul
-            - blog.articles.group_by {|a| a.date.year }.each do |year, articles_grouped|
+            - blog.articles.group_by {|a| a.date.year }.each_with_index do |year, articles_grouped, i|
                 li
                     h3
                         = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
@@ -22,7 +22,7 @@ main
                             | 年
                     ul
                         li
-                            - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
+                            - articles_grouped.group_by {|a| a.date.month }.each_with_index do |month, articles, i|
                                 h4
                                     = link_to blog_month_path(month) do
                                         == month
