@@ -23,13 +23,13 @@ main
                             | 年
                     ul
                         li
-                            /- articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
+                            - articles_grouped.group_by {|a| a.date.month }.each do |month, articlees|
                                 h4
                                     = link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
                                         == month
                                         | 月
                                 ul.card-list
-                                    - articles.each do |article|
+                                    - articlees.each do |article|
                                         - title = article.title
                                         li
                                             = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
