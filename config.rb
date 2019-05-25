@@ -12,6 +12,7 @@ page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/partials/*", layout: false
 page "/admin/*", layout: false
+page '/404.html', directory_index: false
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
 activate :embed
