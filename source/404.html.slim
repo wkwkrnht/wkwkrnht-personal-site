@@ -21,21 +21,19 @@ main
                         = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
                             == year
                             | 年
-                    ul
-                        li
-                            - articles_grouped.group_by {|b| b.date.month }.each do |month, articlees|
-                                h4
-                                    = link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
-                                        == month
-                                        | 月
-                                ul.card-list
-                                    - articlees.each do |article|
-                                        - title = article.title
-                                        li
-                                            = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
-                                                = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
-                                                .card-meta
-                                                    h5
-                                                        == title
-                                                    time
-                                                        = article.date.strftime('%Y-%m-%d')
+                    section
+                        - articles_grouped.group_by {|a| a.date.month }.each do |month, articlees|
+                            h4
+                                = link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
+                                    == month
+                                    | 月
+                            ul.card-list
+                                - articlees.each do |article|
+                                    - title = article.title
+                                    li
+                                        = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
+                                            = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                                            time.card-date
+                                                = article.date.strftime('%Y-%m-%d')
+                                            h5.card-title
+                                                == title
