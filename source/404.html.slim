@@ -15,13 +15,14 @@ main
     section class='big-card date-search'
         h2 日時で検索
         section
-            - page_articles.group_by {|a| a.date.year }.map{ |year, items| [year, items.group_by{|a| a.date.month}] }.each do |year, months|
+            - require 'date'
+            - blog.articles.group_by {|a| a.date.year }.each do |year, articles_grouped|
                 h3
                     = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
                         == year
                         | 年
                 section
-                    - months.each do |month, articles|
+                    - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
                         h4
                             = link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
                                 == month
