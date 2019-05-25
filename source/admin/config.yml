@@ -13,7 +13,8 @@ media_library:
             #- enhance_image_tag: true
             #static_file_support: true
             default_transformations:
-                - {responsive: true, fetch_format: auto}
+                - responsive: true
+                fetch_format: auto
 
 collections:
     - name: 'blog'
