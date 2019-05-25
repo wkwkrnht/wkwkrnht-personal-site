@@ -14,26 +14,27 @@ main
     section class='big-card date-search'
         h2 日時で検索
         ul
-            /- blog.articles.group_by {|a| a.date.year }.each do |year, articles_year|
+            - blog.articles.group_by {|a| a.date.year }.each do |year, articles_grouped|
                 li
                     h3
-                        = link_to blog_year_path(year) do
+                        = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
                             == year
                             | 年
                     ul
                         li
-                            - articles_year.group_by {|a| a.date.month }.each do |month, articles|
+                            - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
                                 h4
                                     = link_to blog_month_path(month) do
                                         == month
                                         | 月
                                 ul.card-list
                                     - articles.each do |article|
+                                        - title = article.title
                                         li
-                                            = link_to URI.encode(article.url), :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
+                                            = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
                                                 = image_tag article.metadata[:locals]['eyecatch'] || '/img/no-img/512X512.png', :alt=>'eyecatch', :class=>'card-img'
                                                 .card-meta
                                                     h5
-                                                        == article.title
+                                                        == title
                                                     time
                                                         = article.date.strftime('%Y-%m-%d')
