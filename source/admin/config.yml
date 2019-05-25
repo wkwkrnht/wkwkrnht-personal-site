@@ -11,7 +11,7 @@ media_library:
         api_key: 434895888337457
         config:
             enhance_image_tag: true
-            #static_file_support: true
+            static_file_support: true
             default_transformations:
                 responsive: true
                 fetch_format: auto

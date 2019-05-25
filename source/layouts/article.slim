@@ -1,5 +1,6 @@
 = wrap_layout :layout
     main.article-main
+        = image_tag current_article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch'
         = yield
     footer.article-footer
         - if current_article.tags.present?

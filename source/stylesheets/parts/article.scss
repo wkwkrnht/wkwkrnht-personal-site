@@ -8,17 +8,24 @@
 .article-main{
     margin:6vh auto;
     max-width:1600px;
-    width:90vw;
+    width:96vw;
+
+    & .article-eyecatch{
+        margin:6vh auto;
+        width:100%;
+    }
 
     & > div{
         margin:4vh auto;
         max-width:80%;
     }
+
     & p{
         margin:2vh auto;
         max-width:calc(1em * 46);
         padding:1vh .5vh;
     }
+
     & a{
         &[href^="http"]:empty::before{
             content:attr(href);
@@ -31,160 +38,145 @@
             border-bottom:1px solid #0a28ff;
         }
     }
-}
 
-.article-main h1,
-.article-main h2,
-.article-main h3,
-.article-main h4,
-.article-main h5,
-.article-main h6{
-    line-height:6vh;
-    margin:4vh auto;
-    max-width:80%;
-    min-height:6vh;
-    text-align:center;
-}
-.article-main h3,
-.article-main h4,
-.article-main h5,
-.article-main h6{
-    font-size:1.4em;
-}
-.article-main h2{
-    background-color:#f4f4f4;
-    border-bottom:1px dashed #ccc;
-    border-top:1px dashed #ccc;
-    box-shadow:0 7px 10px -5px rgba(0,0,0,.1) inset;
-    padding:.75em;
-    width:100vw;
-}
-.article-main h3{
-    border:.5em solid #000;
-    box-shadow:0 0 3vmin rgba(0,0,0,.1);
-}
-.article-main h4{
-    border-bottom:1px solid;
-    border-color:#000;
-    border-left:.5em solid;
-}
-.article-main h5{
-    border-left:.5em solid #000;
-}
-.article-main h6{
-    border-bottom:.5em dashed #000;
-}
-
-.article-main ul,
-.article-main,ol{
-    margin:2vh auto;
-}
-.article-main ul{
-    max-width:80%;
-}
-
-.embed-responsive,
-.article-main img,
-.article-main a[href*=".png"],
-.article-main a[href*=".jpg"],
-.article-main a[href*=".jpeg"],
-.article-main a[href*=".gif"]{
-    display:block;
-    margin:2vh auto;
-}
-.article-main img{
-    height:auto;
-    text-align:center;
-    width:100%;
-}
-.embed-responsive{
-    max-width:80vw;
-}
-.embed-4x3{
-    height:calc(80vw / 100 * 75);
-    max-height:calc(720px / 100 * 75);
-}
-.embed-16x9{
-    height:calc(80vw / 100 * 56.25);
-    max-height:calc(720px / 100 * 56.25);
-}
-
-.article-main table{
-    border-collapse:collapse;
-    box-sizing:border-box;
-    margin:2vh auto;
-    table-layout:fixed;
-    width:calc(100% - 16vmin);
-    & caption{
-        background-color:#ffc045;
-        padding:1em;
+    & h1,
+    & h2,
+    & h3,
+    & h4,
+    & h5,
+    & h6{
+        line-height:6vh;
+        margin:4vh auto;
+        max-width:80%;
+        min-height:6vh;
         text-align:center;
     }
-    & tr{
-        & th,
-        & td{
-            border:1px solid #cfcfcf;
-            overflow:auto;
+    & h3,
+    & h4,
+    & h5,
+    & h6{
+        font-size:1.4em;
+    }
+    & h2{
+        background-color:#f4f4f4;
+        border-bottom:1px dashed #ccc;
+        border-top:1px dashed #ccc;
+        box-shadow:0 7px 10px -5px rgba(0,0,0,.1) inset;
+        padding:.75em;
+        width:100vw;
+    }
+    & h3{
+        border:.5em solid #000;
+        box-shadow:0 0 3vmin rgba(0,0,0,.1);
+    }
+    & h4{
+        border-bottom:1px solid;
+        border-color:#000;
+        border-left:.5em solid;
+    }
+    & h5{
+        border-left:.5em solid #000;
+    }
+    & h6{
+        border-bottom:.5em dashed #000;
+    }
+
+    & ul,
+    & ol{
+        margin:2vh auto;
+    }
+    & ul{
+        max-width:80%;
+    }
+
+    & table{
+        border-collapse:collapse;
+        box-sizing:border-box;
+        margin:2vh auto;
+        table-layout:fixed;
+        width:calc(100% - 16vmin);
+        & caption{
+            background-color:#ffc045;
             padding:1em;
             text-align:center;
         }
-        & th{
-            background-color:#000;
-            color:#fff;
+        & tr{
+            & th,
+            & td{
+                border:1px solid #cfcfcf;
+                overflow:auto;
+                padding:1em;
+                text-align:center;
+            }
+            & th{
+                background-color:#000;
+                color:#fff;
+            }
+            &:last-child{
+                border-left:none;
+            }
         }
         &:last-child{
-            border-left:none;
+            border-bottom:none;
         }
     }
-    &:last-child{
-        border-bottom:none;
-    }
-}
 
-.article-main pre,
-.article-main address,
-.article-main code,{
-    margin:2vh auto;
-    max-width:94%;
-}
-.article-main pre{
-    font-weight:bold;
-}
-.article-main code{
-    overflow:auto;
-    white-space:pre;
-}
-.article-main address,
-.article-main q{
-    background-color:#eee;
-}
-.article-main blockquote,
-.article-main q{
-    margin:1vh auto;
-    max-width:94%;
-    quotes:none;
-}
-.article-main blockquote{
-    border:1px solid #bbb;
-    border-radius:1em;
-    padding:1em 2em;
-    &[title]::after{
-        content:attr(title);
-    }
-    &[cite]::after{
-        content:attr(cite);
-    }
-    &[title][cite]::after{
-        content:attr(title)"\a" attr(cite);
-    }
-    &[title]::after,
-    &[cite]::after,
-    &[title][cite]::after{
-        border-top:1px solid #bbb;
+    & img,
+    & a[href*=".png"],
+    & a[href*=".jpg"],
+    & a[href*=".jpeg"],
+    & a[href*=".gif"]{
         display:block;
-        padding-top:1em;
-        text-align:right;
-        white-space:pre-wrap;
-        word-wrap:break-word;
+        margin:2vh auto;
+    }
+    & img{
+        height:auto;
+        text-align:center;
+        width:100%;
+    }
+
+    & pre,
+    & code{
+        font-weight:bold;
+        margin:2vh auto;
+        max-width:94%;
+        overflow:auto;
+        white-space:pre;
+    }
+
+    & address,
+    & blockquote,
+    & q{
+        background-color:#eee;
+        margin:1vh auto;
+        max-width:94%;
+    }
+    & blockquote,
+    & q{
+        font-style:italic;
+        quotes:none;
+    }
+    & blockquote{
+        border-radius:1em;
+        padding:1em 2em;
+        &[title]::after{
+            content:attr(title);
+        }
+        &[cite]::after{
+            content:attr(cite);
+        }
+        &[title][cite]::after{
+            content:attr(title)"\a" attr(cite);
+        }
+        &[title]::after,
+        &[cite]::after,
+        &[title][cite]::after{
+            border-top:1px solid #bbb;
+            display:block;
+            padding-top:1em;
+            text-align:right;
+            white-space:pre-wrap;
+            word-wrap:break-word;
+        }
     }
 }

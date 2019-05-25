@@ -4,9 +4,9 @@
 - if current_article
     - title = current_article.title + '-' + site_title
 - elsif current_page && current_page.data.title
-    - title = current_page.data.title
+    - title = current_page.data.title + '-' + site_title
 - elsif content_for?(:title)
-    - title = yield_content(:title)
+    - title = yield_content(:title) + '-' + site_title
 - else
     - title = site_title
 
@@ -16,4 +16,5 @@ header.site-header
     span.copyright
         == first_post_year
         | &copy;
-        == site_title
+        a href='/' title=site_title
+            == site_title
