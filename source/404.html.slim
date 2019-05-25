@@ -10,7 +10,8 @@ main
         ul.tag-cloud
             - blog.tags.each_key do |tag|
                 li
-                    == link_to tag, tag_path(tag), :title=>tag, :tabindex=>'0'
+                    == link_to tag_path(tag), :title=>tag, :tabindex=>'0' do
+                        == tag
     section class='big-card date-search'
         h2 日時で検索
         ul
