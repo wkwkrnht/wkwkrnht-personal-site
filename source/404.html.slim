@@ -20,7 +20,7 @@ main
                         = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
                             == year
                             | 年
-                    ul
+                    /ul
                         li
                             - articles_grouped.group_by {|b| b.date.month }.each do |month, articles|
                                 h4
