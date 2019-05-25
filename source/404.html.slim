@@ -22,7 +22,7 @@ main
                             | 年
                     ul
                         li
-                            - articles_grouped.group_by {|b| b.date.month }.each do |month, articles|
+                            - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
                                 h4
                                     = link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
                                         == month
