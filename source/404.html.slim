@@ -24,7 +24,7 @@ main
                     - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
                         h4
                             = link_to blog_month_path(year, month), :title=>month, :tabindex=>'0' do
-                                /== month
+                                == month
                                 | 月
                         ul.card-list
                             - articles.each do |article|
