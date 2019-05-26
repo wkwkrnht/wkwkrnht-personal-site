@@ -8,68 +8,44 @@ if(shareBtn){
     };
 }
 
-var lunrIndex, $results, pagesIndex;
-
-function initLunr() {
-    $.getJSON("index.json").done(function(index) {
-        pagesIndex = index;
-        lunrIndex = lunr(function() {
-            var lunrConfig = this;
-            lunrConfig.use(lunr.multiLanguage('en', 'jp'));
-            lunrConfig.ref("href");
-            lunrConfig.field("title", { boost: 10 });
-            lunrConfig.field("contents");
-            pagesIndex.forEach(function(page) {
-                lunrConfig.add(page);
-            });
-        });
-    }).fail(function(jqxhr, textStatus, error) {
-        var err = textStatus + ", " + error;
-        console.error("Error getting Hugo index flie:", err);
-    });
-}
-
-function search(){
-    $results = $("#results");
-    $results.empty();
-    var query = document.getElementById('search-query').value;
-    if (query.length < 2) {
-        return;
+$.ajax({
+    url: '/search.json',
+    cache: true,
+    method: 'GET',
+    success: function(data) {
+        console.log('Downloaded Search JSON.');
+        setupSearch(data);
     }
-    renderResults(results(query));
-}
+});
 
-function results(query) {
-    return lunrIndex.search(`*${query}*`).map(function(result) {
-        return pagesIndex.filter(function(page) {
-            return page.href === result.ref;
-        })[0];
-    });
-}
+function setupSearch(lunrData) {
+    console.log('Creating search index.');
+    let lunrIndex = lunr.Index.load(lunrData.index);
+    let lunrMap = lunrData.docs;
+    $('#search').unwrap();
+    $('#search-result-group').remove();
+    $("#search").bind("keyup", function(){
+        $(".search-results").empty();
 
-function renderResults(results) {
-    if (!results.length) {
-        $results.append('<p>No matches found</p>');
-        return;
-    }
-
-    results.forEach(function(result) {
-        var $result = $("<li>");
-        $result.append($("<a>", {
-            href: result.href,
-            text: result.title
-        }));
-        if (result.contents.length <= 100) {
-            $result.append($("<p>", {
-                text: result.contents
-            }));
+        var query = $(this).val();
+        if (query.length <= 2) { return; }
+        var options = { year: "numeric", month: "long", day: "numeric" };
+        var results = lunrIndex.search(query)
+        if (results.length == 0) {
+            $(".search-results").append('<p>No results.</p>');
         } else {
-            $result.append($("<p>", {
-                text: result.contents.slice(0, 100) + " ..."
-            }));
+            $.each(results, function(index, result) {
+                page = lunrMap[result.ref];
+                date = new Date(page.date.match(/\d{4}-\d{2}-\d{2}/)).toLocaleDateString("en-US", options);
+                $(".search-results").append(
+                    '<div class="result">' +
+                        '<a href="' + page.url + '">' +
+                            page.title +
+                        '</a> &nbsp; ' +
+                        '<div class="post-meta">' + date + '</div>' +
+                    '</div>'
+                );
+            });
         }
-        $results.append($result);
-    });
+    }).keyup();
 }
-
-initLunr();

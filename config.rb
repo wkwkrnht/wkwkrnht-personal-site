@@ -27,12 +27,6 @@ end
 activate :search do |search|
     search.resources = ['blog/', 'index.html', '404.html']
     search.language = 'jp' # defaults to 'en'
-    search.fields = {
-        title:   {boost: 100, store: true, required: true},
-        content: {boost: 50},
-        url:     {index: false, store: true},
-        author:  {boost: 30}
-    }
 end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
