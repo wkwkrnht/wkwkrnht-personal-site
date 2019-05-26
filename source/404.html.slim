@@ -27,10 +27,10 @@ main
                                 == month
                                 | 月
                         ul.card-list
-                            /- articles.each do |article|
+                            - articles.each do |article|
                                 - title = article.title
                                 li
-                                    = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
+                                    /= link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
                                         = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
                                         time.card-date
                                             = article.date.strftime('%Y-%m-%d')
