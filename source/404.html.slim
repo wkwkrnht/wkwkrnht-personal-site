@@ -23,7 +23,7 @@ main
                 section
                     - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
                         h4
-                            = link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
+                            = link_to blog_month_path(year, month), :title=>month, :tabindex=>'0' do
                                 /== month
                                 | 月
                         ul.card-list
