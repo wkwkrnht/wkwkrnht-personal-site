@@ -17,12 +17,14 @@ main
         section
             - blog.articles.group_by {|a| a.date.year }.each do |year, articles_grouped|
                 h3
-                    = link_to year+'年', blog_year_path(year), :title=>year, :tabindex=>'0'
+                    = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
+                        == year
+                        | 年
                 section
                     - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
                         h4
-                            /= link_to blog_month_path(month), :title=>month, :tabindex=>'0' do
-                                == month
+                            = link_to blog_month_path(month) do/, :title=>month, :tabindex=>'0'
+                                /== month
                                 | 月
                         ul.card-list
                             - articles.each do |article|
