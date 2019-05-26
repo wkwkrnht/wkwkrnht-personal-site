@@ -24,10 +24,6 @@ activate :blog do |blog|
     blog.tag_template = "partials/tag"
     blog.calendar_template = "partials/calender"
 end
-activate :search do |search|
-    search.resources = ['blog/', 'index.html', '404.html']
-    search.language = 'jp' # defaults to 'en'
-end
 
 # Build-specific configuration: https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 configure :build do
