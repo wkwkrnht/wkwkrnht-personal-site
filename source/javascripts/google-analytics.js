@@ -26,18 +26,21 @@ window.addEventListener('DOMContentLoaded', function() {
         acceptBtn.onclick = function() {
             localStorage.setItem('ga_cookie_opt_in','yes');
             cookieBar.classList.add('state-remove');
+            window.setTimeout('window.location.reload(false)', 500);
         };
     }
     if(denyBtn) {
         denyBtn.onclick = function() {
             localStorage.setItem('ga_cookie_opt_in','no');
             cookieBar.classList.add('state-remove');
+            window.setTimeout('window.location.reload(false)', 500);
         };
     }
     if(resetBtn) {
         resetBtn.onclick = function() {
             localStorage.removeItem('ga_cookie_opt_in');
             location.reload(false);
+            window.setTimeout('window.location.reload(false)', 500);
         };
     }
 });
