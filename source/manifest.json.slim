@@ -1,25 +1,25 @@
 - site_data = data.front
-/- logo = site_data.logo
-/- language = site_data.language
-/- title = site_data.title
-/- description = site_data.description
-/- theme_color = site_data.theme_color || '333'
-/- background_color = site_data.background_color || 'fff'
-/- theme_color = '#' + theme_color
-/- background_color = '#' + background_color
-/    |{
-    |    "name": "#{title}",
-    |    "short_name": "#{title}",
-    |    "default_locale": "#{language}",
-    |    "description": "#{description}",
-    |    "theme_color": "#{theme_color}",
-    |    "background_color": "#{background_color}",
-    |    "start_url": "/",
-    |    "display": "standalone",
-    |    "orientation": "portrait",
-    |    "icons": [{
-    |        "src": "#{logo}",
-    |        "sizes": "256x256",
-    |        "type": "image/png"
-    |    }]
-    |}
+- logo = site_data.logo
+- language = site_data.language
+- title = site_data.title
+- description = site_data.description
+- theme_color = site_data.theme_color || '333'
+- background_color = site_data.background_color || 'fff'
+- theme_color = '#' + theme_color
+- background_color = '#' + background_color
+|{
+|    "name": "#{title}",
+|    "short_name": "#{title}",
+|    "default_locale": "#{language}",
+|    "description": "#{description}",
+|    "theme_color": "#{theme_color}",
+|    "background_color": "#{background_color}",
+|    "start_url": "/",
+|    "display": "standalone",
+|    "orientation": "portrait",
+|    "icons": [{
+|        "src": "#{logo}",
+|        "sizes": "256x256",
+|        "type": "image/png"
+|    }]
+|}
