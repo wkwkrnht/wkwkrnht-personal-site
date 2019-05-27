@@ -28,14 +28,13 @@
     top:0;
 }
 .card-date{
-    background-color:#ddd;
     display:inline-block;
     height:2em;
     line-height:2em;
     margin:0;
     padding:0 1em;
     right:0;
-    top:calc(var(--card-size) / 4 * 3 - 2em);
+    top:calc(var(--card-size) / 4 * 3);
 }
 .card-title{
     bottom:0;

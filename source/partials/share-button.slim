@@ -1,5 +1,5 @@
 - site_data = data.front
-- site_title = site_data .title
+- site_title = site_data.title
 - meta_url = site_data.base_url
 - if current_article
     - title = current_article.title + '|' + site_title
@@ -10,7 +10,7 @@
 - else
     - title = site_title
 - if current_page
-    - meta_url = meta_url +current_page.url
+    - meta_url = meta_url + current_page.url
 
 ul.share-button
     li
@@ -36,7 +36,7 @@ ul.share-button
             span class='fab fa-buffer'
     li
         a href='http://hootsuite.com/hootlet/social-share?url=#{meta_url}&amp;title=#{title}&amp;partner=#{site_title}'
-            span class='icon fab-hootsuite'
+            span class='fas fa-kiwi-bird'
     li
         a href='https://www.reddit.com/submit?url=#{meta_url}'
             span class='fab fa-reddit-alien'

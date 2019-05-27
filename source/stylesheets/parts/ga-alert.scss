@@ -14,13 +14,14 @@
 
     & button{
         box-sizing:border-box;
+        font-weight:bold;
         margin:.5vh 0 0;
         width:100%;
     }
 }
 
 #ga-cookie-accept-btn{
-    background-color:green;
+    background-color:#00ff11;
 }
 #ga-cookie-deny-btn{
     background-color:red;
