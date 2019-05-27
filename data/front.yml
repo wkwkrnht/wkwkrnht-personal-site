@@ -1,7 +1,7 @@
 language: ja
 title: RT狂の思考ログ
 description: A simple example to get started with Middleman and Netlify CMS
-theme_color:
+theme_color: 03a9f4
 background_color:
 first_post_year: 1970
 base_url: https://wkwkrnht-blog-test.netlify.com
