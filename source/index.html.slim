@@ -1,9 +1,25 @@
-main.card-list
-    - page_articles.each_with_index do |article, i|
-        - title = article.title
-        = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
-            = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
-            time.card-date
-                = article.date.strftime('%Y-%m-%d')
-            h2.card-title
-                = title
+main.index-main
+    detail.index-detail
+        |place holder
+    section.index-nav
+        h2 Navigation
+        nav
+            a href='about.html' title='about' tabindex='0'
+                |About
+            a href='/blog/' title='blog' tabindex='0'
+                |Blog
+            a href= title= tabindex='0'
+                |
+            a href='/privacy-policy.html' title='privacy policy' tabindex='0'
+                |Privacy policy
+    section.card-list
+        h2
+            |Current Articles
+        - blog.articles[0...5].each do |article|
+            - title = article.title
+            = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
+                = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                time.card-date
+                    = article.date.strftime('%Y-%m-%d')
+                h2.card-title
+                    = title
