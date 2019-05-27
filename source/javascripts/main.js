@@ -9,7 +9,7 @@ if(shareBtn){
 }
 
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
+    navigator.serviceWorker.register('/javascripts/service-worker.js')
     .then(function() { console.log("Service Worker Registered"); })
     .catch(function() { console.log("Service Worker Not Registered"); });
 }
