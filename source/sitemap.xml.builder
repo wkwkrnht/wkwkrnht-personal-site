@@ -7,10 +7,11 @@ xml.feed 'xmlns' => 'http://www.w3.org/2005/Atom' do
     xml.link 'href' => URI.join(site_url, URI.encode(current_page.path)), 'rel' => 'self'
     xml.updated(blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?
     page_articles.each_with_index do |article, i|
+        article_url = URI.join(site_url, URI.encode(article.url))
         xml.entry do
             xml.title article.title
-            xml.link 'rel' => 'alternate', 'href' => URI.join(site_url, URI.encode(article.url))
-            xml.id URI.join(site_url, URI.encode(article.url))
+            xml.link 'rel' => 'alternate', 'href' => article_url
+            xml.id article_url
             xml.published article.date.to_time.iso8601
             xml.updated File.mtime(article.source_file).iso8601
             xml.content article.body, 'type' => 'html'
