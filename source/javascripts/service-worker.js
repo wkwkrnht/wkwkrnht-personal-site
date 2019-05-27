@@ -1,7 +1,8 @@
 const STATIC_DATA = [
     'index.html',
-    '/css/all.css',
-    '/js/main.js'
+    '/',
+    '/stylesheets/all.css',
+    '/javascripts/main.js'
 ];
 
 self.addEventListener('install', function(e) {
