@@ -5,6 +5,17 @@ main
             input name='sites' type='hidden' value=data.front.base_url
             input name='q' type='search' required='' label='キーワード'
             input type='submit' value='Search' label='検索'
+    section.index-nav
+        h2 Navigation
+        nav
+            a href='/about.html' title='about' tabindex='0'
+                |About
+            a href='/blog/' title='blog' tabindex='0'
+                |Blog
+            a href='/404.html' title='sitemap' tabindex='0'
+                |sitemap
+            a href='/privacy-policy.html' title='privacy policy' tabindex='0'
+                |Privacy policy
     section class='big-card tag-search'
         h2 タグで検索
         ul.tag-cloud

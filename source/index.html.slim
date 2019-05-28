@@ -8,18 +8,19 @@ main.index-main
                 |About
             a href='/blog/' title='blog' tabindex='0'
                 |Blog
-            a href='' title='' tabindex='0'
-                |something
+            a href='/404.html' title='sitemap' tabindex='0'
+                |sitemap
             a href='/privacy-policy.html' title='privacy policy' tabindex='0'
                 |Privacy policy
-    section.card-list
+    section
         h2
             |Current Articles
-        - blog.articles[0...5].each do |article|
-            - title = article.title
-            = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
-                = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
-                time.card-date
-                    = article.date.strftime('%Y-%m-%d')
-                h2.card-title
-                    = title
+        nav.card-list
+            - blog.articles[0...5].each do |article|
+                - title = article.title
+                = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
+                    = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                    time.card-date
+                        = article.date.strftime('%Y-%m-%d')
+                    h2.card-title
+                        = title
