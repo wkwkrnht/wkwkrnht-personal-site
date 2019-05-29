@@ -1,7 +1,7 @@
-.index-main{
+body:has(.index-main){
     background:linear-gradient(45deg,#05FBFF,#ffcc00),
     linear-gradient(45deg,#ffcc00,#8fc400),
-    llinear-gradient(45deg,#8fc400,#05FBFF),
+    linear-gradient(45deg,#8fc400,#05FBFF),
     linear-gradient(45deg,#05FBFF,#ffcc00),
     linear-gradient(45deg,#ffcc00,#8fc400),
     linear-gradient(45deg,#8fc400,#05FBFF);
