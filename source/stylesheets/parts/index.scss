@@ -3,16 +3,19 @@
     margin:6vh auto;
     max-width:86%;
     padding:initial 2em;
+    text-align:center;
     @include base-backplate;
 }
 
 .index-nav{
-    margin:initial auto;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-evenly;
     width:100%;
     & a{
+        box-sizing:border-box;
         display:inline-block;
         padding:0 .5em;
         text-align:center;
-        width:calc((96vw - 4em) / 4);
     }
 }
