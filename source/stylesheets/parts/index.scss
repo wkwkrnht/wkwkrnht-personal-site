@@ -8,14 +8,11 @@
 
 .index-nav{
     margin:initial auto;
-    width:96vw;
+    width:100%;
     & a{
         display:inline-block;
         padding:0 .5em;
+        text-align:center;
         width:calc((96vw - 4em) / 4);
     }
-}
-
-.index-title{
-    text-align:center;
 }
