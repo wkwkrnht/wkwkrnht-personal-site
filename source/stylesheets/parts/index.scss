@@ -13,9 +13,10 @@
     justify-content:space-evenly;
     width:100%;
     & a{
-        box-sizing:border-box;
-        display:inline-block;
-        padding:0 .5em;
+        font:{
+            size:1.6em;
+            weight:bold;
+        }
         text-align:center;
     }
 }

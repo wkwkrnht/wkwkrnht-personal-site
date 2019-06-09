@@ -1,4 +1,4 @@
-const STATIC_DATA = [
+const data_list = [
     'index.html',
     '/',
     '/stylesheets/all.css',
@@ -11,7 +11,7 @@ const STATIC_DATA = [
 self.addEventListener('install', function(e) {
     e.waitUntil(
         caches.open('cache_v1').then(function(cache) {
-            return cache.addAll(STATIC_DATA);
+            return cache.addAll(data_list);
         })
     );
 });
