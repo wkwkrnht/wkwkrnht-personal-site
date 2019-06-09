@@ -10,12 +10,12 @@ $dark-gray:#bbb;
 $black:#000;
 $blue:#03a9f4;
 
-@mixin base-backplate(){
+@mixin base-backplate{
     background-color:rgba(255,255,255,.3);
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
 }
 
-@mixin cutting-cardboared(){
+@mixin cutting-cardboared{
     $var1: 5px;
     background-color:#f4f4f4;
     border-bottom:1px dashed #ccc;

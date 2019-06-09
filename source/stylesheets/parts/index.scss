@@ -1,7 +1,7 @@
 .index-main{
     & > *{
         margin:6vh auto;
-        @include base-backplate();
+        @include base-backplate;
     }
     & nav{
         width:96vw;

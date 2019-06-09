@@ -2,7 +2,7 @@
     margin:6vh auto;
     max-width:1600px;
     width:96vw;
-    @include base-backplate();
+    @include base-backplate;
 
     & .article-eyecatch{
         margin:6vh auto;
