@@ -57,7 +57,7 @@ a{
     -webkit-text-decoration-skip:objects;
     text-decoration:none;
     &,&visited,&:active{
-        color:#0a28ff;
+        color:$blue;
     }
     &:active,&:hover{
         outline-width:0;

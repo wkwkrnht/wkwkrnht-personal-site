@@ -8,24 +8,22 @@
 }
 
 .mini-card{
-    --card-size:28vmax;
-
     display:block;
-    height:var(--card-size);
-    margin:4vh auto;
+    height:$card-size;
+    margin:calc($base-vertical-rythm * 2) auto;
     overflow:hidden;
     position:relative;
-    width:var(--card-size);
+    width:$card-size;
 }
 .card-img,.card-date,.card-title{
     overflow:hidden;
     position:absolute;
 }
 .card-img,.card-title{
-    width:var(--card-size);
+    width:$card-size;
 }
 .card-img{
-    height:calc(var(--card-size) / 4 * 3);
+    height:calc($card-size / 4 * 3);
     top:0;
 }
 .card-date{
@@ -35,7 +33,7 @@
     margin:0;
     padding:0 1em;
     right:0;
-    top:calc(var(--card-size) / 4 * 3);
+    top:calc($card-size / 4 * 3);
 }
 .card-title{
     bottom:0;
@@ -50,14 +48,14 @@
 .big-card{
     box-sizing:border-box;
     padding:0 0 1em;
-    margin:6vh auto;
+    margin:calc($base-vertical-rythm * 3) auto;
     max-width:96%;
     @include base-backplate;
 
     & > h2{
         display:inline-block;
         font-size:1.8em;
-        padding:.5em 0 4vh;
+        padding:.5em 0 $base-vertical-rythm;
         text-align:center;
         width:100%;
     }

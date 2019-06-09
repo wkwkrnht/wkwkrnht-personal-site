@@ -1,15 +1,16 @@
 @import 'variables';
-.markdown-toc{
-    box-shadow:0 0 3vmin rgba(0,0,0,.1);
-    margin:4vh auto;
+#markdown-toc{
+    border:.1em solid $white;
+    margin:calc($base-vertical-rythm * 2) auto;
     width:90%;
+
 }
 .toc-title{
     max-width:80%;
 }
 
 .embed-responsive{
-    margin:2vh auto;
+    margin:$base-vertical-rythm auto;
     width:80%;
 }
 .embed-4x3{
@@ -36,23 +37,24 @@
     width:80%;
 }
 .info-literal{
+    $size:2em;
     background-color:#eae3b4;
     border-radius:50%;
     color:#f4f3eb;
     display:inline-block;
-    font-size:2em;
+    font-size:$size;
     font-weight:bold;
-    height:2em;
-    left:1em;
-    line-height:2em;
+    height:$size;
+    left:calc($size / 2);
+    line-height:$size;
     position:absolute;
     text-align:center;
-    top:calc(50% - 1em);
-    width:2em;
+    top:calc(50% - ($size / 2));
+    width:$size;
 }
 
 .search-form{
-    margin:2vh auto;
+    margin:$base-vertical-rythm auto;
 
     & > *{
         display:inline-block;
@@ -72,7 +74,7 @@
     background-color:#1155ee;
     border:1px solid #1155ee;
     box-shadow:0 0 3vmin rgba(0,0,0,.2);
-    color:#fff;
+    color:$white;
     max-width:30%;
     padding-left:2em;
     padding-right:3em;

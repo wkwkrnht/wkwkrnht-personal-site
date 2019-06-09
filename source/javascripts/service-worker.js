@@ -2,6 +2,9 @@ const STATIC_DATA = [
     'index.html',
     '/',
     '/stylesheets/all.css',
+    '/javascripts/google-analytics.js',
+    '/javascripts/fontawesome.min.js',
+    '/javascripts/highlight.pack.js',
     '/javascripts/main.js'
 ];
 

@@ -1,22 +1,22 @@
 @import 'variables';
 #name-ga-cookie-accept-bar{
-    --ga_alert_size:54em;
+
     background-color:#eae3b4;
-    bottom:calc(50% - (var(--ga_alert_size) / 2));
+    bottom:calc(50% - ($ga_alert_size / 2));
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
-    height:var(--ga_alert_size);
+    height:$ga_alert_size;
     max-height:20em;
     max-width:80vw;
     opacity:.95;
     padding:1vh 0;
     position:fixed;
-    right:calc(50% - (var(--ga_alert_size) / 2));
-    width:var(--ga_alert_size);
+    right:calc(50% - ($ga_alert_size / 2));
+    width:$ga_alert_size;
 
     & button{
         box-sizing:border-box;
         font-weight:bold;
-        margin:.5vh 0 0;
+        margin:calc($base-vertical-rythm / 4) 0 0;
         width:100%;
     }
 }
