@@ -1,18 +1,18 @@
 @import 'variables';
 .article-main{
-    margin:calc($base-vertical-rythm * 3) auto;
+    margin:calc(#{$base-vertical-rythm} * 3) auto;
     max-width:1600px;
     padding-bottom:1em;
     width:96vw;
     @include base-backplate;
 
     & .article-eyecatch{
-        margin:calc($base-vertical-rythm * 3) auto;
+        margin:calc(#{$base-vertical-rythm}* 3) auto;
         width:100%;
     }
 
     & > div{
-        margin:calc($base-vertical-rythm * 2) auto;
+        margin:calc(#{$base-vertical-rythm} * 2) auto;
         max-width:80%;
     }
 
@@ -41,8 +41,8 @@
     & h4,
     & h5,
     & h6{
-        line-height:calc($base-vertical-rythm * 3);
-        margin:calc($base-vertical-rythm * 2) auto;
+        line-height:calc(#{$base-vertical-rythm} * 3);
+        margin:calc(#{$base-vertical-rythm} * 2) auto;
         max-width:80%;
         min-height:6vh;
         text-align:center;

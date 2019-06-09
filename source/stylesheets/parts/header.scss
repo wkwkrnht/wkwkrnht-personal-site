@@ -1,7 +1,7 @@
 @import 'variables';
 .site-header{
     color:$white;
-    padding:$base-vertical-rythm 0 calc($base-vertical-rythm * 2);
+    padding:$base-vertical-rythm 0 calc(#{$base-vertical-rythm} * 2);
     text-align:center;
     width:100%;
 

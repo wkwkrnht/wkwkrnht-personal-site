@@ -1,8 +1,7 @@
 @import 'variables';
 #name-ga-cookie-accept-bar{
-
     background-color:#eae3b4;
-    bottom:calc(50% - ($ga_alert_size / 2));
+    bottom:calc(50% - (#{$ga_alert_size} / 2));
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
     height:$ga_alert_size;
     max-height:20em;
@@ -10,13 +9,13 @@
     opacity:.95;
     padding:1vh 0;
     position:fixed;
-    right:calc(50% - ($ga_alert_size / 2));
+    right:calc(50% - (#{$ga_alert_size} / 2));
     width:$ga_alert_size;
 
     & button{
         box-sizing:border-box;
         font-weight:bold;
-        margin:calc($base-vertical-rythm / 4) 0 0;
+        margin:calc(#{$base-vertical-rythm} / 4) 0 0;
         width:100%;
     }
 }

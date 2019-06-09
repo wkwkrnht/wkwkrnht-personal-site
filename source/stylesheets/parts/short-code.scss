@@ -1,7 +1,7 @@
 @import 'variables';
 #markdown-toc{
     border:.1em solid $white;
-    margin:calc($base-vertical-rythm * 2) auto;
+    margin:calc(#{$base-vertical-rythm} * 2) auto;
     width:90%;
 
 }
@@ -37,20 +37,19 @@
     width:80%;
 }
 .info-literal{
-    $size:2em;
     background-color:#eae3b4;
     border-radius:50%;
     color:#f4f3eb;
     display:inline-block;
-    font-size:$size;
+    font-size:$info-literal-size;
     font-weight:bold;
-    height:$size;
-    left:calc($size / 2);
-    line-height:$size;
+    left:calc(#{$info-literal-size} / 2);
+    line-height:$info-literal-size;
+    min-height:$info-literal-size;
     position:absolute;
     text-align:center;
-    top:calc(50% - ($size / 2));
-    width:$size;
+    top:calc(50% - (#{$info-literal-size} / 2));
+    width:$info-literal-size;
 }
 
 .search-form{

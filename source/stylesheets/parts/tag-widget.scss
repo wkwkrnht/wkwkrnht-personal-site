@@ -6,10 +6,10 @@
         display:inline-block;
     }
     & a{
-        background-color:#fff;
-        border:1px solid #03a9f4;
+        background-color:$white;
+        border:1px solid $blue;
         border-radius:1em;
-        color:#333;
+        color:$black;
         display:inline-block;
         font-size:1.1em;
         height:1.6em;
@@ -21,9 +21,9 @@
         text-overflow:ellipsis;
         white-space:nowrap;
         &:hover{
-            background-color:#03a9f4;
-            border-color:#fff;
-            color:#fff;
+            background-color:$blue;
+            border-color:$white;
+            color:$white;
         }
     }
 }
