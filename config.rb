@@ -42,6 +42,11 @@ configure :build do
                 :user_agent => "Googlebot-Image",
                 :allow => %w(/),
                 :disallow => %w(404.html)
+            },
+            {
+                :user_agent => "bingbot",
+                :allow => %w(/),
+                :disallow => %w(404.html)
             }
         ],
         :sitemap => "https://wkwkrnht.netlify.com/sitemap.xml"
