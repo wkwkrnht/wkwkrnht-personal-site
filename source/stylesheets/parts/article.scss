@@ -127,6 +127,7 @@
 
     & pre,
     & code{
+        box-sizing:border-box;
         font-weight:bold;
         margin:$base-vertical-rythm 0;
         overflow:auto;
