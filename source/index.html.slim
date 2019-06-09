@@ -2,7 +2,7 @@ main.index-main
     detail.index-detail
         |place holder
     section.index-nav
-        h2 Navigation
+        h2.index-title Navigation
         nav
             a href='/about.html' title='about' tabindex='0'
                 |About
@@ -13,8 +13,7 @@ main.index-main
             a href='/privacy-policy.html' title='privacy policy' tabindex='0'
                 |Privacy policy
     section
-        h2
-            |Current Articles
+        h2.index-title Current Articles
         nav.card-list
             - blog.articles[0...5].each do |article|
                 - title = article.title

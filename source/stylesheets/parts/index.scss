@@ -1,6 +1,7 @@
 .index-main{
     & > *{
         margin:6vh auto;
+        @include base-backplate();
     }
     & nav{
         width:96vw;
@@ -10,4 +11,8 @@
             width:calc((96vw - 4em) / 4);
         }
     }
+}
+
+.index-title{
+    text-align:center;
 }
