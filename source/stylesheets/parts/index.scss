@@ -1,16 +1,4 @@
 .index-main{
-    body:has(&){
-        /*background:linear-gradient(45deg,#05FBFF,#ffcc00),
-        linear-gradient(45deg,#ffcc00,#8fc400),
-        linear-gradient(45deg,#8fc400,#05FBFF),
-        linear-gradient(45deg,#05FBFF,#ffcc00),
-        linear-gradient(45deg,#ffcc00,#8fc400),
-        linear-gradient(45deg,#8fc400,#05FBFF);*/
-        background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    }
-
     & > *{
         margin:6vh auto;
     }
