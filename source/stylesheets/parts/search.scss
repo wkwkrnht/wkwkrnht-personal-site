@@ -1,10 +1,12 @@
 @import 'variables';
 .keyword-search{
+    margin:$base-vertical-rythm auto;
+    width:80%;
+
     & > *{
         display:inline-block;
         height:2em;
         line-height:2em;
-        padding:1em;
         vertical-align:baseline;
     }
     & input[label="キーワード"]{
