@@ -1,27 +1,29 @@
 @import 'variables';
 .keyword-search{
-    margin:$base-vertical-rythm auto;
-    width:80%;
+    & form{
+        margin:$base-vertical-rythm auto;
+        width:80%;
 
-    & > *{
-        display:inline-block;
-        height:2em;
-        line-height:2em;
-        vertical-align:baseline;
-    }
-    & input[label="キーワード"]{
-        background-color:$white;
-        border:1px solid $black;
-        max-width:70%;
-        min-width:16em;
-    }
-    & input[label="検索"]{
-        background-color:#1155ee;
-        border:1px solid #1155ee;
-        box-shadow:0 0 3vmin rgba(0,0,0,.2);
-        color:$white;
-        max-width:30%;
-        padding-left:2em;
-        padding-right:3em;
+        & > *{
+            display:inline-block;
+            height:2em;
+            line-height:2em;
+            vertical-align:baseline;
+        }
+        & input[label="キーワード"]{
+            background-color:$white;
+            border:1px solid $black;
+            max-width:70%;
+            min-width:16em;
+        }
+        & input[label="検索"]{
+            background-color:#1155ee;
+            border:1px solid #1155ee;
+            box-shadow:0 0 3vmin rgba(0,0,0,.2);
+            color:$white;
+            max-width:30%;
+            padding-left:2em;
+            padding-right:3em;
+        }
     }
 }
