@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem "redcarpet"
 gem 'builder'
 gem 'cloudinary'
 gem 'slim'

@@ -2,8 +2,7 @@ require 'lib/embed.rb'
 require 'lib/short-code.rb'
 
 # Markdown
-set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true, :tables => true
+set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
 # Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
 #page '/path/to/file.html', layout: 'other_layout'
