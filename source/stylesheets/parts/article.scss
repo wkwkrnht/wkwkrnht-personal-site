@@ -1,3 +1,4 @@
+@import 'parts/variables';
 .article-main{
     margin:6vh auto;
     max-width:1600px;
@@ -85,21 +86,20 @@
         table-layout:fixed;
         width:calc(100% - 16vmin);
         & caption{
-            background-color:#ffc045;
+            background-color:#fff;
             padding:1em;
             text-align:center;
         }
         & tr{
             & th,
             & td{
-                border:1px solid #cfcfcf;
+                border:.1em solid #fff;
                 overflow:auto;
                 padding:1em;
                 text-align:center;
             }
             & th{
-                background-color:#000;
-                color:#fff;
+                background-color:#fff;
             }
             &:last-child{
                 border-left:none;
