@@ -22,7 +22,7 @@
 }
 
 .columun{
-    border:1em solid #333;
+    border:1em solid $black;
     padding:1em;
 }
 
@@ -63,8 +63,8 @@
     }
 }
 .query{
-    background-color:#fff;
-    border:1px solid #333;
+    background-color:$white;
+    border:1px solid $black;
     max-width:70%;
     min-width:16em;
 }
@@ -79,12 +79,12 @@
 }
 
 .link-button{
-    border:1em solid #03a9f4;
+    border:1em solid $blue;
     box-shadow:0 0 3vmin rgba(0,0,0,.2);
     padding:1em 2em;
 
     &:hover{
-        background-color:#03a9f4;
-        color:#fff;
+        background-color:$blue;
+        color:$white;
     }
 }

@@ -53,8 +53,7 @@
     margin:4vh auto;
     max-width:96%;
     & > h2{
-        background-color:#000;
-        color:#fff;
+        border-bottom:.5em solid $black;
         display:inline-block;
         font-size:1.8em;
         margin:0;

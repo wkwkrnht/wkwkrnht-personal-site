@@ -53,24 +53,24 @@
         font-size:1.4em;
     }
     & h2{
-        border:.5em solid #000;
+        border:.5em solid $black;
         box-shadow:0 0 3vmin rgba(0,0,0,.1);
     }
     & h3{
-        border-top:.5em solid;
-        border-color:#000;
-        border-left:.5em solid;
+        border-bottom:.5em dashed;
+        border-color:$black;
+        border-top:.5em dashed;
     }
     & h4{
         border-bottom:calc(.5em / 2) solid;
-        border-color:#000;
+        border-color:$black;
         border-left:.5em solid;
     }
     & h5{
-        border-left:.5em solid #000;
+        border-left:.5em solid $black;
     }
     & h6{
-        border-bottom:.5em dashed #000;
+        border-bottom:.5em solid $black
     }
 
     & ul,
@@ -86,20 +86,20 @@
         table-layout:fixed;
         width:calc(100% - 16vmin);
         & caption{
-            background-color:#fff;
+            background-color:$white;
             padding:1em;
             text-align:center;
         }
         & tr{
             & th,
             & td{
-                border:.1em solid #fff;
+                border:.1em solid $white;
                 overflow:auto;
                 padding:1em;
                 text-align:center;
             }
             & th{
-                background-color:#fff;
+                background-color:$white;
             }
             &:last-child{
                 border-left:none;
@@ -138,7 +138,7 @@
     & q{
         background-color:#eee;
         box-sizing:border-box;
-        margin:1vh 0;
+        margin:2vh 0;
         width:100%;
     }
     & blockquote,
@@ -147,7 +147,6 @@
         quotes:none;
     }
     & blockquote{
-        border-radius:1em;
         padding:1em 2em;
         &[title]::after{
             content:attr(title);
