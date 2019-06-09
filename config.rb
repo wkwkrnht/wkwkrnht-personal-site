@@ -44,7 +44,7 @@ configure :build do
                 :disallow => %w(404.html)
             }
         ],
-        :sitemap => "https://wkwkrnht-blog-test.netlify.com/sitemap.xml"
+        :sitemap => "https://wkwkrnht.netlify.com/sitemap.xml"
     activate :minify_html
     activate :minify_css
     activate :gzip

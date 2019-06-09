@@ -30,31 +30,6 @@ main
     p Twitter上のRT狂ぶりがセンセーショナルですけれど、当の本人はそこらにいる普通の人です。あれは、個人情報を一切晒さずにこの世界を生きるために考えた手法です。今では、ライフワークですので、しないほうがむしろ気持ち悪いくらいです。あの大群をすべて読んでいることを、フォロワーには期待していますので、ツイートする時はそれが前提になっています。あと、通知の餌食になるのは、News、a01のリストに入っているアカウントだと思っていてください。それ以外は無理です。凍結されてしまいます。
     p 基本的には、この名義での発言はネット上に残っているものと思っていますので、適宜保存していただいて構いません。というより、自ら全著作の保存を試みています。失ったものに泣いているぐらいです。ただ、引用は各種法律、規約、ルールを遵守の上でお願いします。あとできれば一報ください。あからさまに、利益を期待できるものについては、相場を踏まえた契約交渉を行いますので。
     p 最後に、私のことを気に入っていただけたなら、各種アカウントフォロー、投げ銭、プレゼントお待ちしております。
-section class='big-card sns-follow'
-    ul
-        li
-            a href='https://twitter.com/wkwkrnht' title='twitter'
-                span class='fab fa-twitter'
-        li
-            a href='https://instagram.com/wkwkrnht' title='instagram'
-                span calss='fab fa-instagram'
-        li
-            a href='https://www.pinterst.jp/wkwkrnht' title='pinterest'
-                span calss='fab fa-pinterest'
-        li
-            a href='https://www.youtube.com/channel/UCnkUxspvi9e38mLLs7hrhAg' title='youtube'
-                span calss='fab fa-youtube'
-        li
-            a href='https://wkwkrnht.wordpress.com' title='WordPress'
-                span calss='fab fa-wordpress'
-        li
-            a href='https://github.com/wkwkrnht' title='github'
-                span calss='fab fa-github'
-        li
-            a href='https://www.amazon.jp/hz/wishlist/ls/255HDH6H7HYOF?ref_=wl_share' title='amazon'
-                span calss='fab fa-amazon'
-        li
-            a href='https://paypal.me/wkwkrnht' title='paypal'
-                span calss='fab fa-paypal'
-        li
-            - cl_image_tag('kyash_qr.jpg', :secure=>true, :fetch_format => :auto)
+section.big-card
+    h2 各種SNSアカウント
+    = partial 'partials/sns-follow'
