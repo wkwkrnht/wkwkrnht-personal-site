@@ -55,11 +55,9 @@
     @include base-backplate;
 
     & > h2{
-        border-bottom:.5em solid $black;
         display:inline-block;
         font-size:1.8em;
-        margin:0;
-        padding:.5em 0;
+        padding:.5em 0 4vh;
         text-align:center;
         width:100%;
     }
