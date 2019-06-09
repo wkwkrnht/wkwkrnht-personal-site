@@ -1,16 +1,18 @@
 @import 'variables';
-.index-main{
-    & > *{
-        margin:6vh auto;
-        @include base-backplate;
-    }
-    & nav{
-        width:96vw;
-        & a{
-            display:inline-block;
-            padding:0 .5em;
-            width:calc((96vw - 4em) / 4);
-        }
+.index-detail{
+    margin:6vh auto;
+    max-width:86%;
+    padding:initial 2em;
+    @include base-backplate;
+}
+
+.index-nav{
+    margin:initial auto;
+    width:96vw;
+    & a{
+        display:inline-block;
+        padding:0 .5em;
+        width:calc((96vw - 4em) / 4);
     }
 }
 

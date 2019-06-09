@@ -50,8 +50,10 @@
 .big-card{
     box-sizing:border-box;
     padding:0 0 1em;
-    margin:4vh auto;
+    margin:6vh auto;
     max-width:96%;
+    @include base-backplate;
+
     & > h2{
         border-bottom:.5em solid $black;
         display:inline-block;

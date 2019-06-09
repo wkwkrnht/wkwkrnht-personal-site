@@ -1,9 +1,9 @@
 main.index-main
     detail.index-detail
         |place holder
-    section.index-nav
+    section.big-card
         h2.index-title Navigation
-        nav
+        nav.index-nav
             a href='/about.html' title='about' tabindex='0'
                 |About
             a href='/blog/' title='blog' tabindex='0'
@@ -12,7 +12,7 @@ main.index-main
                 |sitemap
             a href='/privacy-policy.html' title='privacy policy' tabindex='0'
                 |Privacy policy
-    section
+    section.big-card
         h2.index-title Current Articles
         nav.card-list
             - blog.articles[0...5].each do |article|

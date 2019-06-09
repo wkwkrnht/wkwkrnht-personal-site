@@ -2,13 +2,13 @@
     main.article-main
         = image_tag current_article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch'
         = yield
-    footer.article-footer
-        - if current_article.tags.present?
-            ul.tag-cloud
-                - current_article.tags.each do |tag|
-                    li
-                        == link_to tag, tag_path(tag)
-        = partial 'partials/share-button'
+        footer.article-footer
+            - if current_article.tags.present?
+                ul.tag-cloud
+                    - current_article.tags.each do |tag|
+                        li
+                            == link_to tag, tag_path(tag)
+            = partial 'partials/share-button'
     section class='big-card related-articles'
         h2
             | 最新記事
