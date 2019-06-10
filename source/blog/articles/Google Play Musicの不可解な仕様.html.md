@@ -10,7 +10,7 @@ categories:
 tags:
   - Google
   - Google Play Music
-  - ハウツー
+  - TIPS
   - 不具合
 ---
 EMBEDLY https://play.google.com/store/music?hl=ja

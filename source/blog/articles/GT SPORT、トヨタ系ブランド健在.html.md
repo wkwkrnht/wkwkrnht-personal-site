@@ -11,7 +11,6 @@ categories:
   - Granturismo Sport
 tags:
   - Gr.1
-  - Granturismo
   - Granturismo Sport
   - GT6
   - LM-GTE

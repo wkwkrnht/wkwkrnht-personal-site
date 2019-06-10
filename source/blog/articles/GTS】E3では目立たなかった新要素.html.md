@@ -10,7 +10,6 @@ categories:
   - Granturismo Sport
 tags:
   - Amazon
-  - Granturismo
   - Granturismo Sport
   - PS4
   - SONY

@@ -12,7 +12,6 @@ tags:
   - 4K
   - Freesync
   - HDR
-  - HDR10
   - JAPANNEXT
 ---
 <https://www.biccamera.com/bc/item/5207456>{.embedly-card}

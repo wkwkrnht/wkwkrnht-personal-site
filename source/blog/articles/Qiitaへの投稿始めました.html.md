@@ -10,12 +10,11 @@ categories:
 tags:
   - gegahost.net
   - Github
-  - how-to
+  - TIPS
   - OGP
   - Qiita
   - wordpress
   - お知らせ
-  - ハウツー
   - ブログ
 ---
 気づいていた方もいらっしゃるかと思いますが、放置中だったQiitaにも投稿を始めました。そのおかげで、うちのブログから何記事か消えていると思います。それは、技術系の記事だったために、Qiitaでの公開が最適切だと思ったためです。

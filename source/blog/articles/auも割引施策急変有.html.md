@@ -13,8 +13,6 @@ tags:
   - au
   - セール
   - 携帯電話料金
-  - 最新版
-  - Android
 ---
 <div class="information">
   基本的にここは管理人が確認した最新情報を載せています。<a href="http://wkwkrnht.wp.xdomain.jp/cellphone/fee/offer/318">アーカイブはこちら</a>

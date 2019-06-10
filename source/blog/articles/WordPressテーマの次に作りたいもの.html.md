@@ -9,15 +9,11 @@ permalink: /blog/delusion/472/
 categories:
   - 妄想
 tags:
-  - css
   - Github
   - Goutte
-  - html
-  - JSON
   - PHP
   - RSS
   - Twitter
-  - サイト作成
   - スクレイピング
 ---
 とりあえずのメモ程度に。ただいま、<a href="http://wkwkrnht.gegahost.net/rss" target="_blank" rel="noopener">こちら</a>で試験中のサイト更新タイムライン。これを汎用的に、XSSなやつを解消して実装したい！そしてその流れで、Twitter連携までしたいというのがありまして。ちょこちょこ調べていたんですけど。  

@@ -13,7 +13,6 @@ tags:
   - AMD
   - Asrock
   - docomo
-  - dショッピング
   - dポイント
   - ENERMAX
   - PC

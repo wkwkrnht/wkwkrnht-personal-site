@@ -15,7 +15,6 @@ tags:
   - Galaxy S7 edge
   - PREMIUM 4G
   - ZenFone 3
-  - 日本通信
 ---
 終わりましたね。Zenvolution。モノ自体は面白いと思います。Zenbook3とか、ZS570KLとかは富豪なら買いたいです。そんなお金は、原油でもわかない限りできないんですけれども。発表詳細は、  
 

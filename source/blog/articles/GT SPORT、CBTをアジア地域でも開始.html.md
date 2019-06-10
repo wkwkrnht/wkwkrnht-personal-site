@@ -9,7 +9,6 @@ image: /wp-content/uploads/2016/08/gt.jpg
 categories:
   - Granturismo Sport
 tags:
-  - Granturismo
   - Granturismo Sport
   - PS4
   - SONY

@@ -10,13 +10,12 @@ categories:
   - Rainbow Six Siege
 tags:
   - FPS
-  - how-to
+  - TIPS
   - PS4
   - Rainbow Six Siege
   - SONY
   - UBI
   - ゲーム
-  - ハウツー
 ---
 なにかをやろうとしていないとだめ人間になる<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>です。どうも。今回はゲーム記事を連続してあげていこうかと思います。といっても、実際に野良でランクでも久々にやろうかと思ったら、まともな動きをしてくれない味方にぶち当たりまして、イライラさせまくられたので、それを解消するためにこうして少しでも広めようと思った次第です。野良カジュアルでもこれだけ身につけられるのだから、そりゃあランクにこもるような皆様方には、馬に念仏だとは思いますが今一度お願いいたします。
 

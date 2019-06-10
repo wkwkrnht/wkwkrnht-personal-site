@@ -11,12 +11,10 @@ categories:
 tags:
   - AIDE
   - Android
-  - ASUS
   - Git
   - Github
   - IDE
   - Linux
-  - Samsung
   - Vim
 ---
 大仰なタイトルを付けましたが、要は、Android端末でもGitクライアントになれるよ。ってことです。WindowsやらほかのLinuxディストリビューションやらはたいてい解説さｒｒてるだろうし。

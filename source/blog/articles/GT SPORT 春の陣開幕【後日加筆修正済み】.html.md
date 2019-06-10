@@ -10,11 +10,9 @@ categories:
   - Granturismo Sport
 tags:
   - FIA
-  - Granturismo
   - Granturismo Sport
   - PS4
   - SONY
-  - ゲーム
   - スーパーフォーミュラ
   - トヨタ
   - ポルシェ
