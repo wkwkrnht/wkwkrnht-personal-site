@@ -120,8 +120,6 @@ tags:
 
 それでは、きちんとネイティブPHPの沼に浸かってきます。何かありましたら、コメントなりメンションなり飛ばしてください。下記が、自慢のウィジェットエリア。
 
-
-
 ## 目次機能を付けました
 
 データベース系の記事が増えてきたので、目次がほしいなぁと思っていたところ。<a href="https://xakuro.com/blog/wordpress/277" target="_blank" rel="noopener">こんな記事</a>を見つけたので移植しました。利用する際は、id=の部分にid属性に適当な文字列を入れるか、消すかしてください。まだ、ジャンプ機能は実装できていません。
@@ -136,7 +134,6 @@ tags:
   <p lang="ja" dir="ltr">
     一部ページに表示崩れが起きております。原因と思しきものは見えましたので明日どうにかします。
   </p>
-
   <p>
     &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) <a href="https://twitter.com/wkwkrnht/status/781867596136128512">2016年9月30日</a>
   </p>
@@ -161,47 +158,49 @@ EMBEDLY https://github.com/wkwkrnht/2016-by-wkwkrnht
 ついでに覚えているもので実装したものを。
 
 EMBEDLY http://nelog.jp/body_class
-
 EMBEDLY http://nelog.jp/add-quicktags-to-wordpress-text-editor
-
 EMBEDLY http://nelog.jp/expanded-information-css
-
 EMBEDLY http://nelog.jp/no-alt-fix
-
 EMBEDLY http://nelog.jp/rel-next-prev
-
 EMBEDLY http://nelog.jp/copyrights
-
 EMBEDLY http://nelog.jp/category-description-custom
-
 EMBEDLY http://nelog.jp/customize-admin-single-list"
-
 EMBEDLY http://nelog.jp/line-bolloon-css
-
 EMBEDLY http://nelog.jp/human_time_diff"
-
 EMBEDLY http://nelog.jp/theme-custumizer-default-value
-
 EMBEDLY http://nelog.jp/wordpress-customize-related-entries"
-
 EMBEDLY http://nelog.jp/wordpress-time-tag
-
 EMBEDLY http://nelog.jp/wlw-post-downloader-plugin
-
 EMBEDLY http://www.nxworld.net/tips/box-shadow-effect.html
-
 EMBEDLY http://www.nxworld.net/tips/social-logo-svg-code-and-brand-color.html
-
 EMBEDLY http://www.nxworld.net/tips/50-css-heading-styling.html
-
 EMBEDLY http://www.nxworld.net/tips/css-tag-cloud.html
-
 EMBEDLY http://www.nxworld.net/wordpress/wp-post-edit-filter-categories.html
-
 EMBEDLY http://www.nxworld.net/wordpress/wp-admin-customize-excerpt.html
-
 EMBEDLY http://www.nxworld.net/wordpress/wp-post-edit-required.html
-
 EMBEDLY http://www.nxworld.net/wordpress/wp-add-posts-columns.html
-
 EMBEDLY https://webutubutu.com/webdesign/3453
+
+## 有言実行のアップデート(2016-07-30T23:52:18+09:00)
+
+<http://wkwkrnht.gegahost.net/sitemanagement/wordpress/theme/280>{.embedly-card}
+<blockquote class="twitter-tweet" data-lang="ja">
+  <p lang="ja" dir="ltr">
+    Todo:風呂ったらテーマ変える
+  </p>
+  <p>
+    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) <a href="https://twitter.com/wkwkrnht/status/759379058836647936">2016年7月30日</a>
+  </p>
+</blockquote>
+上記やらなんやらでずっと新テーマをつくってるとは言ってましたが、ようやく公開できるレベルになりましたのでリニューアルです。以下にサマリーを。
+
+  * 常に画面下に固定のメニュー+1カラムの構成
+  * メニューからは共有とウィジェットやナビにアクセス
+  * コンセプトはできるだけシンプルに
+  * AMP対応やうざい程のプロフやブログカードは引き継ぎ
+  * アナリティクスはHTML入力しなきゃダメなように
+  * OGP.phpなブログカード試験導入
+
+これぐらいかな
+EMBEDLY http://wkwkrnht.gegahost.net
+まあおいおい機能は追加していきます。

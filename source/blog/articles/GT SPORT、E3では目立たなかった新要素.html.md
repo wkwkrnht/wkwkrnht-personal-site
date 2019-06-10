@@ -1,6 +1,6 @@
 ---
 id: 2349
-title: 【GTS】E3では目立たなかった新要素
+title: GT SPORT、E3では目立たなかった新要素
 date: 2017-07-26T22:04:02+09:00
 author: wkwkrnht
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2349
