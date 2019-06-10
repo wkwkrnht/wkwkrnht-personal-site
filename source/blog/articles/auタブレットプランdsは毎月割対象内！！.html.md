@@ -3,7 +3,6 @@ id: 35
 title: auタブレットプランdsは毎月割対象内！！
 date: 2016-01-09T19:05:33+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=35
 permalink: /cellphone/fee/35/
 image: /wp-content/uploads/2016/08/au.png

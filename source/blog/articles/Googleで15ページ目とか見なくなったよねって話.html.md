@@ -3,7 +3,6 @@ id: 2178
 title: Googleで15ページ目とか見なくなったよねって話
 date: 2016-09-12T22:06:48+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=435
 permalink: /uncategorized/2178/
 image: /wp-content/uploads/2017/11/original_images_Google_Logo.png

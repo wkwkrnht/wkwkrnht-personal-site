@@ -3,7 +3,6 @@ id: 2292
 title: Google Play Musicの不可解な仕様
 date: 2017-03-25T21:22:53+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2292
 permalink: /music/google-play-music/2292/
 categories:

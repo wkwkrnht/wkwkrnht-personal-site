@@ -3,7 +3,6 @@ id: 2563
 title: '自作機が完成したのでその格闘記録#AMDはクソ'
 date: 2019-04-06T17:20:47+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2563
 permalink: /windows/pcdiy/2563/
 categories:

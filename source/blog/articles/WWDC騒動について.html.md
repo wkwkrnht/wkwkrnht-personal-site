@@ -4,7 +4,6 @@ title: WWDC騒動について
 date: 2016-05-16T23:26:36+09:00
 author: wkwkrnht
 excerpt: 矢作氏 VS 林氏のみで語られるのはおかしくありませんか？
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=284
 permalink: /uncategorized/284/
 categories:

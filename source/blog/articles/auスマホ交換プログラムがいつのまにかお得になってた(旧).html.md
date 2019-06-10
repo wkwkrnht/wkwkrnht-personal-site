@@ -4,7 +4,6 @@ title: auスマホ交換プログラムがいつのまにかお得になって�
 date: 2016-01-09T17:59:14+09:00
 author: wkwkrnht
 excerpt: auスマホ交換プログラムの変遷。A03、G01、HTL23、LGV31のクインテットからA03、LGV32へのコンビへの変更から物語は始まる。
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=26
 permalink: /cellphone/fee/offer/2175/
 image: /wp-content/uploads/2016/08/au.png

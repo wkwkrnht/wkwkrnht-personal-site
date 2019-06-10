@@ -3,7 +3,6 @@ id: 2342
 title: GT SPORT、魔改造始めました
 date: 2017-06-13T23:00:13+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2342
 permalink: /game/playstation/gts/2342/
 image: /wp-content/uploads/2016/08/gt.jpg

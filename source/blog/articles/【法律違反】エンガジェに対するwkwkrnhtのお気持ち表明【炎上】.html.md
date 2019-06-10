@@ -4,7 +4,6 @@ title: 【法律違反】エンガジェに対するwkwkrnhtのお気持ち表�
 date: 2017-05-16T00:03:32+09:00
 author: wkwkrnht
 excerpt: エンガジェット日本語版のボヤの総まとめ。結果として、デジタルガジェット界隈の持つ根深き問題が顕在化しただけであった。それに、wkwkrnhtが挑む。
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2324
 permalink: /blog/delusion/2324/
 categories:

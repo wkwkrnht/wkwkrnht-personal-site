@@ -3,7 +3,6 @@ id: 318
 title: 'au機変施策戦線-アーカイブ'
 date: 2016-07-29T21:59:15+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=318
 permalink: /cellphone/fee/offer/318/
 image: /wp-content/uploads/2016/08/au.png

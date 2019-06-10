@@ -3,7 +3,6 @@ id: 316
 title: サイトをちょこちょこと弄くってます。＆Habakiri子テーマ配布
 date: 2016-07-29T21:47:38+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=316
 permalink: /sitemanagement/wordpress/theme/316/
 categories:

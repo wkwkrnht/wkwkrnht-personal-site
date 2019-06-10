@@ -3,7 +3,6 @@ id: 2518
 title: 【4K・HDR】N-T2880UHDRを購入レビュー
 date: 2018-10-08T12:53:13+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2518
 permalink: /blog/shpping/2518/
 categories:

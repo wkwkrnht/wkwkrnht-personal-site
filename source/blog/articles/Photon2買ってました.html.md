@@ -3,7 +3,6 @@ id: 306
 title: Photon2買ってました
 date: 2016-07-09T22:08:57+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=306
 permalink: /windows/tablet/photon2/306/
 categories:

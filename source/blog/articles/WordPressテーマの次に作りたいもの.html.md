@@ -4,7 +4,6 @@ title: WordPressテーマの次に作りたいもの
 date: 2016-09-23T00:22:48+09:00
 author: wkwkrnht
 excerpt: 2016-by-wkwkrnhtの次に作りたい、オレオレなタイムライン式更新一覧サイトの話。
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=472
 permalink: /blog/delusion/472/
 categories:

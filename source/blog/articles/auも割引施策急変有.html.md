@@ -4,7 +4,6 @@ title: auも割引施策急変有
 date: 2016-10-01T22:48:20+09:00
 author: wkwkrnht
 excerpt: 当ブログおなじみコンテンツ。auの施策の中で、機種変更にかかわるもののみピックアップしてお届け！
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=532
 permalink: /cellphone/fee/offer/532/
 image: /wp-content/uploads/2016/08/au.png

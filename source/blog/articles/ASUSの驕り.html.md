@@ -4,7 +4,6 @@ title: ASUSの驕り
 date: 2016-09-28T23:23:48+09:00
 author: wkwkrnht
 excerpt: 個人的なZenvolution 20016の感想。基本的にDisリ。あんなことやこんなこと。
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=499
 permalink: /android/zenfone/499/
 categories:

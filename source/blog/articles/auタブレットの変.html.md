@@ -3,7 +3,6 @@ id: 31
 title: auタブレットの変
 date: 2016-01-09T18:39:30+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=31
 permalink: /android/31/
 image: /wp-content/uploads/2016/08/au.png

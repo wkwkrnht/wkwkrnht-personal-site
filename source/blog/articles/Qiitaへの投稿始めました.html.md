@@ -3,7 +3,6 @@ id: 640
 title: Qiitaへの投稿始めました
 date: 2016-11-19T19:57:53+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=640
 permalink: /news/640/
 categories:

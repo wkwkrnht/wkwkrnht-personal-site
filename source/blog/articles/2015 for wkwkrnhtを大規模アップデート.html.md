@@ -4,7 +4,6 @@ title: 2015 for wkwkrnhtを大規模アップデート
 date: 2016-04-24T20:19:21+09:00
 author: wkwkrnht
 excerpt: 2015 for wkwkrnht(Twenty Fifteenベースの子テーマ)の二度目の安定版の話
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=267
 permalink: /sitemanagement/wordpress/theme/267/
 image: /wp-content/uploads/2016/08/2015_for_wkwkrnht_v2.png

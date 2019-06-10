@@ -4,7 +4,6 @@ title: 日本にもBand 7を！！Band 28をプライマリバンドに！！
 date: 2017-11-11T23:27:53+09:00
 author: wkwkrnht
 excerpt: 総務省の電波アクションプランを妄想で斬る。2.6GHz帯と低周波数帯をセルラーにとってという視点で妄想。信じるかどうかはあなた次第。
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2389
 permalink: /uncategorized/2389/
 categories:

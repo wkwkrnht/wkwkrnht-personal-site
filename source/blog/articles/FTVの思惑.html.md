@@ -3,7 +3,6 @@ id: 20
 title: FTVの思惑
 date: 2016-01-09T17:20:23+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.gegahost.net/?p=20
 permalink: /blog/delusion/20/
 categories:

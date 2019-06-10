@@ -3,7 +3,6 @@ id: 2552
 title: GT SPORT 春の陣開幕【後日加筆修正済み】
 date: 2019-03-02T13:20:26+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2552
 permalink: /game/playstation/gts/2552/
 image: /wp-content/uploads/2016/08/gt.jpg

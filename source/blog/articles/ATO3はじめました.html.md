@@ -3,7 +3,6 @@ id: 2487
 title: ATO3はじめました
 date: 2018-02-04T19:15:38+09:00
 author: wkwkrnht
-layout: post
 guid: http://wkwkrnht.wp.xdomain.jp/?p=2487
 permalink: /game/airtycoononline3/2487/
 categories:
