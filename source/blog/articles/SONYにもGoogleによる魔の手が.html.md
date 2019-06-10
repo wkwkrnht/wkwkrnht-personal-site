@@ -1,6 +1,6 @@
 ---
 id: 527
-title: SONYにもGoogleによる魔の手が……
+title: SONYにもGoogleによる魔の手が
 date: 2016-10-01T19:52:46+09:00
 author: wkwkrnht
 layout: post
