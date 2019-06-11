@@ -7,6 +7,7 @@ tags:
   - FPS
   - PC
   - PS4
+  - Rainbow Six Siege
   - XBOX ONE
   - ゲーム
   - 攻略
