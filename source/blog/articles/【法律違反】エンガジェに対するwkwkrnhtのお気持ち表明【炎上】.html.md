@@ -42,7 +42,6 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
   <p lang="ja" dir="ltr">
     エンガジェットって、米国のメディアだけあって書き手の素性に厳しいというか、ステマに非常に厳しくて、契約書見る限りだと業界の利害関係者であるコンサルタントが執筆できる余地はないはずなんだけどな……。多少あれなこともあったけど、そういうモラルは評価してたのに、とにかく残念。
   </p>
-
   <p>
     &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) <a href="https://twitter.com/june_ya/status/863915570248294400">2017年5月15日</a>
   </p>
@@ -52,7 +51,6 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
   <p lang="ja" dir="ltr">
     <a href="https://twitter.com/boobyn"><a href="http://twitter.com/boobyn" target="_blank" rel="noopener nofollow">@boobyn</a></a> 本当に乱闘していいのであれば。
   </p>
-
   <p>
     &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) <a href="https://twitter.com/june_ya/status/863962060748537857">2017年5月15日</a>
   </p>
@@ -62,7 +60,6 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
   <p lang="ja" dir="ltr">
     <a href="https://twitter.com/boobyn"><a href="http://twitter.com/boobyn" target="_blank" rel="noopener nofollow">@boobyn</a></a> スタッフにしちゃった愛人の話とか振ってよければぜひ！
   </p>
-
   <p>
     &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) <a href="https://twitter.com/june_ya/status/863963953415585793">2017年5月15日</a>
   </p>
@@ -72,7 +69,6 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
   <p lang="ja" dir="ltr">
     <a href="https://twitter.com/itowpaaan"><a href="http://twitter.com/itowpaaan" target="_blank" rel="noopener nofollow">@itowpaaan</a></a> 愛人をスタッフにしたりとか、社用車のナンバーを愛人の誕生日にしたりとか、打ち合わせと称して池袋のラブホの画像を送ったりとか、その辺全部一般論です！
   </p>
-
   <p>
     &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) <a href="https://twitter.com/june_ya/status/863994145861386240">2017年5月15日</a>
   </p>
@@ -82,7 +78,6 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
   <p lang="ja" dir="ltr">
     いまの石野さんはいろいろ武器持ってるから強いだろうなぁ。
   </p>
-
   <p>
     &mdash; 石川 温 (<a href="http://twitter.com/iskw226" target="_blank" rel="noopener nofollow">@iskw226</a>) <a href="https://twitter.com/iskw226/status/863964181699059715">2017年5月15日</a>
   </p>
@@ -90,19 +85,17 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
 
 他意はないですよ？というか、この件は石川温氏と井上翔氏もかなり突っ込んでいるので、業界的にという感じなのでしょうね。それでも、インプレス組とアスキー組に動きがみえませんけど。
 
-EMBEDLY http://webronza.asahi.com/authors/2014040900005.html
-
-EMBEDLY http://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
-
-EMBEDLY http://blog.innovating.jp/?page=1&month=200802
+<http://webronza.asahi.com/authors/2014040900005.html>{.embedly-card}
+<http://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all>{.embedly-card}
+<http://blog.innovating.jp/?page=1&month=200802>{.embedly-card}
 
 表向きのプロフィールですね。まあ、これが基礎編ですかね。というか複数社で書いているのは契約上クリアなんですかね。
 
-EMBEDLY http://suzunonejh.blog15.fc2.com/blog-entry-6745.html
+<http://suzunonejh.blog15.fc2.com/blog-entry-6745.html>{.embedly-card}
 
 電通関係者というソースはGoogle先生の10ページまで見たけれども、これぐらいでしたね。facebookとTwitterを深く深く探したらみつかるんですかね。だれか信頼できるソースがあれば、投げてください。それとも主張されている方々に聞いてみようかななんて思っている次第です。
 
-EMBEDLY https://togetter.com/li/85977
+<https://togetter.com/li/85977>{.embedly-card}
 
 このようなまとめもありましたね。対談相手の方って、ビジネスメディア「誠」時代の編集長氏で、今はITmediaビジネスって名前になっているそうです。そして、アスキー出身の杉山淳一氏との関係もおありのようです。そして、神尾氏の名前がアスキーに載っているときがあったりするんですよね。なんでもないですよ。ただ単に私の私感です。
 

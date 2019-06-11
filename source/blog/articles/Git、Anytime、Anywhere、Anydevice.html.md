@@ -31,18 +31,15 @@ EMBEDLY https://play.google.com/store/apps/details?id=com.aor.pocketgit
 
 ### こんどは、コードエディター
 
-EMBEDLY https://play.google.com/store/apps/details?id=com.aor.droidedit.pro
+<https://play.google.com/store/apps/details?id=com.aor.droidedit.pro>{.embedly-card}
 
 さっきのと作者は同じです。Android上で動くコードエディターというのも珍しいので、それだけでも価値あるものだと思います。また、FTP接続にも対応しているのでデプロイするときも最悪どうにかなるかも。いずれにしても必買です。
 
 ### おまちかねIDE
 
-EMBEDLY https://play.google.com/store/apps/details?id=com.aide.premium.key
-
-EMBEDLY https://play.google.com/store/apps/details?id=com.aide.phonegap
-
-EMBEDLY https://play.google.com/store/apps/details?id=com.aide.web
-
+<https://play.google.com/store/apps/details?id=com.aide.premium.key>{.embedly-card}
+<https://play.google.com/store/apps/details?id=com.aide.phonegap>{.embedly-card}
+<https://play.google.com/store/apps/details?id=com.aide.web>{.embedly-card}
 これらは、もうおなじみですね。一種の様式美です。でも、まだ手を出せてないんですよねぇ。800円以上は覚悟必要で。mazecとかmetamoji、ATOKみたいなやつだと、踏ん切りがつき易いんですけどね。大画面なAndroid機が来るとなれば買いそうですけど。さすがに、4.数インチの画面でコード打ち込もうって気にはならないですよ。それこそZenfone 3 Deluxueの5.7インチモデルとかGalaxy Note 7みたいなやつじゃないと。あれらは、表示領域も抜群、メモリーも潤沢、入力に力入れてるときたもんだ。まあ、それぐらいじゃあないときついぐらいに老眼てことかもしれませんけどね。
 
 ## 番外編
