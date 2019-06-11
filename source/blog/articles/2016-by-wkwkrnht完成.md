@@ -21,7 +21,7 @@ tags:
   - パンくずリスト
   - ブログ
 ---
-<a href="http://wkwkrnht.wp.xdomain.jp/delusion/472" title="" target="_blank" rel="noopener"></a>先日の記事の通り[/link]、そちらに集中したいため、ここいらで切り上げたいと思います。おそらくは、コメントやreadme更新が気が向いたら入るくらいかと思います。国際化は難儀だったもので。以下が、更新内容です。
+[先日の記事の通り](http://wkwkrnht.wp.xdomain.jp/delusion/472)、そちらに集中したいため、ここいらで切り上げたいと思います。おそらくは、コメントやreadme更新が気が向いたら入るくらいかと思います。国際化は難儀だったもので。以下が、更新内容です。
 
   * テーブルがクイックタグでマークアップできるように
   * 画像なしの関連記事ウィジェット導入(まだデザインの調整が……)
@@ -62,7 +62,7 @@ tags:
   * ソーシャルメニューでリンクテキストがdata-title属性内に表示されるように
   * 「問い合わせ」や「Q&A」というリンクテキストがソーシャルメニュー内にあるとはてなマークで表示されるように
   * 代わりにgoo.gl/formの装飾が削除
-  * target=&#8221;_blank&#8221;なaタグにrel=&#8221;noopener&#8221;をつけるように
+  * target="_blank"なaタグにrel="noopener"をつけるように
   * ウィジェット内でショートコードが使用可能に
   * アフィ周りのプロフィール情報削除
   * Chromeのアドレスバーカラーを直感的に選べるように
@@ -113,7 +113,7 @@ tags:
 
   * Instapaperとvkとstumbleuponとbufferへの共有に対応
   * olタグに装飾追加
-  * <a href="https://q-az.net/wordpress-nyoki-nav/" title="参考記事" target="_blank" rel="noopener">ホバーで出てくる前後ナビゲーションウィジェットの追加</a>
+  * [ホバーで出てくる前後ナビゲーションウィジェットの追加](https://q-az.net/wordpress-nyoki-nav/)
   * ナイトモードのバグ修正
   * Live Dwango Readerのソーシャルメニュー内装飾対応
   * target=&#8221;_blank&#8221;とtitle属性を自動付与するショートコード[link]を追加
@@ -126,7 +126,7 @@ tags:
 
 ## 開発体制の変化
 
-それとは前後しますが、Githubのレポジトリがmaterブランチとdevブランチのトロイカになりました。今まで、アップデート作業は自動化できていませんでしたが、<a href="http://wkwkrnht.gegahost.net/sitemanagement/wordpress/piugin/183" target="_blank" rel="noopener">WP Puaher</a>との併用でmasterブランチから安定板が自動アップデートできるようになりました。ちなみに、devブランチは、こちらが使っている文字通りの開発版です。プルリクはそちらにお願いします。
+それとは前後しますが、Githubのレポジトリがmaterブランチとdevブランチのトロイカになりました。今まで、アップデート作業は自動化できていませんでしたが、[WP Puaher](http://wkwkrnht.gegahost.net/sitemanagement/wordpress/piugin/183)との併用でmasterブランチから安定板が自動アップデートできるようになりました。ちなみに、devブランチは、こちらが使っている文字通りの開発版です。プルリクはそちらにお願いします。
 
 ## 思いがけない表示崩れ
 
@@ -135,23 +135,20 @@ tags:
     一部ページに表示崩れが起きております。原因と思しきものは見えましたので明日どうにかします。
   </p>
   <p>
-    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) <a href="https://twitter.com/wkwkrnht/status/781867596136128512">2016年9月30日</a>
+    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) [2016年9月30日](https://twitter.com/wkwkrnht/status/781867596136128512)
   </p>
 </blockquote>
-
-というわけでどうにかしました。どういうことが起きていたかというと、少なくとも<a href="http://wkwkrnht.gegahost.net/delusion/472" target="_blank" rel="noopener">こちらのページ</a>で三つ目のブログカード以降が重なって表示されるというものです。原因は、概要の中にHTMLタグが閉じタグなしで紛れ込んだことによるものでした。これを表示するために、使っているライブラリが、そこまで想定してなかったのでしょう。OGPの中で、概要があったらそれを、そうじゃなかったら概要タグから拾う。その程度の対応でしたし。(まあ、UTF-8対応すらされてないのでお察しですが)そんなわけで、キャッシュの値を直接いじることで解消しました。仕組みとしては、<a href="http://nelog.jp/wordpress-transient" target="_blank" rel="noopener">こちら</a>ですので。同様の現象にお会いの方は、データベース内の値をいじってください。site_transit+URLな形で名付けてありますから。おおもとの仕組みにしても、<a href="https://wp-simplicity.com/suport/topic/%e5%a4%96%e9%83%a8%e3%82%b5%e3%82%a4%e3%83%88%e3%81%aeogp%e3%81%8b%e3%82%89blogcard%e3%82%92%e4%bd%9c%e3%82%8b/" target="_blank" rel="noopener">こちら</a>ですからSimplicityの劣化版に近いと思います。共有機能は独自のものですが。
+というわけでどうにかしました。どういうことが起きていたかというと、少なくとも[こちらのページ](http://wkwkrnht.gegahost.net/delusion/472)で三つ目のブログカード以降が重なって表示されるというものです。原因は、概要の中にHTMLタグが閉じタグなしで紛れ込んだことによるものでした。これを表示するために、使っているライブラリが、そこまで想定してなかったのでしょう。OGPの中で、概要があったらそれを、そうじゃなかったら概要タグから拾う。その程度の対応でしたし。(まあ、UTF-8対応すらされてないのでお察しですが)そんなわけで、キャッシュの値を直接いじることで解消しました。仕組みとしては、[こちら](http://nelog.jp/wordpress-transient)ですので。同様の現象にお会いの方は、データベース内の値をいじってください。site_transit+URLな形で名付けてありますから。おおもとの仕組みにしても、[こちら](https://wp-simplicity.com/suport/topic/%e5%a4%96%e9%83%a8%e3%82%b5%e3%82%a4%e3%83%88%e3%81%aeogp%e3%81%8b%e3%82%89blogcard%e3%82%92%e4%bd%9c%e3%82%8b/)ですからSimplicityの劣化版に近いと思います。共有機能は独自のものですが。
 
 ## ナイトモードのバグ修正
 
-実はですね。Google Cookie Choices対応のため、スクリプトを追加したところ動かなくなってしまいました。今のところコメントアウトで対応しています。<a href="https://q-az.net/wordpress-night-mode/" target="_blank" rel="noopener">ナイトモードの仕組みはこちら。</a><a href="https://q-az.net/css-in-single-post/" target="_blank" rel="noopener">こちら</a>も元々実装していました。なぜ今のタイミングでの高評価というと、<a href="https://twitter.com/gzzdino/status/779461749636337664" target="_blank" rel="noopener">作者様の意向</a>です。
+実はですね。Google Cookie Choices対応のため、スクリプトを追加したところ動かなくなってしまいました。今のところコメントアウトで対応しています。[ナイトモードの仕組みはこちら。](https://q-az.net/wordpress-night-mode/)[こちら](https://q-az.net/css-in-single-post/)も元々実装していました。なぜ今のタイミングでの公表かというと、[作者様の意向](https://twitter.com/gzzdino/status/779461749636337664)です。
 
 ## まとめ
 
 詳細は、コミットログを見てください。
-
 EMBEDLY https://github.com/wkwkrnht/2016-by-wkwkrnht
-
-ちょっと前に、<a href="http://wkwkrnht.gegahost.net/sitemanagement/wordpress/piugin/556" target="_blank" rel="noopener">記事に書いた通り</a>なのですけれども。gegahost.netのセキュリティ意識の高さにやられて、dlver.itすらも連携できていない状況です。何とか、これを打破したいところでございますが、それは、このwordpress上で同等のものを動かすしかありません。それについては追々報告したいと思います。まったく、それを除けば懐が深すぎるいいサービスなんですけどね。
+ちょっと前に、[記事に書いた通り](http://wkwkrnht.gegahost.net/sitemanagement/wordpress/piugin/556)なのですけれども。gegahost.netのセキュリティ意識の高さにやられて、dlver.itすらも連携できていない状況です。何とか、これを打破したいところでございますが、それは、このwordpress上で同等のものを動かすしかありません。それについては追々報告したいと思います。まったく、それを除けば懐が深すぎるいいサービスなんですけどね。
 
 ## 参考記事
 
@@ -189,7 +186,7 @@ EMBEDLY https://webutubutu.com/webdesign/3453
     Todo:風呂ったらテーマ変える
   </p>
   <p>
-    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) <a href="https://twitter.com/wkwkrnht/status/759379058836647936">2016年7月30日</a>
+    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) [2016年7月30日](https://twitter.com/wkwkrnht/status/759379058836647936)
   </p>
 </blockquote>
 上記やらなんやらでずっと新テーマをつくってるとは言ってましたが、ようやく公開できるレベルになりましたのでリニューアルです。以下にサマリーを。

@@ -19,18 +19,18 @@ tags:
 
 EMBEDLY http://www.4gamer.net/games/999/G999903/20160928038
 
-12月の初めなのも変わらずです。いわずもがな注目したいのは、PDIの動向です。CoDのDLCへの言及やカプコンのPS VRへのコミットメントの発表、小島氏によるセッションぐらいはどこも書くでしょうから。やはり、このブログ的には、GT Sportに注目するべきだと思うんです。そこで、例年はプレイアブル出展、大きくても小さなリアルイベント開催程度だったPDIが、どれだけコミットメントする余地があるのかは、気になるところです。そこで、PS4シリーズ刷新の発表会の直前に<a href="http://www.gran-turismo.com/jp/news/00_3654855.html" target="_blank" rel="noopener">こんな悲しいお知らせ</a>が届いていることが、思い出されるわけです。個人的には、ここで一つ大きな発表が来るのではないかなと思っています。それでも、発売時期は確定しないと思います。たぶん、それが確定するのは、来年の2月ごろじゃないかなと思っています。今年中に確定したら、それはそれで嬉しいのですけども。
+12月の初めなのも変わらずです。いわずもがな注目したいのは、PDIの動向です。CoDのDLCへの言及やカプコンのPS VRへのコミットメントの発表、小島氏によるセッションぐらいはどこも書くでしょうから。やはり、このブログ的には、GT Sportに注目するべきだと思うんです。そこで、例年はプレイアブル出展、大きくても小さなリアルイベント開催程度だったPDIが、どれだけコミットメントする余地があるのかは、気になるところです。そこで、PS4シリーズ刷新の発表会の直前に[こんな悲しいお知らせ](http://www.gran-turismo.com/jp/news/00_3654855.html)が届いていることが、思い出されるわけです。個人的には、ここで一つ大きな発表が来るのではないかなと思っています。それでも、発売時期は確定しないと思います。たぶん、それが確定するのは、来年の2月ごろじゃないかなと思っています。今年中に確定したら、それはそれで嬉しいのですけども。
 
 ## 「JOIN THE FUTURE OF PLAY」
 
-さて、題の「JOIN THE FUTURE OF PLAY」とは、ってところから始めましょう。時は遡って<a href="https://www.gtplanet.net/ps4-pro-event-in-london-november-2-3-will-feature-gt-sport/" target="_blank" rel="noopener">2016年11月1日</a>GTファンの元に新情報が巡りました。それは、ロンドンで行われるというPS4 Proのデモンストレーションイベント。そこに1stパーティタイトルであるGT SPORTも出展するとのことでした。<a href="https://www.gtplanet.net/gran-turismo-sport-will-be-playable-at-reboot-infogamer-on-november-8-13/" target="_blank" rel="noopener">ほんの数時間前に、クロアチアでのプレイアブル出展が公表されたばかり</a>だったので、これも同様にプレイアブル出展のみだと思ってました。また、その数日前に<a href="http://av.watch.impress.co.jp/docs/series/rt/1026717.html" target="_blank" rel="noopener">日本で行われたと思われる近い内容の取材記事</a>があったので、対メディアの説明会かとも思ってました。<a href="http://www.4gamer.net/games/990/G999024/20161103002/" target="_blank" rel="noopener">4Gamerにも同じイベントの記事</a>が昨晩挙がったので参照されたし。要は、今回のイベントは、ハードの技術説明とプレイデモをロンドンでグローバルに行うものと予想を立てていました。
+さて、題の「JOIN THE FUTURE OF PLAY」とは、ってところから始めましょう。時は遡って[2016年11月1日](https://www.gtplanet.net/ps4-pro-event-in-london-november-2-3-will-feature-gt-sport/)GTファンの元に新情報が巡りました。それは、ロンドンで行われるというPS4 Proのデモンストレーションイベント。そこに1stパーティタイトルであるGT SPORTも出展するとのことでした。[ほんの数時間前に、クロアチアでのプレイアブル出展が公表されたばかり](https://www.gtplanet.net/gran-turismo-sport-will-be-playable-at-reboot-infogamer-on-november-8-13/)だったので、これも同様にプレイアブル出展のみだと思ってました。また、その数日前に[日本で行われたと思われる近い内容の取材記事](http://av.watch.impress.co.jp/docs/series/rt/1026717.html)があったので、対メディアの説明会かとも思ってました。[4Gamerにも同じイベントの記事](http://www.4gamer.net/games/990/G999024/20161103002/)が昨晩挙がったので参照されたし。要は、今回のイベントは、ハードの技術説明とプレイデモをロンドンでグローバルに行うものと予想を立てていました。
 
 ### 意外な続報
 
-その予想が崩れ去ったのは、<a href="https://www.gtplanet.net/kazunori-yamauchi-confirms-gt-sport-will-support-4k-hdr-via-ps4-pro/" target="_blank" rel="noopener">この記事</a>によってでした。なんと、山内プロデューサー自身が、デモンストレーション込みのプレゼンテーションを行ったというのです。その中で話された内容として、大枠は、
+その予想が崩れ去ったのは、[この記事](https://www.gtplanet.net/kazunori-yamauchi-confirms-gt-sport-will-support-4k-hdr-via-ps4-pro/)によってでした。なんと、山内プロデューサー自身が、デモンストレーション込みのプレゼンテーションを行ったというのです。その中で話された内容として、大枠は、
   * PS4 Pro使用時、GT SPORTは4k出力ができる
   * HDR対応をしている
-後者については、<a href="http://wkwkrnht.gegahost.net/game/gts/502" target="_blank" rel="noopener">ここ</a>でご紹介している通り、既に公表されていたものです。意外だったのは、前者、予想できなくはないもののオンライン主体のレースゲームという、限りなく不規則に動くオブジェクト、そうでないオブジェクトが無限大であるジャンル。それにおいて、描画負荷を上げるということは、UXを著しく悪くする可能性も孕むということです。特に、PS3を経験しているポリフォニーにとっては、一種のチャレンジだと思われます。これもあえて挑戦するということが、一種の美学といったところでしょうか。
+後者については、[ここ](http://wkwkrnht.gegahost.net/game/gts/502)でご紹介している通り、既に公表されていたものです。意外だったのは、前者、予想できなくはないもののオンライン主体のレースゲームという、限りなく不規則に動くオブジェクト、そうでないオブジェクトが無限大であるジャンル。それにおいて、描画負荷を上げるということは、UXを著しく悪くする可能性も孕むということです。特に、PS3を経験しているポリフォニーにとっては、一種のチャレンジだと思われます。これもあえて挑戦するということが、一種の美学といったところでしょうか。
 
 ### やっと姿を見せる次世代対応
 
@@ -39,14 +39,14 @@ EMBEDLY http://www.4gamer.net/games/999/G999903/20160928038
 <https://www.gtplanet.net/gt-sport-vr-functionality-limited-to-dedicated-vr-tour-mode>{.embedly-card}
 そうです。VRです。かねてから、対応ということのみ宣伝されていましたが、とうとうプレイアブルデモが出展されたようです。しかも、VRモードなる部分に限定されるという(いらない)情報付き。でも、これは仕方ないですね。UIについて保守的である開発陣にとって、VR時代の方向性が見えないことは、とても不安なことでしょう。そこで、モードを分けることで、アセット、ストーリーともに限定することで違和感のない導入を目指したのだと考えられます。これは、他にDriveclubしかコンシューマーにおけるVRレースゲームがないことも影響しているかもしれません。
 
-### ほかの情報
-
-<a href="https://www.gtplanet.net/gt-sport-audio-is-big-improvement-says-eurogamer-editor-yamauchi-comments-on-efficiency/" target="_blank" rel="noopener">音がよくなってるよ</a>という定番ものや、<a href="https://www.gtplanet.net/kazunori-yamauchi-considered-outsourcing-to-help-development-of-gran-turismo-titles/" target="_blank" rel="noopener">外注検討という発言</a>まで様々でした。外注はおそらく、Project CARSのスタジオか元Driveclub開発スタッフぐらいしか見込みがないかなと。第三の選択肢として、FPSやRPGといったジャンルの経験者ということも考えられますが、ビジュアル面だけにとどまる発言なのかがその選択肢を左右します。もともとレースゲームを作っていた元気でさえ、スタッフがいない始末。そのため、外注を頼むとしても、ポリフォニーにとっての合格点を超えられるかは、大変厳しいと思います。なんといっても動くのが遅すぎた。
-
 ### 公式情報
 
 <http://www.gran-turismo.com/jp/news/00_3723425.html>{.embedly-card}
 HDRについての詳細が載っていますね。VRについては、意地でも触れないつもりでしょうか。悪い噂は早めに処理するのが吉だと思います。処理の仕方が最重要ですけどね。
+
+### ほかの情報
+
+[音がよくなってるよ](https://www.gtplanet.net/gt-sport-audio-is-big-improvement-says-eurogamer-editor-yamauchi-comments-on-efficiency/)という定番ものや、[外注検討という発言](https://www.gtplanet.net/kazunori-yamauchi-considered-outsourcing-to-help-development-of-gran-turismo-titles/)まで様々でした。外注はおそらく、Project CARSのスタジオか元Driveclub開発スタッフぐらいしか見込みがないかなと。第三の選択肢として、FPSやRPGといったジャンルの経験者ということも考えられますが、ビジュアル面だけにとどまる発言なのかがその選択肢を左右します。もともとレースゲームを作っていた元気でさえ、スタッフがいない始末。そのため、外注を頼むとしても、ポリフォニーにとっての合格点を超えられるかは、大変厳しいと思います。なんといっても動くのが遅すぎた。
 
 ## 続いて、香港でのイベントなどその他
 
@@ -68,4 +68,4 @@ HDRについての詳細が載っていますね。VRについては、意地で
   * PS Experienceが今年も開催されること
   * GT SportはHDR対応がアセットレベルで行われていること
   * GT Sportが発売延期になっていること
-これら以外は全くの素人による推測です。当たるも八卦、当たらぬも八卦状態です。信じるか信じないかはあなた次第。また、英字記事は全訳はしていないので、もしかしたら何かしらの齟齬があるかもしれません。その場合はコメント欄にてお知らせください。本当の最後に、<a href="https://www.gtplanet.net/its-been-a-year-since-gt-sports-reveal-where-are-we-now/?utm_content=buffercc886&#038;utm_medium=social&#038;utm_source=twitter.com&#038;utm_campaign=buffer" target="_blank" rel="noopener">PS4 Proイベント前までの軌跡</a>を紹介して終了です。
+これら以外は全くの素人による推測です。当たるも八卦、当たらぬも八卦状態です。信じるか信じないかはあなた次第。また、英字記事は全訳はしていないので、もしかしたら何かしらの齟齬があるかもしれません。その場合はコメント欄にてお知らせください。本当の最後に、[PS4 Proイベント前までの軌跡](https://www.gtplanet.net/its-been-a-year-since-gt-sports-reveal-where-are-we-now/?utm_content=buffercc886&#038;utm_medium=social&#038;utm_source=twitter.com&#038;utm_campaign=buffer)を紹介して終了です。

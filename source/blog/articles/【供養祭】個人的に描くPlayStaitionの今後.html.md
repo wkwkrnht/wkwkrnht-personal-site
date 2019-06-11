@@ -18,7 +18,7 @@ tags:
   - SONY
   - 推測
 ---
-どうもお久しぶりです。大掃除記事にアイキャッチを付けようとして、そのまま忘れている<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>です。まあ、例になくRT量が減少していたり、ニュースに触れている時間がっ少なくなったり、精神的に時間が奪われると困ったものです。さて、そんな中で<a href="http://wkwkrnht.wp.xdomain.jp/blog/shpping/2421" title="度々書いてきた" target="_blank" rel="noopener">度々書いてきた</a>通り、昨年端末が急激に増えたことで、Evernoteの台数制限に引っかかるようになってしまいました。妄想決算もそうなんですけど、EvernoteからOneNoteへ引っ越そうプロジェクト実行中でして。そんなわけから、奥底で眠っていたPS系のネタを少し書こうと思います。
+どうもお久しぶりです。大掃除記事にアイキャッチを付けようとして、そのまま忘れているwkwkrnhtです。まあ、例になくRT量が減少していたり、ニュースに触れている時間がっ少なくなったり、精神的に時間が奪われると困ったものです。さて、そんな中で[度々書いてきた](http://wkwkrnht.wp.xdomain.jp/blog/shpping/2421)通り、昨年端末が急激に増えたことで、Evernoteの台数制限に引っかかるようになってしまいました。妄想決算もそうなんですけど、EvernoteからOneNoteへ引っ越そうプロジェクト実行中でして。そんなわけから、奥底で眠っていたPS系のネタを少し書こうと思います。
 
 ## PS4 Proに驚いた話
 

@@ -18,11 +18,10 @@ tags:
 ---
 **この記事は2015-for-wkwkrnht制作時のものの焼き直しです。**
 
-現時点でRT狂の思考ログは、この<a href="http://wkwkrnht.wordpress.com" target="_blank" rel="noopener">wordpress.com版</a>と<a href="http://wkwkrnht.gegahost.net" target="_blank" rel="noopener">gegahost.net</a>版とがあります。これは、私のツイートから、察しが着いていた方もいらっしゃると思います。しかし、
+現時点でRT狂の思考ログは、この[wordpress.com版](http://wkwkrnht.wordpress.com)と[gegahost.net版](http://wkwkrnht.gegahost.net)とがあります。これは、私のツイートから、察しが着いていた方もいらっしゃると思います。しかし、
 EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
-このツイートにある通り、**現状に満足してません！**よって、記事は最優先でwordpress.com版に、外部ドメイン版は<a href="http://wkwkrnht.gegahost.net" target="_blank" rel="noopener">gegahost.net版</a>を記事に使い、<a href="http://wkwkrnht.wp.xdomain.jp" target="_blank" rel="noopener">エックスドメイン版</a>は今後のテーマ作成のために半クローズド状態で運用することにしました。  
-また、現時点の予定としましては、<a href="http://habakiri.2inc.org" target="_blank" rel="noopener">Habakiri</a>をベースとしてマテリアルデザインぽいモノを目標として創っていく次第です。つきましては、副産物である<a href="https://github.com/wkwkrnht/habakiri-child" target="_blank" rel="noopener">子テーマ</a>をここにちょこんと、置いて閉めさて頂きます。  
-以上で、場末ブログの大改造話のプロローグおしまい。その後、彼はtwentyfifteenにほれ込み、自作テーマを組み上げるに至った。
+このツイートにある通り、**現状に満足してません！** よって、記事は最優先で[wordpress.com版](http://wkwkrnht.wordpress.com)に、外部ドメイン版は[gegahost.net版](http://wkwkrnht.gegahost.net)を記事に使い、[エックスドメイン版](http://wkwkrnht.wp.xdomain.jp)は今後のテーマ作成のために半クローズド状態で運用することにしました。  
+また、現時点の予定としましては、[Habakiri](http://habakiri.2inc.org)をベースとしてマテリアルデザインぽいモノを目標として創っていく次第です。つきましては、副産物である[子テーマ](https://github.com/wkwkrnht/habakiri-child)をここにちょこんと、置いて閉めさて頂きます。以上で、場末ブログの大改造話のプロローグおしまい。その後、彼はtwentyfifteenにほれ込み、自作テーマを組み上げるに至った。
 
 ## Simplicityからなんでわざわざ変えんのさ(2016-03-19T16:21:00+09:00)
 
@@ -31,7 +30,7 @@ EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
   * モバイルは1カラム＋ハンバーガーメニュー＋固定ヘッダー
   * PCは2カラムで影を強調する
 
-のが、至高だと陶酔しきったせいですね。ハイ。()そのために、これまで長い長い旅をしていました。<a href="http://wp-fun.com/" target="_blank" rel="noopener">Stinger</a>に始まり、<a href="http://wp-material.net/" target="_blank" rel="noopener">マテリアル</a>、<a href="http://habakiri.2inc.org/" target="_blank" rel="noopener">Habakiri</a> ……  その中で、一番しっくり来た形が<a href="http://wp-simplicity.com/" target="_blank" rel="noopener">Simplicity</a>だったんです。
+のが、至高だと陶酔しきったせいですね。ハイ。()そのために、これまで長い長い旅をしていました。[Stinger](http://wp-fun.com/)に始まり、[マテリアル](http://wp-material.net/)、[Habakiri](http://habakiri.2inc.org) ……  その中で、一番しっくり来た形が[Simplicity](http://wp-simplicity.com/)だったんです。
 
 ### その折に颯爽と現れたTwenty Fifteen
 
@@ -44,7 +43,7 @@ EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
   * TOPへ戻るボタン
   * はてなブログカード
   * アイキャッチ自動設定
-  * @なんとかと書くとツイッターアカウントにリンクする機能(例:<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>)
+  * @なんとかと書くとツイッターアカウントにリンクする機能(例:[@wkwkrnht](http://twitter.com/wkwkrnht))
   * OGP設定
   * シェアボタン
   * 関連記事表示
@@ -66,7 +65,7 @@ EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
 先行公開とか言いつつすっかり専用記事になってますが、一応、少しづつ進めてはいます。(代表例がここの再公開とエックスサーバーエックスドメイン版の非公開化になります。)  
 しかしもって、リツイートとリアルのせいで疲れ果てた結果まったくソースに手を付けないという結果に……  
 EMBEDLY http://wkwkrnht.gegahost.net/twitterlog
-このサイトを公開するのに、<a href="http://wkwkrnht.wp.xdomain.ne.jp/wp-content/uploads/2016/08/csvbatch.zip" target="_blank" rel="noopener">余計なこと</a>をしていたせいもあるんですけどね。
+このサイトを公開するのに、[余計なこと](http://wkwkrnht.wp.xdomain.ne.jp/wp-content/uploads/2016/08/csvbatch.zip)をしていたせいもあるんですけどね。
 
 ### 今後の方向性
 
@@ -96,7 +95,7 @@ AMPのデバックをメインにずっといじってました。<strike>(だ�
   * author.phpで”あの”長いプロフィール情報が表示されるように(本当に入力内容を表示するだけです)
   * ようやくモバイル表示でのシェアボタンの表示調整をしました
 
-こんな感じかな。まだスタイルなど微調整が済んでないので、早めに済ませたいところです。上から4番目のものは、新しくできたベルの隣にあるボタンのことでこの記事の埋め込みコードが自動的に排出されるようになっています。ぜひとも活用してください。そのほか、新しくamp.phpを<a href="http://twitter.com/tokumewi" target="_blank" rel="noopener nofollow">@tokumewi</a>さんのサイト(<a href="http://creatorclip.info/2016/02/wordpress-accelerated-mobile-pages/" target="_blank" rel="noopener">該当記事</a>)をガッツリ使いながらつくりました。固定ページと投稿ページのURL末尾に/?ampだの/?amp=1とつけると体験できると思います。AMPぺージのデザインは未完成なので、いい案を募集中です。また、AMPでもブログカードが使えるぽいのですが、英語力不足で該当ドキュメントが読めないのでまだ実装できてないのが歯がゆいです。次の安定版(≒こちらのサイトのテーマ)では、Mediumにあるという共有方法をなんとか実装してみたいです。まああとは、Githubにソース公開してるから読んでください。モチベーションが続けば、2015 by wkwkrnhtとして親テーマ化の後に、カスタマイザー対応なんかをしていければいいなと思います。
+こんな感じかな。まだスタイルなど微調整が済んでないので、早めに済ませたいところです。上から4番目のものは、新しくできたベルの隣にあるボタンのことでこの記事の埋め込みコードが自動的に排出されるようになっています。ぜひとも活用してください。そのほか、新しくamp.phpを[creatorclip](http://creatorclip.info/2016/02/wordpress-accelerated-mobile-pages/)をガッツリ使いながらつくりました。固定ページと投稿ページのURL末尾に/?ampだの/?amp=1とつけると体験できると思います。AMPぺージのデザインは未完成なので、いい案を募集中です。また、AMPでもブログカードが使えるぽいのですが、英語力不足で該当ドキュメントが読めないのでまだ実装できてないのが歯がゆいです。次の安定版(≒こちらのサイトのテーマ)では、Mediumにあるという共有方法をなんとか実装してみたいです。まああとは、Githubにソース公開してるから読んでください。モチベーションが続けば、2015 by wkwkrnhtとして親テーマ化の後に、カスタマイザー対応なんかをしていければいいなと思います。
 
 ## やっぱり、自分には自分の作法がある(2016-05-10T00:39:46+09:00)
 
