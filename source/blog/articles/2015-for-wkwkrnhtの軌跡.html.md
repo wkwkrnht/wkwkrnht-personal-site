@@ -1,7 +1,7 @@
 ---
 id: 267
 title: 2015-for-wkwkrnhtの軌跡
-date: 2016-04-24T20:19:21+09:00
+date: 2016-07-29T21:47:38+09:00
 author: wkwkrnht
 excerpt: 2015 for wkwkrnht(Twenty Fifteenベースの子テーマ)の二度目の安定版の話
 guid: http://wkwkrnht.gegahost.net/?p=267
@@ -10,13 +10,56 @@ image: /wp-content/uploads/2016/08/2015_for_wkwkrnht_v2.png
 categories:
   - テーマ
 tags:
-  - 2015-for-wkwkrnht
   - TIPS
   - wordpress
   - お知らせ
   - サイト運営
   - ブログ
 ---
+**この記事は2015-for-wkwkrnht制作時のものの焼き直しです。**
+
+現時点でRT狂の思考ログは、この<a href="http://wkwkrnht.wordpress.com" target="_blank" rel="noopener">wordpress.com版</a>と<a href="http://wkwkrnht.gegahost.net" target="_blank" rel="noopener">gegahost.net</a>版とがあります。これは、私のツイートから、察しが着いていた方もいらっしゃると思います。しかし、
+EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
+このツイートにある通り、**現状に満足してません！**よって、記事は最優先でwordpress.com版に、外部ドメイン版は<a href="http://wkwkrnht.gegahost.net" target="_blank" rel="noopener">gegahost.net版</a>を記事に使い、<a href="http://wkwkrnht.wp.xdomain.jp" target="_blank" rel="noopener">エックスドメイン版</a>は今後のテーマ作成のために半クローズド状態で運用することにしました。  
+また、現時点の予定としましては、<a href="http://habakiri.2inc.org" target="_blank" rel="noopener">Habakiri</a>をベースとしてマテリアルデザインぽいモノを目標として創っていく次第です。つきましては、副産物である<a href="https://github.com/wkwkrnht/habakiri-child" target="_blank" rel="noopener">子テーマ</a>をここにちょこんと、置いて閉めさて頂きます。  
+以上で、場末ブログの大改造話のプロローグおしまい。その後、彼はtwentyfifteenにほれ込み、自作テーマを組み上げるに至った。
+
+## Simplicityからなんでわざわざ変えんのさ(2016-03-19T16:21:00+09:00)
+
+これはですね、私は昨今のマテリアルデザインブームで
+
+  * モバイルは1カラム＋ハンバーガーメニュー＋固定ヘッダー
+  * PCは2カラムで影を強調する
+
+のが、至高だと陶酔しきったせいですね。ハイ。()そのために、これまで長い長い旅をしていました。<a href="http://wp-fun.com/" target="_blank" rel="noopener">Stinger</a>に始まり、<a href="http://wp-material.net/" target="_blank" rel="noopener">マテリアル</a>、<a href="http://habakiri.2inc.org/" target="_blank" rel="noopener">Habakiri</a> ……  その中で、一番しっくり来た形が<a href="http://wp-simplicity.com/" target="_blank" rel="noopener">Simplicity</a>だったんです。
+
+### その折に颯爽と現れたTwenty Fifteen
+
+そうなんです。偶然、さわったところ思いのほかに理想通り過ぎて一目惚れしちゃったんです。これはもうこいつで逝くしかねえと。
+
+### とはいっても、機能性は……
+
+それはもう最悪です。なんせ、二大日本製テーマを経験してしまった私。カスタマイザーを見て、膝を落とすしかなかったのです。そこからは、Google先生との闘いでした。まず、子テーマを作って、なんだらかんだら……と。その結果、以下の機能を移植できました！
+
+  * TOPへ戻るボタン
+  * はてなブログカード
+  * アイキャッチ自動設定
+  * @なんとかと書くとツイッターアカウントにリンクする機能(例:<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>)
+  * OGP設定
+  * シェアボタン
+  * 関連記事表示
+  * 検索ヒット数表示
+  * 検索キーワードのハイライト
+  * アナリティクスコードの出力
+  * ウェブマスターツールへの対応(GoogleとBingのみ)
+  * 無駄に長いプロフィール入力欄
+
+もう満足です！(こんなブログエントリー書いてる時点でお察しですが…………)
+
+### デザインもちょこちょこと
+
+見出しデザインと月別アーカイブ、記事一覧についてスクロール量が少なくなるように、影が強調されるように変更しています。シェアボタンやらコメント欄やらが固まってない状態ですし、AMPについても未対応。カスタマイザーでの色変更に未対応部分があるので、少しずつ改善して行きたいところです。
+
 ## 進捗報告です(2016-01-17T19:33:47+09:00)
 
 <https://wkwkrnht.wordpress.com/2015/12/14/%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e3%81%a1%e3%82%87%e3%81%93%e3%81%be%e3%81%8b%e3%81%a8%e5%bc%84%e3%81%8f%e3%81%a3%e3%81%a6%e3%81%be%e3%81%99%e3%80%82%ef%bc%86habakiri%e5%ad%90%e3%83%86%e3%83%bc>{.embedly-card}  
@@ -69,7 +112,7 @@ AMPのデバックをメインにずっといじってました。<strike>(だ�
   * 他人の書いたコードを上書きするから、どこがどう作用しているのか等の全体像が掴みずらい
 この二点に集約できると思います。さらに、環境上仕方ないのですが、サイドバーがうっとうしくて1カラムが羨ましくなったということもあります。今後は、これらの反省点を活かしてシンプルであり、機能性はしっかりあるテーマを完成させていきたいと思います。
 
-### ししん
+### 指針
 
 特徴は、常に下部のボタンから共有とメニュー呼び出しが出来るということ。それを今回、新テーマ(仮)としてHTMLから作りたいと思います。  
 流れは、HTMLファイル作成→アイキャッチ(仮)作成→CSSで整える(ここで骨組み半分完成)→仕組みの要であるメニュー部分のスクリプト部分とかを作成→レビュー(ここでしっかりさせる)→\[SNS部分も同様に\](ここで骨組み完成)→WPテーマ用にリファイン(林家次男さんの連載参考に)→レビュー→カテゴリーのように少し手間のかかるページに対応→レビュー→見つかりません系ページの作成→リファクタリング→今まで必死につけてきたfunction.phpにある便利機能を追加→レビュー→WpTHKを参考に高速化、最適化→レビュー→ロゴ作成→SEO(主に構造化)→完成  
