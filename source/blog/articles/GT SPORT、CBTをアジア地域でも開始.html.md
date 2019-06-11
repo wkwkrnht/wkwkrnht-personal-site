@@ -1,13 +1,8 @@
 ---
-id: 2338
 title: GT SPORT、CBTをアジア地域でも開始
 date: 2017-06-02T21:42:53+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2338
-permalink: /game/playstation/gts/2338/
 image: /wp-content/uploads/2016/08/gt.jpg
-categories:
-  - Granturismo Sport
 tags:
   - Granturismo Sport
   - PS4

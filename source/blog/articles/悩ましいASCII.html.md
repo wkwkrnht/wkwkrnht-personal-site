@@ -1,12 +1,7 @@
 ---
-id: 294
 title: 悩ましいASCII
 date: 2016-06-27T22:17:02+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=294
-permalink: /uncategorized/294/
-categories:
-  - 未分類
 tags:
   - ASCII
   - NEC

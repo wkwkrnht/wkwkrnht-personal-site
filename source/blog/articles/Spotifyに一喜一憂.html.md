@@ -1,12 +1,7 @@
 ---
-id: 571
 title: Spotifyに一喜一憂
 date: 2016-10-16T20:10:02+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=571
-permalink: /music/spotify/571/
-categories:
-  - Spotify
 tags:
   - ANGRA
   - CASIOPEA

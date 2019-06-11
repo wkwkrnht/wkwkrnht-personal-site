@@ -1,13 +1,8 @@
 ---
-id: 2315
 title: GWナニスル？R6Sスル！【紹介編】
 date: 2017-05-04T22:51:31+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2315
-permalink: /game/r6s/2315/
 image: /wp-content/uploads/2017/05/R6Siege_Wallpapers.jpg
-categories:
-  - Rainbow Six Siege
 tags:
   - PC
   - PS4

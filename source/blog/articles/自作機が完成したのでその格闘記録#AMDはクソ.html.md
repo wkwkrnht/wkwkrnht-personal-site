@@ -1,12 +1,7 @@
 ---
-id: 2563
 title: '自作機が完成したのでその格闘記録#AMDはクソ'
 date: 2019-04-06T17:20:47+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2563
-permalink: /windows/pcdiy/2563/
-categories:
-  - 自作PC
 tags:
   - ADATA
   - Amazon
@@ -29,7 +24,6 @@ tags:
   - 自作PC
 ---
 EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
-
 予告通り、組みました。構成は、以下に載せます。ちょっとばかし追加したパーツもあるので。OSは公開していませんでしたが、結局Windows Server 2016 Standardになりました。これが最悪の結末を招くのですがそれはおいおい、というわけで進んでいきましょう。
 
 ## 構成

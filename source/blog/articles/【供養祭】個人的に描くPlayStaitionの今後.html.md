@@ -1,13 +1,8 @@
 ---
-id: 2484
 title: 【供養祭】個人的に描くPlayStaitionの今後
 date: 2018-02-04T16:13:58+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2484
-permalink: /game/playstation/2484/
 image: /wp-content/uploads/2018/02/ps4-pro.png
-categories:
-  - PlayStation
 tags:
   - AMD
   - Granturismo Sport

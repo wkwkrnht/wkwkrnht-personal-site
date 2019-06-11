@@ -1,13 +1,8 @@
 ---
-id: 604
 title: 「JOIN THE FUTURE OF PLAY」におけるGTSPORT関連の動き
 date: 2016-11-05T23:49:01+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=604
-permalink: /game/playstation/gts/604/
 image: /wp-content/uploads/2016/08/gt.jpg
-categories:
-  - Granturismo Sport
 tags:
   - Granturismo Sport
   - PS4

@@ -1,13 +1,8 @@
 ---
-id: 586
 title: Twitterクライアント最強はツイタマって話
 date: 2016-10-23T14:54:43+09:00
 author: wkwkrnht
 excerpt: wkwkrnhtが気に入ったTwitterクライアント達。AndroidとWindows向けをご紹介。おそらく他では見ない名前ばかりだと思います。
-guid: http://wkwkrnht.gegahost.net/?p=586
-permalink: /twitter/586/
-categories:
-  - Twitter
 tags:
   - Android
   - joytter

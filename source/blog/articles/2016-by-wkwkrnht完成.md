@@ -1,14 +1,9 @@
 ---
-id: 475
 title: 2016-by-wkwkrnht完成
 date: 2016-09-24T01:39:46+09:00
 author: wkwkrnht
 excerpt: 2016-by-wkwkrnht初版公開時の記事。初々しさをお楽しみください。今はもうリファクタリング済みですけれども、当時はこのようなことをしていました。詳しくはGithubで。
-guid: http://wkwkrnht.gegahost.net/?p=475
-permalink: /sitemanagement/wordpress/theme/475/
 image: /wp-content/uploads/2017/03/2016-by-wkwkrnht.png
-categories:
-  - テーマ
 tags:
   - 2016-by-wkwkrnht
   - Google

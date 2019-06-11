@@ -1,13 +1,7 @@
 ---
-id: 204
 title: '帰ってきたEcoHome&Draweroid'
 date: 2016-03-27T22:18:05+09:00
 author: wkwkrnht
-layout: post
-guid: http://wkwkrnht.gegahost.net/?p=204
-permalink: /android/app/204/
-categories:
-  - アプリ
 tags:
   - Android
   - Draweroid

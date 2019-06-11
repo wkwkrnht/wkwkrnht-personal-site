@@ -1,13 +1,8 @@
 ---
-id: 299
 title: GTの今後を(世代的に)予想してみた
 date: 2016-07-03T21:39:07+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=299
-permalink: /game/playstation/gts/299/
 image: /wp-content/uploads/2016/08/gt.jpg
-categories:
-  - Granturismo Sport
 tags:
   - Granturismo
   - Granturismo Sport

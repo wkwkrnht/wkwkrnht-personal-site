@@ -1,13 +1,8 @@
 ---
-id: 199
 title: Line mobileの機種予想(むしろ願望)
 date: 2016-03-27T16:35:30+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=199
-permalink: /cellphone/mvno/line-mobile/199/
 image: /wp-content/uploads/2016/08/LINE_logotype_Green.png
-categories:
-  - LINE mobile
 tags:
   - Android
   - ASUS

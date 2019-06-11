@@ -1,14 +1,9 @@
 ---
-id: 2359
 title: GT SPORT、トヨタ系ブランド健在
 date: 2017-09-24T21:45:12+09:00
 author: wkwkrnht
 excerpt: 2017年の秋、レースゲーム戦国時代に騒がせたのはトヨタだった……。GT SPORTへの影響は？などなど最新情報ぶった切り！
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2359
-permalink: /game/playstation/gts/2359/
 image: /wp-content/uploads/2016/08/gt.jpg
-categories:
-  - Granturismo Sport
 tags:
   - Gr.1
   - Granturismo Sport

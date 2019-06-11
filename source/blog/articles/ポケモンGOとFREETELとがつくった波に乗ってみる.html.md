@@ -1,12 +1,7 @@
 ---
-id: 311
 title: ポケモンGOとFREETELとがつくった波に乗ってみる
 date: 2016-07-22T20:23:45+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=311
-permalink: /game/pokemongo/311/
-categories:
-  - ポケモンGO
 tags:
   - Android
   - FREETEL

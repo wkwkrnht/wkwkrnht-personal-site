@@ -1,13 +1,8 @@
 ---
-id: 2334
 title: 梅雨の休みはナニスル？R6Sスル！【攻略編】
 date: 2017-05-27T22:39:37+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2334
-permalink: /game/r6s/2334/
 image: /wp-content/uploads/2017/05/R6Siege_Wallpapers.jpg
-categories:
-  - Rainbow Six Siege
 tags:
   - FPS
   - PC

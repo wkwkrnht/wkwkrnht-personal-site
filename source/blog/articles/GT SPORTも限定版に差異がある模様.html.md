@@ -1,14 +1,9 @@
 ---
-id: 517
 title: GT SPORTも限定版に差異がある模様
 date: 2016-10-01T19:32:58+09:00
 author: wkwkrnht
 excerpt: GranTurismo Sportも、GranTurismo 5やGranTurismo 6と同様に、国によって特典が違うよって話。(※ 2016/07/31時点)
-guid: http://wkwkrnht.gegahost.net/?p=517
-permalink: /game/playstation/gts/517/
 image: /wp-content/uploads/2016/08/gt.jpg
-categories:
-  - Granturismo Sport
 tags:
   - Granturismo Sport
   - PS4

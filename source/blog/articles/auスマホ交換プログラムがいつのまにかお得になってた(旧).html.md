@@ -1,14 +1,9 @@
 ---
-id: 2175
 title: auスマホ交換プログラムがいつのまにかお得になってた(旧)
 date: 2016-01-09T17:59:14+09:00
 author: wkwkrnht
 excerpt: auスマホ交換プログラムの変遷。A03、G01、HTL23、LGV31のクインテットからA03、LGV32へのコンビへの変更から物語は始まる。
-guid: http://wkwkrnht.gegahost.net/?p=26
-permalink: /cellphone/fee/offer/2175/
 image: /wp-content/uploads/2016/08/au.png
-categories:
-  - セール
 tags:
   - Android
   - au
@@ -18,7 +13,6 @@ tags:
 ## 始まり
 
 今日、スーパーカケホの発表があったのでauの [公式サイト](http://www.au.kddi.com/mobile/campaign/sp-change-pg/)を覗いたら………
-
   * A03は3万円割引へと増額
   * LGV31→LGV32へと変更(割引価格はそのまま)
   * G01、HTL23が予定通り終了
@@ -102,5 +96,4 @@ tags:
 　　　　|＼|　　　　　　　　　|/|
 　　　　|　||/＼／＼／＼/|　|
 ~~~
-
 auスマホ交換プログラム自体は、生き残っています。それなのに！縛りあり！不人気機種！明らかな機種変更差別！な施策に落ちてしまいました。

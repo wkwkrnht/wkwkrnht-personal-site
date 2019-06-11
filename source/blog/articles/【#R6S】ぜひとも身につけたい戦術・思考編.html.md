@@ -1,14 +1,8 @@
 ---
-id: 2554
 title: '【#R6S】ぜひとも身につけたい戦術・思考編'
 date: 2019-03-03T21:57:25+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2554
-permalink: /game/r6s/2554/
 image: /wp-content/uploads/2017/05/R6Siege_Wallpapers.jpg
-categories:
-  - Rainbow Six Siege
-tags:
   - FPS
   - TIPS
   - PS4

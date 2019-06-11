@@ -1,13 +1,8 @@
 ---
-id: 2349
 title: GT SPORT、E3では目立たなかった新要素
 date: 2017-07-26T22:04:02+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.wp.xdomain.jp/?p=2349
-permalink: /game/playstation/gts/2349/
 image: /wp-content/uploads/2016/08/gt.jpg
-categories:
-  - Granturismo Sport
 tags:
   - Amazon
   - Granturismo Sport

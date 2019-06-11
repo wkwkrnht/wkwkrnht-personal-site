@@ -1,12 +1,7 @@
 ---
-id: 195
 title: 一周遅れのmode1記事
 date: 2016-03-21T17:01:46+09:00
 author: wkwkrnht
-guid: http://wkwkrnht.gegahost.net/?p=195
-permalink: /android/mode1/195/
-categories:
-  - mode1
 tags:
   - Android
   - Twitter
