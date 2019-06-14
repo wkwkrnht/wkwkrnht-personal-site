@@ -1,10 +1,7 @@
 require 'lib/short-code.rb'
 
-# Markdown
 set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
-# Layouts(Per-page layout changes): https://middlemanapp.com/basics/layouts/
-#page '/path/to/file.html', layout: 'other_layout'
 page "/*.xml", layout: false
 page "/*.yml", layout: false
 page "/*.json", layout: false
@@ -28,5 +25,6 @@ configure :build do
         config.host = "https://wkwkrnht-blog-test.netlify.com/" # (required) Host of your website
     end
     activate :minify_html
+    activate :minify_css
     activate :gzip
 end
