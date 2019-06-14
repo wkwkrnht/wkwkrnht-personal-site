@@ -8,9 +8,7 @@ set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data =>
 #page '/path/to/file.html', layout: 'other_layout'
 page "/*.xml", layout: false
 page "/*.yml", layout: false
-page "/*.toml", layout: false
 page "/*.json", layout: false
-page "/*.txt", layout: false
 page "/partials/*", layout: false
 page "/admin/*", layout: false, directory_index: false
 page '/404.html', directory_index: false
@@ -31,25 +29,6 @@ configure :build do
     activate :sitemap_ping do |config|
         config.host = "https://wkwkrnht-blog-test.netlify.com/" # (required) Host of your website
     end
-    activate :robots,
-        :rules => [
-            {
-                :user_agent => "Googlebot",
-                :allow => %w(/),
-                :disallow => %w(404.html)
-            },
-            {
-                :user_agent => "Googlebot-Image",
-                :allow => %w(/),
-                :disallow => %w(404.html)
-            },
-            {
-                :user_agent => "bingbot",
-                :allow => %w(/),
-                :disallow => %w(404.html)
-            }
-        ],
-        :sitemap => "https://wkwkrnht.netlify.com/sitemap.xml"
     activate :minify_html
     activate :minify_css
     activate :gzip
