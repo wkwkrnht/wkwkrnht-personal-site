@@ -1,5 +1,8 @@
 const data_list = [
     'index.html',
+    'about.html',
+    'privacy-policy.html',
+    'manifest.json',
     '/',
     '/stylesheets/all.css',
     '/javascripts/google-analytics.js',
