@@ -25,6 +25,5 @@ configure :build do
         config.host = "https://wkwkrnht-blog-test.netlify.com/" # (required) Host of your website
     end
     activate :minify_html
-    activate :minify_css
     activate :gzip
 end
