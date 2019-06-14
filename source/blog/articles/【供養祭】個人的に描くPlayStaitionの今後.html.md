@@ -5,7 +5,7 @@ author: wkwkrnht
 image: /wp-content/uploads/2018/02/ps4-pro.png
 tags:
   - AMD
-  - Granturismo Sport
+  - Granturismo
   - HDMI
   - HDR
   - PS4

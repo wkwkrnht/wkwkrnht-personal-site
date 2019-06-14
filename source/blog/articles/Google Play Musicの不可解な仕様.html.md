@@ -7,6 +7,7 @@ tags:
   - Google Play Music
   - TIPS
   - 不具合
+  - 音楽
 ---
 EMBEDLY https://play.google.com/store/music?hl=ja
 [ここ](https://play.google.com/store/music?hl=ja)に書いた通り、SCV32のワナに嵌ってしまったwkwkrnhtです。それの検証の最中、音楽ファイルをいつものSDカード以外に復元する必要があり、復元元としてGoogle Play Musicを選んだのですが、これが失敗でした。という話です。元々、Google Play musicは、何かあったとき用にCDから取り込んだ全音楽ファイルと、クーポンで買った音源とが保存されていました。ようは、私にとって手持ちの全音源のバックアップとなっていました。もちろん無料プランです。これらを前提として書いていきますね。

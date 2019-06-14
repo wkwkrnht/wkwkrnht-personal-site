@@ -5,7 +5,6 @@ author: wkwkrnht
 tags:
   - Android
   - Twitter
-  - ブログ
   - 推測
   - 騒動
 ---

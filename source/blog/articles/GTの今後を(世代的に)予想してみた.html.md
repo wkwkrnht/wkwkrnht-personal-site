@@ -6,7 +6,6 @@ image: /wp-content/uploads/2016/08/gt.jpg
 tags:
   - Granturismo
   - Granturismo Sport
-  - GT6
   - PS3
   - PS4
 ---

@@ -3,8 +3,6 @@ title: 悩ましいASCII
 date: 2016-06-27T22:17:02+09:00
 author: wkwkrnht
 tags:
-  - ASCII
-  - NEC
   - PC
   - アスキー
   - ブログ
