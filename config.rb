@@ -1,4 +1,3 @@
-require 'lib/embed.rb'
 require 'lib/short-code.rb'
 
 # Markdown

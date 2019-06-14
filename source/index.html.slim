@@ -1,20 +1,8 @@
 main.index-main
     section.index-detail
         p wkwkrnhtの個人サイトです。プライバシーポリシーに動の上、about、ブログの方をお楽しみください。
-    section.big-card
-        h2.index-title Navigation
-        nav.index-nav
-            a href='/about.html' title='about' tabindex='0' About
-            a href='/blog/' title='blog' tabindex='0' Blog
-            a href='https://goo.gl/forms/3067ATgi94' title='contact' tabindex='0' Contact
-            a href='/privacy-policy.html' title='privacy policy' tabindex='0'
-                |Privacy policy
-    section class='big-card keyword-search'
-        h2 キーワードで検索
-        form action='https://duckduckgo.com/' role='search'
-            input name='sites' type='hidden' value=data.front.base_url
-            input name='q' type='search' required='' label='キーワード'
-            input type='submit' value='Search' label='検索'
+    = partial 'partials/navi'
+    = partial 'partials/search'
     section.big-card
         h2.index-title Current Articles
         nav.card-list
