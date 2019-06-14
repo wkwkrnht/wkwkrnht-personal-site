@@ -4,6 +4,4 @@ gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-sitemap-ping'
 gem 'middleman-minify-html'
-
-gem 'builder'
 gem 'slim'
