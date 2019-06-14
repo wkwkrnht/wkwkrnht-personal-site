@@ -13,7 +13,6 @@ page "/admin/*", layout: false, directory_index: false
 page '/404.html', directory_index: false
 
 # Activate and configure extensions: https://middlemanapp.com/advanced/configuration/#configuring-extensions
-activate :embed
 activate :shortcode
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
