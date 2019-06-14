@@ -9,7 +9,6 @@ tags:
   - HDMI
   - HDR
   - PS4
-  - PS4 Pro
   - SONY
   - 推測
 ---

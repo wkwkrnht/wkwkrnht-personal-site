@@ -3,7 +3,6 @@ title: 【4K・HDR】N-T2880UHDRを購入レビュー
 date: 2018-10-08T12:53:13+09:00
 author: wkwkrnht
 tags:
-  - 28インチ
   - 4K
   - Freesync
   - HDR

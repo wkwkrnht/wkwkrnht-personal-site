@@ -5,15 +5,10 @@ author: wkwkrnht
 excerpt: 2016-by-wkwkrnht初版公開時の記事。初々しさをお楽しみください。今はもうリファクタリング済みですけれども、当時はこのようなことをしていました。詳しくはGithubで。
 image: /wp-content/uploads/2017/03/2016-by-wkwkrnht.png
 tags:
-  - 2016-by-wkwkrnht
   - Google
-  - JSON
-  - Pinterest
   - wordpress
   - お知らせ
   - サイト運営
-  - ナイトモード
-  - パンくずリスト
   - ブログ
 ---
 [先日の記事の通り](http://wkwkrnht.wp.xdomain.jp/delusion/472)、そちらに集中したいため、ここいらで切り上げたいと思います。おそらくは、コメントやreadme更新が気が向いたら入るくらいかと思います。国際化は難儀だったもので。以下が、更新内容です。
