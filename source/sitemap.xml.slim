@@ -1,0 +1,27 @@
+- site_data = data.front
+- site_url = site_data.base_url + '/'
+- updated = blog.articles.first.date.to_time.iso8601 unless blog.articles.empty?
+doctype xml
+feed xmlns='http://www.w3.org/2005/Atom'
+    title
+        = site_data.title
+    id
+        = URI.join(site_url, blog.options.prefix.to_s)
+    link href=site_url
+    - if updated
+        updated
+            = updated
+    - page_articles.each_with_index do |article, i|
+        - article_url = URI.join(site_url, URI.encode(article.url))
+        entry
+            title
+                 = article.title
+            link rel='alternate' href=article_url
+            id
+                = article_url
+            published
+                = article.date.to_time.iso8601
+            updated
+                = File.mtime(article.source_file).iso8601
+            content type='html'
+                == article.body
