@@ -1,5 +1,5 @@
 - site_data = data.front
-- site_url = "#{site_data.base_url}/"
+- site_url = site_data.base_url + '/'
 - updated = blog.articles.first.date.to_time.iso8601 unless blog.articles.empty?
 doctype xml
 feed xmlns='http://www.w3.org/2005/Atom'
@@ -23,4 +23,4 @@ feed xmlns='http://www.w3.org/2005/Atom'
             updated
                 = File.mtime(article.source_file).iso8601
             content type='html'
-                = article.body
+                == article.body
