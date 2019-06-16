@@ -16,7 +16,6 @@ tags:
   <p lang="ja" dir="ltr">
     こんばんは、10箇所も蚊に刺されて夏を感じているwkwkrnhtですいかがお過ごしでしょうか
   </p>
-
   <p>
     &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) <a href="https://twitter.com/wkwkrnht/status/751064543384657922">2016年7月7日</a>
   </p>
