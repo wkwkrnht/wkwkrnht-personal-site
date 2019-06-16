@@ -23,15 +23,13 @@ tags:
   * 検索ウィジェットをきちんとした形に
   * タグ指定とカテゴリー指定が可能に
   * デザインの調整完了
-
   * 構造化マークアップ強化
-  * hentryとhatomのバグが出ないように
-  * NewsArticleなjsonを記事ページに出力するように
-  * WPHeader
-  * WPAdblock
-  * SiteNavigationElements
-  * SearchResulghts
-
+      * hentryとhatomのバグが出ないように
+      * NewsArticleなjsonを記事ページに出力するように
+      * WPHeader
+      * WPAdblock
+      * SiteNavigationElements
+      * SearchResulghts
   * メニュー表示用のスクリプトはonClickでネイティブに
   * jQueryはWordpress内蔵のものに変更(＝ダウングレード)
   * .cssファイルをひとまとめに
@@ -100,7 +98,6 @@ tags:
   * メインメニューと共有メニューへの動線の変化
   * 始めの「＋」ボタンでメニューウィンドウが出るように
   * メニューウィンドウ内のタブでメインメニューと共有メニューの切り替えを行うように
-
   * Instapaperとvkとstumbleuponとbufferへの共有に対応
   * olタグに装飾追加
   * [ホバーで出てくる前後ナビゲーションウィジェットの追加](https://q-az.net/wordpress-nyoki-nav/)
@@ -180,14 +177,12 @@ EMBEDLY https://webutubutu.com/webdesign/3453
   </p>
 </blockquote>
 上記やらなんやらでずっと新テーマをつくってるとは言ってましたが、ようやく公開できるレベルになりましたのでリニューアルです。以下にサマリーを。
-
   * 常に画面下に固定のメニュー+1カラムの構成
   * メニューからは共有とウィジェットやナビにアクセス
   * コンセプトはできるだけシンプルに
   * AMP対応やうざい程のプロフやブログカードは引き継ぎ
   * アナリティクスはHTML入力しなきゃダメなように
   * OGP.phpなブログカード試験導入
-
 これぐらいかな
 EMBEDLY http://wkwkrnht.gegahost.net
 まあおいおい機能は追加していきます。
