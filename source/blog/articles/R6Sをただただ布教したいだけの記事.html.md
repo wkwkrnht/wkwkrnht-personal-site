@@ -1,5 +1,5 @@
 ---
-title: たまの休みはナニスル？R6Sスル！
+title: R6Sをただただ布教したいだけの記事
 date: 2019-03-03T21:57:25+09:00
 author: wkwkrnht
 eyecatch: >-
