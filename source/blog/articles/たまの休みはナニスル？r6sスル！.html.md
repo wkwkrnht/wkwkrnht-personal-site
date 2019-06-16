@@ -150,7 +150,8 @@ tags:
 </table>
 <table>
     <tr>
-        <td>防衛側</td><td></td>
+        <td>防衛側</td>
+        <td></td>
     </tr>
     <tr>
         <td>おおもとの分類</td>
