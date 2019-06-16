@@ -39,7 +39,6 @@ tags:
     <th>
       第3世代
     </th>
-
     <td>
       GTS～
     </td>
