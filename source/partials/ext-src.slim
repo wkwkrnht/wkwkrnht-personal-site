@@ -18,6 +18,5 @@ link rel='manifest' href='/manifest.json'
         gtag('config', "#{google_analytics}");
 - if linkswitch
     javascript:
-        const vc_pid = "#{linkswitch}";
+        let vc_pid = "#{linkswitch}";
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
-    = javascript_include_tag '//mlb-stg.valuecommerce.com/mylinkbox.js', async: 'async'
