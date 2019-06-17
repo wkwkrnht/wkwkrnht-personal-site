@@ -24,4 +24,4 @@ feed xmlns='http://www.w3.org/2005/Atom'
             updated
                 = File.mtime(article.source_file).iso8601
             content type='html'
-                == article.body
+                = article.body
