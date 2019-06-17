@@ -2,6 +2,8 @@
 title: Google Play Musicの不可解な仕様
 date: 2017-03-25T21:22:53+09:00
 author: wkwkrnht
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/original_images_Google_Logo.png
 tags:
   - Google
   - Google Play Music

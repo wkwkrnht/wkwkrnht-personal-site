@@ -3,7 +3,8 @@ title: 2015-for-wkwkrnhtの軌跡
 date: 2016-07-29T21:47:38+09:00
 author: wkwkrnht
 description: 2015 for wkwkrnht(Twenty Fifteenベースの子テーマ)の二度目の安定版の話
-image: /wp-content/uploads/2016/08/2015_for_wkwkrnht_v2.png
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/2015_for_wkwkrnht_v2.png
 tags:
   - TIPS
   - wordpress

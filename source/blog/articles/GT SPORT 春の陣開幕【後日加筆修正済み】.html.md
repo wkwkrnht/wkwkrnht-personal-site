@@ -2,7 +2,8 @@
 title: GT SPORT 春の陣開幕【後日加筆修正済み】
 date: 2019-03-02T13:20:26+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2016/08/gt.jpg
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/gt.jpg
 tags:
   - FIA
   - Granturismo Sport

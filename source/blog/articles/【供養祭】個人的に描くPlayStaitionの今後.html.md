@@ -2,7 +2,8 @@
 title: 【供養祭】個人的に描くPlayStaitionの今後
 date: 2018-02-04T16:13:58+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2018/02/ps4-pro.png
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/ps4-pro.png
 tags:
   - AMD
   - Granturismo

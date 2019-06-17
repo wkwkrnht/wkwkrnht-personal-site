@@ -2,7 +2,8 @@
 title: Line mobileの機種予想(むしろ願望)
 date: 2016-03-27T16:35:30+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2016/08/LINE_logotype_Green.png
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/LINE_logotype_Green.png
 tags:
   - Android
   - ASUS

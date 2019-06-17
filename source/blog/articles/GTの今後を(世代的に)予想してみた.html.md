@@ -2,7 +2,8 @@
 title: GTの今後を(世代的に)予想してみた
 date: 2016-07-03T21:39:07+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2016/08/gt.jpg
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/gt.jpg
 tags:
   - Granturismo
   - Granturismo Sport

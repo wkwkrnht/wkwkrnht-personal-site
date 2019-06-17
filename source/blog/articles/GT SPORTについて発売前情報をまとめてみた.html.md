@@ -2,7 +2,8 @@
 title: GT SPORTについて発売前情報をまとめてみた
 date: 2017-06-02T21:42:53+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2016/08/gt.jpg
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/gt.jpg
 tags:
   - Granturismo Sport
   - PS4

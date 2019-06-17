@@ -2,7 +2,8 @@
 title: auタブレットの変
 date: 2016-01-09T18:39:30+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2016/08/au.png
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/au.png
 tags:
   - Android
   - ASUS

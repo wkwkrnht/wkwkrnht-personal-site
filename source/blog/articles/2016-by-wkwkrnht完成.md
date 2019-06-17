@@ -3,7 +3,8 @@ title: 2016-by-wkwkrnht完成
 date: 2016-09-24T01:39:46+09:00
 author: wkwkrnht
 description: 2016-by-wkwkrnht初版公開時の記事。初々しさをお楽しみください。今はもうリファクタリング済みですけれども、当時はこのようなことをしていました。詳しくはGithubで。
-image: /wp-content/uploads/2017/03/2016-by-wkwkrnht.png
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/2016-by-wkwkrnht.png
 tags:
   - Google
   - wordpress
