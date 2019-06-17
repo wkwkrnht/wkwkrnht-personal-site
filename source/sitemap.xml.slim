@@ -2,12 +2,13 @@
 - site_url = site_data.base_url + '/'
 - updated = blog.articles.first.date.to_time.iso8601 unless blog.articles.empty?
 doctype xml
-feed xmlns='http://purl.org/rss/1.0/'
+feed xmlns='http://www.w3.org/2005/Atom'
     title
         = site_data.title
     id
         = URI.join(site_url, blog.options.prefix.to_s)
-    link href=site_url
+    link href=site_url rel='alternate' type='text/html'
+    link href=URI.join(site_url, current_page.path) rel='self' type='application/atom+xml'
     - if updated
         updated
             = updated
