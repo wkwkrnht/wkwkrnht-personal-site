@@ -13,7 +13,7 @@
         h2
             | 最新記事
         ul.card-list
-            - blog.articles[0...9].each do |article|
+            - blog.articles[0...3].each do |article|
                 li
                     = link_to article.url, :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
                         = image_tag '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
