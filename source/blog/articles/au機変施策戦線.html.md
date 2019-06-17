@@ -2,7 +2,8 @@
 title: au機変施策戦線
 date: 2016-07-29T21:59:15+09:00
 author: wkwkrnht
-image: /wp-content/uploads/2016/08/au.png
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/au.png
 tags:
   - au
   - セール

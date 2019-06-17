@@ -2,7 +2,9 @@
 title: Twitterクライアント最強はツイタマって話
 date: 2016-10-23T14:54:43+09:00
 author: wkwkrnht
-excerpt: wkwkrnhtが気に入ったTwitterクライアント達。AndroidとWindows向けをご紹介。おそらく他では見ない名前ばかりだと思います。
+description: wkwkrnhtが気に入ったTwitterクライアント達。AndroidとWindows向けをご紹介。おそらく他では見ない名前ばかりだと思います。
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/logo.png
 tags:
   - Android
   - joytter

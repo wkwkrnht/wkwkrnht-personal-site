@@ -2,7 +2,7 @@
 title: Git、Anytime、Anywhere、Anydevice
 date: 2016-11-22T01:26:19+09:00
 author: wkwkrnht
-excerpt: Android上で動くGitクライアントを探しているそこのあなた、この記事に3つの解法が載っています。選ぶかどうかは、あなた次第です。道しるべとならんことを。
+description: Android上で動くGitクライアントを探しているそこのあなた、この記事に3つの解法が載っています。選ぶかどうかは、あなた次第です。道しるべとならんことを。
 tags:
   - AIDE
   - Android
