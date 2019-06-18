@@ -336,18 +336,18 @@ HDRについての詳細が載っていますね。VRについては、意地で
 
 #### 記事群
 
-EMBEDLY http://www.gran-turismo.com/jp/news/00_5318724.html
+<http://www.gran-turismo.com/jp/news/00_5318724.html>{.embedly-card}
 <http://www.4gamer.net/games/322/G032254/20170613014>{.embedly-card}
 
 #### 動画群
 
-
-
-
-
-
-
-
+YOUTUBE43 LnJtRYZ9-ZA
+YOUTUBE43 75hq3FW7S9w
+YOUTUBE43 S5Oq_33exxE
+YOUTUBE43 xd8wqRL0GqM
+YOUTUBE43 otbc2lWNF6k
+YOUTUBE43 7uok0Eatxjo
+YOUTUBE43 DAWYTpgxEv0
 
 ### 以下本文
 
@@ -429,9 +429,9 @@ EMBEDLY http://www.gran-turismo.com/jp/news/00_5318724.html
 
 ### グットウッドで出てきたと思われる情報群
 
-
-
-
+YOUTUBE43 m6_cmOyW59Y
+YOUTUBE43 2fa5-i9kiOY
+YOUTUBE43 B3S6O-O9xiw
 
 ここで出てきたのは、消耗ありのレース時におけるピットレーン通過時のUIと、当ビルドのフルカーリストですね。カーリストの方は、E3のときの推測群を補強する結果になっています。フォーカスするべきはピット映像でしょう。今作では、これまで自動修理であったメカニカルダメージ群が、任意の修理になりました。そして、それらには現時点で、エンジン、エアロ、足回りという3つの分類があることがわかります。これは今までなったことであり、この先ピット戦略の重要性が増すことを意味します。そのほかの動作はこれまで通りでしたね。ただ、ピットレーンを抜けて、再加速状態になったら、ピットレーン全体の時間とピットストップそのものの時間が出てくるみたいですね。これもストラテジーにおおいにかかわってくると思います。ぜひとも、プチ耐久ではなくてフル耐久のイベントが用意されていることを願います。
 
@@ -460,11 +460,11 @@ GTアカデミー臭がしないのがちょっと不気味ですね。「JOIN T
 
 ## 参考記事
 
-EMBEDLY http://www.4gamer.net/games/322/G032254/20170727135
-EMBEDLY http://jp.ign.com/gran-turismo-sport/15954/news/sport14pv
-EMBEDLY http://game.watch.impress.co.jp/docs/news/1073179.html
-EMBEDLY http://game.watch.impress.co.jp/docs/news/1072915.html
-EMBEDLY http://game.watch.impress.co.jp/docs/news/1072894.html
+<http://www.4gamer.net/games/322/G032254/20170727135>{.embedly-card}
+<http://jp.ign.com/gran-turismo-sport/15954/news/sport14pv>{.embedly-card}
+<http://game.watch.impress.co.jp/docs/news/1073179.html>{.embedly-card}
+<http://game.watch.impress.co.jp/docs/news/1072915.html>{.embedly-card}
+<http://game.watch.impress.co.jp/docs/news/1072894.html>{.embedly-card}
 
 ## メディアツアーとスタジオツアーは一緒
 
@@ -499,7 +499,7 @@ EMBEDLY http://game.watch.impress.co.jp/docs/news/1072894.html
 ### TGSからの新情報
 
 先ほどの通りですが、以下に該当情報を載せておきたいと思います。
-EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
+<https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport>{.embedly-card}
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     <a href="https://twitter.com/hashtag/GTSport?src=hash">#GTSport</a><br>最新と思われるTGSビルド、しっかり86の姿もあるようです。<br>よかった…
