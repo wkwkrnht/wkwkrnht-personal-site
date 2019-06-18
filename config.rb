@@ -1,5 +1,9 @@
 require 'lib/short-code.rb'
 
+def make_rss()
+    site_data = data.front
+end
+
 set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
 page "/*.xml", layout: false
