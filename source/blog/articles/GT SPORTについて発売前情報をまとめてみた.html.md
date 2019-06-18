@@ -341,13 +341,19 @@ HDRについての詳細が載っていますね。VRについては、意地で
 
 #### 動画群
 
-YOUTUBE43「LnJtRYZ9-ZA」
-YOUTUBE43「75hq3FW7S9w」
-YOUTUBE43「S5Oq_33exxE」
-YOUTUBE43「xd8wqRL0GqM」
-YOUTUBE43「otbc2lWNF6k」
-YOUTUBE43「7uok0Eatxjo」
-YOUTUBE43「DAWYTpgxEv0」
+YOUTUBE43 LnJtRYZ9-ZA
+
+YOUTUBE43 75hq3FW7S9w
+
+YOUTUBE43 S5Oq_33exxE
+
+YOUTUBE43 xd8wqRL0GqM
+
+YOUTUBE43 otbc2lWNF6k
+
+YOUTUBE43 7uok0Eatxjo
+
+YOUTUBE43 DAWYTpgxEv0
 
 ### 以下本文
 
@@ -430,7 +436,9 @@ YOUTUBE43「DAWYTpgxEv0」
 ### グットウッドで出てきたと思われる情報群
 
 YOUTUBE43 m6_cmOyW59Y
+
 YOUTUBE43 2fa5-i9kiOY
+
 YOUTUBE43 B3S6O-O9xiw
 
 ここで出てきたのは、消耗ありのレース時におけるピットレーン通過時のUIと、当ビルドのフルカーリストですね。カーリストの方は、E3のときの推測群を補強する結果になっています。フォーカスするべきはピット映像でしょう。今作では、これまで自動修理であったメカニカルダメージ群が、任意の修理になりました。そして、それらには現時点で、エンジン、エアロ、足回りという3つの分類があることがわかります。これは今までなったことであり、この先ピット戦略の重要性が増すことを意味します。そのほかの動作はこれまで通りでしたね。ただ、ピットレーンを抜けて、再加速状態になったら、ピットレーン全体の時間とピットストップそのものの時間が出てくるみたいですね。これもストラテジーにおおいにかかわってくると思います。ぜひとも、プチ耐久ではなくてフル耐久のイベントが用意されていることを願います。
