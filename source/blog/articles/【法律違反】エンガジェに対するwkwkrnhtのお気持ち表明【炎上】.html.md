@@ -41,7 +41,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     エンガジェットって、米国のメディアだけあって書き手の素性に厳しいというか、ステマに非常に厳しくて、契約書見る限りだと業界の利害関係者であるコンサルタントが執筆できる余地はないはずなんだけどな……。多少あれなこともあったけど、そういうモラルは評価してたのに、とにかく残念。
   </p>
   <p>
-    &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863915570248294400)
+    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863915570248294400)
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -49,7 +49,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     [@boobyn](http://twitter.com/boobyn) 本当に乱闘していいのであれば。
   </p>
   <p>
-    &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863962060748537857)
+    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863962060748537857)
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja">
@@ -57,7 +57,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     [@boobyn](http://twitter.com/boobyn) スタッフにしちゃった愛人の話とか振ってよければぜひ！
   </p>
   <p>
-    &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863963953415585793)
+    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863963953415585793)
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -65,7 +65,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     [@itowpaaan](http://twitter.com/itowpaaan) 愛人をスタッフにしたりとか、社用車のナンバーを愛人の誕生日にしたりとか、打ち合わせと称して池袋のラブホの画像を送ったりとか、その辺全部一般論です！
   </p>
   <p>
-    &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863994145861386240)
+    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863994145861386240)
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -73,7 +73,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     いまの石野さんはいろいろ武器持ってるから強いだろうなぁ。
   </p>
   <p>
-    &mdash; 石川 温 (<a href="http://twitter.com/iskw226" target="_blank" rel="noopener nofollow">@iskw226</a>) [2017年5月15日](https://twitter.com/iskw226/status/863964181699059715)
+    — 石川 温 (<a href="http://twitter.com/iskw226" target="_blank" rel="noopener nofollow">@iskw226</a>) [2017年5月15日](https://twitter.com/iskw226/status/863964181699059715)
   </p>
 </blockquote>
 他意はないですよ？というか、この件は石川温氏と井上翔氏もかなり突っ込んでいるので、業界的にという感じなのでしょうね。それでも、インプレス組とアスキー組に動きがみえませんけど。

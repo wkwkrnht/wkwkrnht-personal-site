@@ -22,7 +22,7 @@ tags:
     GT World Tour 2019 &#8211; Paris will kick-off the 2019 Series of the FIA-cretified Gran Turismo Championships&#x1f3ce;&#x1f3c1;&#x1f3c6;<a href="https://twitter.com/hashtag/GTSport?src=hash&ref_src=twsrc%5Etfw">#GTSport</a> <a href="https://twitter.com/hashtag/PlayStation?src=hash&ref_src=twsrc%5Etfw">#PlayStation</a> <a href="https://twitter.com/fia?ref_src=twsrc%5Etfw"><a href="http://twitter.com/fia" target="_blank" rel="noopener nofollow">@fia</a></a> <a href="https://twitter.com/thegranturismo?ref_src=twsrc%5Etfw"><a href="http://twitter.com/thegranturismo" target="_blank" rel="noopener nofollow">@thegranturismo</a></a> <a href="https://t.co/GDdoOWXcjH">pic.twitter.com/GDdoOWXcjH</a>
   </p>
   <p>
-    &mdash; GT Sport &#x1f3c1; (<a href="http://twitter.com/ShareGamePlay" target="_blank" rel="noopener nofollow">@ShareGamePlay</a>) <a href="https://twitter.com/ShareGamePlay/status/1098331156167254024?ref_src=twsrc%5Etfw">2019年2月20日</a>
+    — GT Sport &#x1f3c1; (<a href="http://twitter.com/ShareGamePlay" target="_blank" rel="noopener nofollow">@ShareGamePlay</a>) <a href="https://twitter.com/ShareGamePlay/status/1098331156167254024?ref_src=twsrc%5Etfw">2019年2月20日</a>
   </p>
 </blockquote>
 
@@ -43,7 +43,7 @@ EMBEDLY https://www.gran-turismo.com/jp/gtsport/news/00_1927583.html
     Update is coming 5th March. アップデートは3月5日に来ます。<a href="https://twitter.com/hashtag/GTSport?src=hash&ref_src=twsrc%5Etfw">#GTSport</a> <a href="https://twitter.com/hashtag/GranTurismo?src=hash&ref_src=twsrc%5Etfw">#GranTurismo</a> <a href="https://twitter.com/hashtag/PS4share?src=hash&ref_src=twsrc%5Etfw">#PS4share</a> <a href="https://twitter.com/hashtag/FIAGTC?src=hash&ref_src=twsrc%5Etfw">#FIAGTC</a> <a href="https://t.co/kOjeR6jTwD">pic.twitter.com/kOjeR6jTwD</a>
   </p>
   <p>
-    &mdash; 山内　一典 (<a href="http://twitter.com/Kaz_Yamauchi" target="_blank" rel="noopener nofollow">@Kaz_Yamauchi</a>) <a href="https://twitter.com/Kaz_Yamauchi/status/1099250170271739904?ref_src=twsrc%5Etfw">2019年2月23日</a>
+    — 山内　一典 (<a href="http://twitter.com/Kaz_Yamauchi" target="_blank" rel="noopener nofollow">@Kaz_Yamauchi</a>) <a href="https://twitter.com/Kaz_Yamauchi/status/1099250170271739904?ref_src=twsrc%5Etfw">2019年2月23日</a>
   </p>
 </blockquote>
 
@@ -56,7 +56,7 @@ EMBEDLY https://www.gran-turismo.com/jp/gtsport/news/00_1927583.html
     <a href="https://t.co/AN8Y1x6G0Y">pic.twitter.com/AN8Y1x6G0Y</a>
   </p>
   <p>
-    &mdash; Silvia180sx@モースポフェス土曜 (<a href="http://twitter.com/Silvia180sx4" target="_blank" rel="noopener nofollow">@Silvia180sx4</a>) <a href="https://twitter.com/Silvia180sx4/status/1101631263687897089?ref_src=twsrc%5Etfw">2019年3月1日</a>
+    — Silvia180sx@モースポフェス土曜 (<a href="http://twitter.com/Silvia180sx4" target="_blank" rel="noopener nofollow">@Silvia180sx4</a>) <a href="https://twitter.com/Silvia180sx4/status/1101631263687897089?ref_src=twsrc%5Etfw">2019年3月1日</a>
   </p>
 </blockquote>
 

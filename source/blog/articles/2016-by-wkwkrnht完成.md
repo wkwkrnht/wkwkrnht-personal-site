@@ -67,7 +67,7 @@ tags:
   * ソーシャルメニューでリンクテキストがdata-title属性内に表示されるように
   * 「問い合わせ」や「Q&A」というリンクテキストがソーシャルメニュー内にあるとはてなマークで表示されるように
   * 代わりにgoo.gl/formの装飾が削除
-  * target=&#8221;_blank&#8221;なaタグにrel=&#8221;noopener&#8221;をつけるように
+  * target=”_blank”なaタグにrel=”noopener”をつけるように
   * ウィジェット内でショートコードが使用可能に
   * アフィ周りのプロフィール情報削除
   * Chromeのアドレスバーカラーを直感的に選べるように
@@ -86,9 +86,9 @@ tags:
   * 色選択可能範囲拡大
   * 純正ショートコードとspotify埋め込のクイックタグも増設
   * amp.phpの仕様変更
-  * role=&#8221;searc﻿h﻿&#8221;追加
-  * tabindex=&#8221;0&#8243;追加
-  * role=&#8221;button&#8221;追加
+  * role=”searc﻿h﻿”追加
+  * tabindex=”0″追加
+  * role=”button”追加
   * TinyMCEにボタン追加
   * CSSのブレイクポイントが992pxと640pxの2つに変わりました
   * 自動生成される画像を増やしました(レスポンシブイメージ対応のためです)
@@ -104,7 +104,7 @@ tags:
   * [ホバーで出てくる前後ナビゲーションウィジェットの追加](https://q-az.net/wordpress-nyoki-nav/)
   * ナイトモードのバグ修正
   * Live Dwango Readerのソーシャルメニュー内装飾対応
-  * target=&#8221;_blank&#8221;とtitle属性を自動付与するショートコード[link]を追加
+  * target=”_blank”とtitle属性を自動付与するショートコード[link]を追加
 
 それでは、きちんとネイティブPHPの沼に浸かってきます。何かありましたら、コメントなりメンションなり飛ばしてください。下記が、自慢のウィジェットエリア。
 
@@ -123,7 +123,7 @@ tags:
     一部ページに表示崩れが起きております。原因と思しきものは見えましたので明日どうにかします。
   </p>
   <p>
-    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) [2016年9月30日](https://twitter.com/wkwkrnht/status/781867596136128512)
+    — wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) [2016年9月30日](https://twitter.com/wkwkrnht/status/781867596136128512)
   </p>
 </blockquote>
 というわけでどうにかしました。どういうことが起きていたかというと、少なくとも[こちらのページ](http://wkwkrnht.gegahost.net/delusion/472)で三つ目のブログカード以降が重なって表示されるというものです。原因は、概要の中にHTMLタグが閉じタグなしで紛れ込んだことによるものでした。これを表示するために、使っているライブラリが、そこまで想定してなかったのでしょう。OGPの中で、概要があったらそれを、そうじゃなかったら概要タグから拾う。その程度の対応でしたし。(まあ、UTF-8対応すらされてないのでお察しですが)そんなわけで、キャッシュの値を直接いじることで解消しました。仕組みとしては、[こちら](http://nelog.jp/wordpress-transient)ですので。同様の現象にお会いの方は、データベース内の値をいじってください。site_transit+URLな形で名付けてありますから。おおもとの仕組みにしても、[こちら](https://wp-simplicity.com/suport/topic/%e5%a4%96%e9%83%a8%e3%82%b5%e3%82%a4%e3%83%88%e3%81%aeogp%e3%81%8b%e3%82%89blogcard%e3%82%92%e4%bd%9c%e3%82%8b/)ですからSimplicityの劣化版に近いと思います。共有機能は独自のものですが。
@@ -174,7 +174,7 @@ EMBEDLY https://webutubutu.com/webdesign/3453
     Todo:風呂ったらテーマ変える
   </p>
   <p>
-    &mdash; wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) [2016年7月30日](https://twitter.com/wkwkrnht/status/759379058836647936)
+    — wkwkrnht (<a href="http://twitter.com/wkwkrnht" target="_blank" rel="noopener nofollow">@wkwkrnht</a>) [2016年7月30日](https://twitter.com/wkwkrnht/status/759379058836647936)
   </p>
 </blockquote>
 上記やらなんやらでずっと新テーマをつくってるとは言ってましたが、ようやく公開できるレベルになりましたのでリニューアルです。以下にサマリーを。

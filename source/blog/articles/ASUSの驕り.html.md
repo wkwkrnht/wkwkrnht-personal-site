@@ -25,7 +25,7 @@ tags:
     これはちょっと色々と。 <a href="https://t.co/AKmghnXKIF">pic.twitter.com/AKmghnXKIF</a>
   </p>
   <p>
-    &mdash; Jun Shimada (<a href="http://twitter.com/shimajiro" target="_blank" rel="noopener nofollow">@shimajiro</a>) <a href="https://twitter.com/shimajiro/status/781006013159841792">2016年9月28日</a>
+    — Jun Shimada (<a href="http://twitter.com/shimajiro" target="_blank" rel="noopener nofollow">@shimajiro</a>) <a href="https://twitter.com/shimajiro/status/781006013159841792">2016年9月28日</a>
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -33,7 +33,7 @@ tags:
     比較表、S7 edgeのところ間違ってるような。少なくとも日本では3CC CAできるし。
   </p>
   <p>
-    &mdash; Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) <a href="https://twitter.com/june_ya/status/781006041978986497">2016年9月28日</a>
+    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) <a href="https://twitter.com/june_ya/status/781006041978986497">2016年9月28日</a>
   </p>
 </blockquote>
 
@@ -56,7 +56,7 @@ EMBEDLY http://shimajiro-mobiler.net/2016/09/28/post42890
     今回のASUS見てるとかつてMVNOの先駆者だった日本通信と重なってしまう。
   </p>
   <p>
-    &mdash; 板買うわ。 (<a href="http://twitter.com/Nexus_K" target="_blank" rel="noopener nofollow">@Nexus_K</a>) <a href="https://twitter.com/Nexus_K/status/781076965436514304">2016年9月28日</a>
+    — 板買うわ。 (<a href="http://twitter.com/Nexus_K" target="_blank" rel="noopener nofollow">@Nexus_K</a>) <a href="https://twitter.com/Nexus_K/status/781076965436514304">2016年9月28日</a>
   </p>
 </blockquote>
 

@@ -285,7 +285,7 @@ HDRについての詳細が載っていますね。VRについては、意地で
     さっくりと電話で問い合わせてみた簡単にまとめると、「グランツーリスモのベータがまだオープンされてないからで、ベータテストが始まれば通るようになる」らしい。メールに書いといてよ・・・
   </p>
   <p>
-    &mdash; KBT (<a href="http://twitter.com/Tescostum" target="_blank" rel="noopener nofollow">@Tescostum</a>) <a href="https://twitter.com/Tescostum/status/869822079008464897">2017年5月31日</a>
+    — KBT (<a href="http://twitter.com/Tescostum" target="_blank" rel="noopener nofollow">@Tescostum</a>) <a href="https://twitter.com/Tescostum/status/869822079008464897">2017年5月31日</a>
   </p>
 </blockquote>
 
@@ -508,7 +508,7 @@ EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
     It is confirmed that Toyota 86 hasn't been removed from GT SPORT.<br>I'm relieved&#8230; <a href="https://t.co/O79pcCZfPK">pic.twitter.com/O79pcCZfPK</a>
   </p>
   <p>
-    &mdash; ダイバー11 (<a href="http://twitter.com/Diver11_SW" target="_blank" rel="noopener nofollow">@Diver11_SW</a>) <a href="https://twitter.com/Diver11_SW/status/911198280876306433">2017年9月22日</a>
+    — ダイバー11 (<a href="http://twitter.com/Diver11_SW" target="_blank" rel="noopener nofollow">@Diver11_SW</a>) <a href="https://twitter.com/Diver11_SW/status/911198280876306433">2017年9月22日</a>
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -516,7 +516,7 @@ EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
     並んでる間デモを凝視してましたがこれといった新要素は発見できず<br />ただGT-R LM NISMOちゃんのモデリングがよくなってると思いました<br />…あと市販車のLC500って収録確定してましたっけ？デモに登場してました<a href="https://twitter.com/hashtag/GTSport?src=hash">#GTSport</a> <a href="https://t.co/OAywVlsZhV">pic.twitter.com/OAywVlsZhV</a>
   </p>
   <p>
-    &mdash; ひっぽ (<a href="http://twitter.com/supermasao777" target="_blank" rel="noopener nofollow">@supermasao777</a>) <a href="https://twitter.com/supermasao777/status/911574832436748288">2017年9月23日</a>
+    — ひっぽ (<a href="http://twitter.com/supermasao777" target="_blank" rel="noopener nofollow">@supermasao777</a>) <a href="https://twitter.com/supermasao777/status/911574832436748288">2017年9月23日</a>
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -524,7 +524,7 @@ EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
     昨日LCをデモ内で発見したとツイートしましたが、撮った写真の中にバッチリ写っていました〜<br>他の最新車種の収録にも期待してしまいますね(^^*)<a href="https://twitter.com/hashtag/GTSport?src=hash">#GTSport</a> <a href="https://twitter.com/hashtag/TGS2017?src=hash">#TGS2017</a> <a href="https://t.co/X77iR3lZwN">pic.twitter.com/X77iR3lZwN</a>
   </p>
   <p>
-    &mdash; ひっぽ (<a href="http://twitter.com/supermasao777" target="_blank" rel="noopener nofollow">@supermasao777</a>) <a href="https://twitter.com/supermasao777/status/911754851897425920">2017年9月24日</a>
+    — ひっぽ (<a href="http://twitter.com/supermasao777" target="_blank" rel="noopener nofollow">@supermasao777</a>) <a href="https://twitter.com/supermasao777/status/911754851897425920">2017年9月24日</a>
   </p>
 </blockquote>
 ポルシェもありましたね。しかも現時点では、唯一の現行LM-GTE規定での参戦という好待遇です。もちろんBoPはあるとは思います。それでも、あえてこちらの方が出てくるということは、期待してしまいますね。あとは、Gr.4とGr.1に期待したいところです。そして、本丸のトヨタです。ということでLC500も収録されそうな雰囲気です。発売日にアンロックされていることを祈ります。そこで思い出すのが、<a href="http://www.diamondblog.jp/official/daisuke-ito/2016/11/26/tgrf%e3%83%aa%e3%83%8f%e3%83%bc%e3%82%b5%e3%83%ab" title="伊藤大輔選手のこのブログ記事です" target="_blank" rel="noopener">伊藤大輔選手のこのブログ記事です</a>。当時はGr.2の存在が一気に持ち上がり、今でも信じられています。果たして、そのままの形で収録されるでしょうか？そこで見て頂きたいのは、以下の二つの記事です。
@@ -543,7 +543,7 @@ EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
     レーダー機能がβテストフォーラムでの意見通り索敵範囲拡大&後方をメイン索敵になり、MFDの別ページで表示されるように変わってる。<br>しっかりテスターの意見が反映されてるのがわかると嬉しい&#x1f604;　<a href="https://twitter.com/hashtag/GTSport?src=hash">#GTSport</a> <a href="https://t.co/O1BUR7Ahvj">pic.twitter.com/O1BUR7Ahvj</a>
   </p>
   <p>
-    &mdash; ミムティ@夢の向こうへ (<a href="http://twitter.com/mimut36T" target="_blank" rel="noopener nofollow">@mimut36T</a>) <a href="https://twitter.com/mimut36T/status/911465030771646464">2017年9月23日</a>
+    — ミムティ@夢の向こうへ (<a href="http://twitter.com/mimut36T" target="_blank" rel="noopener nofollow">@mimut36T</a>) <a href="https://twitter.com/mimut36T/status/911465030771646464">2017年9月23日</a>
   </p>
 </blockquote>
 このように、クローズドベータテストからの変更点もあるようです。また、フォーラム自体もクローズされておらず、宣伝に活用していることからも今回は他のシリーズからいいところを吸収しようという向きがあるようです。わたしは、クローズドベータ版で十分でしたけどね……。
@@ -555,7 +555,7 @@ EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
     プジョーRCZ Gr.Bはゲオの予約特典らしいです <a href="https://twitter.com/hashtag/GTSport?src=hash">#GTSport</a> <a href="https://t.co/tQAO6L0OOY">pic.twitter.com/tQAO6L0OOY</a>
   </p>
   <p>
-    &mdash; のん( ´Ꙩωꙩ` ) (<a href="http://twitter.com/Non_S2000" target="_blank" rel="noopener nofollow">@Non_S2000</a>) <a href="https://twitter.com/Non_S2000/status/911429194495561728">2017年9月23日</a>
+    — のん( ´Ꙩωꙩ` ) (<a href="http://twitter.com/Non_S2000" target="_blank" rel="noopener nofollow">@Non_S2000</a>) <a href="https://twitter.com/Non_S2000/status/911429194495561728">2017年9月23日</a>
   </p>
 </blockquote>
 <blockquote class="twitter-tweet" data-lang="ja">
@@ -566,7 +566,7 @@ EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
     鈴鹿1000kmのときに <a href="https://twitter.com/hashtag/gtsport?src=hash">#gtsport</a> のスタッフに試遊したときに聞いたら「これ発売するバージョンですよ」って言ってたわ…(笑)
   </p>
   <p>
-    &mdash; たくみん (<a href="http://twitter.com/tkm876" target="_blank" rel="noopener nofollow">@tkm876</a>) <a href="https://twitter.com/tkm876/status/911231006119563264">2017年9月22日</a>
+    — たくみん (<a href="http://twitter.com/tkm876" target="_blank" rel="noopener nofollow">@tkm876</a>) <a href="https://twitter.com/tkm876/status/911231006119563264">2017年9月22日</a>
   </p>
 </blockquote>
 一部店舗ではこのように未公表特典があるみたいです。発売日再発表に合わせて、予約特典ページに回収が入っていた気もしますけれども、これはお初だと思います。たぶん、変わっていたのは欧米の方だと信じたいところです。もし変更点あったら新記事起こしますよ。また、私のところにも予約再確認の電話があったりしたので、店舗間の数量調整も行われている気がします。それがSIEのカンファレンスの日だと思うので、いまからは在庫のありそうなところでしか限定版が手に入らない可能性もあり得ます。そのほかにも鈴鹿1000kmの時点でGM版という情報もありますが、TGSで車種追加があることからも信憑性は低そうです。ひょっとすると、Day1パッチとDLCの力を借りるのかもしれませんが。もうScapesの一部ロケーションはDLC化されることが公表されているので、クルマもというのは自然ではありますけれども。
