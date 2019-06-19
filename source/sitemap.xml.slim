@@ -16,7 +16,7 @@ feed xmlns='http://www.w3.org/2005/Atom' xml:lang=site_data.language
         - article_url = URI.join(site_url, URI.encode(article.url))
         entry
             title
-                 = article.title
+                 = article.title.encode('UTF-8', :xml => :text)
             link  rel='alternate' href=article_url
             id
                 = article_url
@@ -24,6 +24,6 @@ feed xmlns='http://www.w3.org/2005/Atom' xml:lang=site_data.language
                 = article.date.to_time.iso8601
             author
                 name
-                    = article.data.author
+                    = article.data.author.encode('UTF-8', :xml => :text)
             content type='html'
                 = article.body.to_s.delete("<script async='' src='//cdn.embedly.com/widgets/platform.js'></script>").encode('UTF-8', :xml => :text)
