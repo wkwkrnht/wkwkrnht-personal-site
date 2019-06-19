@@ -135,40 +135,66 @@ tags:
 ## まとめ
 
 詳細は、コミットログを見てください。
+
 EMBEDLY https://github.com/wkwkrnht/2016-by-wkwkrnht
+
 ちょっと前に、[記事に書いた通り](http://wkwkrnht.gegahost.net/sitemanagement/wordpress/piugin/556)なのですけれども。gegahost.netのセキュリティ意識の高さにやられて、dlver.itすらも連携できていない状況です。何とか、これを打破したいところでございますが、それは、このwordpress上で同等のものを動かすしかありません。それについては追々報告したいと思います。まったく、それを除けば懐が深すぎるいいサービスなんですけどね。
 
 ## 参考記事
 
 ついでに覚えているもので実装したものを。
 
-<http://nelog.jp/body_class>{.embedly-card}
-<http://nelog.jp/add-quicktags-to-wordpress-text-editor>{.embedly-card}
-<http://nelog.jp/expanded-information-css>{.embedly-card}
-<http://nelog.jp/no-alt-fix>{.embedly-card}
-<http://nelog.jp/rel-next-prev>{.embedly-card}
-<http://nelog.jp/copyrights>{.embedly-card}
-<http://nelog.jp/category-description-custom>{.embedly-card}
-<http://nelog.jp/customize-admin-single-list>{.embedly-card}
-<http://nelog.jp/line-bolloon-css>{.embedly-card}
-<http://nelog.jp/human_time_dif>{.embedly-card}
-<http://nelog.jp/theme-custumizer-default-value>{.embedly-card}
-<http://nelog.jp/wordpress-customize-related-entries>{.embedly-card}
-<http://nelog.jp/wordpress-time-tag>{.embedly-card}
-<http://nelog.jp/wlw-post-downloader-plugin>{.embedly-card}
-<http://www.nxworld.net/tips/box-shadow-effect.html>{.embedly-card}
-<http://www.nxworld.net/tips/social-logo-svg-code-and-brand-color.html>{.embedly-card}
-<http://www.nxworld.net/tips/50-css-heading-styling.html>{.embedly-card}
-<http://www.nxworld.net/tips/css-tag-cloud.html>{.embedly-card}
-<http://www.nxworld.net/wordpress/wp-post-edit-filter-categories.html>{.embedly-card}
-<http://www.nxworld.net/wordpress/wp-admin-customize-excerpt.html>{.embedly-card}
-<http://www.nxworld.net/wordpress/wp-post-edit-required.html>{.embedly-card}
-<http://www.nxworld.net/wordpress/wp-add-posts-columns.html>{.embedly-card}
-<https://webutubutu.com/webdesign/3453>{.embedly-card}
+EMBEDLY http://nelog.jp/body_class
+
+EMBEDLY http://nelog.jp/add-quicktags-to-wordpress-text-editor
+
+EMBEDLY http://nelog.jp/expanded-information-css
+
+EMBEDLY http://nelog.jp/no-alt-fix
+
+EMBEDLY http://nelog.jp/rel-next-prev
+
+EMBEDLY http://nelog.jp/copyrights
+
+EMBEDLY http://nelog.jp/category-description-custom
+
+EMBEDLY http://nelog.jp/customize-admin-single-list
+
+EMBEDLY http://nelog.jp/line-bolloon-css
+
+EMBEDLY http://nelog.jp/human_time_dif
+
+EMBEDLY http://nelog.jp/theme-custumizer-default-value
+
+EMBEDLY http://nelog.jp/wordpress-customize-related-entries
+
+EMBEDLY http://nelog.jp/wordpress-time-tag
+
+EMBEDLY http://nelog.jp/wlw-post-downloader-plugin
+
+EMBEDLY http://www.nxworld.net/tips/box-shadow-effect.html
+
+EMBEDLY http://www.nxworld.net/tips/social-logo-svg-code-and-brand-color.html
+
+EMBEDLY http://www.nxworld.net/tips/50-css-heading-styling.html
+
+EMBEDLY http://www.nxworld.net/tips/css-tag-cloud.html
+
+EMBEDLY http://www.nxworld.net/wordpress/wp-post-edit-filter-categories.html
+
+EMBEDLY http://www.nxworld.net/wordpress/wp-admin-customize-excerpt.html
+
+EMBEDLY http://www.nxworld.net/wordpress/wp-post-edit-required.html
+
+EMBEDLY http://www.nxworld.net/wordpress/wp-add-posts-columns.html
+
+EMBEDLY https://webutubutu.com/webdesign/3453
+
 
 ## 有言実行のアップデート(2016-07-30T23:52:18+09:00)
 
-<http://wkwkrnht.gegahost.net/sitemanagement/wordpress/theme/280>{.embedly-card}
+EMBEDLY http://wkwkrnht.gegahost.net/sitemanagement/wordpress/theme/280
+
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     Todo:風呂ったらテーマ変える
@@ -184,6 +210,8 @@ EMBEDLY https://github.com/wkwkrnht/2016-by-wkwkrnht
   * AMP対応やうざい程のプロフやブログカードは引き継ぎ
   * アナリティクスはHTML入力しなきゃダメなように
   * OGP.phpなブログカード試験導入
-これぐらいかな
+これぐらいかな。
+
 EMBEDLY http://wkwkrnht.gegahost.net
+
 まあおいおい機能は追加していきます。

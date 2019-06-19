@@ -15,7 +15,9 @@ tags:
 **この記事は2015-for-wkwkrnht制作時のものの焼き直しです。**
 
 現時点でRT狂の思考ログは、この[wordpress.com版](http://wkwkrnht.wordpress.com)と[gegahost.net版](http://wkwkrnht.gegahost.net)とがあります。これは、私のツイートから、察しが着いていた方もいらっしゃると思います。しかし、
+
 EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
+
 このツイートにある通り、**現状に満足してません！** よって、記事は最優先で[wordpress.com版](http://wkwkrnht.wordpress.com)に、外部ドメイン版は[gegahost.net版](http://wkwkrnht.gegahost.net)を記事に使い、[エックスドメイン版](http://wkwkrnht.wp.xdomain.jp)は今後のテーマ作成のために半クローズド状態で運用することにしました。  
 また、現時点の予定としましては、[Habakiri](http://habakiri.2inc.org)をベースとしてマテリアルデザインぽいモノを目標として創っていく次第です。つきましては、副産物である[子テーマ](https://github.com/wkwkrnht/habakiri-child)をここにちょこんと、置いて閉めさて頂きます。以上で、場末ブログの大改造話のプロローグおしまい。その後、彼はtwentyfifteenにほれ込み、自作テーマを組み上げるに至った。
 
@@ -57,10 +59,13 @@ EMBEDLY https://twitter.com/wkwkrnhtbot/status/648879405570244609
 
 ## 進捗報告です(2016-01-17T19:33:47+09:00)
 
-<https://wkwkrnht.wordpress.com/2015/12/14/%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e3%81%a1%e3%82%87%e3%81%93%e3%81%be%e3%81%8b%e3%81%a8%e5%bc%84%e3%81%8f%e3%81%a3%e3%81%a6%e3%81%be%e3%81%99%e3%80%82%ef%bc%86habakiri%e5%ad%90%e3%83%86%e3%83%bc>{.embedly-card}  
+EMBEDLY https://wkwkrnht.wordpress.com/2015/12/14/%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e3%81%a1%e3%82%87%e3%81%93%e3%81%be%e3%81%8b%e3%81%a8%e5%bc%84%e3%81%8f%e3%81%a3%e3%81%a6%e3%81%be%e3%81%99%e3%80%82%ef%bc%86habakiri%e5%ad%90%e3%83%86%e3%83%bc  
+
 先行公開とか言いつつすっかり専用記事になってますが、一応、少しづつ進めてはいます。(代表例がここの再公開とエックスサーバーエックスドメイン版の非公開化になります。)  
-しかしもって、リツイートとリアルのせいで疲れ果てた結果まったくソースに手を付けないという結果に……  
+しかしもって、リツイートとリアルのせいで疲れ果てた結果まったくソースに手を付けないという結果に……。
+
 EMBEDLY http://wkwkrnht.gegahost.net/twitterlog
+
 このサイトを公開するのに、[余計なこと](http://wkwkrnht.wp.xdomain.ne.jp/wp-content/uploads/2016/08/csvbatch.zip)をしていたせいもあるんですけどね。
 
 ### 今後の方向性
@@ -97,8 +102,10 @@ AMPのデバックをメインにずっといじってました。<strike>(だ�
 
 予想の付きやすい結末ですが、結局、TwentyFifteenベースのテーマは諦めます。それで、1カラム+固定メニューな新テーマをイチから作ることにしました。その経過の成果物である二つのテーマについては、後日、しっかりとしたページをつくって配布したいと思います。それを待てない方はGithubの方からどうぞ。(いらっしゃるかなぁ(汗))
 
-<https://github.com/wkwkrnht/2015-for-wkwkrnht>{.embedly-card}
-<https://github.com/wkwkrnht/2015-by-wkwkrnht>{.embedly-card}
+EMBEDLY https://github.com/wkwkrnht/2015-for-wkwkrnht
+
+EMBEDLY https://github.com/wkwkrnht/2015-by-wkwkrnht
+
 
 ### なぜ方針転換したか
 

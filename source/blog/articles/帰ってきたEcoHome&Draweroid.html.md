@@ -12,7 +12,9 @@ tags:
   - ランチャー
 ---
 EMBEDLY https://play.google.com/store/apps/details?id=jp.gr.java_conf.hdak.home.eco
+
 EMBEDLY https://play.google.com/store/apps/details?id=jp.gr.java_conf.hdak.drawer
+
 なんじゃそりゃ、と思った方々は正解です。これらは古くはICS時代からあるAndroidアプリです。だから何だという話なのですが、とても珍しいアプリたちなので紹介させていただきます。古くから、Androidホーム画面カスタマイズ界隈では、ランチャーといえば、Lightningか、Nova、それらの時点としてWindows系やメーカー謹製のものが使われてる印象でした。しかし、それらにはいかんせん重い&ファイルサイズが大きいという問題が付きまといます。ハイエンド機種だとさして苦にならない問題となりつつあるのですが、Freetel nicoやら初代EveryPadでは死活問題に変貌します。それらは、フォーマット覚悟のアップデートをしなければ、1GBの壁が立ちはだかり続けます。(詳しくは、健全大使のレポートを見てみてください。)この問題を解決していくのが、この二つのアプリです。特徴をサラリと書き出しますと、
 
 #### EcoHome

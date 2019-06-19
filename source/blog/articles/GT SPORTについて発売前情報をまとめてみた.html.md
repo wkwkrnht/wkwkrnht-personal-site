@@ -261,6 +261,7 @@ tags:
 ### PS Experience 2016開催決定
 
 EMBEDLY http://www.4gamer.net/games/999/G999903/20160928038
+
 12月の初めなのも変わらずです。いわずもがな注目したいのは、PDIの動向です。CoDのDLCへの言及やカプコンのPS VRへのコミットメントの発表、小島氏によるセッションぐらいはどこも書くでしょうから。やはり、このブログ的には、GT Sportに注目するべきだと思うんです。そこで、例年はプレイアブル出展、大きくても小さなリアルイベント開催程度だったPDIが、どれだけコミットメントする余地があるのかは、気になるところです。そこで、PS4シリーズ刷新の発表会の直前に[こんな悲しいお知らせ](http://www.gran-turismo.com/jp/news/00_3654855.html)が届いていることが、思い出されるわけです。個人的には、ここで一つ大きな発表が来るのではないかなと思っています。それでも、発売時期は確定しないと思います。たぶん、それが確定するのは、来年の2月ごろじゃないかなと思っています。今年中に確定したら、それはそれで嬉しいのですけども。
 
 ### 「JOIN THE FUTURE OF PLAY」
@@ -279,13 +280,17 @@ EMBEDLY http://www.4gamer.net/games/999/G999903/20160928038
 #### やっと姿を見せる次世代対応
 
 新情報は、それだけではなかったのです。
-<https://www.gtplanet.net/first-footage-of-gt-sport-using-ps4-pro-psvr>{.embedly-card}
-<https://www.gtplanet.net/gt-sport-vr-functionality-limited-to-dedicated-vr-tour-mode>{.embedly-card}
+
+EMBEDLY https://www.gtplanet.net/first-footage-of-gt-sport-using-ps4-pro-psvr
+
+EMBEDLY https://www.gtplanet.net/gt-sport-vr-functionality-limited-to-dedicated-vr-tour-mode
+
 そうです。VRです。かねてから、対応ということのみ宣伝されていましたが、とうとうプレイアブルデモが出展されたようです。しかも、VRモードなる部分に限定されるという(いらない)情報付き。でも、これは仕方ないですね。UIについて保守的である開発陣にとって、VR時代の方向性が見えないことは、とても不安なことでしょう。そこで、モードを分けることで、アセット、ストーリーともに限定することで違和感のない導入を目指したのだと考えられます。これは、他にDriveclubしかコンシューマーにおけるVRレースゲームがないことも影響しているかもしれません。
 
 #### 公式情報
 
-<http://www.gran-turismo.com/jp/news/00_3723425.html>{.embedly-card}
+EMBEDLY http://www.gran-turismo.com/jp/news/00_3723425.html
+
 HDRについての詳細が載っていますね。VRについては、意地でも触れないつもりでしょうか。悪い噂は早めに処理するのが吉だと思います。処理の仕方が最重要ですけどね。
 
 #### ほかの情報
@@ -294,8 +299,10 @@ HDRについての詳細が載っていますね。VRについては、意地で
 
 ### 続いて、香港でのイベントなどその他
 
-<http://www.4gamer.net/games/990/G999024/20160921096>{.embedly-card}
-<http://doope.jp/2016/0856637.html>{.embedly-card}
+EMBEDLY http://www.4gamer.net/games/990/G999024/20160921096
+
+EMBEDLY http://doope.jp/2016/0856637.html
+
 香港でのプレイ直撮り映像と、山内さんが登場するE3の時のストリーミング(Twitchとか？)映像のアーカイブです。UIなどが詳しく見れます。後者で、
 
 * 塗装のシミュレーションをしていること
@@ -376,8 +383,10 @@ HDRについての詳細が載っていますね。VRについては、意地で
 
 #### 記事群
 
-<http://www.gran-turismo.com/jp/news/00_5318724.html>{.embedly-card}
-<http://www.4gamer.net/games/322/G032254/20170613014>{.embedly-card}
+EMBEDLY http://www.gran-turismo.com/jp/news/00_5318724.html
+
+EMBEDLY http://www.4gamer.net/games/322/G032254/20170613014
+
 
 #### 動画群
 
@@ -437,14 +446,18 @@ YOUTUBE43 DAWYTpgxEv0
 
 ### 漏れていたPS Blog記事のご紹介
 
-<https://www.jp.playstation.com/blog/detail/4768/20170327-ps.html>{.embedly-card}
-<https://www.jp.playstation.com/blog/detail/5254/20170707-familypark.html>{.embedly-card}
+EMBEDLY https://www.jp.playstation.com/blog/detail/4768/20170327-ps.html
+
+EMBEDLY https://www.jp.playstation.com/blog/detail/5254/20170707-familypark.html
+
 おはスタでのイベントに駆り出されていたんですね……。まだ、トゥーングランプリの方がましな気もしますけれども。さて、そのイベントではステージの賞品として、「オリジナルダイキャストカー」がプレゼントされているんです。気になりますね。なんせ、一部地域の特典に類似品がありますし。でも、写真を見る限りちょっと違うようにみえます。よく見える方は、SLS AMGのGTウィング装着車、もしかしたらGT3仕様かもしれません。そのようにみえます。ですから、今作の特典ではなく、GT5やGT6時代の特典やコラボ商品だったのではと思います。それでも、貴重なことには変わりないですね。こういったモノが賞品としてついている大会は、TGSやオートサロンでは行われないので、彼らはある意味鼻高々かもしれません。そのほかにも、今年分のPlaystation祭が発表されました。1.08を超す最新ビルドが楽しめるかもしれません。ぜひともどうぞ。
 
 ### 祝！Prime Day出展決定
 
-<https://www.amazon.co.jp/gp/b?node=4483321051>{.embedly-card}
-<https://www.amazon.co.jp/gp/product/B07353JY27>{.embedly-card}
+EMBEDLY https://www.amazon.co.jp/gp/b?node=4483321051
+
+EMBEDLY https://www.amazon.co.jp/gp/product/B07353JY27
+
 というわけで、Prime DayにSIEJAが協賛しているみたいですね。みんなのゴルフといっしょに目玉商品となっています。昨年のオーバークロッカー清水氏の再抽選になった特製PCみたいなものですね。その取り組みの中で、期間中に開設されるリアルサイトにおける試遊台設置と7/21開催のスタジオツアー付きリミテッドエディションなGT SPORTが発売となることとが告知されています。注目は後者ですね。スタジオツアーは本人のみが参加可能ということで、未成年者や同伴者が必須な方が購入した時に同伴可能かどうかは明示されていません。また、江東区での開催ですので東京スタジオの方になりますね。近年のスタジオと言えばここになります。PS1時代の上野アトリエとか開設直後の福岡アトリエとかを除けば、ほとんどがここがスタジオツアーもしくはスタジオ取材の舞台となっています。ですので、納得のというところですかね。ぜひとも参加者の皆さんは、2種類あるブックレットを確認したり、最新版のビルトの試遊などで満喫してきてください。
 
 ### 各種媒体での特集記事が掲載
@@ -453,7 +466,8 @@ YOUTUBE43 DAWYTpgxEv0
 
 #### まずは、PS Blogの方を
 
-<https://www.jp.playstation.com/blog/detail/3735/20160926-asobi.html>{.embedly-card}
+EMBEDLY https://www.jp.playstation.com/blog/detail/3735/20160926-asobi.html
+
 これは、昨年秋に公開されていたものですが、日々チェックするフィードから漏れていたので、今書き起こしています。このインタビューにおいて重要な事実は、GTシリーズ全般については、SIE JAPAN studioがサウンド周りを担当していていることを公表したことです。これで、ポリフォニーデジタルに音の文句を言っていた人たちは、微妙に的外れだったことになります。もちろんマネージャー級の方たちにしてみれば当事者なのですが、末端の人間は他人ですよね。そして、GT6制作時代ぐらいから、山内さんの口からは全従業員は200人くらいと出ていましたが、制作チームではなくて従業員だとしたら、音を除いたプラグラム系やグラフィック系、渉外系等の方達だけで200人いらっしゃることになります。
 
 話は変わりまして、E3の公式映像の中で、スタジオツアーのシーンがありました。そのなかで、山内さんの作業スペースにもDTM用と思われるキーボードがありました。そのことからもわかるように、山内さんの中でも「音」にあるみたいです。これは、のちに紹介するIGNのインタビュー記事でも触れられています。そして、それを補強するように、ここでも山内さんによるチェックがあると出ています。また、メーカーチェックがあるとも。これは、GTの「音」に対して声をあげて来た人たちに感謝しなければいけないかもしれません。ほかにも、技術的な話があります。
@@ -465,8 +479,10 @@ YOUTUBE43 DAWYTpgxEv0
 
 #### 続いてIGNの方にGO！
 
-<http://jp.ign.com/m/gran-turismo-sport/15274/preview/gtsport>{.embedly-card}
-<http://jp.ign.com/m/gran-turismo-sport/15236/feature/ign-firstsport-e>{.embedly-card}
+EMBEDLY http://jp.ign.com/m/gran-turismo-sport/15274/preview/gtsport
+
+EMBEDLY http://jp.ign.com/m/gran-turismo-sport/15236/feature/ign-firstsport-e
+
 ビデオの中にブランドセントラルの演出があり、実機の映像と共に楽しんでいただけると幸いです。これを読んでていてみていて思うのは、山内さんが基本に戻って来たなということですね。恐らくGT5は、新機能実現あるいはグラフィックスのために、GT6はVGTのためにあるいはPS4世代のために動いていたんだろうなぁというのが感じられる発言が節々にあります。例えば、サウンドはGT3まで深くかかわっていたけれども、今回はちゃんとやろうと思ったとか、挙動はリアルに近づけば簡単になるとか、きれいなものを見たときにGTを世押して伝えたくなるとかそういったところですね。先ほどのは大意であって実際の発言は違いますよ。ともあれ、そういった発言が自然に出てきて繰り返されていることが、そのプライオリティの高さだと思います。
 
 話は、ブックレットに及んでいます。話はというよりは執筆者の思考がというべきでしょうけども。それでも、内容非公開、表紙非公開でもインタビューワーに「ブックレット」を山内さんはみせています。これは、実際の発売日に合わせて、最終稿が出来上がっていて見本レベルなら手元にあるということでしょう。完全に印刷しきっているとしたら、在庫管理が大変ですしね。さて、そのブックレットは内容からするに日本のリミテッドエディションにも付属するものと思われます。欧州地区などでみられるもう一つの「ブックレット」も気になるところです。GTPlanetあたりがレポートすることを願っています。そもそも、あの記事自体が本家からの翻訳なので、本家で申し込みしてほしいなあというところではありますけどね。
@@ -488,6 +504,7 @@ YOUTUBE43 B3S6O-O9xiw
 ### 微妙なタイミングで発表された発売日
 
 EMBEDLY http://www.gran-turismo.com/jp/news/00_3149294.html
+
 わざわざE3からずらした意味はあったのですかね。なんか今回は広報ダメダメ過ぎないですかね。一回戦略練り直したらどうですかね。真面目に開発側の見積もりが正しく出せている状態なのか、開発側と販売側のずれがないか確かめた方がいいですよ。なんせ当初予定と比べて、ベータ時期の1年後にクローズドベータ開始、発売日の11か月後に発売という具合でしたから、広報がはしってしまったことで今回不満を買ってしまっている気がしてならないんですよね。もちろんそこに決断を下した役員以下の責任がないとは思えないです。せっかく築き上げたブランドを崩すような大馬鹿は、いちファンとしてつらいですね。どうにかしてほしいです。
 
 ### 日産からもプロモ映像が登場
@@ -508,11 +525,16 @@ GTアカデミー臭がしないのがちょっと不気味ですね。「JOIN T
 
 ## 参考記事
 
-<http://www.4gamer.net/games/322/G032254/20170727135>{.embedly-card}
-<http://jp.ign.com/gran-turismo-sport/15954/news/sport14pv>{.embedly-card}
-<http://game.watch.impress.co.jp/docs/news/1073179.html>{.embedly-card}
-<http://game.watch.impress.co.jp/docs/news/1072915.html>{.embedly-card}
-<http://game.watch.impress.co.jp/docs/news/1072894.html>{.embedly-card}
+EMBEDLY http://www.4gamer.net/games/322/G032254/20170727135
+
+EMBEDLY http://jp.ign.com/gran-turismo-sport/15954/news/sport14pv
+
+EMBEDLY http://game.watch.impress.co.jp/docs/news/1073179.html
+
+EMBEDLY http://game.watch.impress.co.jp/docs/news/1072915.html
+
+EMBEDLY http://game.watch.impress.co.jp/docs/news/1072894.html
+
 
 ## メディアツアーとスタジオツアーは一緒
 
@@ -547,7 +569,9 @@ GTアカデミー臭がしないのがちょっと不気味ですね。「JOIN T
 ### TGSからの新情報
 
 先ほどの通りですが、以下に該当情報を載せておきたいと思います。
-<https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport>{.embedly-card}
+
+EMBEDLY https://www.gtplanet.net/porsche-911-rsr-confirmed-gt-sport
+
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     <a href="https://twitter.com/hashtag/GTSport?src=hash">#GTSport</a><br>最新と思われるTGSビルド、しっかり86の姿もあるようです。<br>よかった…
@@ -576,8 +600,11 @@ GTアカデミー臭がしないのがちょっと不気味ですね。「JOIN T
   </p>
 </blockquote>
 ポルシェもありましたね。しかも現時点では、唯一の現行LM-GTE規定での参戦という好待遇です。もちろんBoPはあるとは思います。それでも、あえてこちらの方が出てくるということは、期待してしまいますね。あとは、Gr.4とGr.1に期待したいところです。そして、本丸のトヨタです。ということでLC500も収録されそうな雰囲気です。発売日にアンロックされていることを祈ります。そこで思い出すのが、[伊藤大輔選手のこのブログ記事です](http://www.diamondblog.jp/official/daisuke-ito/2016/11/26/tgrf%e3%83%aa%e3%83%8f%e3%83%bc%e3%82%b5%e3%83%ab)。当時はGr.2の存在が一気に持ち上がり、今でも信じられています。果たして、そのままの形で収録されるでしょうか？そこで見て頂きたいのは、以下の二つの記事です。
-<http://www.gran-turismo.com/jp/vgt/lexus>{.embedly-card}
-<https://supergt.net/news/single/16410>{.embedly-card}
+
+EMBEDLY http://www.gran-turismo.com/jp/vgt/lexus
+
+EMBEDLY https://supergt.net/news/single/16410
+
 あれっ、ものすごくデザインが似ていますねぇ……。白地にレインボーでフレークの入ったライン、サイドにあるエキゾーストなどなど……。もちろんレギュレーション上、定まってしまうボディラインだったりで違くは見えるのですが、同じコンセプトであると十分に言えると思います。現に、以下のコメントがGTの公式サイトには載っています。
 
 > 「夢のクルマで世界を舞台に戦いたい」という「グランツーリスモ」ファンの情熱に応えるべく開発されたのが、レクサス LF-LC GT “Vision Gran Turismo”である。デザイン開発は、SUPER GTやニュルブルクリンク24時間レースへの参戦を想定して行われた。
@@ -619,6 +646,8 @@ GTアカデミー臭がしないのがちょっと不気味ですね。「JOIN T
 </blockquote>
 一部店舗ではこのように未公表特典があるみたいです。発売日再発表に合わせて、予約特典ページに回収が入っていた気もしますけれども、これはお初だと思います。たぶん、変わっていたのは欧米の方だと信じたいところです。もし変更点あったら新記事起こしますよ。また、私のところにも予約再確認の電話があったりしたので、店舗間の数量調整も行われている気がします。それがSIEのカンファレンスの日だと思うので、いまからは在庫のありそうなところでしか限定版が手に入らない可能性もあり得ます。そのほかにも鈴鹿1000kmの時点でGM版という情報もありますが、TGSで車種追加があることからも信憑性は低そうです。ひょっとすると、Day1パッチとDLCの力を借りるのかもしれませんが。もうScapesの一部ロケーションはDLC化されることが公表されているので、クルマもというのは自然ではありますけれども。
 
-<http://www.gran-turismo.com/jp/news/00_8055553.html>{.embedly-card}
-<http://www.gran-turismo.com/jp/news/00_1751176.html>{.embedly-card}
+EMBEDLY http://www.gran-turismo.com/jp/news/00_8055553.html
+
+EMBEDLY http://www.gran-turismo.com/jp/news/00_1751176.html
+
 この二記事が主にコンテンツにかかわるところでは公式情報として出てきました。それどころか、TGSの本丸では数倍もの面白い情報が出てきてくれました。SIEJAのカンファレンスは期待外れでしたがこれらがいたことで、なんとか発売日まで全裸待機できそうです。どうにか新情報が絶えませんように……。

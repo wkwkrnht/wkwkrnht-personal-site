@@ -78,15 +78,20 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
 </blockquote>
 他意はないですよ？というか、この件は石川温氏と井上翔氏もかなり突っ込んでいるので、業界的にという感じなのでしょうね。それでも、インプレス組とアスキー組に動きがみえませんけど。
 
-<http://webronza.asahi.com/authors/2014040900005.html>{.embedly-card}
-<http://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all>{.embedly-card}
-<http://blog.innovating.jp/?page=1&month=200802>{.embedly-card}
+EMBEDLY http://webronza.asahi.com/authors/2014040900005.html
+
+EMBEDLY http://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
+
+EMBEDLY http://blog.innovating.jp/?page=1&month=200802
+
 表向きのプロフィールですね。まあ、これが基礎編ですかね。というか複数社で書いているのは契約上クリアなんですかね。
 
-<http://suzunonejh.blog15.fc2.com/blog-entry-6745.html>{.embedly-card}
+EMBEDLY http://suzunonejh.blog15.fc2.com/blog-entry-6745.html
+
 電通関係者というソースはGoogle先生の10ページまで見たけれども、これぐらいでしたね。facebookとTwitterを深く深く探したらみつかるんですかね。だれか信頼できるソースがあれば、投げてください。それとも主張されている方々に聞いてみようかななんて思っている次第です。
 
-<https://togetter.com/li/85977>{.embedly-card}
+EMBEDLY https://togetter.com/li/85977
+
 このようなまとめもありましたね。対談相手の方って、ビジネスメディア「誠」時代の編集長氏で、今はITmediaビジネスって名前になっているそうです。そして、アスキー出身の杉山淳一氏との関係もおありのようです。そして、神尾氏の名前がアスキーに載っているときがあったりするんですよね。なんでもないですよ。ただ単に私の私感です。
 
 EMBEDLY https://books.google.co.jp/books?id=IVzDCAAAQBAJ&pg=PA82&lpg=PA82&dq=%E7%A5%9E%E5%B0%BE%E5%AF%BF&source=bl&ots=L97KoZOft7&sig=NijZUP8hLRy5sv2_oPae6dUAI5s&hl=ja&sa=X&ved=0ahUKEwiBnOOm_vHTAhXCU7wKHZpICUE4KBDoAQg8MAk#v=onepage&q=%E7%A5%9E%E5%B0%BE%E5%AF%BF&f=false
@@ -102,12 +107,15 @@ EMBEDLY https://books.google.co.jp/books?id=IVzDCAAAQBAJ&pg=PA82&lpg=PA82&dq=%E7
 #### Toggter
 
 EMBEDLY http://togetter.com/li/975085
+
 EMBEDLY http://togetter.com/li/975331
+
 前者は、誰かの捨て垢によるものです。一時、矢作氏へのリプライが存在していた模様ですが、しばらくしてから削除されています。後者は、矢作氏本人によるものです。できれば、リンクのFacebookは全文読まれた方がよいかと思います。
 
 #### NAVERまとめ
 
 EMBEDLY http://matome.naver.jp/odai/2146326583669255401
+
 こちらも第三者によるものだと思われます。ですが、矢作 VS 林にフォーカスしたまとめとなっているので、アップル社側の問題にはあまり触れられていません。
 
 #### 私がなぜこれをしつこく追いかけているのか
