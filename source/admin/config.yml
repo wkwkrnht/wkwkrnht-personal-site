@@ -30,5 +30,5 @@ collections:
         - {label: 'Description', name: 'description', widget: string, required: false}
         - {label: 'Author', name: 'author', widget: string, required: true}
         - {label: 'Eyecatch', name: 'eyecatch', widget: image, required: false}
-        - {label: 'Tag', name: 7tag, widget: 'list', default: ['未分類'], required: false}
+        - {label: 'Tags', name: tags, widget: 'list', default: ['未分類'], required: false}
         - {label: 'Body', name: 'body', widget: markdown, required: true}
