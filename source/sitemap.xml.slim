@@ -25,4 +25,4 @@ feed xmlns='http://www.w3.org/2005/Atom' xml:lang=site_data.language
             updated
                 = File.mtime(article.source_file).iso8601
             content type='html'
-                = article.body.to_s.encode('UTF-8', :xml => :text)
+                = article.body.to_s.delete("<script async='' src='//cdn.embedly.com/widgets/platform.js'></script>").encode('UTF-8', :xml => :text)
