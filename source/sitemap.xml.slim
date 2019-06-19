@@ -1,4 +1,4 @@
-- site_data = data.front
+-  site_data = data.front
 - site_url = site_data.base_url + '/'
 - updated = blog.articles.first.date.to_time.iso8601 unless blog.articles.empty?
 doctype xml
@@ -25,4 +25,4 @@ feed xmlns='http://www.w3.org/2005/Atom' xml:lang=site_data.language
             updated
                 = File.mtime(article.source_file).iso8601
             content type='html'
-                = article.body
+                = article.body.to_s.encode('UTF-8', :xml => :text)
