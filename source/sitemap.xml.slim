@@ -20,11 +20,10 @@ feed xmlns='http://www.w3.org/2005/Atom' xml:lang=site_data.language
             link  rel='alternate' href=article_url
             id
                 = article_url
-            published
-                = article.date.to_time.iso8601
             updated
-                = File.mtime(article.source_file).iso8601
+                = article.date.to_time.iso8601
             author
-                = article.author
+                name
+                    = article.data.author
             content type='html'
                 = article.body.to_s.delete("<script async='' src='//cdn.embedly.com/widgets/platform.js'></script>").encode('UTF-8', :xml => :text)
