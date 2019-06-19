@@ -1,5 +1,5 @@
-/- content_for(:title,tag_title.text)
-/- content_for(:description,tag_title.text)
+- content_for(:title,tag_title.to_s)
+- content_for(:description,tag_title.to_s)
 = wrap_layout :layout
     main.card-list
         - page_articles.each_with_index do |article, i|

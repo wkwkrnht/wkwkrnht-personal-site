@@ -69,6 +69,8 @@ meta name='twitter:image' content=image_url
     meta name='theme-color' content=theme_color
     meta name='msapplication-TileColor' content=theme_color
 link rel='pingback' href=url
+link rel='manifest' href='/manifest.json'
+link rel='alternate' type='application/atom+xml' href='/sitemap.xml'
 script type='application/ld+json'
     - if current_article
         - author = current_article.data.author || 'admin'
