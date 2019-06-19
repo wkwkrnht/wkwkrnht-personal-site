@@ -44,7 +44,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       CPU
     </th>
     <td>
-      <a href="https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=10&sbr=1299&ic=451545&ft=Ryzen3+2200G&lf=2" title="Ryzen3 2200G" target="_blank" rel="noopener">Ryzen3 2200G</a>
+      [Ryzen3 2200G](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=10&sbr=1299&ic=451545&ft=Ryzen3+2200G&lf=2)
     </td>
     <td>
       13,608-13,608=0
@@ -66,7 +66,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       RAM
     </th>
     <td>
-      <a href="https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=12&sbr=1017&ic=457266&ft=AD4U266638G19-D&lf=2" title="AD4U266638G19-D" target="_blank" rel="noopener">AD4U266638G19-D</a>
+      [AD4U266638G19-D](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=12&sbr=1017&ic=457266&ft=AD4U266638G19-D&lf=2)
     </td>
     <td>
       9,980
@@ -77,7 +77,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       マザーボード
     </th>
     <td>
-      <a href="https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=21&sbr=1297&ic=453935&ft=B450+Pro4&lf=2" title="B450 Pro4" target="_blank" rel="noopener">B450 Pro4</a>
+      [B450 Pro4](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=21&sbr=1297&ic=453935&ft=B450+Pro4&lf=2)
     </td>
     <td>
       8,769
@@ -88,7 +88,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       SSD
     </th>
     <td>
-      <a href="https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1155&ic=456872&ft=ASU650SS-240GT-R&lf=2" title="ASU650SS-240GT-X" target="_blank" rel="noopener">ASU650SS-240GT-X</a>
+      [ASU650SS-240GT-X](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1155&ic=456872&ft=ASU650SS-240GT-R&lf=2)
     </td>
     <td>
       4,980
@@ -99,7 +99,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       HDD
     </th>
     <td>
-      <a href="https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=13&sbr=172&ic=442588&_bdadid=JPGTE5.00002isv&lf=0" title="WD40EZRZ-RT2 " target="_blank" rel="noopener">WD40EZRZ-RT2 </a>
+      [WD40EZRZ-RT2](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=13&sbr=172&ic=442588&_bdadid=JPGTE5.00002isv&lf=0)
     </td>
     <td>
       5,780
@@ -110,7 +110,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       電源
     </th>
     <td>
-      <a href="KRPW-AK650W/88+" title="KRPW-AK650W/88+" target="_blank" rel="noopener">KRPW-AK650W/88+</a>
+      [KRPW-AK650W/88+](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=83&sbr=83&ic=440389&ft=KRPW-AK650W%2F88%2B&lf=0)
     </td>
     <td>
       6,066
@@ -121,7 +121,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       ケース
     </th>
     <td>
-      <a href="https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=72&sbr=79&ic=385119&lf=2" title="ECA3360B-BT" target="_blank" rel="noopener">ECA3360B-BT</a>
+      [ECA3360B-BT](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=72&sbr=79&ic=385119&lf=2)
     </td>
     <td>
       2,700
@@ -132,7 +132,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       ケースファン
     </th>
     <td>
-      <a href="https://shop.tsukumo.co.jp/goods/4937925913060" title="" target="_blank" rel="noopener"></a>CFY-120S[/link]
+      [CFY-120S](https://shop.tsukumo.co.jp/goods/4937925913060)
     </td>
     <td>
       663*2-1242=84
@@ -143,7 +143,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       カードリーダー
     </th>
     <td>
-      <a href="https://www.amazon.co.jp/gp/product/B071FH8KQR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" title="KKmoon 5.25&#8243; 内蔵カードリーダー メディア 多機能 ダッシュボード PCフロントパネル USB 3.0 サポートCF XD MS M2 TF" target="_blank" rel="noopener">KKmoon 5.25&#8243; 内蔵カードリーダー メディア 多機能 ダッシュボード PCフロントパネル USB 3.0 サポートCF XD MS M2 TF</a>
+      [KKmoon 5.25&#8243; 内蔵カードリーダー メディア 多機能 ダッシュボード PCフロントパネル USB 3.0 サポートCF XD MS M2 TF](https://www.amazon.co.jp/gp/product/B071FH8KQR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
     </td>
     <td>
       1,599
@@ -154,7 +154,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
       OS
     </th>
     <td>
-      <a href="https://product.rakuten.co.jp/product/-/66b067a37af8cff0823de06625c57926/?scid=s_kwa_pla_pcp" title="Windows Server 2016 Standard" target="_blank" rel="noopener">Windows Server 2016 Standard</a>
+      [Windows Server 2016 Standard](https://product.rakuten.co.jp/product/-/66b067a37af8cff0823de06625c57926/?scid=s_kwa_pla_pcp)
     </td>
     <td>
     </td>
