@@ -1,15 +1,17 @@
-# Middleman + Netlify CMS Starter
+# wkwkrnht personal site by middleman, Netlify CMS, cloudinary
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a6c3d057-a31f-4741-bed1-6d454b6be9ca/deploy-status)](https://app.netlify.com/sites/wkwkrnht-blog-test-by-middleman/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe315496-c07f-44ad-b759-da660f2f725e/deploy-status)](https://app.netlify.com/sites/wkwkrnht/deploys)
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/wkwkrnht/wkwkrnht-blog-by-middleman&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
-This repo contains an **[example website](https://middleman-netlify-cms.netlify.com/)** that is built with [Middleman](https://www.middlemanapp.com/) and [Netlify CMS](https://www.netlifycms.org).
+This repo contains an **[example website](https://wkwkrnht.netlify.com/)** that is built with [Middleman](https://www.middlemanapp.com/) and [Netlify CMS](https://www.netlifycms.org).
 
 ## About the architecture
 
 **Middleman** is a static site generator using all the shortcuts and tools in modern web development. Check out [middlemanapp.com](http://middlemanapp.com/) for detailed tutorials, including a [getting started guide](http://middlemanapp.com/basics/getting-started/).
 
 **Netlify CMS** is a CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
+
+**cloudinary** is a CDN for pictures.
 
 ## Getting Started
 
