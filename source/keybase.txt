@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/wkwkrnht
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://wkwkrnht.netlify.com
+  * I am wkwkrnht (https://keybase.io/wkwkrnht) on keybase.
+  * I have a public key ASBn-Tc3obAQ8Rj1LX7s0Piij1zo1XOaDTvc1yOTq9apJwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010161775658ba8244046597def650222835b73f8b4c89024ad3bc9f15443de0a0120a",
+      "host": "keybase.io",
+      "kid": "012067f93737a1b010f118f52d7eecd0f8a28f5ce8d5739a0d3bdcd72393abd6a9270a",
+      "uid": "99d5749126dee2a1cc23da582cf54919",
+      "username": "wkwkrnht"
+    },
+    "merkle_root": {
+      "ctime": 1562048911,
+      "hash": "b7deb29c50536c04dea6230c200d3c8ffaeb259201dfbb8bcbd5f99152ab82ea559c442d676fdfb3afca7ca4e471ff9f806a46043511c1c9d5e72d9858f90a5f",
+      "hash_meta": "c19eeda08e3613b7ed2e33827a0ed38039d9fae49dfebd0db01a7ab4662b4697",
+      "seqno": 5677852
+    },
+    "service": {
+      "entropy": "rqkLFSH7WpXkXdIbagLgOtea",
+      "hostname": "wkwkrnht.netlify.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1562048945,
+  "expire_in": 504576000,
+  "prev": "263e3d2a9bf16ed425082264590a3ec5327335bab26d581fc1e788d2c214306e",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZ/k3N6GwEPEY9S1+7ND4oo9c6NVzmg073Ncjk6vWqScKp3BheWxvYWTESpcCF8QgJj49KpvxbtQlCCJkWQo+xTJzNbqybVgfweeI0sIUMG7EICRQng4ZNr1vK8RPTnYjGBZN0D09Dj4Qq+z0lE+W5yBVAgHCo3NpZ8RAI1wxes8I0c5vI7Emr8wEoyz3dGYTeunehVFEoZCpve3ub9Lla6TJ+W+26z+MG/h8Iy9Naiia0+WjhQPU/Ki7CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKe2BO7Z4w28AJhItZzrPF/uwqhWT/5srb/+fOAVKKJJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wkwkrnht
+
+==================================================================
