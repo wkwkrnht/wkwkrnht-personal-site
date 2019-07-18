@@ -26,6 +26,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
 予告通り、組みました。構成は、以下に載せます。ちょっとばかし追加したパーツもあるので。OSは公開していませんでしたが、結局Windows Server 2016 Standardになりました。これが最悪の結末を招くのですがそれはおいおい、というわけで進んでいきましょう。
 
 ## 構成
+
 | 種類 | 商品名 | 金額 |
 | CPU | [Ryzen3 2200G](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=10&sbr=1299&ic=451545&ft=Ryzen3+2200G&lf=2) | 13,608-13,608=0 |
 | GPU | 例のグラボ | 7,106 |
