@@ -91,7 +91,7 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
             [ASU650SS-240GT-X](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1155&ic=456872&ft=ASU650SS-240GT-R&lf=2)
         </td>
         <td>
-      4,980
+            4,980
         </td>
     </tr>
     <tr>
