@@ -27,7 +27,6 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
 
 ## 構成
 | 種類 | 商品名 | 金額 |
-|----:----|----------:----------|-----:-----|
 | CPU | [Ryzen3 2200G](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=10&sbr=1299&ic=451545&ft=Ryzen3+2200G&lf=2) | 13,608-13,608=0 |
 | GPU | 例のグラボ | 7,106 |
 | RAM | [AD4U266638G19-D](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=12&sbr=1017&ic=457266&ft=AD4U266638G19-D&lf=2) | 9,980 |
