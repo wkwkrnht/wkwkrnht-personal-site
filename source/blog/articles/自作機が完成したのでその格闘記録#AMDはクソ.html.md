@@ -26,28 +26,28 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
 予告通り、組みました。構成は、以下に載せます。ちょっとばかし追加したパーツもあるので。OSは公開していませんでしたが、結局Windows Server 2016 Standardになりました。これが最悪の結末を招くのですがそれはおいおい、というわけで進んでいきましょう。
 
 ## 構成
-|種類|商品名|金額|
+| 種類 | 商品名 | 金額 |
 |-:-|-:-|-:-|
-|CPU|[Ryzen3 2200G](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=10&sbr=1299&ic=451545&ft=Ryzen3+2200G&lf=2)|13,608-13,608=0|
-|GPU|例のグラボ|7,106|
-|RAM|[AD4U266638G19-D](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=12&sbr=1017&ic=457266&ft=AD4U266638G19-D&lf=2)|9,980|
-|マザーボード|[B450 Pro4](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=21&sbr=1297&ic=453935&ft=B450+Pro4&lf=2)|8,769|
-|SSD|[ASU650SS-240GT-X](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1155&ic=456872&ft=ASU650SS-240GT-R&lf=2)|4,980|
-|電源|[KRPW-AK650W/88+](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=83&sbr=83&ic=440389&ft=KRPW-AK650W%2F88%2B&lf=0)|6,066|
+| CPU | [Ryzen3 2200G](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=10&sbr=1299&ic=451545&ft=Ryzen3+2200G&lf=2) | 13,608-13,608=0 |
+| GPU | 例のグラボ | 7,106 |
+| RAM | [AD4U266638G19-D](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=12&sbr=1017&ic=457266&ft=AD4U266638G19-D&lf=2) | 9,980 |
+| マザーボード | [B450 Pro4](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=21&sbr=1297&ic=453935&ft=B450+Pro4&lf=2) | 8,769 |
+| SSD | [ASU650SS-240GT-X](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1155&ic=456872&ft=ASU650SS-240GT-R&lf=2) | 4,980 |
+| 電源 | [KRPW-AK650W/88+](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=83&sbr=83&ic=440389&ft=KRPW-AK650W%2F88%2B&lf=0) | 6,066 |
 |ケース|[ECA3360B-BT](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=72&sbr=79&ic=385119&lf=2)|2,700|
 |OS|[Windows Server 2016 Standard](https://product.rakuten.co.jp/product/-/66b067a37af8cff0823de06625c57926/?scid=s_kwa_pla_pcp)||
-|小計||39,601|
-|HDD|[WD40EZRZ-RT2](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=13&sbr=172&ic=442588&_bdadid=JPGTE5.00002isv&lf=0)|5,780|
-|ケースファン|[CFY-120S](https://shop.tsukumo.co.jp/goods/4937925913060)|663*2-1242=84|
-|カードリーダー|[KKmoon 5.25インチ内蔵カードリーダー メディア 多機能 ダッシュボード PCフロントパネル USB 3.0 サポートCF XD MS M2 TF](https://www.amazon.co.jp/gp/product/B071FH8KQR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)|1,599|
-|アダプタ|[変換名人 M/B上のUSB3.0ピンヘッダ端子 → USB3.0(A・メス×2)変換アダプタ MB-USB3](https://www.amazon.co.jp/gp/product/B00EIEZ5PO/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)|682|
-|アダプタ|[SIENOC USB2.0ピンヘッダ端子(9ピン) USB3.0ピンヘッダ端子(20ピン)変換ケーブル (2個)](https://www.amazon.co.jp/gp/product/B01985OE2C/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)|550-16=534|
-|ケーブル|[SATA ケーブル 6本セット 高速 6Gbps SATA3 ケーブル シリアルATA3 抜け防止 ラッチ付き SATA III cable ストレート](https://www.amazon.co.jp/gp/product/B074MZRWDK/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)|679|
-|SSD|[WESTERN DIGITAL WD Blue 3D NAND SSD 500GB SATA M.2 2280 WDS500G2B0B](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1144&ic=448487&ft=WESTERN+DIGITAL+WD+Blue+3D+NAND+SSD+500GB+SATA+M.2+2280+WDS500G2B0B&lf=1)|8096-2134=5962|
-|光学ドライブ|[ASUS Windows10対応 高性能型内蔵ブルーレイコンボドライブ BC-12D2HT](https://www.amazon.co.jp/gp/product/B01JP7BW0U/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1)|5,805|
-|USBハブ|[PCケース内部用USB HUB INTERNALUSBHUB ブラック](https://shop.tsukumo.co.jp/goods/4943508300691)|2,311-192=2,119|
-|追加計||23,244|
-|総計||62,845|
+| 小計 || 39,601 |
+| HDD | [WD40EZRZ-RT2](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=13&sbr=172&ic=442588&_bdadid=JPGTE5.00002isv&lf=0) | 5,780 |
+| ケースファン | [CFY-120S](https://shop.tsukumo.co.jp/goods/4937925913060) | 663*2-1242=84 |
+| カードリーダー | [KKmoon 5.25インチ内蔵カードリーダー メディア 多機能 ダッシュボード PCフロントパネル USB 3.0 サポートCF XD MS M2 TF](https://www.amazon.co.jp/gp/product/B071FH8KQR/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) | 1,599 |
+| アダプタ| [変換名人 M/B上のUSB3.0ピンヘッダ端子 → USB3.0(A・メス×2)変換アダプタ MB-USB3](https://www.amazon.co.jp/gp/product/B00EIEZ5PO/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1) | 682 |
+| アダプタ | [SIENOC USB2.0ピンヘッダ端子(9ピン) USB3.0ピンヘッダ端子(20ピン)変換ケーブル (2個)](https://www.amazon.co.jp/gp/product/B01985OE2C/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1) | 550-16=534 |
+|ケーブル | [SATA ケーブル 6本セット 高速 6Gbps SATA3 ケーブル シリアルATA3 抜け防止 ラッチ付き SATA III cable ストレート](https://www.amazon.co.jp/gp/product/B074MZRWDK/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1) | 679 |
+| SSD | [WESTERN DIGITAL WD Blue 3D NAND SSD 500GB SATA M.2 2280 WDS500G2B0B](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1144&ic=448487&ft=WESTERN+DIGITAL+WD+Blue+3D+NAND+SSD+500GB+SATA+M.2+2280+WDS500G2B0B&lf=1) | 8096-2134=5962 |
+| 光学ドライブ | [ASUS Windows10対応 高性能型内蔵ブルーレイコンボドライブ BC-12D2HT](https://www.amazon.co.jp/gp/product/B01JP7BW0U/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1) | 5,805 |
+| USBハブ | [PCケース内部用USB HUB INTERNALUSBHUB ブラック](https://shop.tsukumo.co.jp/goods/4943508300691) | 2,311-192=2,119 |
+| 追加計 || 23,244 |
+| 総計 || 62,845 |
 
 こんな感じです。当初の予定より基礎分は安くはなったのですが、アップデートパーツがかさんでしまいました。とはいっても、APU無料とここには載せていないポイント還元などがあるので相殺どころの騒ぎではないのですが。いずれにせよ、ロードマップ上のものが早まっただけなんですけどね。実際に組んだ感触としては、配線用のスペースが足りないことと、プラグイン電源ではないことの汚点がはっきりしたことですね。夏を考えると、クーリング上の利点がある裏配線はできる限り行いたいわけです。そこで、全部の線を通したところ蓋が閉まらないという事態に、SATA電源や4ピン電源なんかは使っていないですが、安い電源なのでプラグインじゃないんです。そのせいで、大分汚くなってしまいこの組み合わせは邪悪だなぁと感じました。なので、プラグインかつ80PLUS Gold以上の良質電源に載せ替えようかと思います。これ以上の性能向上には、「普通」のGPUが必要なのでそのためにも電源載せ替えは必要ですね。Zen2にしたいのですけれど、そのためには、総計分もう一回の支払いが必要なので、躊躇しているところです。夏のボーナスよ来い。
 
