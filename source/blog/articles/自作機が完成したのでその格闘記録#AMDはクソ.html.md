@@ -34,8 +34,8 @@ EMBEDLY http://wkwkrnht.wp.xdomain.jp/windows/2535
 | マザーボード | [B450 Pro4](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=21&sbr=1297&ic=453935&ft=B450+Pro4&lf=2) | 8,769 |
 | SSD | [ASU650SS-240GT-X](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=115&sbr=1155&ic=456872&ft=ASU650SS-240GT-R&lf=2) | 4,980 |
 | 電源 | [KRPW-AK650W/88+](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=83&sbr=83&ic=440389&ft=KRPW-AK650W%2F88%2B&lf=0) | 6,066 |
-|ケース|[ECA3360B-BT](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=72&sbr=79&ic=385119&lf=2)|2,700|
-|OS|[Windows Server 2016 Standard](https://product.rakuten.co.jp/product/-/66b067a37af8cff0823de06625c57926/?scid=s_kwa_pla_pcp)||
+| ケース | [ECA3360B-BT](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=72&sbr=79&ic=385119&lf=2) | 2,700 |
+| OS | [Windows Server 2016 Standard](https://product.rakuten.co.jp/product/-/66b067a37af8cff0823de06625c57926/?scid=s_kwa_pla_pcp) | |
 | 小計 | | 39,601 |
 | HDD | [WD40EZRZ-RT2](https://www.dospara.co.jp/5shopping/detail_parts.php?bg=1&br=13&sbr=172&ic=442588&_bdadid=JPGTE5.00002isv&lf=0) | 5,780 |
 | ケースファン | [CFY-120S](https://shop.tsukumo.co.jp/goods/4937925913060) | 663*2-1242=84 |
