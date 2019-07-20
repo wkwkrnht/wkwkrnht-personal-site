@@ -1,14 +1,18 @@
 ---
 title: 【4K・HDR】N-T2880UHDRを購入レビュー
-date: 2018-10-08T12:53:13+09:00
+date: 2018-10-08T03:53:13.000Z
 author: wkwkrnht
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1563628431/JN-T2880UHDR_main_amkrw9.jpg
 tags:
   - 4K
   - Freesync
   - HDR
   - JAPANNEXT
 ---
-EMBEDLY https://www.biccamera.com/bc/item/5207456
+EMBEDLY http://japannext.net/?page_id=5821
+
+EMBEDLY https://www.biccamera.com/bc/item/6645294/
 
 買っちゃいました。今年から環境が変わって、PS4用にモニターが入り用だったので。GT Sportがあるので、HDRを必須にしてしまったのでおまけで4Kがついてきました。一時期、Acerの31.5インチも検討していたんですけれども、机の大きさ的に28インチがぴったりでした。
 
@@ -25,7 +29,6 @@ EMBEDLY https://www.biccamera.com/bc/item/3857514
 EMBEDLY https://www.biccamera.com/bc/item/3316679  
 
 EMBEDLY https://direct.sanwa.co.jp/ItemPage/100-MRSH001
-
 
 こちらが買い足したものでした。4K、HDRの威力を生かすために選びました。あと、DPケーブルを持っていなかったこともあり、購入は必須でした。なので、半額未満というのはというわけで、USB Type-CからとHDMIとで2系統出力しています。PCとPS4からです。HDMI CEC非対応だったり、DPが優先されてしまう仕様だったりで満足とは言えないですけれども。それでも、ケーブルまではモニターを使い切れているので、あとはPS4 Pro導入で4k環境が完成します。それは追々ですね。
 
