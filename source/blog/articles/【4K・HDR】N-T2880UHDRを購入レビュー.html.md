@@ -2,6 +2,8 @@
 title: 【4K・HDR】N-T2880UHDRを購入レビュー
 date: 2018-10-08T03:53:13.000Z
 author: wkwkrnht
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1563628431/JN-T2880UHDR_main_amkrw9.jpg
 tags:
   - 4K
   - Freesync
