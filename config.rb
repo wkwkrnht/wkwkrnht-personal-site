@@ -1,4 +1,4 @@
-require 'lib/short-code.rb'
+require "lib/short-code.rb"
 
 set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
