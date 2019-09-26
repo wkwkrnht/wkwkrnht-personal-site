@@ -10,6 +10,8 @@ tags:
   - 富士通
   - 騒動
 ---
+EMBEDLY https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3464286&pid=886051671
+
 EMBEDLY https://web.archive.org/web/20160722045858/https://blg.freetel.jp/blog/15137.html  
 
 EMBEDLY https://blg.freetel.jp/blog/15137.html?_ga=1.262707788.1797688200.1464077477&utm_source=DM_POM&utm_medium=email&utm_campaign=dm_20160722_1
