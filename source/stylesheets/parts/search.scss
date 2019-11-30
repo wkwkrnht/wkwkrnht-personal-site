@@ -2,7 +2,6 @@
 .keyword-search{
     margin:$base-vertical-rythm auto;
     position:relative;
-    width:90%;
 
     & > *{
         display:inline-block;
@@ -13,7 +12,6 @@
     & input[type='search']{
         background-color:$white;
         border:1px solid $black;
-        max-width:75%;
         min-width:16em;
     }
     & input[type='submit']{
