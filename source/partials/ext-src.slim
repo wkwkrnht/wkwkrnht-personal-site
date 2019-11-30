@@ -9,7 +9,6 @@
 = javascript_include_tag 'fontawesome.min', defer: 'defer'
 = javascript_include_tag 'main', async: 'async'
 - if google_analytics
-    = javascript_include_tag 'google-analytics.js', async: 'async'
     = javascript_include_tag google_analytics_url, async: 'async'
     javascript:
         window.dataLayer = window.dataLayer || [];
@@ -17,6 +16,8 @@
         gtag('js', new Date());
         gtag('config', "#{google_analytics}");
 - if linkswitch
-    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async', onload: 'let vc_pid = "#{linkswitch}";'
+    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
+    javascript:
+        let vc_pid = "#{linkswitch}";
 - if soesic
     = javascript_include_tag '//cdn.refersion.com/creative.js', async: 'async', onload: '$rfsn_creative.generate("refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json", {aid: "#{soesic}"});'
