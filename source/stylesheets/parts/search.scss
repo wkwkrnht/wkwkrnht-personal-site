@@ -1,29 +1,24 @@
 @import 'variables';
 .keyword-search{
-    & form{
-        margin:$base-vertical-rythm auto;
-        width:90%;
+    margin:$base-vertical-rythm auto;
+    position:relative;
+    width:90%;
 
-        & > *{
-            display:inline-block;
-            height:2em;
-            line-height:2em;
-            vertical-align:baseline;
-        }
-        & input[label="キーワード"]{
-            background-color:$white;
-            border:1px solid $black;
-            max-width:75%;
-            min-width:16em;
-        }
-        & input[label="検索"]{
-            background-color:#1155ee;
-            border:1px solid #1155ee;
-            box-shadow:0 0 3vmin rgba(0,0,0,.2);
-            color:$white;
-            max-width:20%;
-            padding-left:2em;
-            padding-right:3em;
-        }
+    & > *{
+        display:inline-block;
+        height:2em;
+        line-height:2em;
+        vertical-align:baseline;
+    }
+    & input[type='search']{
+        background-color:$white;
+        border:1px solid $black;
+        max-width:75%;
+        min-width:16em;
+    }
+    & input[type='submit']{
+        color:$blue;
+        font-family:FontAwesome;
+        width:2em;
     }
 }
