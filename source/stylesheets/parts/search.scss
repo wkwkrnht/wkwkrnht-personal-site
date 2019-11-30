@@ -13,6 +13,8 @@
         min-width:16em;
     }
     & button[type='submit']{
+        background-color:transparent;
+        border-color:transparent;
         color:$blue;
         position:absolute;
         right:.5em;
