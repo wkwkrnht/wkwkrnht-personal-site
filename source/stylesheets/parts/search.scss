@@ -10,12 +10,12 @@
     }
     & input[type='search']{
         background-color:$white;
-        border:1px solid $black;
         min-width:16em;
     }
     & input[type='submit']{
         color:$blue;
         font-family:'FontAwesome';
+        position:absolute;
         right:.1em;
         width:2em;
     }

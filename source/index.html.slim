@@ -1,11 +1,9 @@
 main.index-main
-    section.index-detail
-        p wkwkrnhtの個人サイトです。プライバシーポリシーに動の上、about、ブログの方をお楽しみください。
     = partial 'partials/navi'
     section.big-card
-        h2.index-title Current Articles
+        h2.index-title Feed
         nav.card-list
-            - blog.articles[0...3].each do |article|
+            - blog.articles[0...6].each do |article|
                 - title = article.title
                 = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
                     = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
