@@ -1,6 +1,5 @@
 @import 'variables';
 .keyword-search{
-    //margin:$base-vertical-rythm auto;
     position:relative;
 
     & > *{
@@ -16,7 +15,8 @@
     }
     & input[type='submit']{
         color:$blue;
-        font-family:FontAwesome;
+        font-family:'FontAwesome';
+        right:.1em;
         width:2em;
     }
 }
