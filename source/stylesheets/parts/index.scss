@@ -1,11 +1,4 @@
 @import 'variables';
-.index-detail{
-    margin:6vh auto;
-    max-width:86%;
-    padding:initial 2em;
-    text-align:center;
-    @include base-backplate;
-}
 
 .index-nav{
     display:flex;
@@ -17,6 +10,9 @@
             size:1.6em;
             weight:bold;
         }
+        text-align:center;
+    }
+    & .index-detail{
         text-align:center;
     }
 }
