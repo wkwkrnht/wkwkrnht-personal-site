@@ -14,6 +14,10 @@
     }
     & input[type='submit']{
         color:$blue;
+        font:{
+            family:"Font Awesome 5 Free";
+            weight:400;
+        }
         position:absolute;
         right:.5em;
         width:2em;
