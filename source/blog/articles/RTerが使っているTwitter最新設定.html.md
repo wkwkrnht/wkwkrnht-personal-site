@@ -1,9 +1,11 @@
 ---
-title: twitter
+title: RTerが使っているTwitter最新設定
 date: 2019-11-18T16:49:51.103Z
 author: wkwkrnht
+eyecatch: >-
+  https://res.cloudinary.com/wkwkrnht/image/upload/v1518924136/logo.png
 tags:
-  - 未分類
+  - Twitter
 ---
 ( ﾟ∀ﾟ)ｱﾊﾊ八八ﾉヽﾉヽﾉヽﾉ ＼ / ＼/ ＼
 
@@ -15,9 +17,9 @@ pͪoͣnͬpͣoͥnͭpͣa͡inͥ
 
 \ #FZ-E1ﾁｬﾚﾝｼﾞ /
 
-こんにちわ〜o(^^)o 
+こんにちわ〜o(^^)o
 
-に来ました＼(^o^)／ 
+に来ました＼(^o^)／
 
 この分野に詳しくないのですが聞かせてもらってもいいですか（･＿･）？
 
@@ -67,13 +69,13 @@ potato　　　ᵖᵒᵗᵃᵗᵒ　potato
 
 potato　　ᵖᵒᵗᵃᵗᵒ　potato
 
-\    　  ᔆᵘᙚᑋⁱ     sushi       ᔆᵘᙚᑋⁱ 
+\    　  ᔆᵘᙚᑋⁱ     sushi       ᔆᵘᙚᑋⁱ
 
-　ᔆᵘᙚᑋⁱ　  sushi     ᔆᵘᙚᑋⁱ   sushi 　ᔆᵘᙚᑋⁱ 
+　ᔆᵘᙚᑋⁱ　  sushi     ᔆᵘᙚᑋⁱ   sushi 　ᔆᵘᙚᑋⁱ
 
 sushi　ᔆᵘᙚᑋⁱ　#寿司食いたい　sushi
 
- 　sushi　 ᔆᵘᙚᑋⁱ　sushi     sushi     ᔆᵘᙚᑋⁱ 
+ 　sushi　 ᔆᵘᙚᑋⁱ　sushi     sushi     ᔆᵘᙚᑋⁱ
 
 　　　ᔆᵘᙚᑋⁱ　sushi                   ᔆᵘᙚᑋⁱ
 
