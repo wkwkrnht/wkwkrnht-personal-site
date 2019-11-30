@@ -1,4 +1,4 @@
-let shareBtn = document.getElementById('nativeShare');
+const shareBtn = document.getElementById('nativeShare');
 if(shareBtn){
     shareBtn.onclick = function(){
         let title = document.title;

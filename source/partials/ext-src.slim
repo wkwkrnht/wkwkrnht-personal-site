@@ -1,10 +1,11 @@
 - site_data = data.front
 - google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
+- soesic = site_data.soesic unless site_data.soesic.blank?
 - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
 = stylesheet_link_tag 'all'
 = javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
-= javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
+= javascript_include_tag 'highlight.pack', async: 'defer', onload: 'hljs.initHighlightingOnLoad();'
 = javascript_include_tag 'fontawesome.min', defer: 'defer'
 = javascript_include_tag 'main', async: 'async'
 - if google_analytics
@@ -19,3 +20,7 @@
     javascript:
         let vc_pid = "#{linkswitch}";
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
+- if soesic
+    = javascript_include_tag '//cdn.refersion.com/creative.js', async: 'async'
+    javascript:
+        $rfsn_creative.generate('refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json', {aid: "#{soesic}"});
