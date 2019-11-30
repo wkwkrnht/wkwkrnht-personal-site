@@ -17,10 +17,6 @@
         gtag('js', new Date());
         gtag('config', "#{google_analytics}");
 - if linkswitch
-    javascript:
-        let vc_pid = "#{linkswitch}";
-    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
+    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async', onload: 'let vc_pid = "#{linkswitch}";'
 - if soesic
-    = javascript_include_tag '//cdn.refersion.com/creative.js', async: 'async'
-    javascript:
-        $rfsn_creative.generate('refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json', {aid: "#{soesic}"});
+    = javascript_include_tag '//cdn.refersion.com/creative.js', async: 'async', onload: '$rfsn_creative.generate("refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json", {aid: "#{soesic}"});'
