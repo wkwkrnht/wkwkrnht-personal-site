@@ -36,14 +36,16 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
 
 この方は語らずしもでしょう。石野純也氏をフォローしている方ならば、あまりいいイメージを持っていないはずです。
 
+EMBEDLY https://twitter.com/june_ya/status/863915570248294400
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     エンガジェットって、米国のメディアだけあって書き手の素性に厳しいというか、ステマに非常に厳しくて、契約書見る限りだと業界の利害関係者であるコンサルタントが執筆できる余地はないはずなんだけどな……。多少あれなこともあったけど、そういうモラルは評価してたのに、とにかく残念。
   </p>
   <p>
-    — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863915570248294400)
+    — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日]()
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/june_ya/status/863963953415585793
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     [@boobyn](https://twitter.com/boobyn) 本当に乱闘していいのであれば。
@@ -52,6 +54,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863962060748537857)
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/june_ya/status/863963953415585793
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja">
   <p lang="ja" dir="ltr">
     [@boobyn](https://twitter.com/boobyn) スタッフにしちゃった愛人の話とか振ってよければぜひ！
@@ -60,6 +63,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863963953415585793)
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/june_ya/status/863994145861386240
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     [@itowpaaan](https://twitter.com/itowpaaan) 愛人をスタッフにしたりとか、社用車のナンバーを愛人の誕生日にしたりとか、打ち合わせと称して池袋のラブホの画像を送ったりとか、その辺全部一般論です！
@@ -68,6 +72,7 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863994145861386240)
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/iskw226/status/863964181699059715
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     いまの石野さんはいろいろ武器持ってるから強いだろうなぁ。
@@ -81,8 +86,6 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
 EMBEDLY https://webronza.asahi.com/authors/2014040900005.html
 
 EMBEDLY https://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
-
-EMBEDLY http://blog.innovating.jp/?page=1&month=200802
 
 表向きのプロフィールですね。まあ、これが基礎編ですかね。というか複数社で書いているのは契約上クリアなんですかね。
 

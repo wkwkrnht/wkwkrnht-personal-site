@@ -37,12 +37,12 @@ class String
 
     def embed_hatena!()
         embed = "<figure class='embed-responsive hatenablogcard'><iframe src='https://hatenablog-parts.com/embed?url=\\1' frameborder='0' scrolling='no'></iframe></figure>"
-        replace self.gsub(/HATENA ([^#\&\?<]+)/,embed)
+        replace self.gsub(/HATENA ([^#\&\<]+)/,embed)
     end
 
     def embed_embedly!()
         embed = "<a class='embedly-card' href='\\1'></a><script async='' src='//cdn.embedly.com/widgets/platform.js'></script>"
-        replace self.gsub(/EMBEDLY ([^#\&\?<]+)/,embed)
+        replace self.gsub(/EMBEDLY ([^#\&\<]+)/,embed)
     end
 
     def shortcode_extract!
