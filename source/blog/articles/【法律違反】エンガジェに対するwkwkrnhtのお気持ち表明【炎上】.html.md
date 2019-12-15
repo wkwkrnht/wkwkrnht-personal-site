@@ -73,20 +73,20 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
     いまの石野さんはいろいろ武器持ってるから強いだろうなぁ。
   </p>
   <p>
-    — 石川 温 ([@iskw226](http://twitter.com/iskw226)) [2017年5月15日](https://twitter.com/iskw226/status/863964181699059715)
+    — 石川 温 ([@iskw226](https://twitter.com/iskw226)) [2017年5月15日](https://twitter.com/iskw226/status/863964181699059715)
   </p>
 </blockquote>
 他意はないですよ？というか、この件は石川温氏と井上翔氏もかなり突っ込んでいるので、業界的にという感じなのでしょうね。それでも、インプレス組とアスキー組に動きがみえませんけど。
 
-EMBEDLY http://webronza.asahi.com/authors/2014040900005.html
+EMBEDLY https://webronza.asahi.com/authors/2014040900005.html
 
-EMBEDLY http://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
+EMBEDLY https://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
 
 EMBEDLY http://blog.innovating.jp/?page=1&month=200802
 
 表向きのプロフィールですね。まあ、これが基礎編ですかね。というか複数社で書いているのは契約上クリアなんですかね。
 
-EMBEDLY http://suzunonejh.blog15.fc2.com/blog-entry-6745.html
+EMBEDLY https://suzunonejh.blog15.fc2.com/blog-entry-6745.html
 
 電通関係者というソースはGoogle先生の10ページまで見たけれども、これぐらいでしたね。facebookとTwitterを深く深く探したらみつかるんですかね。だれか信頼できるソースがあれば、投げてください。それとも主張されている方々に聞いてみようかななんて思っている次第です。
 
