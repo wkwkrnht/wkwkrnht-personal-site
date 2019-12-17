@@ -18,6 +18,10 @@ activate :blog do |blog|
     blog.calendar_template = "partials/calender"
 end
 
+activate :img_loading_attribute do |c|
+  c.loading = 'lazy'
+end
+
 configure :build do
     activate :sitemap_ping do |config|
         config.host = "https://wkwkrnht.netlify.com/"
