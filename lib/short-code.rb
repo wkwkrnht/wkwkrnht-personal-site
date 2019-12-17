@@ -2,7 +2,7 @@ require 'cgi'
 require 'nokogiri'
 require 'middleman-core'
 
-class Middleman::ImgLoadingAttribute < ::Middleman::Extension
+class Middleman::ImgAttribute < ::Middleman::Extension
     option :loading, 'auto', 'A value of "loading" attribute in <img> tag'
     def initialize(app, options_hash={}, &block)
         # Call super to build options from the options_hash
@@ -11,7 +11,6 @@ class Middleman::ImgLoadingAttribute < ::Middleman::Extension
         # require 'necessary/library'
         # set up your extension
         # puts options.my_option
-        options[:loading] = 'lazy'
     end
     def after_configuration
         #do something
@@ -110,3 +109,4 @@ module Middleman
     end
 end
 ::Middleman::Extensions.register(:shortcode,::Middleman::Shortcode)
+::Middleman::Extensions.register(:imgattribute,::Middleman::ImgAttribute)

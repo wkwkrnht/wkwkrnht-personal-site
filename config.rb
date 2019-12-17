@@ -10,6 +10,9 @@ page "/admin/*", layout: false, directory_index: false
 page "/404.html", directory_index: false
 
 activate :shortcode
+activate :imgattribute do |img|
+    img.loading = 'lazy'
+end
 activate :blog do |blog|
     blog.sources = "blog/articles/{title}.html"
     blog.default_extension = ".md"
