@@ -3,8 +3,7 @@ require 'nokogiri'
 require 'middleman-core'
 
 class Middleman::ImgLoadingAttribute < ::Middleman::Extension
-  option :loading, 'auto', 'A value of "loading" attribute in <img> tag'
-
+    option :loading, 'auto', 'A value of "loading" attribute in <img> tag'
     def initialize(app, options_hash={}, &block)
         # Call super to build options from the options_hash
         super
@@ -21,7 +20,11 @@ class Middleman::ImgLoadingAttribute < ::Middleman::Extension
     def after_build(builder)
         files = Dir.glob(File.join(app.config[:build_dir], "**", "*.html"))
         files.each do |file|
-
+            doc = Nokogiri::HTML(File.read(file))
+            doc.css('img').each do |elem|
+                next if elem.path.include?('pre') || elem.path.include?('code') || elem.path.include?('blockquote')
+                elem['loading'] = options[:loading]
+            end
             File.open(file, 'w') do |f|
                 f.write doc.to_html
             end
