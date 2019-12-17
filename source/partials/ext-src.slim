@@ -5,22 +5,21 @@
 - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json', {aid: '"+site_data.soesic+"'});" unless site_data.soesic.blank?
 - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
 = stylesheet_link_tag 'all'
-= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
-= javascript_include_tag 'highlight.pack', async: 'defer', onload: 'hljs.initHighlightingOnLoad();'
-= javascript_include_tag 'fontawesome.min', defer: 'defer', 'data-search-pseudo-elements': 'true'
-= javascript_include_tag 'main', async: 'async'
+= javascript_include_tag 'highlight.pack', defer: true, onload: 'hljs.initHighlightingOnLoad();'
+= javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
+= javascript_include_tag 'main', defer: true
+= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: true
 - if google_analytics
-    = javascript_include_tag google_analytics_url, async: 'async'
+    = javascript_include_tag google_analytics_url, async: true
     javascript:
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', "#{google_analytics}");
 - if google_adsense
-    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: 'async', 'data-ad-client': google_adsense
+    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: true, 'data-ad-client': google_adsense
 - if linkswitch
-    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
-    javascript:
-        let vc_pid = "#{linkswitch}";
+    - linkswitch = 'let vc_pid = "' + linkswitch + '";'
+    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: true, onload: linkswitch
 - if soesic
-    = javascript_include_tag '//cdn.refersion.com/creative.js', async: 'async', onload: soesic
+    = javascript_include_tag '//cdn.refersion.com/creative.js', async: true, onload: soesic
