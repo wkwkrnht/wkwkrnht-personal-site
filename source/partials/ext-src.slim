@@ -4,7 +4,15 @@
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json', {aid: '" + site_data.soesic + "'});" unless site_data.soesic.blank?
 link rel='dns-prefetch' href='res.cloudinary.com'
-= stylesheet_link_tag 'all'
+/= stylesheet_link_tag 'all'
+scss:
+    @charset 'utf-8';
+    @import 'parts/initial';
+    @import 'parts/header';
+    @import 'parts/ga-alert';
+link href='/stylesheets/main.css' as="style" rel="preload" onload="this.onload=null;this.rel='stylesheet'"
+noscript
+    link rel='stylesheet' href='/stylesheets/main.css'
 = javascript_include_tag 'highlight.pack', defer: true, onload: 'hljs.initHighlightingOnLoad();'
 = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
 = javascript_include_tag 'main', defer: true
