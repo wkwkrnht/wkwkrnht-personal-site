@@ -20,11 +20,13 @@ class Middleman::ImgAttribute < ::Middleman::Extension
         files = Dir.glob(File.join(app.config[:build_dir], "**", "*.html"))
         files.each do |file|
             doc = Nokogiri::HTML(File.read(file))
-            doc.css('img').each do |elem|
-                next if elem.path.include?('pre') || elem.path.include?('code') || elem.path.include?('blockquote')
-                elem['loading'] = options[:loading]
+            doc.css('img').each do |element|
+                next if element.path.include?('pre') || element.path.include?('code') || element.path.include?('blockquote')
+                element['loading'] = options[:loading]
 
-                elem['src'].gsub(/\/image\/upload\//, '/image/upload/f_auto/')
+                src_class = element['src'].class
+                puts src_class
+                element['src'].to_s.gsub(/\/image\/upload\//, '/image/upload/f_auto/')
             end
             File.open(file, 'w') do |f|
                 f.write doc.to_html
