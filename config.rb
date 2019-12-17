@@ -19,7 +19,7 @@ activate :blog do |blog|
 end
 
 activate :img_loading_attribute do |c|
-  c.loading = 'lazy'
+  c.loading = "lazy"
 end
 
 configure :build do

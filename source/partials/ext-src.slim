@@ -4,14 +4,7 @@
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json', {aid: '" + site_data.soesic + "'});" unless site_data.soesic.blank?
 link rel='dns-prefetch' href='res.cloudinary.com'
-/= stylesheet_link_tag 'all'
-scss:
-    @import '../stylesheets/parts/initial';
-    @import './stylesheets/parts/header';
-    @import './stylesheets/parts/ga-alert';
-link href='/stylesheets/main.css' as='style' rel='preload' onload="this.onload=null;this.rel='stylesheet'"
-noscript
-    link rel='stylesheet' href='/stylesheets/main.css'
+= stylesheet_link_tag 'all'
 = javascript_include_tag 'highlight.pack', defer: true, onload: 'hljs.initHighlightingOnLoad();'
 = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
 = javascript_include_tag 'main', defer: true
@@ -24,9 +17,9 @@ noscript
         gtag('js', new Date());
         gtag('config', "#{google_analytics}");
 - if google_adsense
-    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: true, 'data-ad-client': google_adsense
+    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense
 - if linkswitch
     - linkswitch_js = 'let vc_pid = "' + linkswitch.to_s + '";'
-    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: true, onload: linkswitch_js
+    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', defer: true, onload: linkswitch_js
 - if soesic
-    = javascript_include_tag '//cdn.refersion.com/creative.js', async: true, onload: soesic
+    = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
