@@ -10,12 +10,14 @@ link rel='dns-prefetch' href='res.cloudinary.com'
 = javascript_include_tag 'main', defer: true
 - if google_analytics
     - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
-    = javascript_include_tag google_analytics_url, async: true
+    = javascript_include_tag google_analytics_url, defer: true, onload: 'google_analytics_fire();'
     javascript:
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', "#{google_analytics}");
+        function google_analytics_fire(){
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', "#{google_analytics}");
+        }
 - if google_adsense
     = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense
 - if linkswitch
