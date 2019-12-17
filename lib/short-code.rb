@@ -12,7 +12,7 @@ class Middleman::ImgLoadingAttribute < ::Middleman::Extension
         # require 'necessary/library'
         # set up your extension
         # puts options.my_option
-        options[:loading] = 'auto'
+        options[:loading] = 'lazy'
     end
     def after_configuration
         #do something
@@ -80,15 +80,6 @@ class String
         replace self.gsub(/EMBEDLY ([^<]+)/,embed)
     end
 
-    def make_img_elements!
-        doc = Nokogiri::HTML(File.read(self))
-        doc.css('img').each do |elem|
-            next if elem.path.include?('pre') || elem.path.include?('code') || elem.path.include?('blockquote')
-            elem['loading'] = options[:loading]
-        end
-        return self
-    end
-
     def shortcode_extract!
         extract_columun_embed!()
         extract_notice_embed!()
@@ -110,7 +101,6 @@ module Middleman
             super
             app.after_render do |body, path, locs, template|
                 body.shortcode_extract!
-                body.make_img_elements!()
                 body
             end
         end
