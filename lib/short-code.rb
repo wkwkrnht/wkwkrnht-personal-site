@@ -24,7 +24,7 @@ class Middleman::ImgAttribute < ::Middleman::Extension
                 next if element.path.include?('pre') || element.path.include?('code') || element.path.include?('blockquote')
                 element['loading'] = options[:loading]
 
-                element['src'].sub(/https:\/\/res.cloudinary.com\/([^<]+)\/image\/upload\/([^<]+)\/([^<]+).([^<]+)/, "https://res.cloudinary.com/\\1/image/upload/f_auto/\\2/\\3/")
+                element['src'] = element['src'].sub(/https:\/\/res.cloudinary.com\/([^<]+)\/image\/upload\/([^<]+)\/([^<]+).([^<]+)/, "https://res.cloudinary.com/\\1/image/upload/f_auto/\\2/\\3/")
             end
             File.open(file, 'w') do |f|
                 f.write doc.to_html
