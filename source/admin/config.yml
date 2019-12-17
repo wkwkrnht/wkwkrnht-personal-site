@@ -9,10 +9,6 @@ media_library:
     config:
         cloud_name: wkwkrnht
         api_key: 434895888337457
-        config:
-            default_transformations:
-                -   - fetch_format: auto
-                quality: auto
 
 collections:
     - name: 'blog'
