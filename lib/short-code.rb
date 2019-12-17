@@ -24,9 +24,7 @@ class Middleman::ImgAttribute < ::Middleman::Extension
                 next if element.path.include?('pre') || element.path.include?('code') || element.path.include?('blockquote')
                 element['loading'] = options[:loading]
 
-                src_class = element['src'].class
-                puts src_class
-                element['src'].to_s.gsub(/\/image\/upload\//, '/image/upload/f_auto/')
+                element['src'].sub(/upload/, 'upload/f_auto')
             end
             File.open(file, 'w') do |f|
                 f.write doc.to_html
