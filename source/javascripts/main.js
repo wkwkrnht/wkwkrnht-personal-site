@@ -47,7 +47,7 @@ function google_analytics() {
     }
 }
 
-window.addEventListener('DOMContentLoaded', google_analytics);
+window.addEventListener('DOMContentLoaded', google_analytics());
 
 if(shareBtn){
     shareBtn.onclick = function(){

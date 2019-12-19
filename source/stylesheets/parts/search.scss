@@ -10,14 +10,14 @@
     }
     & input[type='search']{
         background-color:$white;
-        min-width:16em;
+        min-width:18em;
     }
     & button[type='submit']{
         background-color:transparent;
         border-color:transparent;
         color:$blue;
         position:absolute;
-        right:.5em;
-        width:2em;
+        right:.25em;
+        width:3em;
     }
 }
