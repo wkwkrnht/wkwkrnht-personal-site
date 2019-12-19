@@ -1,4 +1,6 @@
 = wrap_layout :layout
+    = javascript_include_tag 'highlight.pack', defer: true, onload: 'hljs.initHighlightingOnLoad();'
+    = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
     main.article-main
         = image_tag current_article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch'
         = yield

@@ -2,11 +2,9 @@
 - google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
 - google_adsense = site_data.google_adsense unless site_data.google_adsense.blank?
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
-- soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/45618-04e5917bb848701090e4acb804c1255e.json', {aid: '" + site_data.soesic + "'});" unless site_data.soesic.blank?
+- soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + site_data.soesic.aid + ".json', {aid: '" + site_data.soesic.aid + "'});" unless site_data.soesic.blank?
 link rel='dns-prefetch' href='res.cloudinary.com'
 = stylesheet_link_tag 'all'
-= javascript_include_tag 'highlight.pack', defer: true, onload: 'hljs.initHighlightingOnLoad();'
-= javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
 = javascript_include_tag 'main', defer: true
 - if google_analytics
     - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
