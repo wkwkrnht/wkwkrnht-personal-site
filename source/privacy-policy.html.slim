@@ -1,4 +1,4 @@
-- data = data.front
+- site_data = data.front
 main class='article-main privacy-policy'
     p RT狂の思考ログ(以下、当サイト)における個人情報の保護およびその取り扱いについての方針を示したものです。
     h2 情報の取得
@@ -15,12 +15,12 @@ main class='article-main privacy-policy'
     p 当サイトでは、上記の方法により収集した情報の保護に細心の注意を払っています。但し、他のユーザーが閲覧できる箇所(コメント本文など)にユーザー自身が自発的に個人情報を入力し、表示された場合、意図しない利用がなされる可能性があることに十分に留意してください。この場合については、当サイトによる個人情報の保護の対象外となり、ユーザー自身の責任となりますので、あらかじめご了承下さい。
     h2 当サイトが利用・提携しているサービス
     p.out-resource-terms 各サービスごとにプライバシーポリシーが記載されていますので、そちらも合わせてご確認ください。
-    - if data.google_analytics
+    - if site_data.google_analytics
         h3 アクセス解析サービス
         p 当サイトはGoogleによるアクセス解析サービス<a href='https://www.google.com/analytics/terms/jp.html' target='_blank'>(参考リンク)</a>を利用しています。前述の通り、トラフィックデータの収集のためにクッキー等が使用されていますが、ユーザーはブラウザでクッキーの受け入れを拒否するように設定することが可能です。これらのサービスにおいて取得・収集される情報については、プライバシーポリシーをご確認下さい。
         button#ga-cookie-reset-btn
             |Cookie 受け入れの設定をリセット
-    - if data.soesic || data.linkswitch || data. google_adsense.id
+    - if site_data.soesic || site_data.linkswitch || site_data. google_adsense.id
         h3 アドセンスネットワーク
         p 当サイトは以下のサービスを収益化のために使用しています。前述の通り、トラフィックデータの収集のためにクッキー等が使用されていますが、ユーザーはブラウザでクッキーの受け入れを拒否するように設定することが可能です。これらのサービスにおいて取得・収集される情報については、それぞれのプライバシーポリシーをご確認下さい。
         button#ga-cookie-reset-btn
