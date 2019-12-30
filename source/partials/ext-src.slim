@@ -17,7 +17,7 @@
         }
 - if google_adsense
     - google_adsense_id = google_adsense.id
-    - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.slice!('ca').to_s + ':' + google_adsense.cse.to_s
+    - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
     = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense_id, onload: '(adsbygoogle = window.adsbygoogle || []).push({});'
     = javascript_include_tag cse_url, defer: true
 - if linkswitch
