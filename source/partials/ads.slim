@@ -1,4 +1,8 @@
-- google_adsense = data.front.google_adsense
+- site_data = data.front
+- soesic = site_data.soesic
+- google_adsense = site_data.google_adsense
 section class='big-card ads'
+    - if soesic
     #rfsn_img_45618
-    ins.adsbygoogle style='display:block' data-ad-format='auto' data-full-width-responsive='true' data-ad-client=google_adsense.id data-ad-slot=google_adsense.responsive.to_s
+    - if google_adsense
+        ins.adsbygoogle style='display:block' data-ad-format='auto' data-full-width-responsive='true' data-ad-client=google_adsense.id data-ad-slot=google_adsense.responsive.to_s
