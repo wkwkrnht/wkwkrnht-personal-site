@@ -1,5 +1,5 @@
 - site_data = data.front
-- google_analytics = site_data.google_analytics.id unless site_data.google_analytics.id.blank?
+- google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
 - google_adsense = site_data.google_adsense unless site_data.google_adsense.blank?
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + site_data.soesic.id + ".json', {aid: '" + site_data.soesic.aid + "'});" unless site_data.soesic.blank?
@@ -16,7 +16,10 @@
             gtag('config', "#{google_analytics}");
         }
 - if google_adsense
-    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense, onload: '(adsbygoogle = window.adsbygoogle || []).push({});'
+    - google_adsenses_id = google_adsenses.id
+    - cse_url = '//cse.google.com/cse.js?cx=partner-' + google_adsenses_id + ':' + google_adsense.cse.to_s
+    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsenses_id, onload: '(adsbygoogle = window.adsbygoogle || []).push({});'
+    = javascript_include_tag cse_url, defer: true
 - if linkswitch
     - linkswitch_js = 'let vc_pid = "' + linkswitch.to_s + '";'
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', defer: true, onload: linkswitch_js
