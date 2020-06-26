@@ -2,7 +2,7 @@ const shareBtn = document.getElementById('nativeShare');
 
 function google_analytics() {
     'use strict';
-    let analyticsID = 'UA-67916094-6'; //UA-XXXX-Y の部分は正しいものに書き換えてください
+    const analyticsID = 'UA-67916094-6';
     let targetProp = 'ga-disable-' + analyticsID;
     let cookieOptin = localStorage.getItem('ga_cookie_opt_in');
     if(cookieOptin == 'no') {
