@@ -13,7 +13,7 @@ const data_list = [
 self.addEventListener('install', function(e) {
     e.waitUntil(
         caches.open('cache_v1').then(function(cache) {
-            return cache.addAll(data_list);
+            return cache.addAll(data_list.map(url => new Request(url, {credentials: 'same-origin'})));
         })
     );
 });
