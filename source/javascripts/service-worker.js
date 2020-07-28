@@ -3,8 +3,8 @@ const data_list = [
     '/about.html',
     '/privacy-policy.html',
     '/manifest.json',
+    '/images/logo.png',
     '/stylesheets/all.css',
-    '/javascripts/google-analytics.js',
     '/javascripts/fontawesome.min.js',
     '/javascripts/highlight.pack.js',
     '/javascripts/main.js'
