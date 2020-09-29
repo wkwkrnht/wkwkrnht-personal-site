@@ -10,7 +10,7 @@ $dark-gray:#bbb;
 $black:#000;
 $blue:#03a9f4;
 
-@mixin 1line-txt{
+@mixin one-line-txt{
     text-overflow:ellipsis;
     white-space:nowrap;
 }

@@ -44,7 +44,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     padding:1em;
     text-align:center;
     vertical-align:middle;
-    @include 1line-txt;
+    @include one-line-txt;
 }
 
 .big-card{
