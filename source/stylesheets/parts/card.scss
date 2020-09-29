@@ -1,4 +1,6 @@
 @import 'variables';
+$card-ratio:calc(#{$card-size} / 4 * 3);
+
 .card-list{
     align-content:space-around;
     align-items:baseline;
@@ -14,6 +16,7 @@
     overflow:hidden;
     position:relative;
     width:#{$card-size};
+    @include base-backplate;
 }
 .card-img,.card-date,.card-title{
     overflow:hidden;
@@ -23,7 +26,7 @@
     width:#{$card-size};
 }
 .card-img{
-    height:calc(#{$card-size} / 4 * 3);
+    height:#{$card-ratio};
     top:0;
 }
 .card-date{
@@ -33,16 +36,15 @@
     margin:0;
     padding:0 1em;
     right:0;
-    top:calc(#{$card-size} / 4 * 3);
+    top:#{$card-ratio};
 }
 .card-title{
     bottom:0;
     box-sizing:border-box;
     padding:1em;
-    text-align:center;
     text-overflow:ellipsis;
-    vertical-align:middle;
     white-space:nowrap;
+    @include txt-centered;
 }
 
 .big-card{
