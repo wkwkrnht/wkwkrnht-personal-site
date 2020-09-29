@@ -42,9 +42,9 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     bottom:0;
     box-sizing:border-box;
     padding:1em;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    @include txt-centered;
+    text-align:center;
+    vertical-align:middle;
+    @include 1line-txt;
 }
 
 .big-card{
