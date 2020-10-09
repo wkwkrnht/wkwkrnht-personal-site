@@ -1,5 +1,6 @@
 require "lib/short-code.rb"
 
+set :encoding, "utf-8"
 set :markdown, :fenced_code_blocks => true, :autolink => true, :with_toc_data => true
 
 page "/*.xml", layout: false
