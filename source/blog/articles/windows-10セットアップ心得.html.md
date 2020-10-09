@@ -15,7 +15,7 @@ EMBEDLY https://www.google.co.jp/ime/
 
 ## Microsoft 365
 
-EMBEDLY 
+EMBEDLY https://www.office.com
 
 ログインして順当に進めば永年版のほうが現れるから、そっちをインスコ。OneDrive含めダブルログインを忘れずに。OneDriveは同期場所移設が必要になる。
 
@@ -49,4 +49,4 @@ EMBEDLY https://obsproject.com/ja
 
 ### VoiceMeeter Banana
 
-EMBEDLY
+EMBEDLY https://vb-audio.com/Voicemeeter/banana.htm
