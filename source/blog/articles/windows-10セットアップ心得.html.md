@@ -21,7 +21,7 @@ EMBEDLY
 
 ## Vivaldi
 
-EMBEDLY 
+EMBEDLY https://vivaldi.com/ja/
 
 ログインしてから、テーマ設定。テーマは以下を参照。
 
@@ -31,13 +31,13 @@ EMBEDLY
 
 ### ATOM
 
-EMBEDLY 
+EMBEDLY https://atom.io
 
 sync-settingsセットアップ。Githubでシークレットを都度生成しなければいけない。
 
 ## SourceTree
 
-EMBEDLY 
+EMBEDLY https://www.sourcetreeapp.com
 
 ログイン道中にTOTPあり。
 
@@ -45,7 +45,7 @@ EMBEDLY
 
 ### OBS
 
-EMBEDLY 
+EMBEDLY https://obsproject.com/ja
 
 ### VoiceMeeter Banana
 
