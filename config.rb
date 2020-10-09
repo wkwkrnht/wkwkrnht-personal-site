@@ -15,7 +15,7 @@ activate :imgattribute do |img|
     img.loading = 'lazy'
 end
 activate :blog do |blog|
-    blog.sources = "blog/articles/{title}.html"
+    blog.sources = "blog/articles/{date}.html"
     blog.default_extension = ".md"
     blog.layout = "article"
     blog.tag_template = "partials/tag"
