@@ -1,0 +1,24 @@
+section class='big-card date-search'
+    h2 日時で検索
+    section
+        - blog.articles.group_by {|a| a.date.year }.each do |year, articles_grouped|
+            h3
+                = link_to blog_year_path(year), :title=>year, :tabindex=>'0' do
+                    == year
+                    | 年
+            section
+                - articles_grouped.group_by {|a| a.date.month }.each do |month, articles|
+                    h4
+                        = link_to blog_month_path(year, month), :title=>month, :tabindex=>'0' do
+                            == month
+                            | 月
+                    ul.card-list
+                        - articles.each do |article|
+                            - title = article.title
+                            li
+                                = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
+                                    = image_tag article.metadata[:locals]['eyecatch'] || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                                    time.card-date
+                                        = article.date.strftime('%Y-%m-%d')
+                                    h5.card-title
+                                        == title

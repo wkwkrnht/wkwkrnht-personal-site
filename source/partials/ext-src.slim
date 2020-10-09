@@ -1,21 +1,30 @@
 - site_data = data.front
 - google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
+- google_adsense = site_data.google_adsense unless site_data.google_adsense.blank?
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
-- google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
-= stylesheet_link_tag 'all'
-= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', async: 'async'
-= javascript_include_tag 'highlight.pack', async: 'async', onload: 'hljs.initHighlightingOnLoad();'
-= javascript_include_tag 'fontawesome.min', defer: 'defer'
-= javascript_include_tag 'main', async: 'async'
+- soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + site_data.soesic.id + ".json', {aid: '" + site_data.soesic.aid + "'});" unless site_data.soesic.blank?
+= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', defer: true
+= javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
+= javascript_include_tag 'main', defer: true
 - if google_analytics
-    = javascript_include_tag 'google-analytics.js', async: 'async'
-    = javascript_include_tag google_analytics_url, async: 'async'
+    - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
+    = javascript_include_tag google_analytics_url, defer: true, onload: 'google_analytics_fire();'
     javascript:
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', "#{google_analytics}");
+        function google_analytics_fire(){
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', "#{google_analytics}");
+        }
+- if google_adsense
+    - google_adsense_id = google_adsense.id
+    - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
+    = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense_id
+    = javascript_include_tag cse_url, defer: true
 - if linkswitch
-    javascript:
-        let vc_pid = "#{linkswitch}";
-    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async'
+    - linkswitch_js = 'let vc_pid = "' + linkswitch.to_s + '";'
+    = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', defer: true, onload: linkswitch_js
+- if soesic
+    = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
+link rel='dns-prefetch' href='res.cloudinary.com'
+= stylesheet_link_tag 'all'

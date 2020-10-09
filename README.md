@@ -11,7 +11,7 @@ This repo contains an **[example website](https://wkwkrnht.netlify.com/)** that 
 
 **Netlify CMS** is a CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator.
 
-**cloudinary** is a CDN for pictures.
+**cloudinary** is a CDN for pictures. Give easy way media library and contents delivering.
 
 ## Getting Started
 
@@ -21,3 +21,7 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 ### Setting up the CMS
 Follow the [Netlify CMS Quick Start Guide](https://www.netlifycms.org/docs/quick-start/#authentication) to set up authentication, and hosting.
+
+## Thanks
+
+* middleman-img_loading_attribute | https://github.com/unasuke/middleman-img_loading_attribute

@@ -4,11 +4,18 @@ description: RT狂の個人ブログ。ここでは、気になったことを�
 theme_color: 03a9f4
 background_color:
 first_post_year: 2016
-base_url: https://wkwkrnht.netlify.com
+base_url: https://wkwkrnht.netlify.app
 logo: /images/logo.png
 default_image: /images/default.png
 twitter: wkwkrnht
 pinterest: 3382ebeb096bac9d9ff106ef8fcfcfe4
 bing: 18AC2410F48222201F5BEE4BADB22FB8
 google_analytics: UA-67916094-1
+google_adsense:
+    id: ca-pub-2031385222575316
+    responsive: 3776410904
+    cse: 7950431969
 linkswitch: 885878315
+soesic:
+    id: 45618-04e5917bb848701090e4acb804c1255e
+    aid: 3276429.aa2605

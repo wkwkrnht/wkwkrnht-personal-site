@@ -18,7 +18,7 @@
 
     & p{
         margin:$base-vertical-rythm auto;
-        max-width:calc(1em * 46);
+        max-width:calc(1em * 42);
         padding:1vh .5vh;
     }
 
@@ -35,18 +35,6 @@
         }
     }
 
-    & h1,
-    & h2,
-    & h3,
-    & h4,
-    & h5,
-    & h6{
-        line-height:calc(#{$base-vertical-rythm} * 3);
-        margin:calc(#{$base-vertical-rythm} * 2) auto;
-        max-width:80%;
-        min-height:6vh;
-        text-align:center;
-    }
     & h3,
     & h4,
     & h5,

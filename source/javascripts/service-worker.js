@@ -1,11 +1,10 @@
 const data_list = [
-    'index.html',
-    'about.html',
-    'privacy-policy.html',
-    'manifest.json',
     '/',
+    '/about.html',
+    '/privacy-policy.html',
+    '/manifest.json',
+    '/images/logo.png',
     '/stylesheets/all.css',
-    '/javascripts/google-analytics.js',
     '/javascripts/fontawesome.min.js',
     '/javascripts/highlight.pack.js',
     '/javascripts/main.js'
@@ -14,7 +13,7 @@ const data_list = [
 self.addEventListener('install', function(e) {
     e.waitUntil(
         caches.open('cache_v1').then(function(cache) {
-            return cache.addAll(data_list);
+            return cache.addAll(data_list.map(url => new Request(url, {credentials: 'same-origin'})));
         })
     );
 });

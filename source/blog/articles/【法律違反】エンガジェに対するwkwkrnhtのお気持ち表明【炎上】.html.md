@@ -36,57 +36,60 @@ KMOから法律違反まで選り取り見取りですね！それぞれ、問�
 
 この方は語らずしもでしょう。石野純也氏をフォローしている方ならば、あまりいいイメージを持っていないはずです。
 
+EMBEDLY https://twitter.com/june_ya/status/863915570248294400
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     エンガジェットって、米国のメディアだけあって書き手の素性に厳しいというか、ステマに非常に厳しくて、契約書見る限りだと業界の利害関係者であるコンサルタントが執筆できる余地はないはずなんだけどな……。多少あれなこともあったけど、そういうモラルは評価してたのに、とにかく残念。
   </p>
   <p>
-    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863915570248294400)
+    — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日]()
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/june_ya/status/863963953415585793
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
-    [@boobyn](http://twitter.com/boobyn) 本当に乱闘していいのであれば。
+    [@boobyn](https://twitter.com/boobyn) 本当に乱闘していいのであれば。
   </p>
   <p>
-    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863962060748537857)
+    — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863962060748537857)
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/june_ya/status/863963953415585793
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="ja">
   <p lang="ja" dir="ltr">
-    [@boobyn](http://twitter.com/boobyn) スタッフにしちゃった愛人の話とか振ってよければぜひ！
+    [@boobyn](https://twitter.com/boobyn) スタッフにしちゃった愛人の話とか振ってよければぜひ！
   </p>
   <p>
-    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863963953415585793)
+    — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863963953415585793)
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/june_ya/status/863994145861386240
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
-    [@itowpaaan](http://twitter.com/itowpaaan) 愛人をスタッフにしたりとか、社用車のナンバーを愛人の誕生日にしたりとか、打ち合わせと称して池袋のラブホの画像を送ったりとか、その辺全部一般論です！
+    [@itowpaaan](https://twitter.com/itowpaaan) 愛人をスタッフにしたりとか、社用車のナンバーを愛人の誕生日にしたりとか、打ち合わせと称して池袋のラブホの画像を送ったりとか、その辺全部一般論です！
   </p>
   <p>
-    — Junya ISHINO/石野純也 (<a href="http://twitter.com/june_ya" target="_blank" rel="noopener nofollow">@june_ya</a>) [2017年5月15日](https://twitter.com/june_ya/status/863994145861386240)
+    — Junya ISHINO/石野純也 ([@june_ya](https://twitter.com/june_ya)) [2017年5月15日](https://twitter.com/june_ya/status/863994145861386240)
   </p>
 </blockquote>
+EMBEDLY https://twitter.com/iskw226/status/863964181699059715
 <blockquote class="twitter-tweet" data-lang="ja">
   <p lang="ja" dir="ltr">
     いまの石野さんはいろいろ武器持ってるから強いだろうなぁ。
   </p>
   <p>
-    — 石川 温 (<a href="http://twitter.com/iskw226" target="_blank" rel="noopener nofollow">@iskw226</a>) [2017年5月15日](https://twitter.com/iskw226/status/863964181699059715)
+    — 石川 温 ([@iskw226](https://twitter.com/iskw226)) [2017年5月15日](https://twitter.com/iskw226/status/863964181699059715)
   </p>
 </blockquote>
 他意はないですよ？というか、この件は石川温氏と井上翔氏もかなり突っ込んでいるので、業界的にという感じなのでしょうね。それでも、インプレス組とアスキー組に動きがみえませんけど。
 
-EMBEDLY http://webronza.asahi.com/authors/2014040900005.html
+EMBEDLY https://webronza.asahi.com/authors/2014040900005.html
 
-EMBEDLY http://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
-
-EMBEDLY http://blog.innovating.jp/?page=1&month=200802
+EMBEDLY https://www.hmv.co.jp/artist_%E7%A5%9E%E5%B0%BE%E5%AF%BF_200000000429710/biography/media_all
 
 表向きのプロフィールですね。まあ、これが基礎編ですかね。というか複数社で書いているのは契約上クリアなんですかね。
 
-EMBEDLY http://suzunonejh.blog15.fc2.com/blog-entry-6745.html
+EMBEDLY https://suzunonejh.blog15.fc2.com/blog-entry-6745.html
 
 電通関係者というソースはGoogle先生の10ページまで見たけれども、これぐらいでしたね。facebookとTwitterを深く深く探したらみつかるんですかね。だれか信頼できるソースがあれば、投げてください。それとも主張されている方々に聞いてみようかななんて思っている次第です。
 
@@ -96,7 +99,7 @@ EMBEDLY https://togetter.com/li/85977
 
 EMBEDLY https://books.google.co.jp/books?id=IVzDCAAAQBAJ&pg=PA82&lpg=PA82&dq=%E7%A5%9E%E5%B0%BE%E5%AF%BF&source=bl&ots=L97KoZOft7&sig=NijZUP8hLRy5sv2_oPae6dUAI5s&hl=ja&sa=X&ved=0ahUKEwiBnOOm_vHTAhXCU7wKHZpICUE4KBDoAQg8MAk#v=onepage&q=%E7%A5%9E%E5%B0%BE%E5%AF%BF&f=false
 
-はっきりコンサルタントの文字がありますね。イード社との関係も公にされていますから、そこら辺の話かもしれません。しかし、どのあたりをコンサルティングされていたのでしょうか。そして、「大手IT企業」でマーケティング事業に携わっていたことが更なる波紋を呼びますね。なにも「大手IT企業」で下積みを積むことは悪いことと言い切れません。そこで、先端研究に触れる、実際の現場に触れる、そうしてそこで知見を得て深い記事を書いているということもあるでしょう。実際問題、アスキーのつばささんは元携帯ショップ店員、清水亮氏は元SEと公表されています。そして、その知見を基に記事を書かれています。これは、悪いことではないのですが、並立はできないですよね。たとえば、<a href="http://www.itmedia.co.jp/author/212927" title="" target="_blank" rel="noopener"></a>この方[/link]も「育てる立場」にいると公言してからかなり間をおいて、本格的なライター業を開始しています。なぜなら、このモバイル業界においては、ライターとして得られる情報、販売員として得られる情報、そしてプレイヤーの「中の人」として得られる情報、それぞれにNDA(秘密保持契約)がかけられているはずですから。それらを同時に扱うというのは、一般的にインサイダーであると考えられても致し方のないことではと思ってしまいます。そうではないと言い切れる場所があるのかもしれませんけれども。
+はっきりコンサルタントの文字がありますね。イード社との関係も公にされていますから、そこら辺の話かもしれません。しかし、どのあたりをコンサルティングされていたのでしょうか。そして、「大手IT企業」でマーケティング事業に携わっていたことが更なる波紋を呼びますね。なにも「大手IT企業」で下積みを積むことは悪いことと言い切れません。そこで、先端研究に触れる、実際の現場に触れる、そうしてそこで知見を得て深い記事を書いているということもあるでしょう。実際問題、アスキーのつばささんは元携帯ショップ店員、清水亮氏は元SEと公表されています。そして、その知見を基に記事を書かれています。これは、悪いことではないのですが、並立はできないですよね。たとえば、[この方](https://www.itmedia.co.jp/author/212927)も「育てる立場」にいると公言してからかなり間をおいて、本格的なライター業を開始しています。なぜなら、このモバイル業界においては、ライターとして得られる情報、販売員として得られる情報、そしてプレイヤーの「中の人」として得られる情報、それぞれにNDA(秘密保持契約)がかけられているはずですから。それらを同時に扱うというのは、一般的にインサイダーであると考えられても致し方のないことではと思ってしまいます。そうではないと言い切れる場所があるのかもしれませんけれども。
 
 さてと。もうお分かりいただけたでしょうか。まあ彼の場合は、身から出た錆と言いますか、諸所に悪評がばらまかれていますね。愛人の件とかはドン引きですね。誰のことかは不明ですけれども。しかし、インサイダーはアレですね。自身の口で、ペンで、クリアにするべきでしょうね。ジャーナリストであるならば。そういった意味でも、ブービンさん主催のドリームマッチが楽しみです。
 
@@ -120,7 +123,7 @@ EMBEDLY http://matome.naver.jp/odai/2146326583669255401
 
 #### 私がなぜこれをしつこく追いかけているのか
 
-この問題自体、私がフォローしているフリーライター諸氏は1ツイートに収まるもので、軽く触れる程度でした。ですが、何か引っかかるものがあり、とりあえず前後を見てみたくなりました。(誰かが、すごい荒れている。とツイートしていたのもありますが。) そうしたら、例の暴露三昧です。楽しくない訳がなかったのです。私のような、「人の不幸は蜜の味」な人間には。ですが、それ以外の点もあります。
+この問題自体、私がフォローしているフリーライター諸氏は1ツイートに収まるもので、軽く触れる程度でした。ですが、何か引っかかるものがあり、とりあえず前後を見てみたくなりました。(誰かが、すごい荒れている。とツイートしていたのもありますが) そうしたら、例の暴露三昧です。楽しくない訳がなかったのです。私のような、「人の不幸は蜜の味」な人間には。ですが、それ以外の点もあります。
 
 ##### アップル日本法人の闇
 

@@ -10,11 +10,11 @@
 - twitter = '@' + site_data.twitter unless site_data.twitter.blank?
 - theme_color = '#' + site_data.theme_color unless site_data.theme_color.blank?
 - if current_article
-    - title = current_article.title + '|' + site_title
+    - title = current_article.title
 - elsif current_page && current_page.data.title
-    - title = current_page.data.title + '|' + site_title
+    - title = current_page.data.title
 - elsif content_for?(:title)
-    - title = yield_content(:title) + '|' + site_title
+    - title = yield_content(:title)
 - else
     - title = site_title
 - if current_page.data.description

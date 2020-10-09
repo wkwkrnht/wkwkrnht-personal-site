@@ -1,5 +1,44 @@
 require 'cgi'
+require 'nokogiri'
 require 'middleman-core'
+
+class Middleman::ImgAttribute < ::Middleman::Extension
+    option :loading, 'auto', 'A value of "loading" attribute in <img> tag'
+    def initialize(app, options_hash={}, &block)
+        # Call super to build options from the options_hash
+        super
+        # Require libraries only when activated
+        # require 'necessary/library'
+        # set up your extension
+        # puts options.my_option
+    end
+    def after_configuration
+        #do something
+    end
+
+    def after_build(builder)
+        files = Dir.glob(File.join(app.config[:build_dir], "**", "*.html"))
+        files.each do |file|
+            doc = Nokogiri::HTML(File.read(file))
+            doc.css('img').each do |element|
+                next if element.path.include?('pre') || element.path.include?('code') || element.path.include?('blockquote')
+                element['loading'] = options[:loading]
+
+                element['src'] = element['src'].sub(/https:\/\/res.cloudinary.com\/([^<]+)\/image\/upload\//, "https://res.cloudinary.com/\\1/image/upload/f_auto/q_auto/")
+            end
+            File.open(file, 'w') do |f|
+                f.write doc.to_html
+            end
+        end
+    end
+    # A Sitemap Manipulator
+    # def manipulate_resource_list(resources)
+    # end
+    # helpers do
+    #   def a_helper
+    #   end
+    # end
+end
 
 class String
     def extract_columun_embed!()
@@ -24,25 +63,25 @@ class String
     end
 
     def embed_youtube!()
-        embed43 = "<figure class='embed-responsive embed-4x3'><iframe src='https://www.youtube.com/embed/\\1' width='360' height='240' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'  allowfullscreen></iframe></figure>"
+        embed43 = "<figure class='embed-responsive embed-4x3'><iframe src='https://www.youtube.com/embed/\\1' width='360' height='240' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' loading='lazy' allowfullscreen></iframe></figure>"
         replace self.gsub(/YOUTUBE43 ([^#\&\?<]+)/,embed43)
-        embed169 = "<figure class='embed-responsive embed-16x9'><iframe src='https://www.youtube.com/embed/\\1' width='320' height='180' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'  allowfullscreen></iframe></figure>"
+        embed169 = "<figure class='embed-responsive embed-16x9'><iframe src='https://www.youtube.com/embed/\\1' width='320' height='180' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' loading='lazy' allowfullscreen></iframe></figure>"
         replace self.gsub(/YOUTUBE169 ([^#\&\?<]+)/,embed169)
     end
 
     def embed_spotify!()
-        embed = "<figure class='embed-responsive spotifycard'><iframe src='https://open.spotify.com/embed/playlist/\\1' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media'>></iframe></figure>"
+        embed = "<figure class='embed-responsive spotifycard'><iframe src='https://open.spotify.com/embed/playlist/\\1' width='300' height='380' frameborder='0' allowtransparency='true' loading='lazy' allow='encrypted-media'>></iframe></figure>"
         replace self.gsub(/SPOTIFY ([^#\&\?<]+)/,embed)
     end
 
     def embed_hatena!()
-        embed = "<figure class='embed-responsive hatenablogcard'><iframe src='https://hatenablog-parts.com/embed?url=\\1' frameborder='0' scrolling='no'></iframe></figure>"
-        replace self.gsub(/HATENA ([^#\&\?<]+)/,embed)
+        embed = "<figure class='embed-responsive hatenablogcard'><iframe src='https://hatenablog-parts.com/embed?url=\\1' frameborder='0' scrolling='no' loading='lazy'></iframe></figure>"
+        replace self.gsub(/HATENA ([^<]+)/,embed)
     end
 
     def embed_embedly!()
         embed = "<a class='embedly-card' href='\\1'></a><script async='' src='//cdn.embedly.com/widgets/platform.js'></script>"
-        replace self.gsub(/EMBEDLY ([^#\&\?<]+)/,embed)
+        replace self.gsub(/EMBEDLY ([^<]+)/,embed)
     end
 
     def shortcode_extract!
@@ -72,3 +111,4 @@ module Middleman
     end
 end
 ::Middleman::Extensions.register(:shortcode,::Middleman::Shortcode)
+::Middleman::Extensions.register(:imgattribute,::Middleman::ImgAttribute)
