@@ -9,7 +9,7 @@ tags:
 
 ## Win10
 
-アップデートの類をすべて終わらせる。
+アップデートの類をすべて終わらせる。設定は動悸されるはずだから無問題。プライバシー周りと不要ショートカットのお掃除は必須。
 
 ## ユーティリティ
 
@@ -29,7 +29,7 @@ EMBEDLY https://www.office.com
 
 EMBEDLY https://vivaldi.com/ja/
 
-ログインしてから、テーマ設定。テーマは以下を参照。
+ログインしてから、テーマ設定。テーマは以下を参照。その後Webパネルの設定。順番は、YT Music、Instagram、Twitter、NHK(全国、居住地域)、地元紙、インプレス、コンビニWebプリント、 所属先関連となる。
 
 ![Vivaldiのテーマ設定](https://res.cloudinary.com/wkwkrnht/image/upload/v1602205115/2020-10-09_09.56.10_vivaldi_869203dce0dd_logb06.png)
 
@@ -39,7 +39,7 @@ EMBEDLY https://vivaldi.com/ja/
 
 EMBEDLY https://atom.io
 
-sync-settingsセットアップ。Githubでシークレットを都度生成しなければいけない。
+sync-settingsセットアップ。Githubでシークレットを都度生成しなければいけない。レポジトリをワークフォルダーとするのも忘れずに。
 
 ## SourceTree
 
