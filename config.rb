@@ -22,9 +22,9 @@ activate :blog do |blog|
 end
 
 configure :build do
-    activate :sitemap_ping do |config|
-        config.host = "https://wkwkrnht.netlify.com/"
-    end
-    activate :minify_html
+    #activate :sitemap_ping do |config|
+    #    config.host = "https://wkwkrnht.netlify.com/"
+    #end
+    #activate :minify_html
     activate :gzip
 end
