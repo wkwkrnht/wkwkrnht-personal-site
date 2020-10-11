@@ -18,8 +18,7 @@
         overflow:hidden;
         padding:0 1em;
         text-decoration:none;
-        text-overflow:ellipsis;
-        white-space:nowrap;
+        @include one-line-txt;
         &:hover{
             background-color:$blue;
             border-color:$white;

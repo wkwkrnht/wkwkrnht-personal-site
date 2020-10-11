@@ -1,7 +1,7 @@
 = wrap_layout :layout
     = javascript_include_tag 'highlight.pack', defer: true, onload: 'hljs.initHighlightingOnLoad();'
     main.article-main
-        = image_tag current_article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch'
+        = image_tag current_article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch', :loading=>'lazy'
         = yield
         footer.article-footer
             - if current_article.tags.present?
@@ -17,7 +17,7 @@
             - blog.articles[0...3].each do |article|
                 li
                     = link_to article.url, :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
-                        = image_tag '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                        = image_tag '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
                         time.card-date
                             = article.date.strftime('%Y-%m-%d')
                         h3.card-title

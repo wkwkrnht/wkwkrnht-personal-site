@@ -3,6 +3,7 @@
 - google_adsense = site_data.google_adsense unless site_data.google_adsense.blank?
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + site_data.soesic.id + ".json', {aid: '" + site_data.soesic.aid + "'});" unless site_data.soesic.blank?
+= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', defer: true
 = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
 = javascript_include_tag 'main', defer: true
 - if google_analytics
