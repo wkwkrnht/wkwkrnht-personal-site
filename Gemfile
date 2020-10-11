@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 gem 'slim'
 gem 'nokogiri'
-gem 'middleman'
+gem 'middleman', '4.3.7'
 gem 'middleman-blog'
