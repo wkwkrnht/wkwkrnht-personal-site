@@ -11,8 +11,7 @@
                             == link_to tag, tag_path(tag)
             = partial 'partials/share-button'
     section class='big-card related-articles'
-        h2
-            | 最新記事
+        h2 最新記事
         ul.card-list
             - blog.articles[0...3].each do |article|
                 li
