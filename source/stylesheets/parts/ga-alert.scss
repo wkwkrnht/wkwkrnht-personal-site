@@ -1,6 +1,6 @@
 @import 'variables';
 #name-ga-cookie-accept-bar{
-    background-color:#eae3b4;
+    background-color:$yellow;
     bottom:calc(50% - (#{$ga_alert_size} / 2));
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
     height:$ga_alert_size;
