@@ -2,6 +2,8 @@ $ga_alert_size:54em;
 $info-literal-size:2em;
 $card-size:28vmax;
 $base-vertical-rythm:2vh;
+$embed-max:720px;
+$embed-size:80vw;
 
 $white:#fff;
 $light-gray:#eee;
@@ -10,6 +12,17 @@ $dark-gray:#bbb;
 $black:#000;
 $blue:#03a9f4;
 $yellow:#eae3b4;
+
+@function calc-height-43($height){
+    @return ($height / 100) * 75;
+}
+@function calc-height-169($height){
+    @return ($height / 100) * 56.25;
+}
+
+@mixin border-1px($color){
+
+}
 
 @mixin one-line-txt{
     text-overflow:ellipsis;
