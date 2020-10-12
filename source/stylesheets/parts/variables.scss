@@ -21,7 +21,7 @@ $yellow:#eae3b4;
 }
 
 @mixin border-1px($color){
-
+    border:1px solid $color;
 }
 
 @mixin one-line-txt{

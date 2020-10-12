@@ -166,9 +166,9 @@ button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusri
     outline:1px dotted ButtonText;
 }
 fieldset{
-    border:1px solid silver;
     margin:0 2px;
     padding:.35em .625em .75em;
+    @include border-1px(silver);
 }
 legend{
     box-sizing:border-box;

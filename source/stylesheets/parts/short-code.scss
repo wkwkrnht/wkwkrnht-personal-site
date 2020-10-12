@@ -66,9 +66,9 @@
 
     & .query{
         background-color:$white;
-        border:1px solid $black;
         max-width:70%;
         min-width:16em;
+        @include border-1px($color: $black);
     }
     & .search-btn{
         background-color:$blue;
@@ -82,9 +82,9 @@
 }
 
 .link-button{
-    border:1em solid $blue;
     box-shadow:0 0 3vmin rgba(0,0,0,.2);
     padding:1em 2em;
+    @include border-1px($color: $blue);
 
     &:hover{
         background-color:$blue;
