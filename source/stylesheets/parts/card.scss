@@ -42,7 +42,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
 .card-title{
     bottom:5em;
     box-sizing:border-box;
-    margin:0 inherit;
+    margin:0 auto;
     padding:1em;
     text-align:center;
     vertical-align:middle;
