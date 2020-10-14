@@ -17,7 +17,7 @@
     = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: true, 'data-ad-client': google_adsense_id
     = javascript_include_tag cse_url, defer: true
 - if linkswitch
-    - linkswitch_js = 'let vc_pid = "' + linkswitch.to_s + '";'
+    - linkswitch_js = 'const vc_pid = "' + linkswitch.to_s + '";'
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: true, onload: linkswitch_js
 - if soesic
     - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
