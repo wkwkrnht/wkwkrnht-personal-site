@@ -24,7 +24,7 @@
 - if soesic
     - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
     = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
-= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', defer: true
+/= javascript_include_tag '//identity.netlify.com/v1/netlify-identity-widget.js', defer: true
 = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true', async: true
 = javascript_include_tag 'main', defer: true
 = stylesheet_link_tag 'all'
