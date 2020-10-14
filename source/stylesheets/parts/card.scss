@@ -30,7 +30,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     top:0;
 }
 .card-date{
-    bottom:0;
+    bottom:1em;
     display:inline-block;
     height:2em;
     line-height:2em;
