@@ -5,14 +5,12 @@
 - soesic = site_data.soesic unless site_data.soesic.blank?
 - if google_analytics
     - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
+    = javascript_include_tag google_analytics_url, async: true
     javascript:
-        function google_analytics_fire(){
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', "#{google_analytics}");
-        }
-    = javascript_include_tag google_analytics_url, async: true, onload: 'google_analytics_fire();'
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', "#{google_analytics}");
 - if google_adsense
     - google_adsense_id = google_adsense.id
     - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
