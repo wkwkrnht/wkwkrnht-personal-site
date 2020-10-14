@@ -42,7 +42,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     bottom:1em;
     box-sizing:border-box;
     margin-bottom:0;
-    padding:1em;
+    padding:.5em 1em;
     text-align:center;
     vertical-align:middle;
     @include one-line-txt;
