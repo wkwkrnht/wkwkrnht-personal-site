@@ -8,6 +8,7 @@ page "/*.json", layout: false
 page "/partials/*", layout: false
 page "/admin/*", layout: false, directory_index: false
 page "/404.html", directory_index: false
+page "wkwkrnht-personal-site\source\google94502eafcdddcd40.html", layout: false
 
 activate :shortcode
 activate :blog do |blog|
