@@ -7,7 +7,6 @@
     }
     & a{
         background-color:$white;
-        border:1px solid $blue;
         border-radius:1em;
         color:$black;
         display:inline-block;
@@ -18,6 +17,7 @@
         overflow:hidden;
         padding:0 1em;
         text-decoration:none;
+        @include border-1px($color: $blue);
         @include one-line-txt;
         &:hover{
             background-color:$blue;

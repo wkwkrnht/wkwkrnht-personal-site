@@ -1,7 +1,9 @@
 $ga_alert_size:54em;
 $info-literal-size:2em;
-$card-size:28vmax;
+$card-size:27vmax;
 $base-vertical-rythm:2vh;
+$embed-max:720px;
+$embed-size:80vw;
 
 $white:#fff;
 $light-gray:#eee;
@@ -9,6 +11,18 @@ $light-gray:#eee;
 $dark-gray:#bbb;
 $black:#000;
 $blue:#03a9f4;
+$yellow:#eae3b4;
+
+@function calc-height-43($height){
+    @return ($height / 100) * 75;
+}
+@function calc-height-169($height){
+    @return ($height / 100) * 56.25;
+}
+
+@mixin border-1px($color){
+    border:1px solid $color;
+}
 
 @mixin one-line-txt{
     text-overflow:ellipsis;
@@ -16,7 +30,7 @@ $blue:#03a9f4;
 }
 
 @mixin base-backplate{
-    background-color:rgba(255,255,255,.3);
+    background-color:rgba(255,255,255,.25);
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
 }
 

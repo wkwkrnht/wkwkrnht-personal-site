@@ -30,18 +30,19 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     top:0;
 }
 .card-date{
+    bottom:.5em;
     display:inline-block;
     height:2em;
     line-height:2em;
     margin:0;
     padding:0 1em;
     right:0;
-    top:#{$card-ratio};
 }
 .card-title{
-    bottom:0;
+    bottom:.75em;
     box-sizing:border-box;
-    padding:1em;
+    margin-bottom:0;
+    padding:.5em 1em;
     text-align:center;
     vertical-align:middle;
     @include one-line-txt;
