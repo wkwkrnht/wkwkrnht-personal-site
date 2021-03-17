@@ -14,7 +14,13 @@ tags:
 
 ## Win10
 
-アップデートの類をすべて終わらせる。設定は同期されるはずだから無問題。プライバシー周りと不要ショートカットのお掃除は必須。
+最初にアップデートの類をすべて終わらせる。プライバシー権限管理と不要ショートカットのお掃除は必須。設定は同期されるはずだから無問題。
+
+### アカウント管理
+
+ここから、アカウント入力開始。Outlookが、メイン(ドメイン2つ)、サブ(ドメイン2つ)、サブサブ(ドメイン2つ)、wiki用。Gmailが、メイン、サブ、サブサブ、サブサブサブ、サブサブサブサブ、wiki用。プロパイダも忘れずに。
+
+その後、目的別に受信トレイ整理。
 
 ## ユーティリティ
 
@@ -34,9 +40,11 @@ EMBEDLY https://www.office.com
 
 EMBEDLY https://vivaldi.com/ja/
 
-ログインしてから、テーマ設定。テーマは以下を参照。その後Webパネルの設定。順番は、YT Music、Instagram、Twitter、NHK(全国、居住地域)、地元紙、インプレス、コンビニWebプリント、 所属先関連となる。
+ログインしてから、同期前にテーマは以下を参照して設定。
 
 ![Vivaldiのテーマ設定](https://res.cloudinary.com/wkwkrnht/image/upload/v1602205115/2020-10-09_09.56.10_vivaldi_869203dce0dd_logb06.png)
+
+その後、Webパネルの設定。順番は、vivaldi://settings/general、NHK(全国、居住地域)、日経、地元紙、Twitter、Instagram、YT Music、YT、翻訳、Wolfram、コンビニWebプリント、諸々となる。
 
 ## サイト更新用
 
@@ -44,7 +52,7 @@ EMBEDLY https://vivaldi.com/ja/
 
 EMBEDLY https://atom.io
 
-sync-settingsセットアップ。Githubでシークレットを都度生成しなければいけない。レポジトリをワークフォルダーとするのも忘れずに。
+sync-settingsセットアップ。Githubでシークレットを都度生成しなければいけない。ワークフォルダーを設定するのも忘れずに。
 
 ## SourceTree
 
@@ -64,4 +72,4 @@ EMBEDLY https://obsproject.com/ja
 
 EMBEDLY https://vb-audio.com/Voicemeeter/banana.htm
 
-扱うデータを192kHz、24bitにする必要。あとは音量調整。
+扱うデータを192kHz、24bitにする必要。ルーティングは、仮想入力は物理出力に全開放、B1物理入力、B2仮想入力。G533のみゲートが0.8。ライン入力以外はモノラル入力。最後に音量調整。
