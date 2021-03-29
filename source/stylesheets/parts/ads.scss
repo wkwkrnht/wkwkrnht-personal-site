@@ -3,8 +3,10 @@
     flex-wrap:wrap;
     justify-content:space-evenly;
     overflow:auto;
-    & h2{
+    & > *{
+        flex-basis:1fr;
+    }
+    & > h2{
         flex-basis:100%;
-        order:1;
     }
 }
