@@ -4,7 +4,7 @@
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 - soesic = site_data.soesic unless site_data.soesic.blank?
 - if google_analytics
-    - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics
+    - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics.to_s
     = javascript_include_tag google_analytics_url, async: true
     javascript:
         window.dataLayer = window.dataLayer || [];
