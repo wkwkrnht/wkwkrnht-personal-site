@@ -23,6 +23,5 @@ configure :build do
     activate :imgattribute do |img|
         img.loading = 'lazy'
     end
-    activate :cloudinaryurl
     activate :gzip
 end
