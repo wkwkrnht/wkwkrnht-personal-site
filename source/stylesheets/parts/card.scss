@@ -26,6 +26,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     width:#{$card-size};
 }
 .card-img{
+    aspect-ratio:4/3;
     height:#{$card-ratio};
     top:0;
 }
