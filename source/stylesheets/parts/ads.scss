@@ -1,14 +1,14 @@
 .ads{
     contain:content;
     display:grid;
+    & > h2{
+        grid-row:1;
+    }
     & > aside{
         display:flex;
         flex-wrap:wrap;
         grid-row:2;
         justify-content:space-evenly;
         overflow:auto;
-    }
-    & > h2{
-        grid-row:1;
     }
 }
