@@ -23,7 +23,40 @@ class Middleman::ImgAttribute < ::Middleman::Extension
             doc.css('img').each do |element|
                 next if element.path.include?('pre') || element.path.include?('code') || element.path.include?('blockquote')
                 element['loading'] = options[:loading]
+            end
+            File.open(file, 'w') do |f|
+                f.write doc.to_html
+            end
+        end
+    end
+    # A Sitemap Manipulator
+    # def manipulate_resource_list(resources)
+    # end
+    # helpers do
+    #   def a_helper
+    #   end
+    # end
+end
 
+class Middleman::CloudinaryURL < ::Middleman::Extension
+    def initialize(app, options_hash={}, &block)
+        # Call super to build options from the options_hash
+        super
+        # Require libraries only when activated
+        # require 'necessary/library'
+        # set up your extension
+        # puts options.my_option
+    end
+    def after_configuration
+        #do something
+    end
+
+    def after_build(builder)
+        files = Dir.glob(File.join(app.config[:build_dir], "**", "*.html"))
+        files.each do |file|
+            doc = Nokogiri::HTML(File.read(file))
+            doc.css('img').each do |element|
+                next if element.path.include?('pre') || element.path.include?('code') || element.path.include?('blockquote')
                 element['src'] = element['src'].sub(/https:\/\/res.cloudinary.com\/([^<]+)\/image\/upload\//, "https://res.cloudinary.com/\\1/image/upload/f_auto/q_auto/")
             end
             File.open(file, 'w') do |f|
