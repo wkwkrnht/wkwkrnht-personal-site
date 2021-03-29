@@ -1,12 +1,13 @@
 .ads{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
-    overflow:auto;
-    & > *{
-        flex-basis:1fr;
+    display:grid;
+    & > aside{
+        display:flex;
+        flex-wrap:wrap;
+        grid-row:2;
+        justify-content:space-evenly;
+        overflow:auto;
     }
     & > h2{
-        flex-basis:100%;
+        grid-row:1;
     }
 }
