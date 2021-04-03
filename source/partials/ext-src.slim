@@ -19,6 +19,7 @@
 - if linkswitch
     - linkswitch_js = 'const vc_pid = "' + linkswitch.to_s + '";'
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: true, onload: linkswitch_js
+    = javascript_include_tag '<script type="text/javascript" src="//mlb.valuecommerce.com/mylinkbox.js', async: true
 - if soesic
     - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
     = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
