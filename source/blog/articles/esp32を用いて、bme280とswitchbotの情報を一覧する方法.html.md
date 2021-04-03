@@ -3,7 +3,14 @@ title: ESP32を用いて、BME280とSwitchbotの情報を一覧する方法
 date: 2021-04-03T16:51:27.249Z
 author: wkwkrnht
 tags:
-  - 未分類
+  - ESP32
+  - IoT
+  - スマートホーム
+  - Switchbot
+  - API
+  - 温湿度
+  - 気圧
+  - Arduino
 ---
 先日、[こちら](https://wkwkrnht.netlify.app/2021/03/11/esp32%E3%81%8B%E3%82%89switchbot-api%E3%81%B8%E7%B6%99%E7%B6%9A%E7%9A%84%E3%81%ABget%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95.html)を公開しました。この記事の続きで、I2C接続可能な環境センサーと、統合した表示を構築しました。色々と荒いですが、形になったということで、まとめていきます。
 
@@ -323,4 +330,22 @@ void loop() {
 }
 ```
 
-いくつか、
+いくつか、実装そのものを取ってきている部分がありますけど、それは思います。かんたんに説明すると、Core0において画面構成用HTML配信、Core1においてその他データ取得から配信まで、それぞれ担当させています。このメリットは複数クライアントからのリクエストに対応できることです。ウォッチドックタイマーはやむなく停止していますが、復活させなければいけないですね。
+
+HTML内に、CSS、JSも纏めて記載しているので、展開してお読みください。JSが一番の肝なので、そこに焦点当てると、SSEの開始、停止処理、SSEとして送られてくるデータの加工に大別できます。加工したデータは、Canvas APIを用いて描画しています。描画処理については、ネタ元そのままなので省きます。ただ、関数化したときに、データへの係数が大きすぎたので、調整しました。
+
+全体負荷が相当に重くなっているはずなので、Fマクロ、PSTRマクロは重用しています。フットプリント縮小のためにも、できる限りの関数化はしていますが、そもそも効率が悪い箇所等あれば、指摘がほしいです。実際、まだまだ改良点はあるので、機を見て修正していきます。
+
+## 参照
+
+EMBEDLY http://www.musashinodenpa.com/arduino/ref/index.php?f=0&pos=1830
+
+EMBEDLY https://qiita.com/nanase/items/f34e03c29410add9c4d0
+
+EMBEDLY https://www.mgo-tec.com/blog-entry-55.html
+
+EMBEDLY https://westgate-lab.hatenablog.com/entry/2020/03/28/113621
+
+EMBEDLY https://github.com/espressif/arduino-esp32/blob/master/libraries/WiFiClientSecure/src/WiFiClientSecure.h
+
+EMBEDLY https://github.com/OpenWonderLabs/SwitchBotAPI
