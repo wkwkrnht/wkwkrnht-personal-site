@@ -1,8 +1,7 @@
 @import 'variables';
 .index-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
+    display:grid;
+    grid-template:repeat(1fr,2)/repeat(1fr,3);
     & a{
         font:{
             size:1.6em;
@@ -13,7 +12,7 @@
 }
 
 .index-detail{
-    display:block;
-    margin:2em auto;
+    grid-column:1/4;
+    grid-row:1;
     text-align:center;
 }
