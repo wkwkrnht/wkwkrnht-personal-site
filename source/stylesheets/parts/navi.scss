@@ -2,7 +2,6 @@
 .index-nav{
     display:grid;
     grid-template:repeat(1fr,2)/repeat(1fr,5);
-    padding:1em;
     & a{
         font:{
             size:1.6em;
@@ -15,5 +14,6 @@
 .index-detail{
     grid-column:1/6;
     grid-row:1;
+    padding:1em;
     text-align:center;
 }
