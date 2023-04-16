@@ -48,7 +48,7 @@
     min-height:$info-literal-size;
     position:absolute;
     text-align:center;
-    top:calc(50% - (#{$info-literal-size} / 2));
+    top:set-place-in-middle($width: $info-literal-size);
     width:$info-literal-size;
 }
 

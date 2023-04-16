@@ -1,16 +1,16 @@
 @import 'variables';
 #name-ga-cookie-accept-bar{
     background-color:$yellow;
-    bottom:calc(50% - (#{$ga_alert_size} / 2));
+    bottom:set-place-in-middle($width: $ga_alert_size);
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
     contain:strict;
     height:$ga_alert_size;
     max-height:20em;
     max-width:80vw;
     opacity:.95;
-    padding:1vh 0;
+    padding:2em;
     position:fixed;
-    right:calc(50% - (#{$ga_alert_size} / 2));
+    right:set-place-in-middle($width: $ga_alert_size);
     width:$ga_alert_size;
 
     & button{

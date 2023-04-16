@@ -3,22 +3,20 @@ const shareBtn = document.getElementById('nativeShare');
 function google_analytics() {
     'use strict';
     const analyticsID = 'UA-67916094-6';
-    let targetProp = 'ga-disable-' + analyticsID;
+    const targetProp = 'ga-disable-' + analyticsID;
     let cookieOptin = localStorage.getItem('ga_cookie_opt_in');
-    if(cookieOptin == 'no') {
-        console.log('ga_cookie_opt_in = no');
-        console.log('ga-disable = true');
-        window[targetProp] = true;
-    } else if(cookieOptin == 'yes') {
-        console.log('ga_cookie_opt_in = yes');
+
+    if(cookieOptin == 'yes') {
         window[targetProp] = false;
     } else {
-        console.log('ga_cookie_opt_in = null');
         window[targetProp] = true;
-        let accept = document.createElement('aside');
-        accept.setAttribute('id', 'name-ga-cookie-accept-bar');
-        accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail>このサイトではGoogleアナリティクスのCookie（クッキー）を使用して、ユーザーのWebサイト閲覧データを記録しています。</detail><a href="/privacy-policy">プライバシーポリシーを確認→</a><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>同意する(Cookieを受け入れる)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>同意しない(Cookieを受け入れない)</button>';
-        document.body.appendChild(accept);
+
+        if(cookieOptin !== 'no') {
+            let accept = document.createElement('aside');
+            accept.setAttribute('id', 'name-ga-cookie-accept-bar');
+            accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail><a href="/privacy-policy">プライバシーポリシー</a>を遵守しGoogleアナリティクスにより、ユーザーのWebサイト閲覧データを記録しています。</detail><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>プライバシーポリシーに同意する(Cookieを受け入れる)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>プライバシーポリシーに同意しない(Cookieを受け入れない)</button>';
+            document.body.appendChild(accept);
+        }
     }
     let cookieBar = document.getElementById('name-ga-cookie-accept-bar')
     let acceptBtn = document.getElementById('ga-cookie-accept-btn');
@@ -49,19 +47,29 @@ function google_analytics() {
 
 window.addEventListener('DOMContentLoaded', google_analytics());
 
-if(shareBtn){
-    shareBtn.onclick = function(){
-        let title = document.title;
-        let text = document.getElementsByName('description').item(0).content;
-        let url = window.location.href;
-        navigator.share({title: title, text: text, url: url}).catch(function(error){console.error('Error sharing: ' + error)});
-    };
-}
-
 if('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
         navigator.serviceWorker.register('/javascripts/service-worker.js')
         .then(function() { console.log('Service Worker Registered'); })
         .catch(function(err) { console.log('Service Worker Not Registered', err); });
     });
+}
+
+if(shareBtn){
+    shareBtn.onclick = function(){
+        const title = document.title;
+        const text = document.getElementsByName('description').item(0).content;
+        const url = window.location.href;
+        navigator.share(
+            {
+                title: title,
+                text: text,
+                url: url
+            }
+        ).catch(
+            function(err){
+                console.error('Error sharing: ' + err);
+            }
+        );
+    };
 }
