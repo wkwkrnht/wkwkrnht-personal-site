@@ -14,7 +14,7 @@ html lang=language
         - if google_adsense
             - google_adsense_id = google_adsense.id
             - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
-            = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: 'async', 'data-ad-client': google_adsense_id
+            = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense_id
             = javascript_include_tag cse_url, defer: true
         - if soesic
             - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
@@ -24,7 +24,7 @@ html lang=language
             = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async', onload: linkswitch_js
             = javascript_include_tag '//mlb.valuecommerce.com/mylinkbox.js', async: 'async'
         = javascript_include_tag 'article', defer: true
-        = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true', async: 'async'
+        = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
         = javascript_include_tag 'highlight.pack', defer: true
         = stylesheet_link_tag 'article'
         link rel='dns-prefetch' href='res.cloudinary.com'
@@ -38,7 +38,7 @@ html lang=language
                     ul.tag-cloud
                         - current_article.tags.each do |tag|
                             li
-                                == link_to tag, tag_path(tag)
+                                == link_to tag, tag_path(tag), :tabindex=>'0'
                 = partial 'partials/share-button'
         section class='big-card related-articles'
             h2 最新記事
