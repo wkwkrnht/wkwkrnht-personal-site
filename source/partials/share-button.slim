@@ -3,7 +3,7 @@
 - meta_url = site_data.base_url
 - if current_article
     - title = current_article.title + '-' + site_title
-- elsif current_page && current_page.data.title
+- elsif current_page.data.title
     - title = current_page.data.title + '-' + site_title
 - elsif content_for?(:title)
     - title = yield_content(:title) + '-' + site_title
@@ -65,5 +65,5 @@ ul.share-button
         a href='mailto:?Subject=#{title}&amp;Body=#{meta_url}'
             span class='fas fa-envelope-square'
     li
-        a href='javascript:void(0);' onClick='window.print();return false;'
+        a href='javascript:void(0);' onClick='window.print();'
             span class='fas fa-print'
