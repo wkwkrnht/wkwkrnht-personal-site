@@ -1,9 +1,32 @@
-- language = data.front.language
+- site_data = data.front
+- language = site_data.language
+- google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
+- google_adsense = site_data.google_adsense unless site_data.google_adsense.blank?
+- soesic = site_data.soesic unless site_data.soesic.blank?
 doctype html
 html lang=language
     head
         = partial 'partials/meta'
-        = partial 'partials/ext-src'
+        - if google_analytics
+            - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics.to_s
+            = javascript_include_tag google_analytics_url, async: 'async'
+            javascript:
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', "#{google_analytics}");
+        - if google_adsense
+            - google_adsense_id = google_adsense.id
+            - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
+            = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: 'async', 'data-ad-client': google_adsense_id
+            = javascript_include_tag cse_url, defer: true
+        - if soesic
+            - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
+            = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
+        = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true', async: 'async'
+        = javascript_include_tag 'main', defer: true
+        = stylesheet_link_tag 'all'
+        link rel='dns-prefetch' href='res.cloudinary.com'
     body
         = partial 'partials/header'
         = yield
