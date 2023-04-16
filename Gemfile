@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'slim'
 gem 'nokogiri'
-gem 'haml', '5.2.1'
-gem 'middleman', '4.3.10'
+gem 'haml'
+gem 'middleman'
 gem 'middleman-blog'
