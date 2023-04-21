@@ -42,24 +42,24 @@
         font-size:1.4em;
     }
     & h2{
-        border:.5em solid $black;
+        border:$border-width solid $black;
         box-shadow:0 0 3vmin rgba(0,0,0,.1);
     }
     & h3{
-        border-bottom:.5em dashed;
+        border-bottom:$border-width dashed;
         border-color:$black;
-        border-top:.5em dashed;
+        border-top:$border-width dashed;
     }
     & h4{
         border-bottom:calc(.5em / 2) solid;
         border-color:$black;
-        border-left:.5em solid;
+        border-left:$border-width solid;
     }
     & h5{
-        border-left:.5em solid $black;
+        border-left:$border-width solid $black;
     }
     & h6{
-        border-bottom:.5em solid $black;
+        border-bottom:$border-widthsolid $black;
     }
 
     & ul,
@@ -129,7 +129,7 @@
     & address,
     & blockquote,
     & q{
-        background-color:#eee;
+        background-color:$light-gray;
         box-sizing:border-box;
         margin:$base-vertical-rythm 0;
         width:100%;

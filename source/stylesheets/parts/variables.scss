@@ -1,7 +1,8 @@
+$base-vertical-rythm:2vh;
+$border-width:.5em;
+$card-size:27vmax;
 $ga_alert_size:54em;
 $info-literal-size:2em;
-$card-size:27vmax;
-$base-vertical-rythm:2vh;
 $embed-max:720px;
 $embed-size:80vw;
 
@@ -13,9 +14,6 @@ $black:#000;
 $blue:#03a9f4;
 $yellow:#eae3b4;
 
-@function set-place-in-middle($width){
-    @return 50% - ($width / 2);
-}
 @function calc-height-43($height){
     @return ($height / 100) * 75;
 }
@@ -42,6 +40,6 @@ $yellow:#eae3b4;
     background-color:#f4f4f4;
     border-bottom:1px dashed #ccc;
     border-top:1px dashed #ccc;
-    box-shadow:0 7px calc($var1 * 2) calc($var * -1) rgba(0,0,0,.1) inset;
+    box-shadow:0 7px calc($var1 * 2) calc($var1 * -1) rgba(0,0,0,.1) inset;
     padding:.75em;
 }

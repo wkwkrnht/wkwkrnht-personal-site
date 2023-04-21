@@ -45,7 +45,6 @@ progress{
 }
 a{
     background-color:transparent;
-    border-bottom:0;
     -webkit-text-decoration-skip:objects;
     text-decoration:none;
     &,&visited,&:active{
@@ -55,9 +54,12 @@ a{
         outline-width:0;
     }
 }
-
+a,
 abbr[title]{
     border-bottom:0;
+}
+
+abbr[title]{
     text-decoration:underline;
     text-decoration:underline dotted;
 }

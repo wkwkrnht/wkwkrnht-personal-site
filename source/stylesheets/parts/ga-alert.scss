@@ -1,7 +1,7 @@
 @import 'variables';
 #name-ga-cookie-accept-bar{
     background-color:$yellow;
-    bottom:set-place-in-middle($width: $ga_alert_size);
+    bottom:calc(50% - (#{$base-vertical-rythm} / 2));
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
     contain:strict;
     height:$ga_alert_size;
@@ -10,7 +10,7 @@
     opacity:.95;
     padding:2em;
     position:fixed;
-    right:set-place-in-middle($width: $ga_alert_size);
+    right:calc(50% - (#{$base-vertical-rythm} / 2));
     width:$ga_alert_size;
 
     & button{

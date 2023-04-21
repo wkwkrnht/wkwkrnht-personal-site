@@ -1,5 +1,3 @@
-const shareBtn = document.getElementById('nativeShare');
-
 function google_analytics() {
     'use strict';
     const analyticsID = 'UA-67916094-6';
@@ -45,21 +43,24 @@ function google_analytics() {
     }
 }
 
-if('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/javascripts/service-worker.js')
-        .then(function() { console.log('Service Worker Registered'); })
-        .catch(function(err) { console.log('Service Worker Not Registered', err); });
-    });
-}
+
 
 window.addEventListener('load', function() {
     hljs.initHighlightingOnLoad();
+
     google_analytics();
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', "#{google_analytics}");
+
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/javascripts/service-worker.js')
+        .then(function() { console.log('Service Worker Registered'); })
+        .catch(function(err) { console.log('Service Worker Not Registered', err); });
+    }
+
+    const shareBtn = document.getElementById('nativeShare');
 });
 
 if(shareBtn){
