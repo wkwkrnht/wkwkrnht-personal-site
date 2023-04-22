@@ -66,13 +66,21 @@ window.addEventListener('load', function(analyticsID) {
             console.log('Service Worker Not Registered', err);
         });
 
-        const code = document.querySelectorAll('pre > code');
-        const worker = new Worker('/javascripts/service-worker.js');
+        const codes = document.querySelectorAll('pre code');
 
-        worker.addEventListener('message', (event) => {
-            code.innerHTML = event.data;
+        codes.forEach((code) => {
+            if (code.classList.contains('nohighlight')) {
+                return; // nohighlight クラスが指定された要素は対象外とする
+            }
+
+            code.classList.add('hljs'); // これがないと背景色がつかない！！
+
+            const worker = new Worker('/javascripts/service-worker.js');
+            worker.onmessage = (event) => {
+                code.innerHTML = event.data;
+            }
+            worker.postMessage(code.textContent);
         });
-        worker.postMessage(code.textContent);
     } else {
         hljs.highlightAll();
     }
