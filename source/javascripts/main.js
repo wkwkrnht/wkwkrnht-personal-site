@@ -59,22 +59,25 @@ window.addEventListener('load', function(analyticsID) {
 
     if('serviceWorker' in navigator) {
         const workerPath = '/javascripts/service-worker.js';
-        let worker;
+        const code = document.querySelector('#code');
 
+        let worker =
         navigator.serviceWorker.register(workerPath)
         .then(function(workerPath) {
-            const code = document.querySelector('#code');
             const worker = new Worker(workerPath);
             return worker;
          })
         .catch(function(err) {
             console.log('Service Worker Not Registered', err);
+            return null;
         });
 
-        worker.onmessage = (event) => {
-            code.innerHTML = event.data;
-         }
-        worker.postMessage(code.textContent);
+        if(worker){
+            worker.addEventListener('message', (event) => {
+                code.innerHTML = event.data;
+            });
+            worker.postMessage(code.textContent);
+        }
     } else {
         hljs.highlightAll();
     }
