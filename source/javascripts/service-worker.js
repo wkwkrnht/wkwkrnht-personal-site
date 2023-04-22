@@ -26,3 +26,9 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+
+onmessage = (event) => {
+  importScripts('/javascripts/highlight.min.js');
+  const result = self.hljs.highlightAuto(event.data);
+  postMessage(result.value);
+};

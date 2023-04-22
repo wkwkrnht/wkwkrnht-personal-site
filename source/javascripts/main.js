@@ -1,4 +1,5 @@
 const analyticsID = 'UA-67916094-6';
+const shareBtn = document.getElementById('nativeShare');
 
 async function google_analytics_GDPR(analyticsID) {
     'use strict';
@@ -56,15 +57,27 @@ async function google_analytics (analyticsID) {
 window.addEventListener('load', function(analyticsID) {
     google_analytics_GDPR(analyticsID);
 
-    const shareBtn = document.getElementById('nativeShare');
-
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/javascripts/service-worker.js')
-        .then(function() { console.log('Service Worker Registered'); })
-        .catch(function(err) { console.log('Service Worker Not Registered', err); });
+
+        const workerPath = '/javascripts/service-worker.js';
+
+        navigator.serviceWorker.register(workerPath)
+        .then(function(workerPath) {
+            const code = document.querySelector('#code');
+            const worker = new Worker(workerPath);
+
+            worker.onmessage = (event) => {
+                code.innerHTML = event.data;
+             }
+            worker.postMessage(code.textContent);
+         })
+        .catch(function(err) {
+            console.log('Service Worker Not Registered', err);
+        });
+    } else {
+        hljs.highlightAll();
     }
 
-    hljs.initHighlightingOnLoad();
     google_analytics(analyticsID);
 });
 
@@ -81,7 +94,7 @@ if(shareBtn){
             }
         ).catch(
             function(err){
-                console.error('Error sharing: ' + err);
+                console.error('Error while sharing', err);
             }
         );
     };
