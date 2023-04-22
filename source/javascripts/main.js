@@ -58,25 +58,21 @@ window.addEventListener('load', function(analyticsID) {
     google_analytics_GDPR(analyticsID);
 
     if('serviceWorker' in navigator) {
-        const code = document.querySelectorAll('pre > code');
-
-        let worker =
         navigator.serviceWorker.register('/javascripts/service-worker.js')
         .then(function(workerPath) {
-            const worker = new Worker('/javascripts/service-worker.js');
-            return worker;
+            //
          })
         .catch(function(err) {
             console.log('Service Worker Not Registered', err);
-            return null;
         });
 
-        if(worker){
-            worker.addEventListener('message', (event) => {
-                code.innerHTML = event.data;
-            });
-            worker.postMessage(code.textContent);
-        }
+        const code = document.querySelectorAll('pre > code');
+        const worker = new Worker('/javascripts/service-worker.js');
+
+        worker.addEventListener('message', (event) => {
+            code.innerHTML = event.data;
+        });
+        worker.postMessage(code.textContent);
     } else {
         hljs.highlightAll();
     }
