@@ -1,13 +1,17 @@
 const data_list = [
     '/',
+    '/index.html',
     '/about.html',
+    '/404.html',
     '/privacy-policy.html',
     '/manifest.json',
     '/images/logo.png',
     '/stylesheets/all.css',
     '/javascripts/fontawesome.min.js',
     '/javascripts/highlight.pack.js',
-    '/javascripts/main.js'
+    '/javascripts/main.js',
+    '/blog/',
+    '/blog/index.html'
 ];
 
 self.addEventListener('install', function(e) {
@@ -16,6 +20,10 @@ self.addEventListener('install', function(e) {
             return cache.addAll(data_list.map(url => new Request(url, {credentials: 'same-origin'})));
         })
     );
+});
+
+self.addEventListener("activate", (event) => {
+    event.waitUntil(self.registration?.navigationPreload.enable());
 });
 
 self.addEventListener('fetch', function(event) {
