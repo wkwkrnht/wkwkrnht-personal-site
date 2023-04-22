@@ -56,7 +56,7 @@ async function google_analytics (analyticsID) {
 window.addEventListener('load', function(analyticsID) {
     google_analytics_GDPR(analyticsID);
 
-    document.getElementById('nativeShare');
+    const shareBtn = document.getElementById('nativeShare');
 
     if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/javascripts/service-worker.js')
@@ -64,25 +64,25 @@ window.addEventListener('load', function(analyticsID) {
         .catch(function(err) { console.log('Service Worker Not Registered', err); });
     }
 
-    if(shareBtn){
-        shareBtn.onclick = function(){
-            const title = document.title;
-            const text = document.getElementsByName('description').item(0).content;
-            const url = window.location.href;
-            navigator.share(
-                {
-                    title: title,
-                    text: text,
-                    url: url
-                }
-            ).catch(
-                function(err){
-                    console.error('Error sharing: ' + err);
-                }
-            );
-        };
-    }
-
     hljs.initHighlightingOnLoad();
     google_analytics(analyticsID);
 });
+
+if(shareBtn){
+    shareBtn.onclick = function(){
+        const title = document.title;
+        const text = document.getElementsByName('description').item(0).content;
+        const url = window.location.href;
+        navigator.share(
+            {
+                title: title,
+                text: text,
+                url: url
+            }
+        ).catch(
+            function(err){
+                console.error('Error sharing: ' + err);
+            }
+        );
+    };
+}
