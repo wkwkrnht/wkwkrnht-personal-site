@@ -58,13 +58,12 @@ window.addEventListener('load', function(analyticsID) {
     google_analytics_GDPR(analyticsID);
 
     if('serviceWorker' in navigator) {
-        const workerPath = '/javascripts/service-worker.js';
-        const code = document.querySelector('#code');
+        const code = document.querySelectorAll('pre > code');
 
         let worker =
-        navigator.serviceWorker.register(workerPath)
+        navigator.serviceWorker.register('/javascripts/service-worker.js')
         .then(function(workerPath) {
-            const worker = new Worker(workerPath);
+            const worker = new Worker('/javascripts/service-worker.js');
             return worker;
          })
         .catch(function(err) {
