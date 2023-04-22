@@ -77,10 +77,6 @@ window.addEventListener('load', function(analyticsID) {
         hljs.highlightAll();
     }
 
-    if(worker){
-
-    }
-
     google_analytics(analyticsID);
 });
 

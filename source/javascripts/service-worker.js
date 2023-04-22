@@ -28,7 +28,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 addEventListener('message', (event) => {
-    importScripts('/javascripts/highlight.min.js');
+    importScripts('/javascripts/highlight.pack.js');
     const result = self.hljs.highlightAuto(event.data);
     postMessage(result.value);
 });
