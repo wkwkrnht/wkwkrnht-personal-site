@@ -65,15 +65,17 @@ window.addEventListener('load', function(analyticsID) {
         .then(function(workerPath) {
             const code = document.querySelector('#code');
             const worker = new Worker(workerPath);
-
-            worker.onmessage = (event) => {
-                code.innerHTML = event.data;
-             }
-            worker.postMessage(code.textContent);
          })
         .catch(function(err) {
             console.log('Service Worker Not Registered', err);
         });
+    }
+
+    if(worker){
+        worker.onmessage = (event) => {
+            code.innerHTML = event.data;
+         }
+        worker.postMessage(code.textContent);
     } else {
         hljs.highlightAll();
     }
