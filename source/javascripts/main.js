@@ -59,7 +59,7 @@ window.addEventListener('load', function(analyticsID) {
 
     if('serviceWorker' in navigator) {
         const workerPath = '/javascripts/service-worker.js';
-        const worker;
+        let worker;
 
         navigator.serviceWorker.register(workerPath)
         .then(function(workerPath) {
