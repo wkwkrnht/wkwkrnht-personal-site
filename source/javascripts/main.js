@@ -56,11 +56,7 @@ async function google_analytics (analyticsID) {
 window.addEventListener('load', function(analyticsID) {
     google_analytics_GDPR(analyticsID);
 
-    const shareBtn = async () => {
-        document.getElementById('nativeShare');
-    }
-
-    google_analytics(analyticsID);
+    document.getElementById('nativeShare');
 
     if('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/javascripts/service-worker.js')
@@ -68,28 +64,25 @@ window.addEventListener('load', function(analyticsID) {
         .catch(function(err) { console.log('Service Worker Not Registered', err); });
     }
 
-    (await () => {
-        try {
-            if(shareBtn){
-                shareBtn.onclick = function(){
-                    const title = document.title;
-                    const text = document.getElementsByName('description').item(0).content;
-                    const url = window.location.href;
-                    navigator.share(
-                        {
-                            title: title,
-                            text: text,
-                            url: url
-                        }
-                    ).catch(
-                        function(err){
-                            console.error('Error sharing: ' + err);
-                        }
-                    );
-                };
-            }
-        } catch (err) {
-            console.log('Share Button Not Founded', err);
-        }
-    })();
+    if(shareBtn){
+        shareBtn.onclick = function(){
+            const title = document.title;
+            const text = document.getElementsByName('description').item(0).content;
+            const url = window.location.href;
+            navigator.share(
+                {
+                    title: title,
+                    text: text,
+                    url: url
+                }
+            ).catch(
+                function(err){
+                    console.error('Error sharing: ' + err);
+                }
+            );
+        };
+    }
+
+    hljs.initHighlightingOnLoad();
+    google_analytics(analyticsID);
 });

@@ -1,33 +1,10 @@
 - site_data = data.front
 - language = site_data.language
-- google_analytics = site_data.google_analytics unless site_data.google_analytics.blank?
-- google_adsense = site_data.google_adsense unless site_data.google_adsense.blank?
-- soesic = site_data.soesic unless site_data.soesic.blank?
-- linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 doctype html
 html lang=language
     head
         = partial 'partials/meta'
-        - if google_analytics
-            - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics.to_s
-            = javascript_include_tag google_analytics_url, async: 'async'
-        - if google_adsense
-            - google_adsense_id = google_adsense.id
-            - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
-            = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', defer: true, 'data-ad-client': google_adsense_id
-            = javascript_include_tag cse_url, defer: true
-        - if soesic
-            - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
-            = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
-        - if linkswitch
-            - linkswitch_js = 'const vc_pid = "' + linkswitch.to_s + '";'
-            = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async', onload: linkswitch_js
-            = javascript_include_tag '//mlb.valuecommerce.com/mylinkbox.js', async: 'async'
-        = javascript_include_tag 'article', defer: true
-        = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true'
-        = javascript_include_tag 'highlight.pack', defer: true
-        = stylesheet_link_tag 'article'
-        link rel='dns-prefetch' href='res.cloudinary.com'
+        = partial 'partials/ext-src'       
     body
         = partial 'partials/header'
         main.article-main
