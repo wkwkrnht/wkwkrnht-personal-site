@@ -58,26 +58,29 @@ window.addEventListener('load', function(analyticsID) {
     google_analytics_GDPR(analyticsID);
 
     if('serviceWorker' in navigator) {
-
         const workerPath = '/javascripts/service-worker.js';
+        const worker;
 
         navigator.serviceWorker.register(workerPath)
         .then(function(workerPath) {
             const code = document.querySelector('#code');
             const worker = new Worker(workerPath);
+            return worker;
          })
         .catch(function(err) {
             console.log('Service Worker Not Registered', err);
         });
-    }
 
-    if(worker){
         worker.onmessage = (event) => {
             code.innerHTML = event.data;
          }
         worker.postMessage(code.textContent);
     } else {
         hljs.highlightAll();
+    }
+
+    if(worker){
+
     }
 
     google_analytics(analyticsID);

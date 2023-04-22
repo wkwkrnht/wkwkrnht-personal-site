@@ -5,7 +5,6 @@
 - linkswitch = site_data.linkswitch unless site_data.linkswitch.blank?
 
 link rel='dns-prefetch' href='res.cloudinary.com'
-link rel='preload' href='//cse.google.com/cse.js' as='script'
 link rel='preload' href='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' as='script'
 link rel='preload' href='//cdn.refersion.com/creative.js' as='script'
 link rel='preload' href='//aml.valuecommerce.com/vcdal.js' as='script'
@@ -13,7 +12,7 @@ link rel='preload' href='//mlb.valuecommerce.com/mylinkbox.js' as='script'
 link rel='preload' href='/javascripts/fontawesome.min.js' as='script'
 link rel='preload' href='/javascripts/highlight.pack.js' as='script'
 link rel='preload' href='/javascripts/main.js' as='script'
-link rel='preload' href='/stylesheets/all.js' as='style'
+link rel='preload' href='/stylesheets/all.css' as='style'
 
 - if google_analytics
     - google_analytics_url = '//www.googletagmanager.com/gtag/js?id=' + google_analytics.to_s
