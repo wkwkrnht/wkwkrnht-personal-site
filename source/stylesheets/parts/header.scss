@@ -49,7 +49,7 @@
 @media (max-width: 600px){
     .index-nav{
         grid-template-columns:repeat(2, 1fr);
-        grid-template-rows:1fr 1fr 1fr 1fr 1fr 3fr;
+        grid-template-rows:1fr 1fr 2fr 1fr 3fr;
 
         & .mini-card{
             grid-row:6 / 7;
@@ -86,26 +86,5 @@
         & .mini-card{
             grid-row:5 / 6;
         }
-    }
-
-    #___gcse_0,
-    .keyword-search{
-        grid-column:1 / 12;
-        grid-row:3 / 4;
-    }
-
-    .gsc-search-box > tbody > tr,
-    .keyword-search{
-        grid-template-columns:1fr 7fr 1fr 2fr 1fr;
-    }
-
-    .gsc-input,
-    .keyword-search input[type='search']{
-        grid-columns:2 / 3;
-    }
-
-    .gsc-search-button,
-    .keyword-search input[type='submit']{
-        grid-row:4 / 5;
     }
 }
