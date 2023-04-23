@@ -57,7 +57,5 @@
         " NO   NO ";
         grid-template-columns:$ga_alert_icon_size 1fr;
         grid-template-rows:$ga_alert_icon_size 3fr 1fr 1fr;
-        min-height:calc(#{$ga_alert_icon_size} * 4);
-        min-width:calc(#{$ga_alert_icon_size} * 3);
     }
 }
