@@ -14,10 +14,11 @@
     left:5vw;
     max-height:90vh;
     max-width:90vw;
-    min-height:6em;
+    min-height:calc($ga_alert_icon_size * 3);
     min-width:$ga_alert_size;
     opacity:.95;
-    padding:2em;
+    padding:$ga_alert_icon_size;
+    place-content:center;
     position:fixed;
 
     & button{
