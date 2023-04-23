@@ -19,7 +19,7 @@
 }
 
 .index-nav{
-    min-height:calc((#{$ga_alert_icon_size} * 3) + (#{$card-size} * 2) + 10vh);
+    min-height:calc((#{$ga_alert_icon_size} * 3) + (#{$card-size} * 2) + 6vh);
     text-align:center;
 
     & a{
@@ -29,6 +29,11 @@
         }
         grid-row:2 / 3;
         text-align:center;
+    }
+
+    .gcse-searchbox-only,
+    .keyword-search{
+        grid-row:3 / 4;
     }
 
     & h2{
