@@ -19,7 +19,7 @@
 }
 
 .index-nav{
-    height:calc(($ga_alert_icon_size * 3) + (#{$card-size} * 2) + 3vh);
+    height:calc((#{$ga_alert_icon_size} * 3) + (#{$card-size} * 2) + 3vh);
 
     & a{
         font:{
