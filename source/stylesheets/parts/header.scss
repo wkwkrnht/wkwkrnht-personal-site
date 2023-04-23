@@ -37,7 +37,7 @@
 
 
 
-@media (max-aspect-ratio: 1/1){
+@media (max-aspect-ratio: 3/2){
     .index-nav{
         grid-template-columns:repeat(2, 1fr);
         grid-template-rows:1fr 1fr 1fr 1fr 5fr;
@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-aspect-ratio: 1/1){
+@media (min-aspect-ratio: 3/2){
     .index-nav{
         grid-template-columns:repeat(12, 1fr);
         grid-template-rows:1fr 1fr 1fr 5fr;
