@@ -24,12 +24,16 @@
             size:1.6em;
             weight:bold;
         }
-        grid-row:2/3;
+        grid-row:2 / 3;
         text-align:center;
     }
 
     & h2{
         grid-column:1 / 12;
+    }
+
+    & .mini-card{
+        grid-row:5 / 36
     }
 }
 
