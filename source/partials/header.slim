@@ -35,7 +35,7 @@ nav class='big-card index-nav'
             button type='submit' aria-label='検索実行'
                 span class='fas fa-search'
     h2.index-title Feed
-    - blog.articles[0...4].each do |article|
+    - blog.articles[0...3].each do |article|
         - title = article.title
         = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
             = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
