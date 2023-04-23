@@ -4,7 +4,7 @@ doctype html
 html lang=language
     head
         = partial 'partials/meta'
-        = partial 'partials/ext-src'       
+        = partial 'partials/ext-src'
     body
         = partial 'partials/header'
         main.article-main
@@ -17,7 +17,7 @@ html lang=language
                             li
                                 == link_to tag, tag_path(tag), :tabindex=>'0'
                 = partial 'partials/share-button'
-        section class='big-card related-articles'
+        /section class='big-card related-articles'
             h2 最新記事
             ul.card-list
                 - blog.articles[0...3].each do |article|
