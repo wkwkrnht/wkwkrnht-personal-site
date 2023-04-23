@@ -14,7 +14,7 @@ async function google_analytics_GDPR(analyticsID) {
         if(cookieOptin !== 'no') {
             let accept = document.createElement('aside');
             accept.setAttribute('id', 'name-ga-cookie-accept-bar');
-            accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail>当サイトは<a href="/privacy-policy">プライバシーポリシー</a>を遵守しGoogleアナリティクスにより、ユーザーのWebサイト閲覧データを記録しています。あなたはプライバシーポリシーをよく読んだ上で同意しますか？</detail><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>同意する(Allowed Cookie)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>同意しない(Denied Cookie)</button>';
+            accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail>当サイトは<a href="/privacy-policy">プライバシーポリシー</a>を遵守し、GoogleアナリティクスによりWebサイト閲覧データを記録しています。あなたはプライバシーポリシーをよく読んだ上で同意しますか？</detail><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>同意する(Allowed Cookie)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>同意しない(Denied Cookie)</button>';
             document.body.appendChild(accept);
         }
     }

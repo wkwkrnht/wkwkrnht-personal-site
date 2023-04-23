@@ -13,8 +13,16 @@
 header.site-header
     h1.site-title
         == title
+    detail.index-detail wkwkrnhtの個人サイトです。プライバシーポリシーに同意した上でコンテンツをお楽しみください。
     span.copyright
         == first_post_year
         | &copy;
         a href='/' title=site_title
             == site_title
+
+nav class='big-card index-nav'
+    a href='/about.html' title='about' tabindex='0' About
+    a href='/blog/' title='blog' tabindex='0' Blog
+    a href='https://goo.gl/forms/3067ATgi94' title='contact' tabindex='0' Contact
+    a href='/privacy-policy.html' title='privacy policy' tabindex='0' Privacy policy
+    = partial 'partials/search/google'
