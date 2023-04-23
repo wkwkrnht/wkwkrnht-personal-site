@@ -8,12 +8,12 @@
     grid-template-areas:
     " icon line line line line "
     " ....  OK  ....  NO  .... ";
-    grid-template-columns:$ga_alert_icon_size minmax($ga_alert_atomic_size, 1fr) $ga_alert_icon_size minmax($ga_alert_atomic_size, 1fr) $ga_alert_icon_size;
-    grid-template-rows:calc($ga_alert_icon_size * 2 + 1em) minmax($ga_alert_icon_size, 1fr);
+    grid-template-columns:$ga_alert_icon_size minmax(#{$ga_alert_atomic_size}, 1fr) $ga_alert_icon_size minmax(#{$ga_alert_atomic_size}, 1fr) $ga_alert_icon_size;
+    grid-template-rows:calc(#{$ga_alert_icon_size} * 2 + 1em) minmax(#{$ga_alert_icon_size}, 1fr);
     left:5vw;
     max-height:90vh;
     max-width:90vw;
-    min-height:calc($ga_alert_icon_size * 4);
+    min-height:calc(#{$ga_alert_icon_size} * 4);
     min-width:$ga_alert_size;
     opacity:.95;
     padding:$ga_alert_icon_size;
