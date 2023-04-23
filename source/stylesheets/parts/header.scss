@@ -5,7 +5,9 @@
     text-align:center;
     width:100%;
 
-    & .copyright a,& .copyright a:visited,& .copyright a:active{
+    & .copyright a,
+    & .copyright a:visited,
+    & .copyright a:active{
         color:$white;
     }
 }
@@ -19,13 +21,13 @@
             size:1.6em;
             weight:bold;
         }
+        grid-row:2/3;
         text-align:center;
     }
 }
 
-.index-detail{
-    grid-column:1/6;
-    grid-row:1;
-    padding:1em;
-    text-align:center;
+#___gcse_0,
+.keyword-search{
+    grid-columns:1/12;
+    grid-row:3/4;
 }
