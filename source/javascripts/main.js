@@ -14,7 +14,7 @@ async function google_analytics_GDPR(analyticsID) {
         if(cookieOptin !== 'no') {
             let accept = document.createElement('aside');
             accept.setAttribute('id', 'name-ga-cookie-accept-bar');
-            accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail><a href="/privacy-policy">プライバシーポリシー</a>を遵守しGoogleアナリティクスにより、ユーザーのWebサイト閲覧データを記録しています。</detail><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>プライバシーポリシーに同意する(Cookieを受け入れる)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>プライバシーポリシーに同意しない(Cookieを受け入れない)</button>';
+            accept.innerHTML = '<i class="fas fa-exclamation-triangle" aria-hidden="true"></i><detail><p>当サイトは<a href="/privacy-policy">プライバシーポリシー</a>を遵守しGoogleアナリティクスにより、ユーザーのWebサイト閲覧データを記録しています。</p><p>あなたはプライバシーポリシーをよく読んだ上で同意しますか？</p></detail><button id="ga-cookie-accept-btn"><i class="fas fa-check" aria-hidden="true"></i>同意する(Cookieを受け入れる)</button><button id="ga-cookie-deny-btn"><i class="fas fa-ban" aria-hidden="true"></i>同意しない(Cookieを受け入れない)</button>';
             document.body.appendChild(accept);
         }
     }
