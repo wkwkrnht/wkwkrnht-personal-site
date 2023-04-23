@@ -3,7 +3,6 @@
 #name-ga-cookie-accept-bar{
     background-color:$yellow;
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
-    bottom:5vh;
     contain:strict;
     display:grid;
     grid-template-areas:
@@ -14,12 +13,13 @@
     left:5vw;
     max-height:90vh;
     max-width:90vw;
-    min-height:calc($ga_alert_icon_size * 3);
+    min-height:calc($ga_alert_icon_size * 4);
     min-width:$ga_alert_size;
     opacity:.95;
     padding:$ga_alert_icon_size;
     place-content:center;
     position:fixed;
+    top:5vh;
 
     & button{
         box-sizing:border-box;
