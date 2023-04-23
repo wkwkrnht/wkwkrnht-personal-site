@@ -15,8 +15,6 @@
     max-width:90vw;
     min-height:calc(#{$ga_alert_icon_size} * 4);
     min-width:$ga_alert_size;
-    opacity:.95;
-    padding:$ga_alert_icon_size;
     place-content:center;
     position:fixed;
     top:5vh;
