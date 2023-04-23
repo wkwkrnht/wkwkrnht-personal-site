@@ -9,3 +9,23 @@
         color:$white;
     }
 }
+
+.index-nav{
+    display:grid;
+    grid-template-columns:repeat(12, 1fr);
+    grid-template-rows:1fr 1fr 5fr;
+    & a{
+        font:{
+            size:1.6em;
+            weight:bold;
+        }
+        text-align:center;
+    }
+}
+
+.index-detail{
+    grid-column:1/6;
+    grid-row:1;
+    padding:1em;
+    text-align:center;
+}
