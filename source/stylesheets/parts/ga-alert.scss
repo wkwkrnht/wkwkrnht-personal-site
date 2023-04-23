@@ -1,29 +1,45 @@
 @import 'variables';
+
 #name-ga-cookie-accept-bar{
     background-color:$yellow;
-    bottom:calc(50% - (#{$base-vertical-rythm} / 2));
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
     contain:strict;
+    display:grid;
+    grid-template-areas:
+    " icon line line line line "
+    " .... line line line line "
+    " ....  OK  ....  NO  .... ";
+    grid-template-rows:2em 1fr 2em 1fr 2em;
+    grid-template-columns:2em 2em 1fr;
     height:$ga_alert_size;
-    max-height:20em;
+    left:10vw;
+    max-height:80vh;
     max-width:80vw;
     opacity:.95;
     padding:2em;
     position:fixed;
-    right:calc(50% - (#{$base-vertical-rythm} / 2));
+    top:10vh;
     width:$ga_alert_size;
 
     & button{
         box-sizing:border-box;
         font-weight:bold;
-        margin:calc(#{$base-vertical-rythm} / 4) 0 0;
-        width:100%;
+    }
+
+    & i{
+        grid-area:icon;
+    }
+
+    & aside{
+        grid-area:line;
     }
 }
 
 #ga-cookie-accept-btn{
     background-color:#00ff11;
+    grid-area:OK;
 }
 #ga-cookie-deny-btn{
     background-color:red;
+    grid-area:NO;
 }

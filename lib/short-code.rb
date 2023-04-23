@@ -78,11 +78,8 @@ class String
     end
 
     def embed_embedly!()
-        def parse_embedly(url)
-            embed = "<a class='embedly-card' href=" + url + "></a><script async='' src='//cdn.embedly.com/widgets/platform.js'></script>"
-            return embed
-        end
-        replace self.gsub(/EMBEDLY ([^<]+)/,parse_embedly('\\1'))
+        embed = "<a class='embedly-card' href='\\1'>\\1</a>"
+        replace self.gsub(/EMBEDLY ([^<]+)/,embed)
     end
 
     def shortcode_extract!

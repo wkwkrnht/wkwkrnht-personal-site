@@ -9,6 +9,7 @@ link rel='preload' href='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.j
 link rel='preload' href='//cdn.refersion.com/creative.js' as='script'
 link rel='preload' href='//aml.valuecommerce.com/vcdal.js' as='script'
 link rel='preload' href='//mlb.valuecommerce.com/mylinkbox.js' as='script'
+link rel='preload' href='//cdn.embedly.com/widgets/platform.js' as='script'
 link rel='preload' href='/javascripts/fontawesome.min.js' as='script'
 link rel='preload' href='/javascripts/highlight.pack.js' as='script'
 link rel='preload' href='/javascripts/main.js' as='script'
@@ -29,6 +30,7 @@ link rel='preload' href='/stylesheets/all.css' as='style'
     - linkswitch_js = 'const vc_pid = "' + linkswitch.to_s + '";'
     = javascript_include_tag '//aml.valuecommerce.com/vcdal.js', async: 'async', onload: linkswitch_js
     = javascript_include_tag '//mlb.valuecommerce.com/mylinkbox.js', async: 'async'
+= javascript_include_tag '//cdn.embedly.com/widgets/platform.js', async: 'async'
 = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true', async: 'async'
 = javascript_include_tag 'highlight.pack', defer: true
 = javascript_include_tag 'main', defer: true
