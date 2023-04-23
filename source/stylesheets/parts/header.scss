@@ -31,10 +31,6 @@
     & h2{
         grid-column:1 / 12;
     }
-
-    & .mini-card{
-        grid-row:5 / 36
-    }
 }
 
 
@@ -50,7 +46,11 @@
 @media (max-aspect-ratio: 3/2){
     .index-nav{
         grid-template-columns:repeat(2, 1fr);
-        grid-template-rows:1fr 1fr 1fr 1fr 3fr;
+        grid-template-rows:1fr 1fr 1fr 1fr 1fr 3fr;
+
+        & .mini-card{
+            grid-row:6 / 7;
+        }
     }
 
     #___gcse_0,
@@ -78,7 +78,11 @@
 @media (min-aspect-ratio: 3/2){
     .index-nav{
         grid-template-columns:repeat(12, 1fr);
-        grid-template-rows:1fr 1fr 1fr 3fr;
+        grid-template-rows:1fr 1fr 1fr 1fr 3fr;
+
+        & .mini-card{
+            grid-row:5 / 6;
+        }
     }
 
     #___gcse_0,
