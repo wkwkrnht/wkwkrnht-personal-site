@@ -52,11 +52,13 @@
         grid-template-areas:
         " icon .. "
         " ex   ex "
+        " ..   .. "
         " OK   OK "
+        " ..   .. "
         " NO   NO ";
         grid-template-columns:$ga_alert_icon_size 1fr;
-        grid-template-rows:$ga_alert_icon_size 3fr 1fr 1fr;
-        height:90vh;
+        grid-template-rows:$ga_alert_icon_size 3fr $ga_alert_icon_size 1fr $ga_alert_icon_size 1fr;
+        height:80vh;
         width:90vw;
     }
 }
