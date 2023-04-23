@@ -3,26 +3,31 @@
 #name-ga-cookie-accept-bar{
     background-color:$yellow;
     box-shadow:0 0 3vmin rgba(0,0,0,.1);
+    bottom:5vh;
     contain:strict;
     display:grid;
     grid-template-areas:
     " icon line line line line "
     " ....  OK  ....  NO  .... ";
     grid-template-rows:$ga_alert_icon_size minmax($ga_alert_atomic_size, 1fr) $ga_alert_icon_size minmax($ga_alert_atomic_size, 1fr) $ga_alert_icon_size;
-    grid-template-columns:calc($ga_alert_icon_size * 2 + 1em) 1fr;
-    left:10vw;
-    max-height:80vh;
-    max-width:80vw;
+    grid-template-columns:calc($ga_alert_icon_size * 2 + 1em) minmax($ga_alert_icon_size, 1fr);
+    left:5vw;
+    max-height:90vh;
+    max-width:90vw;
     min-height:6em;
     min-width:$ga_alert_size;
     opacity:.95;
     padding:2em;
     position:fixed;
-    top:10vh;
 
     & button{
         box-sizing:border-box;
         font-weight:bold;
+
+        & > p{
+            display:block;
+            width:inherit;
+        }
     }
 
     & i{
