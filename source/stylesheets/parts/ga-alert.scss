@@ -23,13 +23,7 @@
 
     & button{
         box-sizing:border-box;
-        font-weight:bold;
-
-        & > p{
-            display:block;
-            width:inherit;
-        }
-    }
+        font-weight:bold;    }
 
     & i{
         grid-area:icon;
