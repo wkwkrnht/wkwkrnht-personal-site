@@ -54,7 +54,6 @@
 @media (max-width: 600px){
     .index-nav{
         grid-template-columns:repeat(2, 1fr);
-        grid-template-rows:1fr 1fr 2fr 1fr 2fr;
 
         & .mini-card{
             grid-row:6 / 7;

@@ -1,39 +1,9 @@
 @import 'variables';
 
-@font-face {
-    font-display:swap;
-    font-family:'BIZ UD Gothic';
-    font-style:normal;
-    font-weight:500;
-    src:url('/fonts/BIZUDGothic-Regular.woff2') format('woff2');
-}
-@font-face {
-    font-display:swap;
-    font-family:'BIZ UD Gothic';
-    font-style:normal;
-    font-weight:700;
-    src:url('/fonts/BIZUDGothic-Bold.woff2') format('woff2');
-}
-@font-face {
-    font-display:swap;
-    font-family:'BIZ UD P Gothic';
-    font-style:normal;
-    font-weight:500;
-    src:url('/fonts/BIZUDPGothic-Regular.woff2') format('woff2');
-}
-@font-face {
-    font-display:swap;
-    font-family:'BIZ UD P Gothic';
-    font-style:normal;
-    font-weight:700;
-    src:url('/fonts/BIZUDPGothic-Bold.woff2') format('woff2');
-}
-
 :root{
     color:$black;
-    font-family:'BIZ UD P Gothic', sans-serif;
-    font-feature-settings:"pkna" 1;
-    -webkit-font-smoothing:antialiased;
+    font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',Meiryo,sans-serif;
+    font-feature-settings:'pkna' 1;
     line-height:1.9;
     scroll-behavior:smooth;
 }
