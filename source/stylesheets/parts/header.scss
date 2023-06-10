@@ -2,7 +2,7 @@
 
 .site-header{
     color:$white;
-    padding:$base-vertical-rythm 0 calc(#{$base-vertical-rythm} * 2);
+    padding:$base-vertical-rythm 0;
     text-align:center;
     width:100%;
 
@@ -29,7 +29,6 @@
             weight:bold;
         }
         grid-row:2 / 3;
-        text-align:center;
     }
 
     .gcse-searchbox-only,
