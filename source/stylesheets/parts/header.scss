@@ -15,7 +15,8 @@
 
 .index-nav{
     display:grid;
-    grid-template-columns:repeat(3, minmax($card-size, 1fr));
+    grid-template-columns:repeat(3, minmax(10em, 1fr));
+    overflow-x:hidden;
     text-align:center;
 
     & > a{
@@ -31,19 +32,8 @@
         grid-row:2 / 3;
     }
 
-    & .recent-post-feed-nav{
-        grid-column:2 / 3;
+    & .recent-post-feed{
         grid-row:3 / 4;
-    }
-
-    & .mini-card{
-        grid-row:4 / 5;
+        overflow-x:scroll;
     }
 }
-
-//#___gcse_0,
-//.gsc-search-box,
-//.gsc-search-box,
-//.gsc-search-box > tbody{
-//    width:100%;
-//}

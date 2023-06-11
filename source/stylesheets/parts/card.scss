@@ -23,6 +23,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     position:absolute;
 }
 .card-img,.card-title{
+    left:0;
     width:#{$card-size};
 }
 .card-img{
