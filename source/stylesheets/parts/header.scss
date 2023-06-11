@@ -16,9 +16,9 @@
 .index-nav{
     display:grid;
     grid-template-columns:repeat(3, minmax($card-size, 1fr));
-    grid-template-rows:1fr 1fr 1fr 2fr;
-    min-height:calc((#{$ga_alert_icon_size} * 3) + #{$card-size} + (#{$base-vertical-rythm} * 2));
-    min-width:calc(#{$card-size} * 3);
+    grid-template-rows:minmax($ga_alert_icon_size, 1fr) minmax($ga_alert_icon_size, 1fr) minmax($ga_alert_icon_size, 1fr) minmax($card-size, 2fr);
+    //min-height:calc((#{$ga_alert_icon_size} * 3) + #{$card-size} + (#{$base-vertical-rythm} * 2));
+    //min-width:calc(#{$card-size} * 3);
     text-align:center;
 
     & > a{
@@ -30,10 +30,12 @@
     }
 
     & .search-form-wrapper{
+        grid-column:1 / 4;
         grid-row:2 / 3;
     }
 
     & .recent-post-feed-nav{
+        grid-column:2 / 3;
         grid-row:3 / 4;
     }
 
