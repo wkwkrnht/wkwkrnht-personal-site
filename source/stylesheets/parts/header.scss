@@ -32,7 +32,7 @@
     }
 
     & .recent-post-feed-nav{
-        grid-column:1 / 12;
+
     }
 }
 
@@ -56,6 +56,7 @@
         }
 
         & .recent-post-feed-nav{
+            grid-column:1 / 2;
             grid-row:4 / 5;
         }
 
@@ -94,7 +95,8 @@
             grid-row:2 / 3;
         }
 
-        & & .recent-post-feed-nav{
+        & .recent-post-feed-nav{
+            grid-column:1 / 4;
             grid-row:3 / 4;
         }
 
