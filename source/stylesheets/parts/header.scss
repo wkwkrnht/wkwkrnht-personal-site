@@ -15,9 +15,8 @@
 
 .index-nav{
     box-sizing:border-box;
-    column-gap:minmax(1em auto);
     display:grid;
-    grid-template-columns:repeat(auto-fill, minmax($card-size, 1fr));
+    grid-template-columns:repeat(3, minmax(calc(#{$card-size} / 2), 1fr));
     margin:calc(#{$base-vertical-rythm} * 3) auto;
     max-width:94%;
     overflow:hidden;
