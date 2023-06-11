@@ -19,7 +19,6 @@
     grid-template-columns:repeat(3, minmax(calc(#{$card-size} / 2), 1fr));
     margin:calc(#{$base-vertical-rythm} * 3) auto;
     max-width:94%;
-    overflow:hidden;
     padding:1em 0;
     text-align:center;
     @include base-backplate;
@@ -39,5 +38,6 @@
 
     & .mini-card{
         grid-row:3 / 4;
+        width:inherit;
     }
 }
