@@ -14,9 +14,15 @@
 }
 
 .index-nav{
+    box-sizing:border-box;
     display:grid;
-    grid-template-columns:repeat(3, minmax(10em, 1fr));
+    grid-template-columns:repeat(3, minmax(4em, 1fr));
+    margin:calc(#{$base-vertical-rythm} * 3) auto;
+    max-width:94%;
+    overflow:hidden;
+    padding:1em 0;
     text-align:center;
+    @include base-backplate;
 
     & > a{
         font:{
