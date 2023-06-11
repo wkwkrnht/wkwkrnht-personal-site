@@ -24,14 +24,15 @@ nav class='big-card index-nav'
     a href='/about.html' title='about' tabindex='0' About
     a href='/blog/' title='blog' tabindex='0' Blog
     a href='https://goo.gl/forms/3067ATgi94' title='contact' tabindex='0' Contact
-    - if site_data.google_adsense.cse
-        div.gcse-searchbox-only
-    - else
-        form.keyword-search action='https://duckduckgo.com/' role='search'
-            input name='sites' type='hidden' value=site_data.base_url
-            input name='q' type='search' required='' aria-label='キーワード検索'
-            button type='submit' aria-label='検索実行'
-                span class='fas fa-search'
+    div.search-form-wrapper
+        - if site_data.google_adsense.cse
+            div.gcse-searchbox-only
+        - else
+            form.keyword-search action='https://duckduckgo.com/' role='search'
+                input name='sites' type='hidden' value=site_data.base_url
+                input name='q' type='search' required='' aria-label='キーワード検索'
+                button type='submit' aria-label='検索実行'
+                    span class='fas fa-search'
     h2.recent-post-feed-nav Feed
     - blog.articles[0...3].each do |article|
         - title = article.title
