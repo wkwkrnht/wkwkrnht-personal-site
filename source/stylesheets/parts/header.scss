@@ -16,9 +16,6 @@
 .index-nav{
     display:grid;
     grid-template-columns:repeat(3, minmax($card-size, 1fr));
-    grid-template-rows:minmax($ga_alert_icon_size, 1fr) minmax($ga_alert_icon_size, 1fr) minmax($ga_alert_icon_size, 1fr) minmax($card-size, 2fr);
-    //min-height:calc((#{$ga_alert_icon_size} * 3) + #{$card-size} + (#{$base-vertical-rythm} * 2));
-    //min-width:calc(#{$card-size} * 3);
     text-align:center;
 
     & > a{
@@ -44,9 +41,9 @@
     }
 }
 
-#___gcse_0,
-.gsc-search-box,
-.gsc-search-box,
-.gsc-search-box > tbody{
-    width:100%;
-}
+//#___gcse_0,
+//.gsc-search-box,
+//.gsc-search-box,
+//.gsc-search-box > tbody{
+//    width:100%;
+//}
