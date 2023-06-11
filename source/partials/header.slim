@@ -33,10 +33,9 @@ nav class='big-card index-nav'
                 input name='q' type='search' required='' aria-label='キーワード検索'
                 button type='submit' aria-label='検索実行'
                     span class='fas fa-search'
-    .recent-post-feed
-        - blog.articles[0...3].each do |article|
-            - title = article.title
-            = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
-                = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
-                h2.card-title
-                    = title
+    - blog.articles[0...3].each do |article|
+        - title = article.title
+        = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
+            = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
+            h2.card-title
+                = title

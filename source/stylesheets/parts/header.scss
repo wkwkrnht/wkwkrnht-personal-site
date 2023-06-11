@@ -16,7 +16,6 @@
 .index-nav{
     display:grid;
     grid-template-columns:repeat(3, minmax(10em, 1fr));
-    overflow-x:hidden;
     text-align:center;
 
     & > a{
@@ -32,8 +31,7 @@
         grid-row:2 / 3;
     }
 
-    & .recent-post-feed{
+    & .mini-card{
         grid-row:3 / 4;
-        overflow-x:scroll;
     }
 }
