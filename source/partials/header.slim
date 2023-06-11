@@ -24,7 +24,7 @@ nav class='big-card index-nav'
     a href='/about.html' title='about' tabindex='0' About
     a href='/blog/' title='blog' tabindex='0' Blog
     a href='https://goo.gl/forms/3067ATgi94' title='contact' tabindex='0' Contact
-    div.search-form-wrapper
+    .search-form-wrapper
         - if site_data.google_adsense.cse
             div.gcse-searchbox-only
         - else
@@ -34,7 +34,7 @@ nav class='big-card index-nav'
                 button type='submit' aria-label='検索実行'
                     span class='fas fa-search'
     h2.recent-post-feed-nav Feed
-    - blog.articles[0...4].each do |article|
+    - blog.articles[0...3].each do |article|
         - title = article.title
         = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
             = image_tag article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
