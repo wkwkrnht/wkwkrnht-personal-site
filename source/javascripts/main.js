@@ -1,10 +1,16 @@
-const analyticsID = 'UA-67916094-6';
-const shareBtn = document.getElementById('nativeShare');
+const
+analyticsID = 'UA-67916094-6',
+shareBtn = document.getElementById('nativeShare');
 
 async function google_analytics_GDPR(analyticsID) {
     'use strict';
     const targetProp = 'ga-disable-' + analyticsID;
-    let cookieOptin = localStorage.getItem('ga_cookie_opt_in');
+    let
+    cookieOptin = localStorage.getItem('ga_cookie_opt_in'),
+    cookieBar = document.getElementById('name-ga-cookie-accept-bar'),
+    acceptBtn = document.getElementById('ga-cookie-accept-btn'),
+    denyBtn   = document.getElementById('ga-cookie-deny-btn'),
+    resetBtn  = document.getElementById('ga-cookie-reset-btn');
 
     if(cookieOptin == 'yes') {
         window[targetProp] = false;
@@ -18,10 +24,7 @@ async function google_analytics_GDPR(analyticsID) {
             document.body.appendChild(accept);
         }
     }
-    let cookieBar = document.getElementById('name-ga-cookie-accept-bar')
-    let acceptBtn = document.getElementById('ga-cookie-accept-btn');
-    let denyBtn   = document.getElementById('ga-cookie-deny-btn');
-    let resetBtn  = document.getElementById('ga-cookie-reset-btn');
+
     if(acceptBtn) {
         acceptBtn.onclick = function() {
             localStorage.setItem('ga_cookie_opt_in','yes');
@@ -54,7 +57,7 @@ async function google_analytics (analyticsID) {
     gtag('config', analyticsID);
 }
 
-window.addEventListener('load', function(analyticsID) {
+async function main(){
     google_analytics_GDPR(analyticsID);
 
     if('serviceWorker' in navigator) {
@@ -86,7 +89,9 @@ window.addEventListener('load', function(analyticsID) {
     }
 
     google_analytics(analyticsID);
-});
+}
+
+window.addEventListener('load', main());
 
 if(shareBtn){
     shareBtn.onclick = function(){

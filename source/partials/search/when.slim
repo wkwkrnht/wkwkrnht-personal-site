@@ -17,7 +17,7 @@ section class='big-card date-search'
                             - title = article.title
                             li
                                 = link_to URI.encode(article.url), :class=>'mini-card', :title=>title, :tabindex=>'0' do
-                                    = image_tag article.metadata[:locals]['eyecatch'] || '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img'
+                                    = image_tag article.metadata[:locals]['eyecatch'] || lorem.image('900x900'), :alt=>'eyecatch', :class=>'card-img'
                                     time.card-date
                                         = article.date.strftime('%Y-%m-%d')
                                     h5.card-title

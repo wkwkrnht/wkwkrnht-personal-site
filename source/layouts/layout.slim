@@ -20,9 +20,6 @@ html lang=language
             - cse_url = '//cse.google.com/cse.js?cx=partner' + google_adsense_id.to_s.delete('ca').to_s + ':' + google_adsense.cse.to_s
             = javascript_include_tag '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', async: 'async', 'data-ad-client': google_adsense_id
             = javascript_include_tag cse_url, defer: true
-        - if soesic
-            - soesic = "$rfsn_creative.generate('refersion_client/32889/creatives/dynamic/" + soesic.id + ".json', {aid: '" + soesic.aid + "'});"
-            = javascript_include_tag '//cdn.refersion.com/creative.js', defer: true, onload: soesic
         = javascript_include_tag 'fontawesome.min', defer: true, 'data-search-pseudo-elements': 'true', async: 'async'
         = javascript_include_tag 'main', defer: true
         = stylesheet_link_tag 'all'
@@ -30,4 +27,3 @@ html lang=language
     body
         = partial 'partials/header'
         = yield
-        = partial 'partials/ads'

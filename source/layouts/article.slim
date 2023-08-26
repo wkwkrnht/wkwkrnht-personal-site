@@ -8,7 +8,7 @@ html lang=language
     body
         = partial 'partials/header'
         main.article-main
-            = image_tag current_article.data.eyecatch || '/images/no-img.png', :alt=>'eyecatch', :class=>'article-eyecatch', :loading=>'lazy'
+            = image_tag current_article.data.eyecatch || lorem.image('900x900'), :alt=>'eyecatch', :class=>'article-eyecatch', :loading=>'lazy'
             = yield
             footer.article-footer
                 - if current_article.tags.present?
@@ -23,7 +23,7 @@ html lang=language
                 - blog.articles[0...3].each do |article|
                     li
                         = link_to article.url, :class=>'mini-card', :title=>article.title, :tabindex=>'0' do
-                            = image_tag '/images/no-img.png', :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
+                            = image_tag lorem.image('900x900'), :alt=>'eyecatch', :class=>'card-img', :loading=>'lazy'
                             time.card-date
                                 = article.date.strftime('%Y-%m-%d')
                             h3.card-title
