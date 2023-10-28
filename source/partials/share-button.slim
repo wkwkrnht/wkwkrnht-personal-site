@@ -1,6 +1,7 @@
 - site_data = data.front
 - site_title = site_data.title
 - meta_url = site_data.base_url
+- twitter = site_data.twitter
 - if current_article
     - title = current_article.title + '-' + site_title
 - elsif current_page.data.title
@@ -20,7 +21,7 @@ ul.share-button
         a href='https://mastoshare.net/post.php'
             span class='fab fa-mastodon'
     li
-        a href='https://twitter.com/share?url=#{meta_url}&amp;text=#{title}'
+        a href='https://twitter.com/intent/tweet?url=#{meta_url}&amp;text=#{title}&amp;text=#{twitter}'
             span class='fab fa-twitter'
     li
         a href='https://www.facebook.com/share.php?u=#{meta_url}'
@@ -40,6 +41,9 @@ ul.share-button
     li
         a href='https://www.reddit.com/submit?url=#{meta_url}'
             span class='fab fa-reddit-alien'
+    li
+        a href='https://share.plus-msg.com/share?msg=#{title}%0A#{meta_url}'
+            span class='fas fa-message'
     li
         a href='http://vkontakte.ru/share.php?url=#{meta_url}'
             span class='fab fa-vk'
