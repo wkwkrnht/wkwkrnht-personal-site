@@ -21,7 +21,7 @@
     max-width:94%;
     padding:1em 0;
     text-align:center;
-    @include shadow;
+    @include base-backplate;
 
     & > a{
         font:{
