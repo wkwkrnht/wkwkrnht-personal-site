@@ -16,7 +16,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     overflow:hidden;
     position:relative;
     width:#{$card-size};
-    @include base-backplate;
+    @include shadow;
 }
 .card-img,.card-date,.card-title{
     overflow:hidden;
@@ -55,7 +55,7 @@ $card-ratio:calc(#{$card-size} / 4 * 3);
     padding:0 0 1em;
     margin:calc(#{$base-vertical-rythm} * 3) auto;
     max-width:96%;
-    @include base-backplate;
+    @include shadow;
 
     & > h2{
         display:inline-block;

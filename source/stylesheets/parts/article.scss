@@ -4,7 +4,7 @@
     max-width:1600px;
     padding-bottom:1em;
     width:96vw;
-    @include base-backplate;
+    @include shadow;
 
     & .article-eyecatch{
         margin:calc(#{$base-vertical-rythm}* 3) auto;
