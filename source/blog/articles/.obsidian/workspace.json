@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "05cac0d676150eff",
+        "id": "d1022009375e1a8a",
         "type": "tabs",
         "children": [
           {
-            "id": "08833e05df9b03fa",
+            "id": "6aa10af41a78058d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "re-グラボから始める自作pc生活.html.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "re-グラボから始める自作pc生活.html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "re-グラボから始める自作pc生活.html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "re-グラボから始める自作pc生活.html.md"
+              }
+            }
+          },
+          {
+            "id": "9ea648fe1dbbd663",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
             }
           }
         ]
@@ -135,9 +155,13 @@
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "audio-recorder:録音の開始/停止": false,
+      "workspaces:ワークスペースレイアウトを管理": false
     }
   },
-  "active": "08833e05df9b03fa",
-  "lastOpenFiles": []
+  "active": "6aa10af41a78058d",
+  "lastOpenFiles": [
+    "au機変施策戦線.html.md"
+  ]
 }

@@ -1,3 +1,8 @@
 {
-  "accentColor": ""
+  "accentColor": "#00f0ec",
+  "interfaceFontFamily": "UD デジタル 教科書体 NP-R",
+  "textFontFamily": "UD デジタル 教科書体 NP-R",
+  "monospaceFontFamily": "UD デジタル 教科書体 NP-R",
+  "baseFontSizeAction": false,
+  "baseFontSize": 18
 }
