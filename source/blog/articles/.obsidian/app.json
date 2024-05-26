@@ -1,1 +1,7 @@
-{}
+{
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "../../images/"
+}

@@ -7,9 +7,10 @@ page "/*.yml", layout: false
 page "/*.json", layout: false
 page "/partials/*", layout: false
 page "/admin/*", layout: false, directory_index: false
+page "/blog/articles/template/*", layout: false, directory_index: false
 page "/blog/articles/.obsidian/*", layout: false, directory_index: false
 page "/404.html", directory_index: false
-page "wkwkrnht-personal-site\source\google94502eafcdddcd40.html", layout: false
+page "wkwkrnht-personal-site/source/google94502eafcdddcd40.html", layout: false
 
 activate :shortcode
 activate :blog do |blog|
