@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b40a570aadae2ac4",
+        "id": "61c221fe2a7299cd",
         "type": "tabs",
         "children": [
           {
-            "id": "a02c984d5be8cb87",
+            "id": "896d5617e47c4a69",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "初夏のNAS大収穫祭.html.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "初夏のNAS大収穫祭.html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "初夏のNAS大収穫祭.html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "初夏のNAS大収穫祭.html.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,9 +152,10 @@
       "workspaces:ワークスペースレイアウトを管理": false
     }
   },
-  "active": "a02c984d5be8cb87",
+  "active": "896d5617e47c4a69",
   "lastOpenFiles": [
     "初夏のNAS大収穫祭.html.md",
+    "税制改定腹案試算.html.md",
     "template/TEMPLATE.md",
     "template",
     "re-グラボから始める自作pc生活.html.md",
