@@ -1,0 +1,58 @@
+{
+  "snippets": {
+    "salty-future-planet-#b56300": {
+      "type": "simple-task",
+      "taskSettings": [
+        {
+          "data": "x",
+          "checkbox": {
+            "lightMode": {
+              "foreground": "#910301"
+            },
+            "darkMode": {
+              "foreground": "#817ce2"
+            }
+          },
+          "li": {
+            "lightMode": {},
+            "darkMode": {}
+          }
+        },
+        {
+          "data": "-",
+          "checkbox": {
+            "lightMode": {
+              "foreground": "#b74f0e"
+            },
+            "darkMode": {
+              "foreground": "#d4c6ff"
+            }
+          },
+          "li": {
+            "lightMode": {},
+            "darkMode": {}
+          }
+        },
+        {
+          "data": ">",
+          "checkbox": {
+            "lightMode": {
+              "foreground": "#010d68"
+            },
+            "darkMode": {
+              "foreground": "#64ccd6"
+            }
+          },
+          "li": {
+            "lightMode": {},
+            "darkMode": {}
+          }
+        }
+      ],
+      "id": "salty-future-planet-#b56300",
+      "name": "bulky-exabyte",
+      "baseFontSize": 14,
+      "version": "0.1.8"
+    }
+  }
+}

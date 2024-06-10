@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "5a7e452c86cf052e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a2e0987abbd182b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbf94983d8466bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "家庭内線路網を考える.html.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "341c9e710ffd0e9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb964bf5a96b2325",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bdf94a42df78de0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a9e3836c3fc1c45c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2046da6842a60886",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "03875810097bf301",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 527.5
+  },
+  "right": {
+    "id": "18b3f4e5be8178ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "04d127d1b91bc534",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc70638d4e66a7ad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "家庭内線路網を考える.html.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d104a9c1e68a2246",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "家庭内線路網を考える.html.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "546035f5d530fe60",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "61afdfa881d9c13c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "家庭内線路網を考える.html.md"
+              }
+            }
+          },
+          {
+            "id": "50728cf7982cb5a6",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "984d0719e4a784ca",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "739b778cd59b4086",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a9a0f6e859ffb0d",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "aaf499a224817d8b",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {}
+            }
+          },
+          {
+            "id": "9db732c6752f4397",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Timeline": false,
+      "omnisearch:Omnisearch": false,
+      "card-board:CardBoard": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
+    }
+  },
+  "active": "dbf94983d8466bd6",
+  "lastOpenFiles": [
+    "().md",
+    "家庭内線路網を考える.html.md",
+    "家庭内線路網を考える.md",
+    "Spotifyに一喜一憂.html.md",
+    "無題のファイル 2.md",
+    "無題のファイル 1.md",
+    "無題のファイル.md",
+    "2016-by-wkwkrnht完成.md",
+    "総務省が公開した各mnoの先進技術導入傾向.html.md",
+    "悩ましいASCII.html.md",
+    "買いたいものリスト.html.md",
+    "無題のフォルダ",
+    "test.md"
+  ]
+}
