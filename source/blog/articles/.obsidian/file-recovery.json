@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
   "intervalMinutes": 5,
+=======
+  "intervalMinutes": 3,
+>>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
   "keepDays": 30
 }

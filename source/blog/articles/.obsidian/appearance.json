@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
   "accentColor": "",
   "textFontFamily": "BIZ UDPゴシック"
+=======
+  "accentColor": "#00f0ec",
+  "interfaceFontFamily": "UD デジタル 教科書体 NP-R",
+  "textFontFamily": "UD デジタル 教科書体 NP-R",
+  "monospaceFontFamily": "UD デジタル 教科書体 NP-R",
+  "baseFontSizeAction": false,
+  "baseFontSize": 18
+>>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
 }

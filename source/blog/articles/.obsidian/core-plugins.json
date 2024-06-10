@@ -7,6 +7,10 @@
   "canvas",
   "outgoing-link",
   "tag-pane",
+<<<<<<< HEAD
+=======
+  "properties",
+>>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
   "page-preview",
   "daily-notes",
   "templates",
@@ -16,5 +20,10 @@
   "bookmarks",
   "outline",
   "word-count",
+<<<<<<< HEAD
+=======
+  "audio-recorder",
+  "workspaces",
+>>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
   "file-recovery"
 ]
