@@ -7,11 +7,7 @@
   "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
-<<<<<<< HEAD
   "properties": false,
-=======
-  "properties": true,
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
   "page-preview": true,
   "daily-notes": true,
   "templates": true,
@@ -26,13 +22,8 @@
   "outline": true,
   "word-count": true,
   "slides": false,
-<<<<<<< HEAD
   "audio-recorder": false,
   "workspaces": false,
-=======
-  "audio-recorder": true,
-  "workspaces": true,
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
   "file-recovery": true,
   "publish": false,
   "sync": false

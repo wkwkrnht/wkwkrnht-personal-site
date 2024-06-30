@@ -1,40 +1,18 @@
 {
   "main": {
-<<<<<<< HEAD
-    "id": "5a7e452c86cf052e",
+    "id": "0f32335e3a35fa1e",
     "type": "split",
     "children": [
       {
-        "id": "6a2e0987abbd182b",
+        "id": "90f2c559c01ca252",
         "type": "tabs",
         "children": [
           {
-            "id": "dbf94983d8466bd6",
-=======
-    "id": "d157bbf5d52817ce",
-    "type": "split",
-    "children": [
-      {
-        "id": "61c221fe2a7299cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "896d5617e47c4a69",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "ebeacbe2fede26c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "家庭内線路網を考える.html.md",
-                "mode": "source",
-                "backlinks": true,
-=======
-                "file": "税制改定腹案試算.html.md",
-                "mode": "source",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -43,27 +21,23 @@
     "direction": "vertical"
   },
   "left": {
-<<<<<<< HEAD
-    "id": "341c9e710ffd0e9b",
+    "id": "bec5c20e6b3918f8",
     "type": "split",
     "children": [
       {
-        "id": "fb964bf5a96b2325",
+        "id": "cdff6f3073da07fa",
         "type": "tabs",
         "children": [
           {
-            "id": "6bdf94a42df78de0",
-=======
-    "id": "660ecffee780094b",
-    "type": "split",
-    "children": [
-      {
-        "id": "f4cc06f4f4ff4264",
-        "type": "tabs",
-        "children": [
+            "id": "3714e87025a28ef6",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
           {
-            "id": "704135782ad92299",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "3d5cd0a42380fed9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,11 +47,7 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "a9e3836c3fc1c45c",
-=======
-            "id": "56cd161b79e5abb6",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "60060c4f5b913b0f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,68 +62,34 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "2046da6842a60886",
-=======
-            "id": "466cc78988a4d503",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "dd73acdd02b0c332",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-<<<<<<< HEAD
-          },
-          {
-            "id": "03875810097bf301",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-=======
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 527.5
-  },
-  "right": {
-    "id": "18b3f4e5be8178ee",
-    "type": "split",
-    "children": [
-      {
-        "id": "04d127d1b91bc534",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cc70638d4e66a7ad",
-=======
     "width": 300
   },
   "right": {
-    "id": "fa171d9b7a576ac6",
+    "id": "58dab38db48f6679",
     "type": "split",
     "children": [
       {
-        "id": "a338bdd1941f9c42",
+        "id": "2e321637512790cf",
         "type": "tabs",
         "children": [
           {
-            "id": "06c36bd4de4fcb8a",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "116bd3b87152d8d7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "家庭内線路網を考える.html.md",
-=======
-                "file": "税制改定腹案試算.html.md",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,31 +101,18 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "d104a9c1e68a2246",
-=======
-            "id": "7eb352d2a12787f4",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "0706d8d8153b081c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "家庭内線路網を考える.html.md",
-=======
-                "file": "税制改定腹案試算.html.md",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-<<<<<<< HEAD
-            "id": "546035f5d530fe60",
-=======
-            "id": "4675bfdbab6d8665",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "d85062526e5d5d03",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -200,34 +123,15 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "61afdfa881d9c13c",
-=======
-            "id": "3dbbbf03f16aa796",
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
+            "id": "e944b02f372208c7",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-<<<<<<< HEAD
-                "file": "家庭内線路網を考える.html.md"
-=======
-                "file": "税制改定腹案試算.html.md"
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
-              }
-            }
-          },
-          {
-<<<<<<< HEAD
-            "id": "50728cf7982cb5a6",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
               "state": {}
             }
           },
           {
-            "id": "984d0719e4a784ca",
+            "id": "a9afd21dc8a1cf87",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -235,72 +139,23 @@
             }
           },
           {
-            "id": "739b778cd59b4086",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
-          },
-          {
-            "id": "6a9a0f6e859ffb0d",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {}
-            }
-          },
-          {
-            "id": "aaf499a224817d8b",
+            "id": "d0e13beb28c68720",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
               "state": {}
             }
-          },
-          {
-            "id": "9db732c6752f4397",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 9
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-=======
-            "id": "9ea648fe1dbbd663",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              }
-            }
-          }
-        ]
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "canvas:新規キャンバスを作成": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false,
-<<<<<<< HEAD
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
@@ -309,38 +164,14 @@
       "card-board:CardBoard": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-statusbar-pomo:Start pomodoro": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "dbf94983d8466bd6",
-  "lastOpenFiles": [
-    "().md",
-    "家庭内線路網を考える.html.md",
-    "家庭内線路網を考える.md",
-    "Spotifyに一喜一憂.html.md",
-    "無題のファイル 2.md",
-    "無題のファイル 1.md",
-    "無題のファイル.md",
-    "2016-by-wkwkrnht完成.md",
-    "総務省が公開した各mnoの先進技術導入傾向.html.md",
-    "悩ましいASCII.html.md",
-    "買いたいものリスト.html.md",
-    "無題のフォルダ",
-    "test.md"
-=======
-      "audio-recorder:録音の開始/停止": false,
-      "workspaces:ワークスペースレイアウトを管理": false
-    }
-  },
-  "active": "896d5617e47c4a69",
-  "lastOpenFiles": [
-    "初夏のNAS大収穫祭.html.md",
-    "税制改定腹案試算.html.md",
-    "template/TEMPLATE.md",
-    "template",
-    "re-グラボから始める自作pc生活.html.md",
-    "無題のファイル 1.md",
-    "au機変施策戦線.html.md"
->>>>>>> f4168e1ed018b32620af8c63b5b9cb4fb0504ca4
-  ]
+  "active": "3d5cd0a42380fed9",
+  "lastOpenFiles": []
 }
